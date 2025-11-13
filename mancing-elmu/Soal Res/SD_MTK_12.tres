@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://ssfkkj6vigsb"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_vpxx7"]
+
+[resource]
+script = ExtResource("1_vpxx7")
+id_soal = 12
+isi_soal = "Tini memiliki 2,5 meter pita. Ia menggunakan 75​ sentimeter untuk menghias kado. Sisa pita Tini adalah...
+"
+pilihan_soal = Array[String](["1,75 meter", "2 meter", "1,25 meter", "1,75 meter"])
+jawaban_soal = 3
+metadata/_custom_type_script = "uid://dvytuwg7js148"

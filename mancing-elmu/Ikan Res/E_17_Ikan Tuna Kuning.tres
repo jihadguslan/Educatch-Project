@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://csw7anq07cipg"]
+
+[ext_resource type="Texture2D" uid="uid://byn4mafdcq6ls" path="res://Asset/Ikan/Ikan Tuna kuning.png" id="1_jfsy4"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_3bx22"]
+
+[resource]
+script = ExtResource("2_3bx22")
+id_ikan = 17
+rarity = 2
+nama_ikan = "Ikan Tuna Kuning"
+image_ikan = ExtResource("1_jfsy4")
+deskripsi_ikan = "Ikan pelagis besar yang ditemukan di perairan tropis dan subtropis diseluruh dunia."
+harga_ikan = 15
+posibility = 39
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

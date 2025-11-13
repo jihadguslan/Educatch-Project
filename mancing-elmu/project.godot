@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="EduCatch"
+config/version="0.0.5"
+run/main_scene="uid://dpejwyit6xyxr"
+config/features=PackedStringArray("4.5", "Forward Plus")
+boot_splash/show_image=false
+config/icon="uid://dj6v43iyg13c0"
+
+[autoload]
+
+Global="*res://Script/Global.gd"
+DatabaseManager="*res://Scene/database_manager.tscn"
+ScreenManager="*res://Scene/Screen Manager.tscn"
+
+[display]
+
+window/size/mode=2
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+textures/vram_compression/import_etc2_astc=true

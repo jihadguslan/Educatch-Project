@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://bx605do8bs4cy"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_cfau2"]
+
+[resource]
+script = ExtResource("1_cfau2")
+id_soal = 15
+isi_soal = "Sebuah motor menempuh jarak 100 km dalam 2 jam. Kecepatan rata-rata motor tersebut adalah..."
+pilihan_soal = Array[String](["50 km/jam", "20 km/jam", "200 km/jam", "100 km/jam"])
+jawaban_soal = 3
+metadata/_custom_type_script = "uid://dvytuwg7js148"

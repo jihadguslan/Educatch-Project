@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://c6yrq5q60w5ml"]
+
+[ext_resource type="Texture2D" uid="uid://mk2gpo6cakrw" path="res://Asset/Ikan/Ikan Cosplay.png" id="1_f2ido"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_vyljn"]
+
+[resource]
+script = ExtResource("2_vyljn")
+id_ikan = 10
+rarity = 3
+nama_ikan = "Ikan Cosplay"
+image_ikan = ExtResource("1_f2ido")
+deskripsi_ikan = "Cosplayer yang ikut ikutan tren orang orang."
+harga_ikan = 40
+posibility = 13
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

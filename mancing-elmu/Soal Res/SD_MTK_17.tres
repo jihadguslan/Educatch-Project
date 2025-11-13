@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://c3goai7c5ap1d"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_rmw0j"]
+
+[resource]
+script = ExtResource("1_rmw0j")
+id_soal = 17
+isi_soal = "Harga 3 pensil adalah Rp7.500,00. Harga 5 pensil adalah..."
+pilihan_soal = Array[String](["Rp18.000,00", "Rp15.000,00", "Rp12.500,00", "Rp10.000,00"])
+jawaban_soal = 2
+metadata/_custom_type_script = "uid://dvytuwg7js148"

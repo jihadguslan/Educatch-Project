@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://d2rkgdj4ki8ll"]
+
+[ext_resource type="Texture2D" uid="uid://ncqn2pw6iuqm" path="res://Asset/Ikan/Ikan Femboy.png" id="1_aulq3"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_jk7ix"]
+
+[resource]
+script = ExtResource("2_jk7ix")
+id_ikan = 9
+rarity = 3
+nama_ikan = "Ikan Femboy"
+image_ikan = ExtResource("1_aulq3")
+deskripsi_ikan = "Ini Aslinya ikan badut, tapi karena udah gak lucu dia berakhir jadi femboy."
+harga_ikan = 35
+posibility = 12
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://b78tyv0vfyqnq"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_qfluc"]
+
+[resource]
+script = ExtResource("1_qfluc")
+id_soal = 1
+isi_soal = "Hasil dari −12+5×4−(−10) adalah..."
+pilihan_soal = Array[String](["20", "18", "10", "-18"])
+jawaban_soal = 1
+metadata/_custom_type_script = "uid://dvytuwg7js148"

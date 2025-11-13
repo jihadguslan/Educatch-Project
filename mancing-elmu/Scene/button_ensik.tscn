@@ -1,0 +1,87 @@
+[gd_scene load_steps=8 format=3 uid="uid://3tvuewgror1e"]
+
+[ext_resource type="Script" uid="uid://b446sm0g767rs" path="res://Script/button_ensik.gd" id="1_rophd"]
+[ext_resource type="Texture2D" uid="uid://dtlo8cacqwu1y" path="res://Asset/base_button.png" id="2_3qvqx"]
+[ext_resource type="Texture2D" uid="uid://baghuwe5y03l0" path="res://Asset/Ikan 2.png" id="2_majn0"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kb0vr"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("2_3qvqx")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_845x7"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("2_3qvqx")
+modulate_color = Color(0.20033002, 0.20033002, 0.20032999, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_te1pg"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("2_3qvqx")
+modulate_color = Color(2.9610486, 2.9610486, 2.9610486, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_45pd6"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("2_3qvqx")
+modulate_color = Color(0.31219313, 0.3121931, 0.3121931, 0.654902)
+
+[node name="button_control" type="Control"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 100.0
+offset_bottom = 100.0
+scale = Vector2(1.15, 1.15)
+script = ExtResource("1_rophd")
+
+[node name="AnchorAnim" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="button" type="Button" parent="AnchorAnim"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50.0
+offset_top = -50.0
+offset_right = 50.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxTexture_kb0vr")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_845x7")
+theme_override_styles/hover = SubResource("StyleBoxTexture_te1pg")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_45pd6")
+text = "sdfesf"
+icon = ExtResource("2_majn0")
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
+
+[connection signal="mouse_entered" from="AnchorAnim" to="." method="_on_anchor_anim_mouse_entered"]
+[connection signal="mouse_exited" from="AnchorAnim" to="." method="_on_anchor_anim_mouse_exited"]
+[connection signal="button_up" from="AnchorAnim/button" to="." method="_on_button_ensik_button_up"]
+[connection signal="mouse_entered" from="AnchorAnim/button" to="." method="_on_button_mouse_entered"]
+[connection signal="mouse_exited" from="AnchorAnim/button" to="." method="_on_button_mouse_exited"]

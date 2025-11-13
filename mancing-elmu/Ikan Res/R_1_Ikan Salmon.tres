@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://dmnld0neslnlo"]
+
+[ext_resource type="Texture2D" uid="uid://cd5ouat38skbi" path="res://Asset/Ikan/IKan Salmon.png" id="1_c5r8a"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_kndss"]
+
+[resource]
+script = ExtResource("2_kndss")
+id_ikan = 1
+rarity = 1
+nama_ikan = "Ikan Salmon"
+image_ikan = ExtResource("1_c5r8a")
+deskripsi_ikan = "Suka dijual dipasar, tapi cukup sulit didapet. Kaya gizi dan protein, lumayan buat pasokan 1 hari."
+harga_ikan = 8
+posibility = 60
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

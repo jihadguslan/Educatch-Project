@@ -1,0 +1,299 @@
+[gd_scene load_steps=14 format=3 uid="uid://bktihjdwc6sdr"]
+
+[ext_resource type="Texture2D" uid="uid://mdcg2uqhgfmw" path="res://Asset/BG Leaf.png" id="1_dqcvq"]
+[ext_resource type="Script" uid="uid://c4t1qmqeve16r" path="res://Script/pilih_kategori.gd" id="1_ey2cn"]
+[ext_resource type="FontFile" uid="uid://dkiqel2g0cuv1" path="res://Font/DePixelHalbfett.otf" id="2_ey2cn"]
+[ext_resource type="Texture2D" uid="uid://b8kyvg20vfur3" path="res://Asset/CusButton Nor.png" id="3_n1alp"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ftrgj"]
+texture = ExtResource("3_n1alp")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dtoa6"]
+texture = ExtResource("3_n1alp")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+modulate_color = Color(0.5991774, 0.65085554, 0.36137557, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4r7ij"]
+texture = ExtResource("3_n1alp")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+modulate_color = Color(1.3025446, 1.7986888, 2.581876, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yd6eg"]
+texture = ExtResource("3_n1alp")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+modulate_color = Color(0.23137255, 0.29411766, 0.19607843, 0.68235296)
+
+[sub_resource type="LabelSettings" id="LabelSettings_debgs"]
+font = ExtResource("2_ey2cn")
+font_size = 36
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dddtm"]
+texture = ExtResource("3_n1alp")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dqryg"]
+texture = ExtResource("3_n1alp")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+modulate_color = Color(0.5991774, 0.65085554, 0.36137557, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rtstc"]
+texture = ExtResource("3_n1alp")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+modulate_color = Color(1.3025446, 1.7986888, 2.581876, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5r2wq"]
+texture = ExtResource("3_n1alp")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+modulate_color = Color(0.23137255, 0.29411766, 0.19607843, 0.68235296)
+
+[node name="Pilih kategori" type="CanvasLayer"]
+script = ExtResource("1_ey2cn")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.18039216, 0.6, 0.8627451, 1)
+
+[node name="Shadow" type="TextureRect" parent="Control"]
+modulate = Color(0, 0, 0, 0.31764707)
+custom_minimum_size = Vector2(901.3333, 507)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -478.0
+offset_top = -257.0
+offset_right = 490.0
+offset_bottom = 287.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_dqcvq")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+custom_minimum_size = Vector2(901.3333, 507)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -476.0
+offset_top = -271.0
+offset_right = 425.3333
+offset_bottom = 236.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_dqcvq")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Mid" type="Control" parent="Control"]
+custom_minimum_size = Vector2(800, 450)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -233.0
+offset_right = 400.0
+offset_bottom = 217.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PilihSekolah" type="HBoxContainer" parent="Control/Mid"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -100.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+alignment = 1
+
+[node name="SD" type="Button" parent="Control/Mid/PilihSekolah"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ey2cn")
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxTexture_ftrgj")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_dtoa6")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4r7ij")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_yd6eg")
+text = "SD"
+
+[node name="SMP" type="Button" parent="Control/Mid/PilihSekolah"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ey2cn")
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxTexture_ftrgj")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_dtoa6")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4r7ij")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_yd6eg")
+text = "SMP"
+
+[node name="SMA" type="Button" parent="Control/Mid/PilihSekolah"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ey2cn")
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxTexture_ftrgj")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_dtoa6")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4r7ij")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_yd6eg")
+text = "SMA"
+
+[node name="Label" type="Label" parent="Control/Mid"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -259.0
+offset_top = 56.0
+offset_right = 259.0
+offset_bottom = 102.0
+grow_horizontal = 2
+text = "Pilih Kategori Kelas"
+label_settings = SubResource("LabelSettings_debgs")
+
+[node name="Bottom" type="Control" parent="Control"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -93.0
+offset_bottom = -14.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control/Bottom"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -30.5
+offset_bottom = 35.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 60
+alignment = 1
+metadata/_edit_group_ = true
+
+[node name="Kembali" type="Button" parent="Control/Bottom/HBoxContainer"]
+custom_minimum_size = Vector2(300, 60)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ey2cn")
+theme_override_styles/normal = SubResource("StyleBoxTexture_dddtm")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_dqryg")
+theme_override_styles/hover = SubResource("StyleBoxTexture_rtstc")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_5r2wq")
+text = "Kembali"
+
+[node name="Inventory" type="Button" parent="Control/Bottom/HBoxContainer"]
+custom_minimum_size = Vector2(300, 60)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ey2cn")
+theme_override_styles/normal = SubResource("StyleBoxTexture_dddtm")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_dqryg")
+theme_override_styles/hover = SubResource("StyleBoxTexture_rtstc")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_5r2wq")
+text = "Inventori"
+
+[node name="Ensiclopedia" type="Button" parent="Control/Bottom/HBoxContainer"]
+custom_minimum_size = Vector2(300, 60)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ey2cn")
+theme_override_styles/normal = SubResource("StyleBoxTexture_dddtm")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_dqryg")
+theme_override_styles/hover = SubResource("StyleBoxTexture_rtstc")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_5r2wq")
+text = "Ensiklopedia"
+
+[connection signal="button_up" from="Control/Mid/PilihSekolah/SD" to="." method="_on_sd_button_up"]
+[connection signal="button_up" from="Control/Mid/PilihSekolah/SMP" to="." method="_on_smp_button_up"]
+[connection signal="button_up" from="Control/Mid/PilihSekolah/SMA" to="." method="_on_sma_button_up"]
+[connection signal="button_up" from="Control/Bottom/HBoxContainer/Kembali" to="." method="_on_kembali_button_up"]
+[connection signal="button_up" from="Control/Bottom/HBoxContainer/Inventory" to="." method="_on_inventory_button_up"]
+[connection signal="button_up" from="Control/Bottom/HBoxContainer/Ensiclopedia" to="." method="_on_ensiclopedia_button_up"]

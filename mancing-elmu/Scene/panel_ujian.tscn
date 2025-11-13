@@ -1,0 +1,201 @@
+[gd_scene load_steps=11 format=3 uid="uid://bohq6ox6yc7a4"]
+
+[ext_resource type="Script" uid="uid://4wr50kn3yd3t" path="res://Script/soal_manager.gd" id="1_dweta"]
+[ext_resource type="Texture2D" uid="uid://b8kyvg20vfur3" path="res://Asset/CusButton Nor.png" id="2_lwcg5"]
+[ext_resource type="Texture2D" uid="uid://qwqhhfpf5ef3" path="res://Asset/base_button (large).png" id="3_tnq5i"]
+[ext_resource type="FontFile" uid="uid://dkiqel2g0cuv1" path="res://Font/DePixelHalbfett.otf" id="4_08xk2"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tnq5i"]
+texture = ExtResource("2_lwcg5")
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_08xk2"]
+texture = ExtResource("3_tnq5i")
+texture_margin_left = 20.0
+texture_margin_top = 15.0
+texture_margin_right = 20.0
+texture_margin_bottom = 15.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 2
+
+[sub_resource type="LabelSettings" id="LabelSettings_lwcg5"]
+font = ExtResource("4_08xk2")
+font_size = 15
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_egpj6"]
+texture = ExtResource("3_tnq5i")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_v3gos"]
+texture = ExtResource("3_tnq5i")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+modulate_color = Color(0.46060076, 0.46060076, 0.46060076, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_opmkp"]
+texture = ExtResource("3_tnq5i")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+modulate_color = Color(1.9544857, 1.9544857, 1.9544857, 1)
+
+[node name="Panel Ujian" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1254.0
+offset_bottom = -1254.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dweta")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.09461805
+anchor_top = 0.055555556
+anchor_right = 0.9071181
+anchor_bottom = 0.58950615
+theme_override_styles/panel = SubResource("StyleBoxTexture_tnq5i")
+metadata/_edit_use_anchors_ = true
+
+[node name="Soal" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.047008548
+anchor_top = 0.115606934
+anchor_right = 0.45833334
+anchor_bottom = 0.88439304
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_08xk2")
+text = "Ini text untuk soalnya"
+label_settings = SubResource("LabelSettings_lwcg5")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5138889
+anchor_top = 0.29768786
+anchor_right = 0.95779914
+anchor_bottom = 0.6763006
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+metadata/_edit_group_ = true
+metadata/_edit_use_anchors_ = true
+
+[node name="Pilgan1" type="HBoxContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="A" type="Button" parent="Panel/VBoxContainer/Pilgan1"]
+custom_minimum_size = Vector2(180, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_08xk2")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxTexture_egpj6")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_v3gos")
+theme_override_styles/hover = SubResource("StyleBoxTexture_opmkp")
+text = "Jawab 1"
+autowrap_mode = 2
+clip_text = true
+
+[node name="C" type="Button" parent="Panel/VBoxContainer/Pilgan1"]
+custom_minimum_size = Vector2(180, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_08xk2")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxTexture_egpj6")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_v3gos")
+theme_override_styles/hover = SubResource("StyleBoxTexture_opmkp")
+text = "Jawab 1"
+autowrap_mode = 2
+clip_text = true
+
+[node name="Pilgan2" type="HBoxContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="B" type="Button" parent="Panel/VBoxContainer/Pilgan2"]
+custom_minimum_size = Vector2(180, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_08xk2")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxTexture_egpj6")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_v3gos")
+theme_override_styles/hover = SubResource("StyleBoxTexture_opmkp")
+text = "Jawab 1"
+autowrap_mode = 2
+clip_text = true
+
+[node name="D" type="Button" parent="Panel/VBoxContainer/Pilgan2"]
+custom_minimum_size = Vector2(180, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_08xk2")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxTexture_egpj6")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_v3gos")
+theme_override_styles/hover = SubResource("StyleBoxTexture_opmkp")
+text = "Jawab 1"
+autowrap_mode = 2
+clip_text = true
+
+[node name="status" type="Label" parent="Panel"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.58653843
+anchor_top = 0.43063584
+anchor_right = 0.89636755
+anchor_bottom = 0.5751445
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_08xk2")
+text = "status"
+label_settings = SubResource("LabelSettings_lwcg5")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[connection signal="button_up" from="Panel/VBoxContainer/Pilgan1/A" to="." method="_on_a_button_up"]
+[connection signal="button_up" from="Panel/VBoxContainer/Pilgan1/C" to="." method="_on_c_button_up"]
+[connection signal="button_up" from="Panel/VBoxContainer/Pilgan2/B" to="." method="_on_b_button_up"]
+[connection signal="button_up" from="Panel/VBoxContainer/Pilgan2/D" to="." method="_on_d_button_up"]

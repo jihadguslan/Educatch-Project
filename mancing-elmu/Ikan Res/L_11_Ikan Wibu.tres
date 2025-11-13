@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://bxpgee5ur88ml"]
+
+[ext_resource type="Texture2D" uid="uid://dt6px8h65fggb" path="res://Asset/Ikan/IKan WIbu.png" id="1_v5qjy"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_77qss"]
+
+[resource]
+script = ExtResource("2_77qss")
+id_ikan = 11
+rarity = 3
+nama_ikan = "IIkan Wibu"
+image_ikan = ExtResource("1_v5qjy")
+deskripsi_ikan = "Minaa! domo arigatounaa tenmee. Orewa mada kukoniru dossuoo! ora miruyo mada miwa nii, korewa pigi suk kurukuwra! Atnosotturuzee!"
+harga_ikan = 40
+posibility = 15
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

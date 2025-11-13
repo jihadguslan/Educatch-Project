@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://cg1pbwfoefpet"]
+
+[ext_resource type="Texture2D" uid="uid://c3r0hqgsi2b8r" path="res://Asset/Ikan/Ikan Cod.png" id="1_7e7db"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_ebi28"]
+
+[resource]
+script = ExtResource("2_ebi28")
+id_ikan = 14
+nama_ikan = "Ikan Hibrida"
+image_ikan = ExtResource("1_7e7db")
+deskripsi_ikan = "Ikan air tawar dari amerkia tengah. Sepertinya bekas dipelihara dan dilepaskan oleh sesorang."
+harga_ikan = 2
+posibility = 90
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

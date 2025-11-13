@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://bi2xnca8qe1nd"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_n4nwk"]
+
+[resource]
+script = ExtResource("1_n4nwk")
+isi_soal = "Sebuah balok memiliki panjang 10 cm, lebar 5 cm, dan tinggi 3 cm. Volumenya adalah...
+"
+pilihan_soal = Array[String](["18 cm3", "15 cm3", "120 cm3", "150 cm3"])
+jawaban_soal = 3
+metadata/_custom_type_script = "uid://dvytuwg7js148"

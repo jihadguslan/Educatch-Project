@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://c4llhv8bas37y"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_wau2k"]
+
+[resource]
+script = ExtResource("1_wau2k")
+id_soal = 16
+isi_soal = "Sebuah mobil mengisi bensin 20 liter dalam 5 menit. Debit pengisian bensin adalah..."
+pilihan_soal = Array[String](["5 liter/menit", "10 liter/menit", "4 liter/menit", "2 liter/menit"])
+metadata/_custom_type_script = "uid://dvytuwg7js148"

@@ -1,0 +1,666 @@
+[gd_scene load_steps=52 format=3 uid="uid://b3y8oom1tswny"]
+
+[ext_resource type="Script" uid="uid://ckuj43ibi34to" path="res://Script/Player.gd" id="1_xpqm5"]
+[ext_resource type="Resource" uid="uid://b78tyv0vfyqnq" path="res://Soal Res/SD_MTK_01.tres" id="2_ba58y"]
+[ext_resource type="Resource" uid="uid://dol8nbgq4oqc7" path="res://Soal Res/SD_MTK_02.tres" id="4_oep5r"]
+[ext_resource type="Resource" uid="uid://cwtedjia7qmg6" path="res://Soal Res/SD_MTK_03.tres" id="5_lajby"]
+[ext_resource type="Resource" uid="uid://d30kbcfc8p4uc" path="res://Soal Res/SD_MTK_04.tres" id="6_oxgxs"]
+[ext_resource type="Texture2D" uid="uid://l68agkq8atxv" path="res://Asset/background water(original sin).png" id="7_0rsec"]
+[ext_resource type="Texture2D" uid="uid://cbgx5iaeteag6" path="res://Asset/Player back.png" id="7_26dwi"]
+[ext_resource type="Resource" uid="uid://ii177sifsr4b" path="res://Soal Res/SD_MTK_05.tres" id="7_fgd0a"]
+[ext_resource type="Texture2D" uid="uid://1m65qsg527j" path="res://Asset/Player/Idle.png" id="8_5w2kc"]
+[ext_resource type="FontFile" uid="uid://dkiqel2g0cuv1" path="res://Font/DePixelHalbfett.otf" id="8_b8gge"]
+[ext_resource type="Resource" uid="uid://b4jamty1fgix3" path="res://Soal Res/SD_MTK_06.tres" id="8_fhjy5"]
+[ext_resource type="Texture2D" uid="uid://b3ci1fqbe6a20" path="res://Asset/Player/Pancing.png" id="9_gesge"]
+[ext_resource type="Resource" uid="uid://dans4mmfee28k" path="res://Soal Res/SD_MTK_07.tres" id="9_of175"]
+[ext_resource type="Texture2D" uid="uid://b8kyvg20vfur3" path="res://Asset/CusButton Nor.png" id="9_ui0cu"]
+[ext_resource type="Resource" uid="uid://dnnyinkk5yk8f" path="res://Soal Res/SD_MTK_08.tres" id="10_j0f8p"]
+[ext_resource type="Texture2D" uid="uid://yj0fssrw1t8r" path="res://Asset/Player/Dapet.png" id="10_vm1ql"]
+[ext_resource type="Resource" uid="uid://b3vkf3nmbbdgh" path="res://Soal Res/SD_MTK_09.tres" id="11_66ec8"]
+[ext_resource type="Texture2D" uid="uid://b0v53moutweoo" path="res://Asset/Player/happy.png" id="11_n2a1x"]
+[ext_resource type="Texture2D" uid="uid://da13fsectqpp4" path="res://Asset/Player/ngambek.png" id="12_j3h2r"]
+[ext_resource type="Resource" uid="uid://dyxl4ytsqoojg" path="res://Soal Res/SD_MTK_10.tres" id="12_vdoi6"]
+[ext_resource type="Resource" uid="uid://c0av64c1026os" path="res://Soal Res/SD_MTK_11.tres" id="13_6mfa8"]
+[ext_resource type="Resource" uid="uid://ssfkkj6vigsb" path="res://Soal Res/SD_MTK_12.tres" id="14_630t0"]
+[ext_resource type="Texture2D" uid="uid://dtlo8cacqwu1y" path="res://Asset/base_button.png" id="15_gesge"]
+[ext_resource type="Resource" uid="uid://dm0pp4a6gtcsn" path="res://Soal Res/SD_MTK_13.tres" id="15_lhttn"]
+[ext_resource type="Resource" uid="uid://dnpcbp4bx1in0" path="res://Soal Res/SD_MTK_14.tres" id="16_i7a7j"]
+[ext_resource type="Texture2D" uid="uid://brh2qguxxs3a0" path="res://Asset/Kail.png" id="16_vm1ql"]
+[ext_resource type="Resource" uid="uid://bx605do8bs4cy" path="res://Soal Res/SD_MTK_15.tres" id="17_d22iy"]
+[ext_resource type="Resource" uid="uid://c4llhv8bas37y" path="res://Soal Res/SD_MTK_16.tres" id="18_obghu"]
+[ext_resource type="Resource" uid="uid://c3goai7c5ap1d" path="res://Soal Res/SD_MTK_17.tres" id="19_q7wg5"]
+[ext_resource type="Resource" uid="uid://cwrh042bysire" path="res://Soal Res/SD_MTK_18.tres" id="20_ud803"]
+[ext_resource type="Resource" uid="uid://bi2xnca8qe1nd" path="res://Soal Res/SD_MTK_19.tres" id="21_mjt3c"]
+[ext_resource type="Resource" uid="uid://naqfetibwap1" path="res://Soal Res/SD_MTK_20.tres" id="22_77bij"]
+
+[sub_resource type="Animation" id="Animation_w57eb"]
+resource_name = "Angry"
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("12_j3h2r")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(1),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"_set_to_idle"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_uc5tx"]
+resource_name = "Dapet"
+length = 0.5
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("10_vm1ql")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [5]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4]
+}
+
+[sub_resource type="Animation" id="Animation_do7lf"]
+resource_name = "Happy"
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("11_n2a1x")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(1),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"_set_to_idle"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_xpqm5"]
+resource_name = "Idle"
+loop_mode = 1
+step = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("8_5w2kc")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [0, 1]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:hframes")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [2]
+}
+
+[sub_resource type="Animation" id="Animation_pi2iu"]
+resource_name = "Kail"
+length = 0.7
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("9_gesge")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [7]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6]
+}
+
+[sub_resource type="Animation" id="Animation_s8y6n"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("7_26dwi")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:hframes")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [2]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ba58y"]
+_data = {
+&"Angry": SubResource("Animation_w57eb"),
+&"Dapet": SubResource("Animation_uc5tx"),
+&"Happy": SubResource("Animation_do7lf"),
+&"Idle": SubResource("Animation_xpqm5"),
+&"Kail": SubResource("Animation_pi2iu"),
+&"RESET": SubResource("Animation_s8y6n")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_b8gge"]
+font = ExtResource("8_b8gge")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ui0cu"]
+texture = ExtResource("9_ui0cu")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gesge"]
+texture = ExtResource("9_ui0cu")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+modulate_color = Color(0.5991774, 0.65085554, 0.36137557, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vm1ql"]
+texture = ExtResource("9_ui0cu")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+modulate_color = Color(1.3025446, 1.7986888, 2.581876, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_n2a1x"]
+texture = ExtResource("9_ui0cu")
+texture_margin_left = 17.0
+texture_margin_top = 5.0
+texture_margin_right = 17.0
+texture_margin_bottom = 5.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+modulate_color = Color(0.23137255, 0.29411766, 0.19607843, 0.68235296)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_j3h2r"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("15_gesge")
+region_rect = Rect2(0, 0, 32, 32)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pi2iu"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("15_gesge")
+region_rect = Rect2(0, 0, 32, 32)
+modulate_color = Color(0.45905626, 0.45905632, 0.45905626, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_uc5tx"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("15_gesge")
+region_rect = Rect2(0, 0, 32, 32)
+modulate_color = Color(1.3119984, 1.3119984, 1.3119984, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_do7lf"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("15_gesge")
+region_rect = Rect2(0, 0, 32, 32)
+modulate_color = Color(0.27265528, 0.2726553, 0.2726553, 0.69803923)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lajby"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oep5r"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_npiac"]
+radius = 23.000008
+height = 86.0
+
+[node name="World" type="Node2D"]
+
+[node name="BG" type="Node2D" parent="."]
+
+[node name="Sprite2D3" type="Sprite2D" parent="BG"]
+position = Vector2(-718, -259)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("7_0rsec")
+flip_h = true
+
+[node name="Sprite2D" type="Sprite2D" parent="BG"]
+position = Vector2(0, -259)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("7_0rsec")
+
+[node name="Sprite2D2" type="Sprite2D" parent="BG"]
+position = Vector2(719, -259)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("7_0rsec")
+flip_h = true
+
+[node name="Player" type="CharacterBody2D" parent="."]
+position = Vector2(0, -144)
+script = ExtResource("1_xpqm5")
+kumpulan_soal = Array[Resource]([ExtResource("2_ba58y"), ExtResource("4_oep5r"), ExtResource("5_lajby"), ExtResource("6_oxgxs"), ExtResource("7_fgd0a"), ExtResource("8_fhjy5"), ExtResource("9_of175"), ExtResource("10_j0f8p"), ExtResource("11_66ec8"), ExtResource("12_vdoi6"), ExtResource("13_6mfa8"), ExtResource("14_630t0"), ExtResource("15_lhttn"), ExtResource("16_i7a7j"), ExtResource("17_d22iy"), ExtResource("18_obghu"), ExtResource("19_q7wg5"), ExtResource("20_ud803"), ExtResource("21_mjt3c"), ExtResource("22_77bij")])
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+scale = Vector2(1.925, 1.925)
+texture = ExtResource("7_26dwi")
+hframes = 2
+frame = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Player"]
+libraries = {
+&"": SubResource("AnimationLibrary_ba58y")
+}
+autoplay = "Idle"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Player"]
+
+[node name="UI" type="Control" parent="Player/CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Upper Page" type="Control" parent="Player/CanvasLayer/UI"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+
+[node name="Notif" type="Control" parent="Player/CanvasLayer/UI/Upper Page"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -266.0
+offset_top = 121.0
+offset_right = 266.0
+offset_bottom = 171.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_group_ = true
+
+[node name="ColorRect" type="ColorRect" parent="Player/CanvasLayer/UI/Upper Page/Notif"]
+custom_minimum_size = Vector2(544, 40)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.541176)
+
+[node name="Label" type="Label" parent="Player/CanvasLayer/UI/Upper Page/Notif"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -130.0
+offset_top = -11.5
+offset_right = 130.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Klik dimana saja untuk mulai kail!"
+label_settings = SubResource("LabelSettings_b8gge")
+
+[node name="Main Menu" type="Button" parent="Player/CanvasLayer/UI/Upper Page"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 14.0
+offset_right = 282.0
+offset_bottom = 66.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_b8gge")
+theme_override_styles/normal = SubResource("StyleBoxTexture_ui0cu")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_gesge")
+theme_override_styles/hover = SubResource("StyleBoxTexture_vm1ql")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_n2a1x")
+text = "Menu Utama"
+
+[node name="Ensiklopedia" type="Button" parent="Player/CanvasLayer/UI/Upper Page"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -135.5
+offset_top = 12.0
+offset_right = 135.5
+offset_bottom = 64.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_b8gge")
+theme_override_styles/normal = SubResource("StyleBoxTexture_ui0cu")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_gesge")
+theme_override_styles/hover = SubResource("StyleBoxTexture_vm1ql")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_n2a1x")
+text = "Ensiklopedia"
+
+[node name="Inventori" type="Button" parent="Player/CanvasLayer/UI/Upper Page"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -284.0
+offset_top = 11.0
+offset_right = -13.0
+offset_bottom = 63.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_b8gge")
+theme_override_styles/normal = SubResource("StyleBoxTexture_ui0cu")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_gesge")
+theme_override_styles/hover = SubResource("StyleBoxTexture_vm1ql")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_n2a1x")
+text = "Inventori"
+
+[node name="LeftPage" type="Control" parent="Player/CanvasLayer/UI"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -340.0
+offset_right = 275.0
+grow_vertical = 0
+
+[node name="storage" type="Label" parent="Player/CanvasLayer/UI/LeftPage"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 35.0
+offset_top = -313.0
+offset_right = 433.0
+offset_bottom = -216.0
+grow_vertical = 0
+vertical_alignment = 2
+
+[node name="PilihBait" type="Button" parent="Player/CanvasLayer/UI/LeftPage"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 0
+offset_left = 23.0
+offset_top = 167.0
+offset_right = 173.0
+offset_bottom = 317.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_b8gge")
+theme_override_styles/normal = SubResource("StyleBoxTexture_j3h2r")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_pi2iu")
+theme_override_styles/hover = SubResource("StyleBoxTexture_uc5tx")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_do7lf")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_lajby")
+text = "Pilih
+Bait"
+
+[node name="RightPage" type="Control" parent="Player/CanvasLayer/UI"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -298.0
+offset_top = -338.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Kail" type="Button" parent="Player/CanvasLayer/UI/RightPage"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -173.0
+offset_top = -175.0
+offset_right = -23.0
+offset_bottom = -25.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("8_b8gge")
+theme_override_styles/normal = SubResource("StyleBoxTexture_j3h2r")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_pi2iu")
+theme_override_styles/hover = SubResource("StyleBoxTexture_uc5tx")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_do7lf")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_oep5r")
+icon = ExtResource("16_vm1ql")
+expand_icon = true
+
+[node name="PageAdder" type="Control" parent="Player/CanvasLayer/UI"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CenterBottom" type="Control" parent="Player/CanvasLayer/UI"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_top = -20.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(0, 3)
+shape = SubResource("CapsuleShape2D_npiac")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -259)
+zoom = Vector2(1.6, 1.6)
+
+[connection signal="gui_input" from="Player/CanvasLayer/UI" to="Player" method="_on_ui_gui_input"]
+[connection signal="button_up" from="Player/CanvasLayer/UI/Upper Page/Main Menu" to="Player" method="_on_main_menu_button_up"]
+[connection signal="button_up" from="Player/CanvasLayer/UI/Upper Page/Ensiklopedia" to="Player" method="_on_ensiklopedia_button_up"]
+[connection signal="button_up" from="Player/CanvasLayer/UI/Upper Page/Inventori" to="Player" method="_on_inventori_button_up"]
+[connection signal="button_up" from="Player/CanvasLayer/UI/LeftPage/PilihBait" to="Player" method="_on_pilih_bait_button_up"]
+[connection signal="button_up" from="Player/CanvasLayer/UI/RightPage/Kail" to="Player" method="_on_kail_button_up"]

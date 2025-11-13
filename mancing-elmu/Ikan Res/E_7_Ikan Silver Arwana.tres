@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://c8su1royj4i"]
+
+[ext_resource type="Texture2D" uid="uid://b1wl3v648aq6f" path="res://Asset/Ikan/Ikan Arwana Silver.png" id="1_tylyu"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_d553m"]
+
+[resource]
+script = ExtResource("2_d553m")
+id_ikan = 7
+rarity = 2
+nama_ikan = "Ikan Arwana Platinum"
+image_ikan = ExtResource("1_tylyu")
+deskripsi_ikan = "Ikan langka yang sulit ditemukan. Harganya mahal dan biasanya cuma orang orang kaya yang punya ikan ini."
+harga_ikan = 12
+posibility = 40
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

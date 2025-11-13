@@ -1,0 +1,864 @@
+[gd_scene load_steps=27 format=3 uid="uid://dvvw8l8oksf0k"]
+
+[ext_resource type="Script" uid="uid://duu5qsasnwk5e" path="res://Script/menu_page.gd" id="1_eyjv7"]
+[ext_resource type="Texture2D" uid="uid://cdvajx3q0ih2s" path="res://Asset/Awan1.png" id="2_nufta"]
+[ext_resource type="Texture2D" uid="uid://sjl2kwcoea8c" path="res://Asset/awan2.png" id="3_0g8mq"]
+[ext_resource type="Texture2D" uid="uid://brmwmr7sorusl" path="res://Asset/awan3.png" id="4_me6qj"]
+[ext_resource type="FontFile" uid="uid://dkiqel2g0cuv1" path="res://Font/DePixelHalbfett.otf" id="5_0g8mq"]
+[ext_resource type="Texture2D" uid="uid://dshhola2cf0ed" path="res://Asset/BaseButton.png" id="7_a87xy"]
+[ext_resource type="Texture2D" uid="uid://cylyu6pdu3ni2" path="res://Asset/Logo Educatch.png" id="7_eyjv7"]
+[ext_resource type="FontFile" uid="uid://cil3lev67dav2" path="res://Font/Pix32.ttf" id="7_me6qj"]
+[ext_resource type="Texture2D" uid="uid://dk5r8jfhm62ew" path="res://Asset/CusButton Hor (Large).png" id="8_a87xy"]
+[ext_resource type="FontFile" uid="uid://bradi8njpyk8d" path="res://Font/pixely[1].ttf" id="9_o5qv5"]
+
+[sub_resource type="Animation" id="Animation_me6qj"]
+resource_name = "Loop Cloud"
+length = 40.0
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MidAnchor/AwanF:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 5, 5.0081854, 10, 10.05, 15, 15.008185, 20, 20.05, 25, 25.008186, 30, 30.05, 35, 35.008186, 39.95, 40),
+"transitions": PackedFloat32Array(1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1),
+"update": 0,
+"values": [Vector2(556, 304), Vector2(-927, 304), Vector2(556, 304), Vector2(-927, 304), Vector2(556, 304), Vector2(-927, 304), Vector2(556, 304), Vector2(-927, 304), Vector2(556, 304), Vector2(-927, 304), Vector2(556, 304), Vector2(-927, 304), Vector2(556, 304), Vector2(-927, 304), Vector2(556, 304), Vector2(-927, 304), Vector2(556, 304)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MidAnchor/AwanM:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 9.98213, 10, 20, 20.017868, 30, 30.0484, 39.95, 40),
+"transitions": PackedFloat32Array(1, 0, 1, 0, 1, 0, 1, 0, 1),
+"update": 0,
+"values": [Vector2(556, 304), Vector2(-1173, 304), Vector2(556, 304), Vector2(-1173, 304), Vector2(556, 304), Vector2(-1173, 304), Vector2(556, 304), Vector2(-1173, 304), Vector2(556, 304)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("MidAnchor/AwanB:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 20, 20.01787, 39.95, 40),
+"transitions": PackedFloat32Array(1, 0, 1, 0, 1),
+"update": 0,
+"values": [Vector2(556, 304), Vector2(-748, 304), Vector2(556, 304), Vector2(-748, 304), Vector2(556, 304)]
+}
+
+[sub_resource type="Animation" id="Animation_eyjv7"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MidAnchor/AwanF:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-927, 304)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MidAnchor/AwanM:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1020, 304)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("MidAnchor/AwanB:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-750, 304)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_a87xy"]
+_data = {
+&"Loop Cloud": SubResource("Animation_me6qj"),
+&"RESET": SubResource("Animation_eyjv7")
+}
+
+[sub_resource type="GDScript" id="GDScript_o5qv5"]
+resource_name = "middle menu"
+script/source = "extends Control
+
+@onready var music_slider: HSlider = $AnchorSetting/Panel/VBoxContainer/music_slider
+@onready var sfx_slider: HSlider = $AnchorSetting/Panel/VBoxContainer/sfx_slider
+@onready var anchor_menu: Control = $AnchorMenu
+@onready var anchor_setting: Control = $AnchorSetting
+
+func _on_setting_button_up() -> void:
+	Global._make_tween(anchor_menu, \"position:y\", 725.0, 0.7)
+	Global._make_tween(anchor_setting, \"position:y\", 0.0, 0.7)
+
+func _on_back_to_menu_button_up() -> void:
+	Global._make_tween(anchor_menu, \"position:y\", 0.0, 0.7)
+	Global._make_tween(anchor_setting, \"position:y\", 725.0, 0.7)
+"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o5qv5"]
+texture = ExtResource("7_a87xy")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wp8ep"]
+texture = ExtResource("7_a87xy")
+modulate_color = Color(0.2197159, 0.20060071, 0.19471148, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bkdup"]
+texture = ExtResource("7_a87xy")
+modulate_color = Color(2.1036954, 2.1036954, 2.1036954, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4wdkr"]
+texture = ExtResource("7_a87xy")
+modulate_color = Color(0.48439813, 0.4843982, 0.48439813, 0.67058825)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o5qv5"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_13h1q"]
+texture = ExtResource("8_a87xy")
+texture_margin_left = 25.0
+texture_margin_top = 50.0
+texture_margin_right = 25.0
+texture_margin_bottom = 50.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[sub_resource type="LabelSettings" id="LabelSettings_wp8ep"]
+font = ExtResource("5_0g8mq")
+font_size = 30
+
+[sub_resource type="LabelSettings" id="LabelSettings_bkdup"]
+font = ExtResource("9_o5qv5")
+font_size = 20
+
+[sub_resource type="Animation" id="Animation_a87xy"]
+resource_name = "Loop"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnchorMenu/AnchorTitle/TextureRect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(-2, -2, -2),
+"update": 0,
+"values": [Vector2(-255.25, -56), Vector2(-255.25, -71), Vector2(-255.25, -56)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnchorMenu/AnchorMid:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.4, 1.4),
+"transitions": PackedFloat32Array(-2, -2),
+"update": 0,
+"values": [Vector2(174.5, 351), Vector2(174.5, 327)]
+}
+
+[sub_resource type="Animation" id="Animation_o5qv5"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnchorMenu/AnchorTitle/TextureRect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-255.25, -71)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnchorMenu/AnchorMid:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(174.5, 327)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wp8ep"]
+_data = {
+&"Loop": SubResource("Animation_a87xy"),
+&"RESET": SubResource("Animation_o5qv5")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_eyjv7"]
+font = ExtResource("7_me6qj")
+font_size = 17
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[node name="MenuCanvas" type="CanvasLayer"]
+script = ExtResource("1_eyjv7")
+
+[node name="Menu Page" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BG" type="Control" parent="Menu Page"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="Menu Page/BG"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.18039216, 0.6, 0.8627451, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Menu Page/BG"]
+libraries = {
+&"": SubResource("AnimationLibrary_a87xy")
+}
+autoplay = "Loop Cloud"
+
+[node name="MidAnchor" type="Control" parent="Menu Page/BG"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -324.0
+offset_right = -576.0
+offset_bottom = -324.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AwanF" type="Control" parent="Menu Page/BG/MidAnchor"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -927.0
+offset_top = 304.0
+offset_right = -887.00024
+offset_bottom = 344.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="G7" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -478.0
+offset_top = 87.0
+offset_right = 61.0
+offset_bottom = 440.0
+grow_horizontal = 0
+texture = ExtResource("2_nufta")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G9" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -758.0
+offset_top = 167.0
+offset_right = -205.0
+offset_bottom = 465.0
+grow_horizontal = 0
+texture = ExtResource("3_0g8mq")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G10" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 68.0
+offset_top = 162.0
+offset_right = 621.0
+offset_bottom = 460.0
+grow_horizontal = 0
+texture = ExtResource("3_0g8mq")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G8" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+layout_mode = 0
+offset_left = -220.0
+offset_top = 122.0
+offset_right = 394.0
+offset_bottom = 484.0
+texture = ExtResource("4_me6qj")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G11" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 1006.0
+offset_top = 87.0
+offset_right = 1545.0
+offset_bottom = 440.0
+grow_horizontal = 0
+texture = ExtResource("2_nufta")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G12" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 726.0
+offset_top = 167.0
+offset_right = 1279.0
+offset_bottom = 465.0
+grow_horizontal = 0
+texture = ExtResource("3_0g8mq")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G13" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 1552.0
+offset_top = 162.0
+offset_right = 2105.0
+offset_bottom = 460.0
+grow_horizontal = 0
+texture = ExtResource("3_0g8mq")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G14" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+layout_mode = 0
+offset_left = 1264.0
+offset_top = 122.0
+offset_right = 1878.0
+offset_bottom = 484.0
+texture = ExtResource("4_me6qj")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="AwanM" type="Control" parent="Menu Page/BG/MidAnchor"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -1020.0
+offset_top = 304.0
+offset_right = -980.0005
+offset_bottom = 344.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="G11" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+layout_mode = 0
+offset_left = -649.0
+offset_top = -104.0
+offset_right = -278.0
+offset_bottom = 123.0
+texture = ExtResource("2_nufta")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G1" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+layout_mode = 0
+offset_left = -783.0
+offset_top = -64.0
+offset_right = -483.0
+offset_bottom = 142.0
+texture = ExtResource("2_nufta")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G4" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -81.0
+offset_top = -42.0
+offset_right = 208.0
+offset_bottom = 148.0
+grow_horizontal = 0
+texture = ExtResource("3_0g8mq")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G5" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 146.0
+offset_top = -140.0
+offset_right = 542.99475
+offset_bottom = 121.0
+grow_horizontal = 0
+texture = ExtResource("2_nufta")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G12" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+layout_mode = 0
+offset_left = 1080.0
+offset_top = -104.0
+offset_right = 1451.0
+offset_bottom = 123.0
+texture = ExtResource("2_nufta")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G2" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+layout_mode = 0
+offset_left = 946.0
+offset_top = -64.0
+offset_right = 1246.0
+offset_bottom = 142.0
+texture = ExtResource("2_nufta")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G6" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 1648.0
+offset_top = -42.0
+offset_right = 1937.0
+offset_bottom = 148.0
+grow_horizontal = 0
+texture = ExtResource("3_0g8mq")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G7" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 1875.0
+offset_top = -140.0
+offset_right = 2271.9946
+offset_bottom = 121.0
+grow_horizontal = 0
+texture = ExtResource("2_nufta")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="AwanB" type="Control" parent="Menu Page/BG/MidAnchor"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -750.0
+offset_top = 304.0
+offset_right = -710.0005
+offset_bottom = 344.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="G6" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+layout_mode = 0
+offset_left = -415.0
+offset_top = -372.0
+offset_right = 1.0
+offset_bottom = -102.0
+texture = ExtResource("4_me6qj")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G2" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+layout_mode = 0
+offset_left = -549.0
+offset_top = -305.0
+offset_right = -241.0
+offset_bottom = -108.0
+texture = ExtResource("3_0g8mq")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G3" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 39.0
+offset_top = -316.0
+offset_right = 455.0
+offset_bottom = -46.0
+grow_horizontal = 0
+texture = ExtResource("4_me6qj")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G12" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -791.0
+offset_top = -344.0
+offset_right = -422.0
+offset_bottom = -109.0
+grow_horizontal = 0
+texture = ExtResource("4_me6qj")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G7" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+layout_mode = 0
+offset_left = 889.0
+offset_top = -372.0
+offset_right = 1305.0
+offset_bottom = -102.0
+texture = ExtResource("4_me6qj")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G4" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+layout_mode = 0
+offset_left = 755.0
+offset_top = -305.0
+offset_right = 1063.0
+offset_bottom = -108.0
+texture = ExtResource("3_0g8mq")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G5" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 1343.0
+offset_top = -316.0
+offset_right = 1759.0
+offset_bottom = -46.0
+grow_horizontal = 0
+texture = ExtResource("4_me6qj")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="G13" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 513.0
+offset_top = -344.0
+offset_right = 882.0
+offset_bottom = -109.0
+grow_horizontal = 0
+texture = ExtResource("4_me6qj")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Middle" type="Control" parent="Menu Page"]
+custom_minimum_size = Vector2(349, 648)
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -174.5
+offset_right = 174.5
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_o5qv5")
+
+[node name="AnchorMenu" type="Control" parent="Menu Page/Middle"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AnchorTitle" type="Control" parent="Menu Page/Middle/AnchorMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_top = -142.0
+offset_bottom = -142.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Menu Page/Middle/AnchorMenu/AnchorTitle"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -255.25
+offset_top = -71.0
+offset_right = 255.25
+offset_bottom = 41.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_eyjv7")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="AnchorMid" type="Control" parent="Menu Page/Middle/AnchorMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_top = 3.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="All Buttons" type="VBoxContainer" parent="Menu Page/Middle/AnchorMenu/AnchorMid"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -105.0
+offset_right = 150.0
+offset_bottom = 105.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 15
+metadata/_edit_group_ = true
+
+[node name="Start" type="Button" parent="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons"]
+custom_minimum_size = Vector2(300, 60)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_0g8mq")
+theme_override_styles/normal = SubResource("StyleBoxTexture_o5qv5")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_wp8ep")
+theme_override_styles/hover = SubResource("StyleBoxTexture_bkdup")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_4wdkr")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_o5qv5")
+text = "Mulai"
+
+[node name="Setting" type="Button" parent="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons"]
+custom_minimum_size = Vector2(300, 60)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_0g8mq")
+theme_override_styles/normal = SubResource("StyleBoxTexture_o5qv5")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_wp8ep")
+theme_override_styles/hover = SubResource("StyleBoxTexture_bkdup")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_4wdkr")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_o5qv5")
+text = "Pengaturan"
+
+[node name="Exit" type="Button" parent="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons"]
+custom_minimum_size = Vector2(300, 60)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_0g8mq")
+theme_override_styles/normal = SubResource("StyleBoxTexture_o5qv5")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_wp8ep")
+theme_override_styles/hover = SubResource("StyleBoxTexture_bkdup")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_4wdkr")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_o5qv5")
+text = "Keluar"
+
+[node name="AnchorSetting" type="Control" parent="Menu Page/Middle"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 725.0
+offset_bottom = 725.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="Menu Page/Middle/AnchorSetting"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.86676216
+anchor_top = 0.15123457
+anchor_right = 1.8667622
+anchor_bottom = 0.84876543
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_13h1q")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="Menu Page/Middle/AnchorSetting/Panel"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -90.5
+offset_top = 55.0
+offset_right = 90.5
+offset_bottom = 92.0
+grow_horizontal = 2
+text = "Pengaturan"
+label_settings = SubResource("LabelSettings_wp8ep")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Menu Page/Middle/AnchorSetting/Panel"]
+layout_mode = 0
+offset_left = 41.0
+offset_top = 124.0
+offset_right = 917.0
+offset_bottom = 295.0
+theme_override_constants/separation = 25
+
+[node name="Label" type="Label" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Music"
+label_settings = SubResource("LabelSettings_bkdup")
+
+[node name="music_slider" type="HSlider" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+value = 80.0
+
+[node name="Label2" type="Label" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "SFX"
+label_settings = SubResource("LabelSettings_bkdup")
+
+[node name="sfx_slider" type="HSlider" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+value = 80.0
+
+[node name="backToMenu" type="Button" parent="Menu Page/Middle/AnchorSetting/Panel"]
+custom_minimum_size = Vector2(300, 60)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -150.0
+offset_top = -124.0
+offset_right = 150.0
+offset_bottom = -64.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_0g8mq")
+theme_override_styles/normal = SubResource("StyleBoxTexture_o5qv5")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_wp8ep")
+theme_override_styles/hover = SubResource("StyleBoxTexture_bkdup")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_4wdkr")
+text = "Kembali"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Menu Page/Middle"]
+libraries = {
+&"": SubResource("AnimationLibrary_wp8ep")
+}
+autoplay = "Loop"
+
+[node name="Corner Left" type="Control" parent="Menu Page"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 11.0
+offset_top = -47.0
+offset_right = 51.0
+offset_bottom = -7.0
+grow_vertical = 0
+
+[node name="Corner Right" type="Control" parent="Menu Page"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -49.0
+offset_top = -46.0
+offset_right = -9.0
+offset_bottom = -6.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Version" type="Label" parent="Menu Page/Corner Right"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Versi"
+label_settings = SubResource("LabelSettings_eyjv7")
+
+[connection signal="button_up" from="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons/Start" to="." method="_on_start_button_up"]
+[connection signal="button_up" from="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons/Setting" to="Menu Page/Middle" method="_on_setting_button_up"]
+[connection signal="button_up" from="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons/Exit" to="." method="_on_exit_button_up"]
+[connection signal="button_up" from="Menu Page/Middle/AnchorSetting/Panel/backToMenu" to="Menu Page/Middle" method="_on_back_to_menu_button_up"]

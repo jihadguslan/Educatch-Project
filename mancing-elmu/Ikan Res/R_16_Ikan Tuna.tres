@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://cxb4agqcelry1"]
+
+[ext_resource type="Texture2D" uid="uid://jfkr2brvrex1" path="res://Asset/Ikan/Ikan Tuna.png" id="1_sqiv0"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_a271v"]
+
+[resource]
+script = ExtResource("2_a271v")
+id_ikan = 16
+rarity = 1
+nama_ikan = "Ikan Tuna"
+image_ikan = ExtResource("1_sqiv0")
+deskripsi_ikan = "Hidup dilautan lepas dan mampu berenang cepat menempuh jarak ribuan kilometer. Kaya protein dan omega 3."
+harga_ikan = 6
+posibility = 60
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

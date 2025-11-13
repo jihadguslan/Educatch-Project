@@ -1,0 +1,428 @@
+[gd_scene load_steps=14 format=3 uid="uid://dx50m73a0fbvh"]
+
+[ext_resource type="Texture2D" uid="uid://cylyu6pdu3ni2" path="res://Asset/Logo Educatch.png" id="1_a0i4l"]
+[ext_resource type="Script" uid="uid://b7rxexltu85t" path="res://Script/intro.gd" id="1_isfo8"]
+[ext_resource type="Texture2D" uid="uid://otydwq21py" path="res://Asset/Bubbles Small.png" id="2_isfo8"]
+[ext_resource type="Texture2D" uid="uid://ba6u27fuc447j" path="res://Asset/Bubbles Mid.png" id="3_c3yw3"]
+[ext_resource type="Texture2D" uid="uid://4oxxuaq20qbn" path="res://Asset/Bubbles Big.png" id="4_2pndx"]
+[ext_resource type="Texture2D" uid="uid://cub0lcqyf2v1e" path="res://Asset/PercikanAir.png" id="5_jrtmy"]
+
+[sub_resource type="Curve" id="Curve_p7dcd"]
+_limits = [-20.0, 20.0, 0.0, 1.0]
+_data = [Vector2(0, 13.774319), 0.0, 0.0, 0, 0, Vector2(0.5923423, -1.7898827), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_15ofd"]
+_data = [Vector2(0, 0.0038911104), 0.0, 0.0, 0, 0, Vector2(0.15990989, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_r2jus"]
+offsets = PackedFloat32Array(0, 0.11219512, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="Animation" id="Animation_bnfgj"]
+resource_name = "Pop"
+length = 2.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Logo:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(1.0999999, 1.5333332, 1.9666666, 2.266667),
+"transitions": PackedFloat32Array(-2, -2, -2, 1),
+"update": 0,
+"values": [Vector2(576, 429), Vector2(576, 257.585), Vector2(576, 281.13), Vector2(576, 281.13)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sub:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.36666667, 0.76666665, 1.0333333, 1.3, 1.7, 1.9399999),
+"transitions": PackedFloat32Array(-2, -2, -2, -2, -2, -2, -2),
+"update": 0,
+"values": [Vector2(576, 600), Vector2(576, 327.915), Vector2(576, 371.985), Vector2(576, 371.985), Vector2(576, 334.795), Vector2(576, 389.65), Vector2(576, 371.985)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Logo/Sprite2D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(1.1666666, 1.5333334, 2.2333336),
+"transitions": PackedFloat32Array(2, -2, -2),
+"update": 0,
+"values": [Vector2(1, 0.020210784), Vector2(1, 1.215), Vector2(1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Sub/Sprite2D:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.36666667, 0.76666665, 1.0333333, 1.3, 1.6333333, 1.9333333),
+"transitions": PackedFloat32Array(-2, -2, -2, -2, -2, -2, -2),
+"update": 0,
+"values": [Vector2(1, 0.14867678), Vector2(1, 1.385), Vector2(1, 1), Vector2(1, 1), Vector2(1, 1.385), Vector2(1, 0.8), Vector2(1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Sub/Bubbles 3:emitting")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 1.9666666),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Sub/Bubbles 2:emitting")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 1.9666666),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Sub/Bubbles 1:emitting")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 1.9666666),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Logo:visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 1.0666667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="Animation" id="Animation_lwe4p"]
+resource_name = "Idle"
+length = 2.0
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Logo:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.3, 1.3),
+"transitions": PackedFloat32Array(-1.6817932, -1.6817932),
+"update": 0,
+"values": [Vector2(576, 271.84), Vector2(576, 291.42)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sub:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(-1.6817932, -1.6817932),
+"update": 0,
+"values": [Vector2(576, 363.45), Vector2(576, 384.91)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Logo:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Sub/Bubbles 3:emitting")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Sub/Bubbles 2:emitting")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Sub/Bubbles 1:emitting")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_k4gfy"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Logo:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(576, 281.13)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sub:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(576, 371.985)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Logo/Sprite2D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Sub/Sprite2D:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Sub/Bubbles 3:emitting")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Sub/Bubbles 2:emitting")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Sub/Bubbles 1:emitting")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Logo:visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ss641"]
+_data = {
+&"Idle": SubResource("Animation_lwe4p"),
+&"Pop": SubResource("Animation_bnfgj"),
+&"RESET": SubResource("Animation_k4gfy")
+}
+
+[node name="Intro" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_isfo8")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.75686276, 0.93333334, 0.9372549, 1)
+
+[node name="Logo" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_top = -42.869995
+offset_bottom = -42.869995
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="Logo"]
+texture = ExtResource("1_a0i4l")
+
+[node name="Sub" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_top = 47.984985
+offset_bottom = 47.984985
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Bubbles 3" type="CPUParticles2D" parent="Sub"]
+position = Vector2(0, 52.54001)
+amount = 4
+texture = ExtResource("2_isfo8")
+explosiveness = 0.5
+randomness = 0.5
+emission_shape = 3
+emission_rect_extents = Vector2(250, 1)
+direction = Vector2(0, -5)
+spread = 0.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 120.0
+initial_velocity_max = 150.0
+radial_accel_min = 10.0
+radial_accel_max = 10.0
+radial_accel_curve = SubResource("Curve_p7dcd")
+damping_min = 90.0
+damping_max = 90.0
+scale_amount_min = 3.0
+scale_amount_max = 4.0
+scale_amount_curve = SubResource("Curve_15ofd")
+color_ramp = SubResource("Gradient_r2jus")
+
+[node name="Bubbles 2" type="CPUParticles2D" parent="Sub"]
+position = Vector2(0, 52.54001)
+amount = 4
+texture = ExtResource("3_c3yw3")
+explosiveness = 0.5
+randomness = 0.5
+emission_shape = 3
+emission_rect_extents = Vector2(250, 1)
+direction = Vector2(0, -5)
+spread = 0.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 120.0
+initial_velocity_max = 150.0
+radial_accel_min = 10.0
+radial_accel_max = 10.0
+radial_accel_curve = SubResource("Curve_p7dcd")
+damping_min = 90.0
+damping_max = 90.0
+scale_amount_min = 3.0
+scale_amount_max = 4.0
+scale_amount_curve = SubResource("Curve_15ofd")
+color_ramp = SubResource("Gradient_r2jus")
+
+[node name="Bubbles 1" type="CPUParticles2D" parent="Sub"]
+position = Vector2(0, 52.54)
+amount = 4
+texture = ExtResource("4_2pndx")
+explosiveness = 0.5
+randomness = 0.5
+emission_shape = 3
+emission_rect_extents = Vector2(250, 1)
+direction = Vector2(0, -5)
+spread = 0.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 120.0
+initial_velocity_max = 150.0
+radial_accel_min = 10.0
+radial_accel_max = 10.0
+radial_accel_curve = SubResource("Curve_p7dcd")
+damping_min = 90.0
+damping_max = 90.0
+scale_amount_min = 3.0
+scale_amount_max = 4.0
+scale_amount_curve = SubResource("Curve_15ofd")
+color_ramp = SubResource("Gradient_r2jus")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sub"]
+texture = ExtResource("5_jrtmy")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_ss641")
+}

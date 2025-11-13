@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://4i3mqbw1arft"]
+
+[ext_resource type="Texture2D" uid="uid://ec60fwbvclvn" path="res://Asset/Ikan/Ikan Patin.png" id="1_2ddoa"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_hr7a0"]
+
+[resource]
+script = ExtResource("2_hr7a0")
+id_ikan = 15
+rarity = 1
+nama_ikan = "Ikan Patin"
+image_ikan = ExtResource("1_2ddoa")
+deskripsi_ikan = "Tubuhnya licin berwarna keperakan dan hidup di perairan tenang. Punya kandungan gizi yang tinggi dan pertumbuhan yang cepat."
+harga_ikan = 8
+posibility = 62
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

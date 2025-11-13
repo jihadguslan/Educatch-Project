@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://dm0pp4a6gtcsn"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_rmk8f"]
+
+[resource]
+script = ExtResource("1_rmk8f")
+id_soal = 13
+isi_soal = "Hasil dari 0,5×0,02 adalah..."
+pilihan_soal = Array[String](["0,1", "0,01", "0,001", "0,0001"])
+jawaban_soal = 1
+metadata/_custom_type_script = "uid://dvytuwg7js148"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://cwrh042bysire"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_tsdm2"]
+
+[resource]
+script = ExtResource("1_tsdm2")
+id_soal = 18
+isi_soal = "Volume kubus dengan panjang rusuk 5 cm adalah..."
+pilihan_soal = Array[String](["25 cm3", "100 cm3", "125 cm3", "150 cm3"])
+jawaban_soal = 1
+metadata/_custom_type_script = "uid://dvytuwg7js148"

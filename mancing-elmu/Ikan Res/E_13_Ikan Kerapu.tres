@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://b2aqw5w7kx72"]
+
+[ext_resource type="Texture2D" uid="uid://d2eumpfhawu50" path="res://Asset/Ikan/Ikan Kerapu.png" id="1_ew104"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_0gcqo"]
+
+[resource]
+script = ExtResource("2_0gcqo")
+id_ikan = 13
+rarity = 1
+nama_ikan = "Ikan Kerapu"
+image_ikan = ExtResource("1_ew104")
+deskripsi_ikan = "Predator pemangsa ikan ikan kecil. Hidup diperairan laut tropis dan subtropis seperti Sumatera dan Jawa."
+harga_ikan = 12
+posibility = 42
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

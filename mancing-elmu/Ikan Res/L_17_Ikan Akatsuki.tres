@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://gc5a23xfkhjl"]
+
+[ext_resource type="Texture2D" uid="uid://ci3q21nypl6kx" path="res://Asset/Ikan/Ikan Akatsuki.png" id="1_vbjcq"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_5jadq"]
+
+[resource]
+script = ExtResource("2_5jadq")
+id_ikan = 14
+rarity = 3
+nama_ikan = "Ikan Akatsuki"
+image_ikan = ExtResource("1_vbjcq")
+deskripsi_ikan = "Hanya melalui penderitaan, manusia akan bisa memahami arti sesungguhnya dari kehidupan"
+harga_ikan = 45
+posibility = 9
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

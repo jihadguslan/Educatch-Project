@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://cnpdo36dbdno6"]
+
+[ext_resource type="Texture2D" uid="uid://d2qr80njhik3g" path="res://Asset/Ikan/Ikan Mujair.png" id="1_an22k"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_snbh6"]
+
+[resource]
+script = ExtResource("2_snbh6")
+id_ikan = 2
+nama_ikan = "Ikan Mujair"
+image_ikan = ExtResource("1_an22k")
+deskripsi_ikan = "Ikan konsumsi biasa. Penyebarannya ada di perarian Afrika dan indonesia. Berkerabat dekat dengan nila namun tak sejenis."
+harga_ikan = 3
+posibility = 95
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://cla7th5n656sd"]
+
+[ext_resource type="Texture2D" uid="uid://c76tp0m5wela0" path="res://Asset/Ikan/Ikan Koi.png" id="1_57pb4"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_slhpp"]
+
+[resource]
+script = ExtResource("2_slhpp")
+id_ikan = 4
+rarity = 1
+nama_ikan = "Ikan Koi"
+image_ikan = ExtResource("1_57pb4")
+deskripsi_ikan = "Ikan hias pasaran. Hoki kalau didapat dari mancing karena biasanya ikan bekas peliharaan orang yang dibuang."
+harga_ikan = 5
+posibility = 65
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

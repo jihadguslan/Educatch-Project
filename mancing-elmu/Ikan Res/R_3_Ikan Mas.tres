@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://c3ta7v6lw6q61"]
+
+[ext_resource type="Texture2D" uid="uid://dj6v43iyg13c0" path="res://Asset/Ikan/Ikan Mas.png" id="1_mxxpy"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_k38xk"]
+
+[resource]
+script = ExtResource("2_k38xk")
+id_ikan = 3
+rarity = 1
+nama_ikan = "Ikan Mas"
+image_ikan = ExtResource("1_mxxpy")
+deskripsi_ikan = "Ikan hias air tawar yang dikeenal karena warna keemasaannya dan sifat yang jinak. berasal dari asia timur, sudah dibudidayakan selama berabad abad."
+harga_ikan = 6
+posibility = 72
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

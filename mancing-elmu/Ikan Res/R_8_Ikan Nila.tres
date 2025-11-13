@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://i7s1bdog6joi"]
+
+[ext_resource type="Texture2D" uid="uid://dovh7r0wy4dl2" path="res://Asset/Ikan/Ikan Nila.png" id="1_dlm6p"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_tcc8j"]
+
+[resource]
+script = ExtResource("2_tcc8j")
+id_ikan = 8
+rarity = 1
+nama_ikan = "Ikan Nila"
+image_ikan = ExtResource("1_dlm6p")
+deskripsi_ikan = "Ikan yang mudah untuk dibudidaya. Rasanya enak dan tumbuh dengan lebih cepat dari kebiasaan ikan umum lainnya."
+harga_ikan = 6
+posibility = 72
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://3el6gjw0ye55"]
+
+[ext_resource type="Texture2D" uid="uid://b2golkuhuxdw5" path="res://Asset/Ikan/Ikan Sepat.png" id="1_15fvo"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_hjy7e"]
+
+[resource]
+script = ExtResource("2_hjy7e")
+nama_ikan = "Ikan Sepat"
+image_ikan = ExtResource("1_15fvo")
+deskripsi_ikan = "Ikan dari anggota suku gurame, beberapa jenisnya bisa jadi ikan hias ataupun konsumsi."
+harga_ikan = 2
+posibility = 98
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

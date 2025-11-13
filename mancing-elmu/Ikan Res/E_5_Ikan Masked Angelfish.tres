@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://5yockq7glad5"]
+
+[ext_resource type="Texture2D" uid="uid://bvykphqcykbqc" path="res://Asset/Ikan/Ikan Anglefish.png" id="1_bs6c4"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_smfr4"]
+
+[resource]
+script = ExtResource("2_smfr4")
+id_ikan = 5
+rarity = 1
+nama_ikan = "Ikan Masked Anglefish"
+image_ikan = ExtResource("1_bs6c4")
+deskripsi_ikan = "Spesies ikan laut bersirip pari. Ditemukan di kedalaman antara 10 - 150 meter. Ikan ini sangat endemik di Hawaii."
+harga_ikan = 9
+posibility = 45
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

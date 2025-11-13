@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://b5o58yxgjiq73"]
+
+[ext_resource type="Texture2D" uid="uid://bdsss718m41yh" path="res://Asset/Ikan/Ikan Ninja.png" id="1_uhfcx"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_opn70"]
+
+[resource]
+script = ExtResource("2_opn70")
+id_ikan = 12
+rarity = 3
+nama_ikan = "IIkan Ninja"
+image_ikan = ExtResource("1_uhfcx")
+deskripsi_ikan = "Taju! Kagebunshin no jutsu!"
+harga_ikan = 40
+posibility = 10
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"
