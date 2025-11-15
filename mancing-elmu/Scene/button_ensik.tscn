@@ -73,7 +73,6 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_kb0vr")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_845x7")
 theme_override_styles/hover = SubResource("StyleBoxTexture_te1pg")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_45pd6")
-text = "sdfesf"
 icon = ExtResource("2_majn0")
 autowrap_mode = 2
 icon_alignment = 1

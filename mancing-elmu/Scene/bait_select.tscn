@@ -1,0 +1,180 @@
+[gd_scene load_steps=14 format=3 uid="uid://jg646ryb8q4"]
+
+[ext_resource type="Script" uid="uid://btf818uy8b0w7" path="res://Script/bait_select.gd" id="1_7l5nn"]
+[ext_resource type="Texture2D" uid="uid://bb0wnh6ehs4r1" path="res://Asset/CusButton Hor.png" id="2_5k464"]
+[ext_resource type="Texture2D" uid="uid://b8kyvg20vfur3" path="res://Asset/CusButton Nor.png" id="3_hgc15"]
+[ext_resource type="FontFile" uid="uid://dkiqel2g0cuv1" path="res://Font/DePixelHalbfett.otf" id="4_0utir"]
+[ext_resource type="Texture2D" uid="uid://dshhola2cf0ed" path="res://Asset/BaseButton.png" id="5_8t83w"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l0cs4"]
+texture = ExtResource("2_5k464")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tx2ld"]
+texture = ExtResource("3_hgc15")
+texture_margin_left = 15.0
+texture_margin_right = 15.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 2
+
+[sub_resource type="LabelSettings" id="LabelSettings_ejbkd"]
+font = ExtResource("4_0utir")
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_tx2ld"]
+font = ExtResource("4_0utir")
+font_size = 17
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3cxyc"]
+texture = ExtResource("5_8t83w")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_67a4o"]
+texture = ExtResource("5_8t83w")
+modulate_color = Color(0.2197159, 0.20060071, 0.19471148, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bsjbf"]
+texture = ExtResource("5_8t83w")
+modulate_color = Color(2.1036954, 2.1036954, 2.1036954, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_e6ivd"]
+texture = ExtResource("5_8t83w")
+modulate_color = Color(0.48439813, 0.4843982, 0.48439813, 0.67058825)
+
+[node name="Bait Select" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 785.0
+offset_bottom = 785.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7l5nn")
+
+[node name="Control" type="Control" parent="."]
+custom_minimum_size = Vector2(919.1111, 517)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -459.55554
+offset_top = -258.5
+offset_right = 459.55554
+offset_bottom = 258.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_l0cs4")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/Panel"]
+layout_mode = 0
+offset_left = 72.55554
+offset_top = 78.5
+offset_right = 260.55554
+offset_bottom = 431.5
+
+[node name="Label" type="Label" parent="Control"]
+custom_minimum_size = Vector2(316, 61)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -152.0
+offset_top = -19.5
+offset_right = 168.0
+offset_bottom = 48.5
+grow_horizontal = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_tx2ld")
+text = "Bait Select"
+label_settings = SubResource("LabelSettings_ejbkd")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Coins" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -286.55554
+offset_top = 18.5
+offset_right = -41.555542
+offset_bottom = 41.5
+grow_horizontal = 0
+text = "Coins : "
+label_settings = SubResource("LabelSettings_tx2ld")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -120.0
+offset_top = -58.5
+offset_right = 120.0
+offset_bottom = -6.5
+grow_horizontal = 2
+grow_vertical = 0
+metadata/_edit_group_ = true
+
+[node name="Back" type="Button" parent="Control/HBoxContainer"]
+custom_minimum_size = Vector2(240, 52)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_0utir")
+theme_override_styles/normal = SubResource("StyleBoxTexture_3cxyc")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_67a4o")
+theme_override_styles/hover = SubResource("StyleBoxTexture_bsjbf")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_e6ivd")
+text = "Kembali"
+
+[node name="Sell" type="Button" parent="Control/HBoxContainer"]
+custom_minimum_size = Vector2(240, 52)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_0utir")
+theme_override_styles/normal = SubResource("StyleBoxTexture_3cxyc")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_67a4o")
+theme_override_styles/hover = SubResource("StyleBoxTexture_bsjbf")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_e6ivd")
+text = "Jual"
+
+[node name="Scroll" type="ScrollContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -378.0
+offset_top = -185.0
+offset_right = 378.0
+offset_bottom = 184.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_scroll_mode = 0
+metadata/_edit_group_ = true
+
+[node name="FlowContainer" type="FlowContainer" parent="Control/Scroll"]
+clip_contents = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[connection signal="button_up" from="Control/HBoxContainer/Back" to="." method="_on_back_button_up"]
+[connection signal="button_up" from="Control/HBoxContainer/Sell" to="." method="_on_sell_button_up"]

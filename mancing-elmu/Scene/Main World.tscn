@@ -1,27 +1,40 @@
-[gd_scene load_steps=52 format=3 uid="uid://b3y8oom1tswny"]
+[gd_scene load_steps=66 format=3 uid="uid://b3y8oom1tswny"]
 
+[ext_resource type="Texture2D" uid="uid://c4c8iydkufeku" path="res://Asset/BG/Pantai/background water-Recovered1.jpg" id="1_d22iy"]
 [ext_resource type="Script" uid="uid://ckuj43ibi34to" path="res://Script/Player.gd" id="1_xpqm5"]
 [ext_resource type="Resource" uid="uid://b78tyv0vfyqnq" path="res://Soal Res/SD_MTK_01.tres" id="2_ba58y"]
+[ext_resource type="Texture2D" uid="uid://m0o7e6mqr0d1" path="res://Asset/BG/Pantai/background water-Recovered2.jpg" id="2_obghu"]
+[ext_resource type="Texture2D" uid="uid://bb4twjgkb305q" path="res://Asset/BG/Pantai/background water-Recovered3.jpg" id="3_q7wg5"]
 [ext_resource type="Resource" uid="uid://dol8nbgq4oqc7" path="res://Soal Res/SD_MTK_02.tres" id="4_oep5r"]
+[ext_resource type="Texture2D" uid="uid://sx7lajft1uge" path="res://Asset/BG/Pantai/background water-Recovered4.jpg" id="4_ud803"]
 [ext_resource type="Resource" uid="uid://cwtedjia7qmg6" path="res://Soal Res/SD_MTK_03.tres" id="5_lajby"]
+[ext_resource type="Texture2D" uid="uid://cg3lav2cf3y2o" path="res://Asset/BG/Pantai/background water-Recovered5.jpg" id="5_mjt3c"]
+[ext_resource type="Texture2D" uid="uid://lkhdtm15qt3" path="res://Asset/BG/Pantai/background water-Recovered6.jpg" id="6_77bij"]
 [ext_resource type="Resource" uid="uid://d30kbcfc8p4uc" path="res://Soal Res/SD_MTK_04.tres" id="6_oxgxs"]
-[ext_resource type="Texture2D" uid="uid://l68agkq8atxv" path="res://Asset/background water(original sin).png" id="7_0rsec"]
 [ext_resource type="Texture2D" uid="uid://cbgx5iaeteag6" path="res://Asset/Player back.png" id="7_26dwi"]
 [ext_resource type="Resource" uid="uid://ii177sifsr4b" path="res://Soal Res/SD_MTK_05.tres" id="7_fgd0a"]
+[ext_resource type="Texture2D" uid="uid://cun5ukum53gxm" path="res://Asset/BG/Pantai/background water-Recovered7.jpg" id="7_hkfxv"]
 [ext_resource type="Texture2D" uid="uid://1m65qsg527j" path="res://Asset/Player/Idle.png" id="8_5w2kc"]
+[ext_resource type="Texture2D" uid="uid://bnqjmexi0w4kf" path="res://Asset/BG/Pantai/background water-Recovered8.jpg" id="8_28ibl"]
 [ext_resource type="FontFile" uid="uid://dkiqel2g0cuv1" path="res://Font/DePixelHalbfett.otf" id="8_b8gge"]
 [ext_resource type="Resource" uid="uid://b4jamty1fgix3" path="res://Soal Res/SD_MTK_06.tres" id="8_fhjy5"]
 [ext_resource type="Texture2D" uid="uid://b3ci1fqbe6a20" path="res://Asset/Player/Pancing.png" id="9_gesge"]
+[ext_resource type="Texture2D" uid="uid://cdkqgkq5601ux" path="res://Asset/BG/Pantai/background water-Recovered9.jpg" id="9_kxwdm"]
 [ext_resource type="Resource" uid="uid://dans4mmfee28k" path="res://Soal Res/SD_MTK_07.tres" id="9_of175"]
 [ext_resource type="Texture2D" uid="uid://b8kyvg20vfur3" path="res://Asset/CusButton Nor.png" id="9_ui0cu"]
 [ext_resource type="Resource" uid="uid://dnnyinkk5yk8f" path="res://Soal Res/SD_MTK_08.tres" id="10_j0f8p"]
+[ext_resource type="Texture2D" uid="uid://uuntmlqswok8" path="res://Asset/BG/Pantai/background water-Recovered10.jpg" id="10_nlhh7"]
 [ext_resource type="Texture2D" uid="uid://yj0fssrw1t8r" path="res://Asset/Player/Dapet.png" id="10_vm1ql"]
 [ext_resource type="Resource" uid="uid://b3vkf3nmbbdgh" path="res://Soal Res/SD_MTK_09.tres" id="11_66ec8"]
 [ext_resource type="Texture2D" uid="uid://b0v53moutweoo" path="res://Asset/Player/happy.png" id="11_n2a1x"]
+[ext_resource type="Texture2D" uid="uid://q6cmj3yld3mr" path="res://Asset/BG/Pantai/background water-Recovered11.jpg" id="11_shufx"]
+[ext_resource type="Texture2D" uid="uid://chpy01xs7y3r6" path="res://Asset/BG/Pantai/background water-Recovered12.jpg" id="12_5arss"]
 [ext_resource type="Texture2D" uid="uid://da13fsectqpp4" path="res://Asset/Player/ngambek.png" id="12_j3h2r"]
 [ext_resource type="Resource" uid="uid://dyxl4ytsqoojg" path="res://Soal Res/SD_MTK_10.tres" id="12_vdoi6"]
+[ext_resource type="Texture2D" uid="uid://bwq4trx1hr17w" path="res://Asset/BG/Pantai/background water-Recovered13.jpg" id="13_1w73f"]
 [ext_resource type="Resource" uid="uid://c0av64c1026os" path="res://Soal Res/SD_MTK_11.tres" id="13_6mfa8"]
 [ext_resource type="Resource" uid="uid://ssfkkj6vigsb" path="res://Soal Res/SD_MTK_12.tres" id="14_630t0"]
+[ext_resource type="Texture2D" uid="uid://tui3e6blx8b" path="res://Asset/BG/Pantai/background water-Recovered14.jpg" id="14_nkp7w"]
 [ext_resource type="Texture2D" uid="uid://dtlo8cacqwu1y" path="res://Asset/base_button.png" id="15_gesge"]
 [ext_resource type="Resource" uid="uid://dm0pp4a6gtcsn" path="res://Soal Res/SD_MTK_13.tres" id="15_lhttn"]
 [ext_resource type="Resource" uid="uid://dnpcbp4bx1in0" path="res://Soal Res/SD_MTK_14.tres" id="16_i7a7j"]
@@ -32,6 +45,56 @@
 [ext_resource type="Resource" uid="uid://cwrh042bysire" path="res://Soal Res/SD_MTK_18.tres" id="20_ud803"]
 [ext_resource type="Resource" uid="uid://bi2xnca8qe1nd" path="res://Soal Res/SD_MTK_19.tres" id="21_mjt3c"]
 [ext_resource type="Resource" uid="uid://naqfetibwap1" path="res://Soal Res/SD_MTK_20.tres" id="22_77bij"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s523b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_d22iy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_obghu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_q7wg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ud803")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mjt3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_77bij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_hkfxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_28ibl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_kxwdm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_nlhh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_shufx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_5arss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_1w73f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_nkp7w")
+}],
+"loop": true,
+"name": &"Loop",
+"speed": 7.0
+}]
 
 [sub_resource type="Animation" id="Animation_w57eb"]
 resource_name = "Angry"
@@ -402,21 +465,30 @@ height = 86.0
 
 [node name="BG" type="Node2D" parent="."]
 
-[node name="Sprite2D3" type="Sprite2D" parent="BG"]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="BG"]
 position = Vector2(-718, -259)
 scale = Vector2(1.5, 1.5)
-texture = ExtResource("7_0rsec")
+sprite_frames = SubResource("SpriteFrames_s523b")
+animation = &"Loop"
+autoplay = "Loop"
+frame_progress = 0.70318437
 flip_h = true
 
-[node name="Sprite2D" type="Sprite2D" parent="BG"]
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="BG"]
 position = Vector2(0, -259)
 scale = Vector2(1.5, 1.5)
-texture = ExtResource("7_0rsec")
+sprite_frames = SubResource("SpriteFrames_s523b")
+animation = &"Loop"
+autoplay = "Loop"
+frame_progress = 0.30070713
 
-[node name="Sprite2D2" type="Sprite2D" parent="BG"]
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="BG"]
 position = Vector2(719, -259)
 scale = Vector2(1.5, 1.5)
-texture = ExtResource("7_0rsec")
+sprite_frames = SubResource("SpriteFrames_s523b")
+animation = &"Loop"
+autoplay = "Loop"
+frame_progress = 0.9930384
 flip_h = true
 
 [node name="Player" type="CharacterBody2D" parent="."]
@@ -428,7 +500,6 @@ kumpulan_soal = Array[Resource]([ExtResource("2_ba58y"), ExtResource("4_oep5r"),
 scale = Vector2(1.925, 1.925)
 texture = ExtResource("7_26dwi")
 hframes = 2
-frame = 1
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Player"]
 libraries = {
