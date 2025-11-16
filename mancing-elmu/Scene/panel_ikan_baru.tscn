@@ -1,10 +1,25 @@
-[gd_scene load_steps=4 format=3 uid="uid://cwwhe6j672jcd"]
+[gd_scene load_steps=9 format=3 uid="uid://cwwhe6j672jcd"]
 
 [ext_resource type="Script" uid="uid://dwgbuprumw1g0" path="res://Script/panel_ikan_baru.gd" id="1_l6m7d"]
 [ext_resource type="Texture2D" uid="uid://c3r0hqgsi2b8r" path="res://Asset/Ikan/Ikan Cod.png" id="2_70h74"]
+[ext_resource type="Texture2D" uid="uid://qwqhhfpf5ef3" path="res://Asset/base_button (large).png" id="2_sh5lk"]
+[ext_resource type="FontFile" uid="uid://dkiqel2g0cuv1" path="res://Font/DePixelHalbfett.otf" id="3_sh5lk"]
+[ext_resource type="FontFile" uid="uid://cil3lev67dav2" path="res://Font/Pix32.ttf" id="3_tnuto"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tnuto"]
+texture = ExtResource("2_sh5lk")
+texture_margin_left = 35.0
+texture_margin_top = 35.0
+texture_margin_right = 35.0
+texture_margin_bottom = 35.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_nn8vj"]
-font_size = 23
+font = ExtResource("3_sh5lk")
+font_size = 18
+
+[sub_resource type="LabelSettings" id="LabelSettings_tnuto"]
+font = ExtResource("3_sh5lk")
+font_size = 18
 
 [node name="PanelIkanBaru" type="Control"]
 layout_mode = 3
@@ -24,7 +39,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 0.345098)
 
-[node name="panel" type="ColorRect" parent="bg"]
+[node name="panel" type="Panel" parent="bg"]
 custom_minimum_size = Vector2(609, 364)
 layout_mode = 1
 anchors_preset = 8
@@ -38,7 +53,7 @@ offset_right = 304.5
 offset_bottom = 182.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0, 0, 0, 0.647059)
+theme_override_styles/panel = SubResource("StyleBoxTexture_tnuto")
 
 [node name="Button" type="Button" parent="bg/panel"]
 layout_mode = 1
@@ -48,11 +63,12 @@ anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
 offset_left = -86.0
-offset_top = -57.0
+offset_top = -72.0
 offset_right = 86.0
-offset_bottom = -17.0
+offset_bottom = -32.0
 grow_horizontal = 2
 grow_vertical = 0
+theme_override_fonts/font = ExtResource("3_tnuto")
 text = "OKE"
 
 [node name="title" type="Label" parent="bg/panel"]
@@ -60,10 +76,10 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -110.5
-offset_top = 19.0
-offset_right = 110.5
-offset_bottom = 47.0
+offset_left = -147.5
+offset_top = 26.0
+offset_right = 147.5
+offset_bottom = 54.0
 grow_horizontal = 2
 text = "Kamu dapat ikan baru!"
 label_settings = SubResource("LabelSettings_nn8vj")
@@ -76,10 +92,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -129.5
-offset_top = -127.0
-offset_right = 116.5
-offset_bottom = 62.0
+offset_left = -123.0
+offset_top = -118.0
+offset_right = 123.0
+offset_bottom = 71.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_70h74")
@@ -100,7 +116,7 @@ offset_bottom = 93.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "Nama Ikannya"
-label_settings = SubResource("LabelSettings_nn8vj")
+label_settings = SubResource("LabelSettings_tnuto")
 horizontal_alignment = 1
 
 [connection signal="button_up" from="bg/panel/Button" to="." method="_on_button_button_up"]

@@ -79,6 +79,7 @@ animations = [{
 
 [sub_resource type="Animation" id="Animation_w57eb"]
 resource_name = "Angry"
+length = 3.0
 step = 0.1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -123,7 +124,7 @@ tracks/3/path = NodePath(".")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
-"times": PackedFloat32Array(1),
+"times": PackedFloat32Array(3),
 "transitions": PackedFloat32Array(1),
 "values": [{
 "args": [],
@@ -133,7 +134,7 @@ tracks/3/keys = {
 
 [sub_resource type="Animation" id="Animation_uc5tx"]
 resource_name = "Dapet"
-length = 0.5
+length = 3.0
 step = 0.1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -174,6 +175,7 @@ tracks/2/keys = {
 
 [sub_resource type="Animation" id="Animation_do7lf"]
 resource_name = "Happy"
+length = 3.0
 step = 0.1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -218,7 +220,7 @@ tracks/3/path = NodePath(".")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
-"times": PackedFloat32Array(1),
+"times": PackedFloat32Array(3),
 "transitions": PackedFloat32Array(1),
 "values": [{
 "args": [],
@@ -480,7 +482,6 @@ script = ExtResource("1_xpqm5")
 scale = Vector2(1.925, 1.925)
 texture = ExtResource("7_26dwi")
 hframes = 2
-frame = 1
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Player"]
 libraries = {
