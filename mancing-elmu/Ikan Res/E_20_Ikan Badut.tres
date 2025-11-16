@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://bvygjjpxs374x"]
+
+[ext_resource type="Texture2D" uid="uid://cvi5dcjc6fs3s" path="res://Asset/Ikan/Ikan Badut.png" id="1_v55xr"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_peso2"]
+
+[resource]
+script = ExtResource("2_peso2")
+id_ikan = 20
+rarity = 2
+nama_ikan = "Ikan Badut"
+image_ikan = ExtResource("1_v55xr")
+deskripsi_ikan = "Nama lainnya ikan Giru, ikan dari anak suku Amphiprionae dalam suku Pomacentridae. Warnanya yang cerah dan garis garis tubuhnya membuat ia di beri nama Ikan Badut."
+harga_ikan = 9
+posibility = 45
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

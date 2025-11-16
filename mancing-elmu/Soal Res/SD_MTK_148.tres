@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_bcj5d"]
+
+[resource]
+script = ExtResource("1_bcj5d")
+id_soal = 148
+isi_soal = "Rata-rata dari data: $5, 6, 7, 8, 9$ adalah..."
+pilihan_soal = Array[String](["5", "7", "8", "9"])
+jawaban_soal = 1

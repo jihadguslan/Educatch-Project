@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_tqplq"]
+
+[resource]
+script = ExtResource("1_tqplq")
+id_soal = 62
+isi_soal = "Rantai emas melambangkan..."
+pilihan_soal = Array[String](["Persatuan", "Keadilan", "Kemanusiaan", "Ketuhanan"])
+jawaban_soal = 2

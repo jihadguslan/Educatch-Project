@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_hh16q"]
+
+[resource]
+script = ExtResource("1_hh16q")
+id_soal = 47
+isi_soal = "Penggunaan tanda seru (!) yang benar adalah..."
+pilihan_soal = Array[String](["Wow! Indahnya!", "Tolong ambilkan buku itu!", "Saya sudah makan!", "Semua benar!"])
+jawaban_soal = 1

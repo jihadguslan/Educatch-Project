@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_5qktt"]
+
+[resource]
+script = ExtResource("1_5qktt")
+id_soal = 158
+isi_soal = "Sanksi jika melanggar tata tertib sekolah biasanya berupa..."
+pilihan_soal = Array[String](["Diberi uang", "Pujian", "Teguran/skorsing", "Naik kelas"])
+jawaban_soal = 2

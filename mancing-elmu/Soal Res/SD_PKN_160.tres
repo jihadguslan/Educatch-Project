@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wjlwb"]
+
+[resource]
+script = ExtResource("1_wjlwb")
+id_soal = 160
+isi_soal = "Lambang sila kerakyatan terletak di bagian perisai yang berwarna..."
+pilihan_soal = Array[String](["Merah", "Putih", "Hitam", "Hijau"])
+jawaban_soal = 2

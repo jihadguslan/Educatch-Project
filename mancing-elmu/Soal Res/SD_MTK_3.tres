@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_a45dc"]
+
+[resource]
+script = ExtResource("1_a45dc")
+id_soal = 3
+isi_soal = "Hasil dari 240:(−8)+15 adalah..."
+pilihan_soal = Array[String](["-15", "-25", "30", "-30"])

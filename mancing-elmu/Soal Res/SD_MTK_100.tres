@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ip1aa"]
+
+[resource]
+script = ExtResource("1_ip1aa")
+id_soal = 100
+isi_soal = "Dalam sebuah diagram batang, nilai tertinggi yang dicapai adalah..."
+pilihan_soal = Array[String](["Modus", "Median", "Mean", "Frekuensi"])

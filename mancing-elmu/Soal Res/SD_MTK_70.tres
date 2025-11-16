@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ddda1"]
+
+[resource]
+script = ExtResource("1_ddda1")
+id_soal = 70
+isi_soal = "Berat badan Dita 40 kg dan berat badan Sinta 50 kg. Perbandingan berat Dita dan Sinta adalah..."
+pilihan_soal = Array[String](["4:5", "5:4", "4:9", "9:4"])

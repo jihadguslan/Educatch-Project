@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ng6s4"]
+
+[resource]
+script = ExtResource("1_ng6s4")
+id_soal = 41
+isi_soal = "My grandfather is 70 years old. He is ...."
+pilihan_soal = Array[String](["young", "tall", "old", "short"])
+jawaban_soal = 2

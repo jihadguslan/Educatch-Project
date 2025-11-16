@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jmpo5"]
+
+[resource]
+script = ExtResource("1_jmpo5")
+id_soal = 65
+isi_soal = "Hitunglah hasil dari 53​×910​."
+pilihan_soal = Array[String](["30/45", "2/3", "13/45", "3/2"])
+jawaban_soal = 1

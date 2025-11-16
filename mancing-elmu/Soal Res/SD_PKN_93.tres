@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_8cghl"]
+
+[resource]
+script = ExtResource("1_8cghl")
+id_soal = 93
+isi_soal = "Rantai pada sila kedua berwarna..."
+pilihan_soal = Array[String](["Hitam", "Putih", "Emas", "Merah"])
+jawaban_soal = 2

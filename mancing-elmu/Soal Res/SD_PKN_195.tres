@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_u87eg"]
+
+[resource]
+script = ExtResource("1_u87eg")
+id_soal = 195
+isi_soal = "Dalam pembagian harta warisan, harus menjunjung tinggi nilai..."
+pilihan_soal = Array[String](["Persatuan", "Keadilan", "Kerakyatan", "Kemanusiaan"])
+jawaban_soal = 1

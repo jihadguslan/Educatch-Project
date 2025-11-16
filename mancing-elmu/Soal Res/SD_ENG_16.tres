@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_t3i5n"]
+
+[resource]
+script = ExtResource("1_t3i5n")
+id_soal = 16
+isi_soal = "I always ... breakfast at 6 AM."
+pilihan_soal = Array[String](["drink", "make", "have", "go"])
+jawaban_soal = 2

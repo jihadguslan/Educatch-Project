@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mgam5"]
+
+[resource]
+script = ExtResource("1_mgam5")
+id_soal = 27
+isi_soal = "Di tengah perisai Burung Garuda, lambang sila pertama terletak di bagian..."
+pilihan_soal = Array[String](["Kanan Atas", "Kiri Atas", "Kanan Bawah", "Tengah"])

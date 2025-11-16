@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_d1j7h"]
+
+[resource]
+script = ExtResource("1_d1j7h")
+id_soal = 162
+isi_soal = "Kebebasan dalam berpendapat yang dijamin oleh sila keempat memiliki batas, yaitu tidak boleh..."
+pilihan_soal = Array[String](["Mengkritik", "Menyampaikan ide", "Melanggar norma dan hukum", "Berbeda dari pemerintah"])
+jawaban_soal = 2

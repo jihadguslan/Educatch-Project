@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_q3igk"]
+
+[resource]
+script = ExtResource("1_q3igk")
+id_soal = 97
+isi_soal = "Jika ada dana pembangunan masjid dan gereja, pembagian dana harus..."
+pilihan_soal = Array[String](["Sama rata (adil)", "Hanya untuk masjid", "Hanya untuk gereja", "Diberikan kepada yang meminta saja"])

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_s4end"]
+
+[resource]
+script = ExtResource("1_s4end")
+id_soal = 22
+isi_soal = "Tokoh yang bertentangan atau melawan tokoh utama dalam cerita disebut..."
+pilihan_soal = Array[String](["Protagonis", "Tritagonis", "Antagonis", "Figuran"])
+jawaban_soal = 2

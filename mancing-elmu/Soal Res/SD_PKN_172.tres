@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_80fxt"]
+
+[resource]
+script = ExtResource("1_80fxt")
+id_soal = 172
+isi_soal = "Lambang yang memiliki makna sandang (pakaian) dan pangan (makanan) adalah..."
+pilihan_soal = Array[String](["Bintang", "Pohon Beringin", "Kepala Banteng", "Padi dan Kapas"])
+jawaban_soal = 3

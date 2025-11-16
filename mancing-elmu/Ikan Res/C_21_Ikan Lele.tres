@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://ihixfcjoxtof"]
+
+[ext_resource type="Texture2D" uid="uid://fepte0aau6ov" path="res://Asset/Ikan/Ikan Lele.png" id="1_tjgdo"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_i0r4s"]
+
+[resource]
+script = ExtResource("2_i0r4s")
+id_ikan = 21
+nama_ikan = "Ikan Lele"
+image_ikan = ExtResource("1_tjgdo")
+deskripsi_ikan = "Ikan patil yang hidup di air tawar, berkumis dan bisa mematil siapapun yang memgangnya. Mungkin nyasar ke laut gegara arus sungainya kencang."
+harga_ikan = 2
+posibility = 90
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

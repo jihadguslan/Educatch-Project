@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_hfuq5"]
+
+[resource]
+script = ExtResource("1_hfuq5")
+id_soal = 93
+isi_soal = "Hasil dari 40%+0,1 adalah..."
+pilihan_soal = Array[String](["40,1", "0,5", "0,41", "1,4"])
+jawaban_soal = 1

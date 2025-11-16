@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_f3m68"]
+
+[resource]
+script = ExtResource("1_f3m68")
+id_soal = 11
+isi_soal = "It is 07.30 AM. In English, we say..."
+pilihan_soal = Array[String](["It is seven ten", "It is half past seven", "It is seven thirty o'clock", "It is a quarter past seven"])
+jawaban_soal = 1

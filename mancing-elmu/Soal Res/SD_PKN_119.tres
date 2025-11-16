@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ywxgd"]
+
+[resource]
+script = ExtResource("1_ywxgd")
+id_soal = 119
+isi_soal = "Di rumah, kita harus adil membagi waktu antara bermain dan..."
+pilihan_soal = Array[String](["Tidur", "Belajar", "Berkelahi", "Bersepeda"])
+jawaban_soal = 1

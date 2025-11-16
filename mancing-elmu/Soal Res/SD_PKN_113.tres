@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0oa5x"]
+
+[resource]
+script = ExtResource("1_0oa5x")
+id_soal = 113
+isi_soal = "Peraturan yang memiliki sanksi paling tegas, seperti denda atau penjara, adalah norma..."
+pilihan_soal = Array[String](["Agama", "Kesusilaan", "Kesopanan", "Hukum"])
+jawaban_soal = 3

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_bpb3e"]
+
+[resource]
+script = ExtResource("1_bpb3e")
+id_soal = 194
+isi_soal = "Tata tertib dibuat untuk menciptakan..."
+pilihan_soal = Array[String](["Kekacauan", "Keteraturan dan kedamaian", "Keuntungan pribadi", "Kebebasan tanpa batas"])
+jawaban_soal = 1

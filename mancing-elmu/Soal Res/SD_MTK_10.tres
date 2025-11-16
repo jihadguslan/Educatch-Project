@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://dyxl4ytsqoojg"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://62fuuq2frbsm"]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_66rhk"]
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_exefv"]
 
 [resource]
-script = ExtResource("1_66rhk")
+script = ExtResource("1_exefv")
 id_soal = 10
-isi_soal = "Hasil dari 32​×121​ adalah..."
-pilihan_soal = Array[String](["153", "1.208", "3.872", "530"])
+isi_soal = "Tentukan nilai n dari persamaan n + 15 = 40."
+pilihan_soal = Array[String](["20", "25", "30", "35"])
 jawaban_soal = 1
 metadata/_custom_type_script = "uid://dvytuwg7js148"

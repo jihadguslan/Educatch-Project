@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_5r30b"]
+
+[resource]
+script = ExtResource("1_5r30b")
+id_soal = 31
+isi_soal = "Hasil dari operasi hitung 50 \\div 5 \\times 3 adalah..."
+pilihan_soal = Array[String](["10", "15", "30", "50"])
+jawaban_soal = 2

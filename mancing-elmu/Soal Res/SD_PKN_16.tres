@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_nfdng"]
+
+[resource]
+script = ExtResource("1_nfdng")
+id_soal = 16
+isi_soal = "Pengamalan sila kelima (Keadilan Sosial bagi Seluruh Rakyat Indonesia) di rumah adalah..."
+pilihan_soal = Array[String](["Bersikap adil dalam pembagian tugas rumah", "Rajin beribadah", "Memakai produk dalam negeri", "Menjaga kerukunan"])

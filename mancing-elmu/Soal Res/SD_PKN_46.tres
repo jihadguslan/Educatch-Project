@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_cff6c"]
+
+[resource]
+script = ExtResource("1_cff6c")
+id_soal = 46
+isi_soal = "Lambang yang memiliki makna sebagai tempat berlindung dan bernaung bagi seluruh rakyat Indonesia adalah..."
+pilihan_soal = Array[String](["Pohon Beringin", "Rantai", "Kepala Banteng", "Bintang"])

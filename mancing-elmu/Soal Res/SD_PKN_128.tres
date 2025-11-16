@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_b1w8p"]
+
+[resource]
+script = ExtResource("1_b1w8p")
+id_soal = 128
+isi_soal = "Rantai pada lambang sila kedua melambangkan hubungan antarmanusia yang..."
+pilihan_soal = Array[String](["Terputus", "Kuat dan saling membantu", "Bebas", "Terikat hutang"])
+jawaban_soal = 1

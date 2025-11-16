@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_bhglx"]
+
+[resource]
+script = ExtResource("1_bhglx")
+id_soal = 38
+isi_soal = "Sikap gotong royong di lingkungan masyarakat merupakan bentuk pengamalan sila ke..."
+pilihan_soal = Array[String](["Tiga dan Empat", "Dua dan Lima", "Tiga dan Lima", "Satu dan Dua"])
+jawaban_soal = 2

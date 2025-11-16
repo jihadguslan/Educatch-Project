@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7heww"]
+
+[resource]
+script = ExtResource("1_7heww")
+id_soal = 94
+isi_soal = "Sinta menjawab benar 15 soal, salah 5 soal, dari total 25 soal. Jika 1 soal benar bernilai 4, berapa total nilainya?"
+pilihan_soal = Array[String](["60", "70", "80", "100"])

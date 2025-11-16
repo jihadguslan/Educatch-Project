@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://chl85fi6u1jo3"]
+
+[ext_resource type="Texture2D" uid="uid://d3ktmlgq7ec6w" path="res://Asset/Ikan/Ikan Bawal.png" id="1_oyicg"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_vy6ad"]
+
+[resource]
+script = ExtResource("2_vy6ad")
+id_ikan = 19
+rarity = 1
+nama_ikan = "Ikan Bawal"
+image_ikan = ExtResource("1_oyicg")
+deskripsi_ikan = "Ikan konsumsi yang hidup berkoloni dan termasuk ikan jenis pemangsa. "
+harga_ikan = 6
+posibility = 60
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

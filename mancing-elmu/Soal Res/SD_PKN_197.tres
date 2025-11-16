@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_odooj"]
+
+[resource]
+script = ExtResource("1_odooj")
+id_soal = 197
+isi_soal = "Bunyi sila ketiga menunjukkan bahwa kita harus menjaga..."
+pilihan_soal = Array[String](["Rumah", "Lingkungan", "Persatuan dan kesatuan", "Uang"])
+jawaban_soal = 2

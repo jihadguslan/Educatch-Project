@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_y40jx"]
+
+[resource]
+script = ExtResource("1_y40jx")
+id_soal = 17
+isi_soal = "Pancasila disahkan sebagai dasar negara pada tanggal..."
+pilihan_soal = Array[String](["17 Agustus 1945", "1 Juni 1945", "18 Agustus 1945", "28 Oktober 1928"])
+jawaban_soal = 2

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://bkt2vu4cfkdck"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_ooau8"]
+
+[resource]
+script = ExtResource("1_ooau8")
+id_soal = 22
+isi_soal = "Ibu membeli 4 ikat rambutan. Setiap ikat berisi 9 buah. Berapa total rambutan yang dibeli Ibu?"
+pilihan_soal = Array[String](["13", "27", "36", "49"])
+jawaban_soal = 2
+metadata/_custom_type_script = "uid://dvytuwg7js148"

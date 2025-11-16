@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_g4k18"]
+
+[resource]
+script = ExtResource("1_g4k18")
+id_soal = 109
+isi_soal = "Salah satu tata tertib yang wajib ditaati di perpustakaan sekolah adalah..."
+pilihan_soal = Array[String](["Berisik saat membaca", "Meminjam buku tanpa izin", "Mengembalikan buku tepat waktu", "Makan dan minum di dalam"])
+jawaban_soal = 2

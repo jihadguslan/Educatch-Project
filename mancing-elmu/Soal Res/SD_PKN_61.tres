@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_tv42e"]
+
+[resource]
+script = ExtResource("1_tv42e")
+id_soal = 61
+isi_soal = "Saat upacara bendera, kita harus bersikap..."
+pilihan_soal = Array[String](["Bermain-main", "Berlari", "Tertib dan hikmat", "Bercanda"])
+jawaban_soal = 2

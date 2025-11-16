@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_a5ak3"]
+
+[resource]
+script = ExtResource("1_a5ak3")
+id_soal = 47
+isi_soal = "Fried rice in English is..."
+pilihan_soal = Array[String](["Nasi goreng", "Nasi padang", "Nasi uduk", "Nasi kuning"])

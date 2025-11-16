@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_58u0o"]
+
+[resource]
+script = ExtResource("1_58u0o")
+id_soal = 67
+isi_soal = "Nilai yang terkandung dalam sila Kemanusiaan yang Adil dan Beradab adalah..."
+pilihan_soal = Array[String](["Kerukunan umat beragama", "Menjunjung tinggi hak asasi manusia", "Mengutamakan kepentingan umum", "Adil terhadap sesama"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_shua2"]
+
+[resource]
+script = ExtResource("1_shua2")
+id_soal = 36
+isi_soal = "Berapakah hasil dari 1,5 + 0,25?"
+pilihan_soal = Array[String](["1,25", "1,75", "2,00", "2,75"])
+jawaban_soal = 1

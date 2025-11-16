@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_pu77g"]
+
+[resource]
+script = ExtResource("1_pu77g")
+id_soal = 20
+isi_soal = "Sebagai bangsa Indonesia, kita harus mencintai produk-produk dalam negeri. Hal ini sesuai dengan pengamalan sila ke..."
+pilihan_soal = Array[String](["Dua", "Tiga", "Empat", "Lima"])
+jawaban_soal = 2

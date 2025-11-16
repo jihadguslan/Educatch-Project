@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qu3tt"]
+
+[resource]
+script = ExtResource("1_qu3tt")
+id_soal = 119
+isi_soal = "Urutan pecahan dari yang terbesar: $0,8, 1/2, 60\\%$ adalah..."
+pilihan_soal = Array[String](["$0,8, 1/2, 60\\%$", "$1/2, 60\\%, 0,8$", "$0,8, 60\\%, 1/2$", "$60\\%, 0,8, 1/2$"])
+jawaban_soal = 2

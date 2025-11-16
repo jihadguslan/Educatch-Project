@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ko8we"]
+
+[resource]
+script = ExtResource("1_ko8we")
+id_soal = 123
+isi_soal = "Sanksi dari norma kesusilaan biasanya berupa..."
+pilihan_soal = Array[String](["Denda", "Penjara", "Rasa penyesalan/malu", "Diusir"])
+jawaban_soal = 2

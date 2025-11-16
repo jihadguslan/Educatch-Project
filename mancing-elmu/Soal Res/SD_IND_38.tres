@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_pmilx"]
+
+[resource]
+script = ExtResource("1_pmilx")
+id_soal = 38
+isi_soal = "Kalimat yang paling tepat untuk penutup surat pribadi adalah..."
+pilihan_soal = Array[String](["Demikian surat ini saya sampaikan, atas perhatiannya terima kasih.", "Sampai jumpa lagi, balas suratku, ya!", "Hormat kami.", "Akhir kata, sekian dan terima kasih."])
+jawaban_soal = 1

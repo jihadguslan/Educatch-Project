@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jdpsx"]
+
+[resource]
+script = ExtResource("1_jdpsx")
+id_soal = 175
+isi_soal = "Dalam sistem norma, norma agama paling erat kaitannya dengan sila ke..."
+pilihan_soal = Array[String](["Satu", "Dua", "Tiga", "Empat"])

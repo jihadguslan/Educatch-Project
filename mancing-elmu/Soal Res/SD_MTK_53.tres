@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_y0eut"]
+
+[resource]
+script = ExtResource("1_y0eut")
+id_soal = 53
+isi_soal = "Ani punya 10 permen. Ia membeli lagi 6 permen. Total permen Ani sekarang adalah..."
+pilihan_soal = Array[String](["4", "14", "16", "60"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_6088y"]
+
+[resource]
+script = ExtResource("1_6088y")
+id_soal = 178
+isi_soal = "Jumlah bulu pada bagian bawah perisai (di pangkal ekor) adalah..."
+pilihan_soal = Array[String](["8", "17", "19", "45"])
+jawaban_soal = 2

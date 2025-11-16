@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_phpdi"]
+
+[resource]
+script = ExtResource("1_phpdi")
+id_soal = 96
+isi_soal = "Salah satu ciri negara yang menganut sistem musyawarah (Sila 4) adalah..."
+pilihan_soal = Array[String](["Adanya diktator", "Adanya pemilu", "Keputusan dari satu orang", "Rakyat tidak boleh bersuara"])
+jawaban_soal = 1

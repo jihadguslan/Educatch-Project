@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_hopdn"]
+
+[resource]
+script = ExtResource("1_hopdn")
+id_soal = 12
+isi_soal = "Makna ungkapan 'banting tulang' adalah..."
+pilihan_soal = Array[String](["Berkelahi", "Sedang tidur", "Patah tulang", "Bekerja keras"])
+jawaban_soal = 3

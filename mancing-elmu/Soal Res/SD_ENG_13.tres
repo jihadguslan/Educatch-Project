@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_34m1f"]
+
+[resource]
+script = ExtResource("1_34m1f")
+id_soal = 13
+isi_soal = "The second month of the year is..."
+pilihan_soal = Array[String](["January", "February", "March", "April"])
+jawaban_soal = 1

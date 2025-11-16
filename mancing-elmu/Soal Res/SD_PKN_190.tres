@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_8w81h"]
+
+[resource]
+script = ExtResource("1_8w81h")
+id_soal = 190
+isi_soal = "Hak kita saat di sekolah adalah mendapatkan..."
+pilihan_soal = Array[String](["Hukuman", "Pelajaran", "PR yang banyak", "Nilai rendah"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_t7yp0"]
+
+[resource]
+script = ExtResource("1_t7yp0")
+id_soal = 39
+isi_soal = "Tokoh yang mengusulkan Pancasila sebagai dasar negara pada tanggal 1 Juni 1945 adalah..."
+pilihan_soal = Array[String](["Mohammad Hatta", "Soekarno", "Soepomo", "M. Yamin"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jng27"]
+
+[resource]
+script = ExtResource("1_jng27")
+id_soal = 62
+isi_soal = "Suhu udara di puncak gunung adalah −2∘C. Suhu di kaki gunung 15^\\circ \\text{C}. Berapa selisih suhunya?"
+pilihan_soal = Array[String](["13∘C", "15∘C", "17∘C", "20∘C"])
+jawaban_soal = 2

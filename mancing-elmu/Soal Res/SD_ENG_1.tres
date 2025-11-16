@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://ctdlv05b3ctph"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_4ui8i"]
+
+[resource]
+script = ExtResource("1_4ui8i")
+id_soal = 1
+isi_soal = "\"\"\"Good morning\"\" is used from 12 AM to 12 PM. The proper time to say \"\"Good afternoon\"\" is...\""
+pilihan_soal = Array[String](["05:00", "14:00", "19:00", "23:00"])
+jawaban_soal = 1

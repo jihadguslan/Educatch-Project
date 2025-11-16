@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ou6r5"]
+
+[resource]
+script = ExtResource("1_ou6r5")
+id_soal = 88
+isi_soal = "Nilai moral yang terkandung dalam lambang Padi dan Kapas adalah..."
+pilihan_soal = Array[String](["Saling menghormati", "Gotong royong", "Kesejahteraan dan kemakmuran", "Kebijaksanaan"])
+jawaban_soal = 2

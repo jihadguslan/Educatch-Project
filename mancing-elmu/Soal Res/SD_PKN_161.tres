@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0krsy"]
+
+[resource]
+script = ExtResource("1_0krsy")
+id_soal = 161
+isi_soal = "Tindakan korupsi sangat bertentangan dengan sila..."
+pilihan_soal = Array[String](["Satu dan Tiga", "Dua dan Lima", "Empat dan Lima", "Tiga dan Empat"])
+jawaban_soal = 1

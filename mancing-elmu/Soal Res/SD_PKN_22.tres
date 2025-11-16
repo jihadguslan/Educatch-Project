@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_nkxp7"]
+
+[resource]
+script = ExtResource("1_nkxp7")
+id_soal = 22
+isi_soal = "Jumlah bulu pada leher Burung Garuda melambangkan bulan..."
+pilihan_soal = Array[String](["Agustus (8)", "Juli (7)", "September (9)", "Januari (1)"])
+jawaban_soal = 3

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_x4nhc"]
+
+[resource]
+script = ExtResource("1_x4nhc")
+id_soal = 13
+isi_soal = "Peribahasa yang berarti 'tidak ada manfaatnya sama sekali' adalah..."
+pilihan_soal = Array[String](["Air beriak tanda tak dalam", "Bagai air di daun talas", "Air tenang menghanyutkan", "Bagai pinang dibelah dua"])
+jawaban_soal = 1

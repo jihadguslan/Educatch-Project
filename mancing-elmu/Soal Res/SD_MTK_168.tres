@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_00hyh"]
+
+[resource]
+script = ExtResource("1_00hyh")
+id_soal = 168
+isi_soal = "Luas belah ketupat dengan diagonal 8 cm dan 10 cm adalah..."
+pilihan_soal = Array[String](["18 $cm^2$", "20 $cm^2$", "40 $cm^2$", "80 $cm^2$"])
+jawaban_soal = 2

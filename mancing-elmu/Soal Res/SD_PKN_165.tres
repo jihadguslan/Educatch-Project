@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_s0wqg"]
+
+[resource]
+script = ExtResource("1_s0wqg")
+id_soal = 165
+isi_soal = "Menghindari sikap intoleran (tidak toleran) adalah pengamalan sila ke..."
+pilihan_soal = Array[String](["Satu dan Dua", "Tiga dan Empat", "Empat dan Lima", "Dua dan Tiga"])

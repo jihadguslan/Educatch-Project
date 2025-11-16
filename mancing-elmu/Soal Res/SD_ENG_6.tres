@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ps6h0"]
+
+[resource]
+script = ExtResource("1_ps6h0")
+id_soal = 6
+isi_soal = "\"The full form of \"\"I'm\"\" is...\""
+pilihan_soal = Array[String](["He is", "They are", "I am", "We are"])
+jawaban_soal = 2

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="BaitResource" load_steps=3 format=3 uid="uid://cwhv26ygy24nm"]
+
+[ext_resource type="Script" uid="uid://bpej68p0xc5uh" path="res://Script/BaitRes.gd" id="1_hlykg"]
+[ext_resource type="Texture2D" uid="uid://xuf0uo7yso3b" path="res://Asset/Bait/Bait1_ShrimpLure.png" id="1_rwp8i"]
+
+[resource]
+script = ExtResource("1_hlykg")
+bait_name = "PKN"
+price = 3
+bait_image = ExtResource("1_rwp8i")
+deskripsi = "Pendidikan yang mengajarkan implemeentasi pancasila dalam kehidupan sehari hari."
+metadata/_custom_type_script = "uid://bpej68p0xc5uh"

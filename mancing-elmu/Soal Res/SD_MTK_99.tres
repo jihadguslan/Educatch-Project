@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_i1fdb"]
+
+[resource]
+script = ExtResource("1_i1fdb")
+id_soal = 99
+isi_soal = "Berapakah hasil dari (−3)3?"
+pilihan_soal = Array[String](["-27", "-9", "9", "27"])

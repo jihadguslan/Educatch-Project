@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7h5pa"]
+
+[resource]
+script = ExtResource("1_7h5pa")
+id_soal = 4
+isi_soal = "Teks yang berisi penjelasan mengenai proses terjadinya suatu fenomena alam atau sosial disebut..."
+pilihan_soal = Array[String](["Deskripsi", "Narasi", "Eksplanasi", "Persuasi"])
+jawaban_soal = 2

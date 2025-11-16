@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0g47r"]
+
+[resource]
+script = ExtResource("1_0g47r")
+id_soal = 81
+isi_soal = "Berdoa sebelum dan sesudah belajar termasuk pengamalan sila ke..."
+pilihan_soal = Array[String](["Satu", "Dua", "Tiga", "Empat"])

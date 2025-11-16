@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_f7g0o"]
+
+[resource]
+script = ExtResource("1_f7g0o")
+id_soal = 33
+isi_soal = "KPK (Kelipatan Persekutuan Terkecil) dari 6 dan 8 adalah..."
+pilihan_soal = Array[String](["12", "16", "24", "48"])
+jawaban_soal = 2

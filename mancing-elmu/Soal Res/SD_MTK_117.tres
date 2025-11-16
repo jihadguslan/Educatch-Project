@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2vn4v"]
+
+[resource]
+script = ExtResource("1_2vn4v")
+id_soal = 117
+isi_soal = "Sebuah taman berbentuk lingkaran memiliki keliling 88 meter. Berapa diameter taman tersebut? ($\\pi = 22/7$)"
+pilihan_soal = Array[String](["7 m", "14 m", "28 m", "56 m"])
+jawaban_soal = 2

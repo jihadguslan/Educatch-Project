@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_6s2jd"]
+
+[resource]
+script = ExtResource("1_6s2jd")
+id_soal = 169
+isi_soal = "Volume limas persegi dengan luas alas 16 $cm^2$ dan tinggi 6 cm adalah..."
+pilihan_soal = Array[String](["32 $cm^3$", "48 $cm^3$", "64 $cm^3$", "96 $cm^3$"])

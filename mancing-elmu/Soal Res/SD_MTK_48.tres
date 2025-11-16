@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rbiei"]
+
+[resource]
+script = ExtResource("1_rbiei")
+id_soal = 48
+isi_soal = "Bentuk pecahan campuran dari 7/3 adalah..."
+pilihan_soal = Array[String](["2 \\, 1/3", "3 \\, 1/7", "1 \\, 7/3", "2 \\, 2/3"])

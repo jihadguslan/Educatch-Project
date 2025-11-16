@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jed6l"]
+
+[resource]
+script = ExtResource("1_jed6l")
+id_soal = 60
+isi_soal = "Salah satu anggota BPUPKI yang turut merumuskan dasar negara adalah..."
+pilihan_soal = Array[String](["Ki Hajar Dewantara", "Ahmad Soebardjo", "Soepomo", "R.A. Kartini"])
+jawaban_soal = 2

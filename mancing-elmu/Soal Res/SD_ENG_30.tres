@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2c6ds"]
+
+[resource]
+script = ExtResource("1_2c6ds")
+id_soal = 30
+isi_soal = "People go to the ... to send letters and buy stamps."
+pilihan_soal = Array[String](["bus station", "airport", "post office", "library"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_r77f7"]
+
+[resource]
+script = ExtResource("1_r77f7")
+id_soal = 23
+isi_soal = "Sudut pandang dalam cerita yang menggunakan kata ganti 'aku' atau 'saya' disebut sudut pandang..."
+pilihan_soal = Array[String](["Orang ketiga", "Orang pertama", "Pengamat", "Campuran"])
+jawaban_soal = 1

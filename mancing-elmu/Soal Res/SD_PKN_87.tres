@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_18sjp"]
+
+[resource]
+script = ExtResource("1_18sjp")
+id_soal = 87
+isi_soal = "Sila yang mengajarkan pentingnya menjaga keseimbangan antara hak dan kewajiban adalah sila ke..."
+pilihan_soal = Array[String](["Dua", "Tiga", "Empat", "Lima"])
+jawaban_soal = 3

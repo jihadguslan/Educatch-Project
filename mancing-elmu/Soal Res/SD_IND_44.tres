@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_e2yqs"]
+
+[resource]
+script = ExtResource("1_e2yqs")
+id_soal = 44
+isi_soal = "Penulisan singkatan yang benar adalah..."
+pilihan_soal = Array[String](["Yth. Bpk. Joni", "Yth. Bapak Joni", "Yth Bpk. Joni", "Yth. Bpk Joni"])
+jawaban_soal = 1

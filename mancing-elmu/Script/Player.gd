@@ -7,21 +7,24 @@ extends CharacterBody2D
 @onready var right_page: Control = $CanvasLayer/UI/RightPage
 @onready var anim: AnimationPlayer = $AnimationPlayer
 @onready var center_bottom: Control = $CanvasLayer/UI/CenterBottom
+@onready var pilih_bait: Button = $CanvasLayer/UI/LeftPage/PilihBait
 
 @export var kumpulan_soal : Array[Resource]
 
 const PANEL_UJIAN = preload("res://Scene/panel_ujian.tscn")
-
 var all_page = []
 var is_mancing = false
 
 func _ready() -> void:
 	all_page.append_array([left_page,upper_page,right_page])
 	ScreenManager._play_music(preload("uid://bfemnhc0xecjh"))
-	
+
 
 func _kail() -> void:
+	if kumpulan_soal.is_empty():
+		kumpulan_soal.clear()
 	is_mancing = true
+	kumpulan_soal.append_array(DatabaseManager._bank_soal.duplicate())
 	kumpulan_soal.shuffle()
 	var inst = PANEL_UJIAN.instantiate()
 	inst.soal_res = kumpulan_soal.pick_random()
@@ -44,6 +47,7 @@ func close_page():
 	show_ui(true)
 	is_mancing = false
 	_update_storage()
+	pilih_bait.icon = Global.used_bait.res.bait_image
 
 func _jawaban_benar(res):
 	var ikan = res
@@ -78,7 +82,9 @@ func _set_to_idle():
 	anim.play("Idle")
 	
 func _on_pilih_bait_button_up() -> void:
-	pass # Replace with function body.
+	var inst = preload("res://Scene/bait_select.tscn").instantiate()
+	inst.parent = self
+	add_page(inst)
 
 func _on_main_menu_button_up() -> void:
 	ScreenManager._change_scene("res://Scene/menu_page.tscn")

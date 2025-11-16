@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_m27ju"]
+
+[resource]
+script = ExtResource("1_m27ju")
+id_soal = 61
+isi_soal = "Hasil dari −5+12−3 adalah..."
+pilihan_soal = Array[String](["-10", "4", "7", "10"])
+jawaban_soal = 1

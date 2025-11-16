@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_xukam"]
+
+[resource]
+script = ExtResource("1_xukam")
+id_soal = 63
+isi_soal = "Tentukan hasil dari 0,75÷0,25."
+pilihan_soal = Array[String](["0,3", "3", "3,5", "4"])
+jawaban_soal = 1

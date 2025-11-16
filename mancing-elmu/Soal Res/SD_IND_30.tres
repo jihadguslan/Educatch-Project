@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_t4mw6"]
+
+[resource]
+script = ExtResource("1_t4mw6")
+id_soal = 30
+isi_soal = "Urutan yang benar dalam menulis teks prosedur adalah..."
+pilihan_soal = Array[String](["Alat-Langkah-Bahan-Tujuan", "Tujuan-Alat/Bahan-Langkah-langkah", "Langkah-langkah-Tujuan-Alat", "Bahan-Tujuan-Langkah"])
+jawaban_soal = 1

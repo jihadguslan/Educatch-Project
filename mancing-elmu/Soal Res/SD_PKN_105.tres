@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_x0uqy"]
+
+[resource]
+script = ExtResource("1_x0uqy")
+id_soal = 105
+isi_soal = "Dalam sistem pemerintahan, Pancasila diwujudkan dalam tiga pilar utama, yaitu..."
+pilihan_soal = Array[String](["Agama, Suku, Budaya", "Eksekutif, Legislatif, Yudikatif", "Pusat, Provinsi, Daerah", "Pendidikan, Kesehatan, Ekonomi"])
+jawaban_soal = 1

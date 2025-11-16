@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_j52a6"]
+
+[resource]
+script = ExtResource("1_j52a6")
+id_soal = 10
+isi_soal = "Sinonim dari kata 'dampak' adalah..."
+pilihan_soal = Array[String](["Keinginan", "Tujuan", "Akibat", "Perbedaan"])
+jawaban_soal = 2

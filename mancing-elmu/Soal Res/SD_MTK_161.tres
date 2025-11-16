@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gfqyp"]
+
+[resource]
+script = ExtResource("1_gfqyp")
+id_soal = 161
+isi_soal = "$100 - 55 = \\dots$"
+pilihan_soal = Array[String](["45", "55", "65", "155"])

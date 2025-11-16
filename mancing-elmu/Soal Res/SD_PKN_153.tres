@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gm7ct"]
+
+[resource]
+script = ExtResource("1_gm7ct")
+id_soal = 153
+isi_soal = "Jika terdapat konflik antar kelompok, Pancasila mengajarkan untuk mengedepankan..."
+pilihan_soal = Array[String](["Kepentingan kelompok", "Kekerasan", "Dialog dan musyawarah", "Pengadilan"])
+jawaban_soal = 2

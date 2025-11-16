@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_l87il"]
+
+[resource]
+script = ExtResource("1_l87il")
+id_soal = 138
+isi_soal = "Volume gabungan dari dua kubus yang memiliki rusuk 2 cm dan 3 cm adalah..."
+pilihan_soal = Array[String](["10 $cm^3$", "13 $cm^3$", "35 $cm^3$", "36 $cm^3$"])
+jawaban_soal = 2

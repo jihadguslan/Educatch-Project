@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_1nmqd"]
+
+[resource]
+script = ExtResource("1_1nmqd")
+id_soal = 85
+isi_soal = "Perisai di dada Burung Garuda melambangkan..."
+pilihan_soal = Array[String](["Senjata", "Kekuatan", "Pertahanan", "Perjuangan"])
+jawaban_soal = 2

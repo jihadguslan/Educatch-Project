@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_expyc"]
+
+[resource]
+script = ExtResource("1_expyc")
+id_soal = 74
+isi_soal = "Angka 45 pada jumlah bulu di leher Burung Garuda melambangkan..."
+pilihan_soal = Array[String](["Tahun Kemerdekaan", "Tanggal Kemerdekaan", "Bulan Kemerdekaan", "Sila Pancasila"])

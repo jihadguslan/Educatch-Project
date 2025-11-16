@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_acswr"]
+
+[resource]
+script = ExtResource("1_acswr")
+id_soal = 70
+isi_soal = "Contoh perilaku boros adalah melanggar nilai-nilai sila ke..."
+pilihan_soal = Array[String](["Tiga", "Empat", "Lima", "Satu"])
+jawaban_soal = 2

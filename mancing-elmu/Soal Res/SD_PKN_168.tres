@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_30x7b"]
+
+[resource]
+script = ExtResource("1_30x7b")
+id_soal = 168
+isi_soal = "Warna putih pada perisai Burung Garuda melambangkan..."
+pilihan_soal = Array[String](["Keberanian", "Kesucian", "Keadilan", "Persatuan"])
+jawaban_soal = 1

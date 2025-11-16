@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_d2ij0"]
+
+[resource]
+script = ExtResource("1_d2ij0")
+id_soal = 146
+isi_soal = "Kita harus selalu mendoakan orang tua. Ini sesuai dengan nilai Pancasila dan norma..."
+pilihan_soal = Array[String](["Hukum", "Kesopanan", "Agama", "Kesusilaan"])
+jawaban_soal = 2

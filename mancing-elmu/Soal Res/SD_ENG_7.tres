@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4wpq6"]
+
+[resource]
+script = ExtResource("1_4wpq6")
+id_soal = 7
+isi_soal = "\"A: \"\"Where do you live?\"\" B: \"\"I live ... Bunga Street.\"\"\""
+pilihan_soal = Array[String](["in", "on", "at", "with"])
+jawaban_soal = 2

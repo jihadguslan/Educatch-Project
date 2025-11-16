@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_yxg3h"]
+
+[resource]
+script = ExtResource("1_yxg3h")
+id_soal = 5
+isi_soal = "\"A: \"\"May I borrow your pencil, please?\"\" B: \"\"...\"\"\""
+pilihan_soal = Array[String](["No, you may not.", "Yes, sure. Here you are.", "It is a pencil.", "You are welcome."])
+jawaban_soal = 1

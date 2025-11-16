@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_i4tqi"]
+
+[resource]
+script = ExtResource("1_i4tqi")
+id_soal = 80
+isi_soal = "Jarak tempuh mobil adalah 120 km dalam waktu 2 jam. Berapakah kecepatan rata-rata mobil tersebut?"
+pilihan_soal = Array[String](["60 km/jam", "80 km/jam", "100 km/jam", "120 km/jam"])

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_isw51"]
+
+[resource]
+script = ExtResource("1_isw51")
+id_soal = 50
+isi_soal = "Salah satu ciri perilaku adil dalam sila kelima adalah..."
+pilihan_soal = Array[String](["Hemat dan sederhana", "Mewah dan boros", "Bersikap angkuh", "Memaksakan kehendak"])

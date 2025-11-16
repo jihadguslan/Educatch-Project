@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://bogkqraeicpoa"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_23epf"]
+
+[resource]
+script = ExtResource("1_23epf")
+id_soal = 50
+isi_soal = "Tujuan utama dari teks persuasi adalah..."
+pilihan_soal = Array[String](["Mendeskripsikan sesuatu", "Menceritakan kejadian", "Menjelaskan proses", "Mengajak/mempengaruhi"])
+jawaban_soal = 3

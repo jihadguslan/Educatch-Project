@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_l2kpy"]
+
+[resource]
+script = ExtResource("1_l2kpy")
+id_soal = 33
+isi_soal = "Kalimat 'Hatinya hancur setelah mendengar kabar buruk itu' menggunakan majas..."
+pilihan_soal = Array[String](["Personifikasi", "Simile", "Hiperbola", "Metafora"])
+jawaban_soal = 2

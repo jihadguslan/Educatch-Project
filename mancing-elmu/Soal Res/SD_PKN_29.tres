@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_65fyx"]
+
+[resource]
+script = ExtResource("1_65fyx")
+id_soal = 29
+isi_soal = "Nilai yang terkandung dalam sila Ketuhanan Yang Maha Esa adalah..."
+pilihan_soal = Array[String](["Keadilan", "Keseimbangan", "Kebersamaan", "Toleransi"])
+jawaban_soal = 3

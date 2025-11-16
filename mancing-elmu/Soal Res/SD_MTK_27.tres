@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://bitk0elqpa0pb"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_8qqah"]
+
+[resource]
+script = ExtResource("1_8qqah")
+id_soal = 27
+isi_soal = "Pagi hari suhu udara 20°C. Siang hari suhu naik 8°C. Berapa suhu siang hari?"
+pilihan_soal = Array[String](["12°C", "28°C", "30°C", "38°C"])
+jawaban_soal = 1
+metadata/_custom_type_script = "uid://dvytuwg7js148"

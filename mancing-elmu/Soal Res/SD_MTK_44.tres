@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qf58p"]
+
+[resource]
+script = ExtResource("1_qf58p")
+id_soal = 44
+isi_soal = "Sebuah tabung memiliki jari-jari 10 cm dan tinggi 5 cm. Berapakah luas alas tabung tersebut? (Gunakan \\pi = 3,14)"
+pilihan_soal = Array[String](["31,4 cm^2", "314 cm^2", "500 cm^2", "1.570 cm^2"])
+jawaban_soal = 1

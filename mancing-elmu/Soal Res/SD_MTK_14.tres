@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://dnpcbp4bx1in0"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://b771dnnvjp5vp"]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_vhfhd"]
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_3dxl6"]
 
 [resource]
-script = ExtResource("1_vhfhd")
+script = ExtResource("1_3dxl6")
 id_soal = 14
-isi_soal = "Jarak pada peta adalah 5 cm. Jika skala peta 1:100.000, jarak sebenarnya adalah..."
-pilihan_soal = Array[String](["500 m", "5 m", "5 km", "50 km"])
-jawaban_soal = 2
+isi_soal = "Ayah membeli kawat sepanjang 5 meter. Kawat itu digunakan untuk membuat bingkai berbentuk persegi dengan keliling 3 meter. Sisa kawat Ayah adalah..."
+pilihan_soal = Array[String](["1 m", "2 m", "3 m", "4 m"])
+jawaban_soal = 1
 metadata/_custom_type_script = "uid://dvytuwg7js148"

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_k2bs8"]
+
+[resource]
+script = ExtResource("1_k2bs8")
+id_soal = 37
+isi_soal = "Sebuah kebun berbentuk persegi dengan keliling 48 meter. Berapakah panjang sisi kebun tersebut?"
+pilihan_soal = Array[String](["12 m", "16 m", "24 m", "96 m"])

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_6282d"]
+
+[resource]
+script = ExtResource("1_6282d")
+id_soal = 5
+isi_soal = "Suatu bilangan yang terletak 7 satuan di sebelah kanan bilangan −12 pada garis bilangan adalah..."
+pilihan_soal = Array[String](["-19", "-5", "5", "19"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_out01"]
+
+[resource]
+script = ExtResource("1_out01")
+id_soal = 112
+isi_soal = "Lambang sila ke-4 ditempatkan di bagian perisai yang berwarna..."
+pilihan_soal = Array[String](["Merah", "Putih", "Hitam", "Hijau"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_3m1mi"]
+
+[resource]
+script = ExtResource("1_3m1mi")
+id_soal = 56
+isi_soal = "Bentuk pengamalan Pancasila yang paling tepat saat pemilihan ketua kelas adalah..."
+pilihan_soal = Array[String](["Ditunjuk oleh guru", "Musyawarah untuk menentukan", "Diundi secara acak", "Siswa yang paling kaya dipilih"])
+jawaban_soal = 1

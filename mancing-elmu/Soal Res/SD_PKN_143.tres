@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_lp0as"]
+
+[resource]
+script = ExtResource("1_lp0as")
+id_soal = 143
+isi_soal = "Jika ada perbedaan hasil musyawarah, kita harus..."
+pilihan_soal = Array[String](["Mengulang terus", "Menerima keputusan mayoritas", "Mencari jalan tengah (kompromi)", "Membubarkan musyawarah"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_pt31g"]
+
+[resource]
+script = ExtResource("1_pt31g")
+id_soal = 65
+isi_soal = "Dalam lambang Bintang, warna hitam pada latar belakangnya melambangkan..."
+pilihan_soal = Array[String](["Kegelapan", "Kedamaian", "Alam semesta", "Kemakmuran"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jl2lg"]
+
+[resource]
+script = ExtResource("1_jl2lg")
+id_soal = 40
+isi_soal = "Tanggal 1 Juni diperingati sebagai Hari..."
+pilihan_soal = Array[String](["Kemerdekaan", "Kesaktian Pancasila", "Lahir Pancasila", "Sumpah Pemuda"])
+jawaban_soal = 2

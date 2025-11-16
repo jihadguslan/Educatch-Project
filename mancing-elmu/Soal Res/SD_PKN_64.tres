@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_t6mwp"]
+
+[resource]
+script = ExtResource("1_t6mwp")
+id_soal = 64
+isi_soal = "Contoh perilaku yang tidak adil (melanggar Sila 5) di sekolah adalah..."
+pilihan_soal = Array[String](["Memberi tugas yang sama", "Membela teman yang salah", "Meminjamkan pensil", "Membagi kelompok sama rata"])
+jawaban_soal = 1

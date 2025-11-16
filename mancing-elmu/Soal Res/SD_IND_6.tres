@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4asdd"]
+
+[resource]
+script = ExtResource("1_4asdd")
+id_soal = 6
+isi_soal = "Kalimat yang menggunakan kata sandang 'Sang' dengan tepat adalah..."
+pilihan_soal = Array[String](["Sang Harimau sedang berburu di malam hari.", "Sang paman sedang minum kopi.", "Sang anak itu sedang menangis.", "Saya sangat mengagumi Sang guru."])

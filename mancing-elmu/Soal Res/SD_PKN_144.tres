@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_k1ek6"]
+
+[resource]
+script = ExtResource("1_k1ek6")
+id_soal = 144
+isi_soal = "Homogenitas (keseragaman) dalam masyarakat Indonesia bertentangan dengan semboyan..."
+pilihan_soal = Array[String](["Bhinneka Tunggal Ika", "Gotong Royong", "Persatuan Indonesia", "Kerakyatan"])

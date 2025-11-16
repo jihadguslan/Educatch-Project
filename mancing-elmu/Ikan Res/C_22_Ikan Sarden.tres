@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://djywt741nbyxm"]
+
+[ext_resource type="Texture2D" uid="uid://dm0bw54d2c5e5" path="res://Asset/Ikan/Ikan Sarden.png" id="1_dvkir"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_3nn6u"]
+
+[resource]
+script = ExtResource("2_3nn6u")
+id_ikan = 21
+nama_ikan = "Ikan Sarden"
+image_ikan = ExtResource("1_dvkir")
+deskripsi_ikan = "Ikan konsumsi yang dijadikan makanan dalam kalengan. Mampu bertahan hingga kedalaman laut 1000 meter."
+harga_ikan = 2
+posibility = 90
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

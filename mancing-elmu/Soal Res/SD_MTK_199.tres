@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ygy3w"]
+
+[resource]
+script = ExtResource("1_ygy3w")
+id_soal = 199
+isi_soal = "Sebuah sudut refleks memiliki besar..."
+pilihan_soal = Array[String](["Kurang dari $90^\\circ$", "Antara $90^\\circ$ dan $180^\\circ$", "Antara $180^\\circ$ dan $360^\\circ$", "Tepat $360^\\circ$"])
+jawaban_soal = 2

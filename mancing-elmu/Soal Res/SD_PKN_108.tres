@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ids7u"]
+
+[resource]
+script = ExtResource("1_ids7u")
+id_soal = 108
+isi_soal = "Sikap tenggang rasa terhadap tetangga yang sedang berduka adalah contoh penerapan sila ke..."
+pilihan_soal = Array[String](["Satu", "Dua", "Tiga", "Empat"])
+jawaban_soal = 1

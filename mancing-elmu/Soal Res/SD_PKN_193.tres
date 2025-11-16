@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_u88rm"]
+
+[resource]
+script = ExtResource("1_u88rm")
+id_soal = 193
+isi_soal = "Nilai Pancasila harus dijadikan pedoman dalam..."
+pilihan_soal = Array[String](["Berpolitik", "Beribadah", "Bertindak dan berperilaku", "Berpakaian"])
+jawaban_soal = 2

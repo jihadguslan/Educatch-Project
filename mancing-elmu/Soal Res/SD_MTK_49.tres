@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_5tj05"]
+
+[resource]
+script = ExtResource("1_5tj05")
+id_soal = 49
+isi_soal = "Sebuah kubus memiliki volume 64 cm^3. Berapakah panjang rusuk kubus tersebut?"
+pilihan_soal = Array[String](["4 cm", "6 cm", "8 cm", "16 cm"])

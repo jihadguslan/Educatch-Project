@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mqkug"]
+
+[resource]
+script = ExtResource("1_mqkug")
+id_soal = 127
+isi_soal = "Contoh hak di rumah yang harus didapatkan anak adalah..."
+pilihan_soal = Array[String](["Bermain sepanjang hari", "Mendapat kasih sayang", "Memerintah orang tua", "Tidak mau membantu"])
+jawaban_soal = 1

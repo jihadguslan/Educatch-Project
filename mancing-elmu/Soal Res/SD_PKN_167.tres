@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_viviy"]
+
+[resource]
+script = ExtResource("1_viviy")
+id_soal = 167
+isi_soal = "Sikap menjaga keamanan dan ketertiban di lingkungan rumah adalah tanggung jawab..."
+pilihan_soal = Array[String](["Polisi", "Satpam", "Semua anggota keluarga", "Ayah saja"])
+jawaban_soal = 2

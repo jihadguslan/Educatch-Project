@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_r1rmc"]
+
+[resource]
+script = ExtResource("1_r1rmc")
+id_soal = 78
+isi_soal = "Salah satu tugas utama PPKI (Panitia Persiapan Kemerdekaan Indonesia) pada tanggal 18 Agustus 1945 adalah..."
+pilihan_soal = Array[String](["Mengumumkan Proklamasi", "Mengesahkan Pancasila", "Membentuk Tentara Nasional", "Menyusun Kabinet"])
+jawaban_soal = 1

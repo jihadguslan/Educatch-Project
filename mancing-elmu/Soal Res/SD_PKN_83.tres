@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gfj2p"]
+
+[resource]
+script = ExtResource("1_gfj2p")
+id_soal = 83
+isi_soal = "Kemanusiaan yang adil dan beradab artinya kita harus menjadi manusia yang..."
+pilihan_soal = Array[String](["Pintar dan kuat", "Jujur dan hormat", "Kaya dan terkenal", "Egois dan sombong"])
+jawaban_soal = 1

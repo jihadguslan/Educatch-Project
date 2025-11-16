@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_fw1dx"]
+
+[resource]
+script = ExtResource("1_fw1dx")
+id_soal = 82
+isi_soal = "Sebuah sudut lurus memiliki besar..."
+pilihan_soal = Array[String](["90∘", "180∘", "270∘", "360∘"])
+jawaban_soal = 1

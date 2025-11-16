@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_h2u1t"]
+
+[resource]
+script = ExtResource("1_h2u1t")
+id_soal = 130
+isi_soal = "Hasil dari $100 \\div 5 \\times (-2)$ adalah..."
+pilihan_soal = Array[String](["40", "20", "$-20$", "$-40$"])
+jawaban_soal = 3

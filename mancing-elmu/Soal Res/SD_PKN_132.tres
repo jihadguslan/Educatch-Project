@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_xahpc"]
+
+[resource]
+script = ExtResource("1_xahpc")
+id_soal = 132
+isi_soal = "Organisasi yang berperan mengesahkan UUD 1945 dan Pancasila adalah..."
+pilihan_soal = Array[String](["BPUPKI", "KNIP", "PPKI", "MPR"])
+jawaban_soal = 2

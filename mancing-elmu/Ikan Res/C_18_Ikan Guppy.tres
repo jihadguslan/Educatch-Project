@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://d5t64afyj2x8"]
+
+[ext_resource type="Texture2D" uid="uid://bk4nypluqkcah" path="res://Asset/Ikan/Ikan Guppy.png" id="1_btldg"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_ca016"]
+
+[resource]
+script = ExtResource("2_ca016")
+id_ikan = 18
+nama_ikan = "Ikan Guppy"
+image_ikan = ExtResource("1_btldg")
+deskripsi_ikan = "Ikan hias yang banyak dijual dipasar."
+harga_ikan = 2
+posibility = 95
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

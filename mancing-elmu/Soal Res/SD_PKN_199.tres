@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_sdiaq"]
+
+[resource]
+script = ExtResource("1_sdiaq")
+id_soal = 199
+isi_soal = "Di lingkungan masyarakat, kita wajib ikut menjaga..."
+pilihan_soal = Array[String](["Rumah", "Keamanan dan ketertiban", "Diri sendiri", "Barang-barang tetangga"])
+jawaban_soal = 1

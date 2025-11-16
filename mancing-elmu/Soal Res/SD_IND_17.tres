@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mwsvd"]
+
+[resource]
+script = ExtResource("1_mwsvd")
+id_soal = 17
+isi_soal = "Penulisan gelar 'Sarjana Pendidikan' yang tepat adalah..."
+pilihan_soal = Array[String](["S.Pd", "Sarjana Pend.", "S.Pd.", "S.P.D"])
+jawaban_soal = 2

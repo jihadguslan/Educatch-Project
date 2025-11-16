@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gd07u"]
+
+[resource]
+script = ExtResource("1_gd07u")
+id_soal = 89
+isi_soal = "\"Tokoh yang terkenal dengan istilah \"\"Piagam Jakarta\"\" adalah...\""
+pilihan_soal = Array[String](["Soepomo", "Soekarno", "M. Yamin", "M. Hatta"])
+jawaban_soal = 2

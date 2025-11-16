@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://naqfetibwap1"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://b6enrwpb0yhw1"]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_qsevv"]
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_tetwq"]
 
 [resource]
-script = ExtResource("1_qsevv")
+script = ExtResource("1_tetwq")
 id_soal = 20
-isi_soal = "Data nilai ulangan matematika: 7,8,6,9,7,8,9,7,6,8. Modus dari data tersebut adalah..."
-pilihan_soal = Array[String](["6", "7", "7 dan 8", "9"])
-jawaban_soal = 2
+isi_soal = "Di sebuah kelas, 1/5 dari siswa menyukai olahraga sepak bola. Jika jumlah siswa 40 orang, berapa siswa yang menyukai sepak bola?"
+pilihan_soal = Array[String](["5 siswa", "8 siswa", "10 siswa", "20 siswa"])
+jawaban_soal = 1
 metadata/_custom_type_script = "uid://dvytuwg7js148"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ggacm"]
+
+[resource]
+script = ExtResource("1_ggacm")
+id_soal = 4
+isi_soal = "Contoh perilaku yang sesuai dengan sila pertama (Ketuhanan Yang Maha Esa) adalah..."
+pilihan_soal = Array[String](["Bermain bersama", "Beribadah sesuai agama", "Membagi makanan", "Gotong royong"])
+jawaban_soal = 1

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_uh0n6"]
+
+[resource]
+script = ExtResource("1_uh0n6")
+id_soal = 7
+isi_soal = "Penulisan nama tempat yang benar adalah..."
+pilihan_soal = Array[String](["Jalan Pahlawan Nomor 10.", "Jalan pahlawan Nomor 10.", "Jalan Pahlawan nomor 10.", "jalan pahlawan Nomor 10."])

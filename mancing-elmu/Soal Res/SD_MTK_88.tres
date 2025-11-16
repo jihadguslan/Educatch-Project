@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2ljpu"]
+
+[resource]
+script = ExtResource("1_2ljpu")
+id_soal = 88
+isi_soal = "Volume tabung dengan luas alas 100 cm2 dan tinggi 8 cm adalah..."
+pilihan_soal = Array[String](["80 cm3", "108 cm3", "800 cm3", "1000 cm3"])
+jawaban_soal = 2

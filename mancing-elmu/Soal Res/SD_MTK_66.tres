@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_bsgjw"]
+
+[resource]
+script = ExtResource("1_bsgjw")
+id_soal = 66
+isi_soal = "Jarak Jakarta ke Bandung adalah 150 km. Berapakah jarak tersebut dalam satuan hektometer (hm)?"
+pilihan_soal = Array[String](["150 hm", "1.500 hm", "15.000 hm", "150.000 hm"])
+jawaban_soal = 1

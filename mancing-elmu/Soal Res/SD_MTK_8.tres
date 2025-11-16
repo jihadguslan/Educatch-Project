@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_6p2eo"]
+
+[resource]
+script = ExtResource("1_6p2eo")
+id_soal = 8
+isi_soal = "Operasi hitung yang hasilnya paling besar adalah..."
+pilihan_soal = Array[String](["−5×(−6)", "−5+(−6)", "5−6", "6−(−5)"])
+jawaban_soal = 3

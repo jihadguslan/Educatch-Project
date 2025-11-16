@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://c3goai7c5ap1d"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://deb66f3jcc8xu"]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_rmw0j"]
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_g1s7s"]
 
 [resource]
-script = ExtResource("1_rmw0j")
+script = ExtResource("1_g1s7s")
 id_soal = 17
-isi_soal = "Harga 3 pensil adalah Rp7.500,00. Harga 5 pensil adalah..."
-pilihan_soal = Array[String](["Rp18.000,00", "Rp15.000,00", "Rp12.500,00", "Rp10.000,00"])
-jawaban_soal = 2
+isi_soal = "Sebuah balok memiliki panjang 10 cm, lebar 5 cm, dan tinggi 4 cm. Berapakah volume balok tersebut?"
+pilihan_soal = Array[String](["40 cm^3", "50 cm^3", "100 cm^3", "200 cm^3"])
+jawaban_soal = 3
 metadata/_custom_type_script = "uid://dvytuwg7js148"

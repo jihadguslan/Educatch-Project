@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qcrgo"]
+
+[resource]
+script = ExtResource("1_qcrgo")
+id_soal = 43
+isi_soal = "Bentuk mata rantai pada lambang sila kedua adalah..."
+pilihan_soal = Array[String](["Persegi dan Lingkaran", "Segitiga dan Persegi", "Bintang dan Pohon", "Padi dan Kapas"])

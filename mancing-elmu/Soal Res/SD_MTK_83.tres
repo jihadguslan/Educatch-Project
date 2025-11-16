@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_vp55m"]
+
+[resource]
+script = ExtResource("1_vp55m")
+id_soal = 83
+isi_soal = "Tiga tahun yang lalu umur Dini 8 tahun. Berapa umur Dini dua tahun yang akan datang?"
+pilihan_soal = Array[String](["11 tahun", "13 tahun", "15 tahun", "17 tahun"])
+jawaban_soal = 1

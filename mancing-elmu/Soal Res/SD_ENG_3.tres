@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rewbu"]
+
+[resource]
+script = ExtResource("1_rewbu")
+id_soal = 3
+isi_soal = "\"A: \"\"How are you?\"\" B: \"\"...\"\"\""
+pilihan_soal = Array[String](["I am happy.", "I am at home.", "I am great, thank you.", "I am going to school."])
+jawaban_soal = 2

@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bpv5qebd7127f"
+valid=false
+
+[deps]
+
+source_file="res://Asset/Soal/Soal Kelas 6 SD PKN.csv"
+
+[params]
+
+compress=true
+delimiter=0

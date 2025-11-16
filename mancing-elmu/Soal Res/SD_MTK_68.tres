@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_u5uqt"]
+
+[resource]
+script = ExtResource("1_u5uqt")
+id_soal = 68
+isi_soal = "Luas permukaan kubus dengan panjang rusuk 5 cm adalah..."
+pilihan_soal = Array[String](["25 cm2", "100 cm2", "125 cm2", "150 cm2"])
+jawaban_soal = 3

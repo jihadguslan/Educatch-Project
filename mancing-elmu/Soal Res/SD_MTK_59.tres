@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mqu2r"]
+
+[resource]
+script = ExtResource("1_mqu2r")
+id_soal = 59
+isi_soal = "Berapakah hasil dari 25+15−10?"
+pilihan_soal = Array[String](["20", "30", "40", "50"])
+jawaban_soal = 1

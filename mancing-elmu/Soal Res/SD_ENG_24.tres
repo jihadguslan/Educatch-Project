@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4jjt8"]
+
+[resource]
+script = ExtResource("1_4jjt8")
+id_soal = 24
+isi_soal = "The antonym of 'slow' is..."
+pilihan_soal = Array[String](["sad", "small", "fast", "lazy"])
+jawaban_soal = 2

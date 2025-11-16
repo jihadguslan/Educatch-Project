@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://bi2xnca8qe1nd"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://c21syymfoo4nw"]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_n4nwk"]
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_b3d22"]
 
 [resource]
-script = ExtResource("1_n4nwk")
-isi_soal = "Sebuah balok memiliki panjang 10 cm, lebar 5 cm, dan tinggi 3 cm. Volumenya adalah...
-"
-pilihan_soal = Array[String](["18 cm3", "15 cm3", "120 cm3", "150 cm3"])
-jawaban_soal = 3
+script = ExtResource("1_b3d22")
+id_soal = 19
+isi_soal = "Sebuah roda memiliki jari-jari 7 cm. Berapakah keliling roda tersebut? (Gunakan \\pi = 22/7)"
+pilihan_soal = Array[String](["14 cm", "22 cm", "44 cm", "154 cm"])
+jawaban_soal = 2
 metadata/_custom_type_script = "uid://dvytuwg7js148"

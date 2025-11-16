@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_i13nc"]
+
+[resource]
+script = ExtResource("1_i13nc")
+id_soal = 54
+isi_soal = "Jumlah bulu pada pangkal ekor Burung Garuda adalah..."
+pilihan_soal = Array[String](["8", "17", "19", "45"])
+jawaban_soal = 3

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_dysiu"]
+
+[resource]
+script = ExtResource("1_dysiu")
+id_soal = 190
+isi_soal = "Volume prisma yang alasnya segitiga siku-siku (sisi alas 3, tinggi 4) dan tinggi prisma 10 adalah..."
+pilihan_soal = Array[String](["60 $cm^3$", "70 $cm^3$", "120 $cm^3$", "240 $cm^3$"])

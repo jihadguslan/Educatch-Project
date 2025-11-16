@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_do5v4"]
+
+[resource]
+script = ExtResource("1_do5v4")
+id_soal = 14
+isi_soal = "Kalimat yang merupakan kalimat aktif adalah..."
+pilihan_soal = Array[String](["Padi itu ditanam oleh petani.", "Meja itu dibersihkan oleh Rina.", "Ayah memperbaiki mobil di bengkel.", "Bola itu dilempar ke gawang."])
+jawaban_soal = 2

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gixag"]
+
+[resource]
+script = ExtResource("1_gixag")
+id_soal = 49
+isi_soal = "Sila yang tidak memiliki warna dasar merah/putih pada perisainya adalah sila ke..."
+pilihan_soal = Array[String](["Satu (Bintang)", "Dua (Rantai)", "Tiga (Pohon Beringin)", "Lima (Padi dan Kapas)"])

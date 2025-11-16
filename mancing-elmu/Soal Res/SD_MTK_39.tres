@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ubl1h"]
+
+[resource]
+script = ExtResource("1_ubl1h")
+id_soal = 39
+isi_soal = "Tentukan nilai x pada persamaan 3x - 5 = 10."
+pilihan_soal = Array[String](["3", "4", "5", "15"])
+jawaban_soal = 2

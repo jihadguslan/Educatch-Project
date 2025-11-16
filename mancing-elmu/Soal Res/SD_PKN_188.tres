@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wilgi"]
+
+[resource]
+script = ExtResource("1_wilgi")
+id_soal = 188
+isi_soal = "Pohon Beringin melambangkan..."
+pilihan_soal = Array[String](["Kekuatan", "Keadilan", "Tempat berlindung", "Ketuhanan"])
+jawaban_soal = 2

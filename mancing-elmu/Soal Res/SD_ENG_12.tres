@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_5cyag"]
+
+[resource]
+script = ExtResource("1_5cyag")
+id_soal = 12
+isi_soal = "The word 'fifty-five' in number is..."
+pilihan_soal = Array[String](["505", "550", "55", "15"])
+jawaban_soal = 2

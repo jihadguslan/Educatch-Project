@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_pi6f5"]
+
+[resource]
+script = ExtResource("1_pi6f5")
+id_soal = 122
+isi_soal = "Tindakan merusak fasilitas sekolah melanggar kewajiban dan merugikan penerapan nilai sila ke..."
+pilihan_soal = Array[String](["Satu", "Dua", "Tiga", "Lima"])
+jawaban_soal = 3

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_3gk3u"]
+
+[resource]
+script = ExtResource("1_3gk3u")
+id_soal = 9
+isi_soal = "Sila keempat dilambangkan dengan gambar..."
+pilihan_soal = Array[String](["Bintang", "Rantai", "Pohon Beringin", "Kepala Banteng"])
+jawaban_soal = 3

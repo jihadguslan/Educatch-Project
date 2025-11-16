@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_3vm3p"]
+
+[resource]
+script = ExtResource("1_3vm3p")
+id_soal = 6
+isi_soal = "Hasil dari 3³+4³ adalah..."
+pilihan_soal = Array[String](["343", "125", "91", "73"])
+jawaban_soal = 2

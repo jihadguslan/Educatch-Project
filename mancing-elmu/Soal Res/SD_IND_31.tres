@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_by0ur"]
+
+[resource]
+script = ExtResource("1_by0ur")
+id_soal = 31
+isi_soal = "Perhatikan kalimat: Setiap hari, Ayah selalu membaca koran.  Kata keterangan dalam kalimat tersebut adalah..."
+pilihan_soal = Array[String](["Ayah", "Koran", "Membaca", "Setiap hari"])
+jawaban_soal = 3

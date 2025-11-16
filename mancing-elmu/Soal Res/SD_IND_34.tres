@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_fh6fx"]
+
+[resource]
+script = ExtResource("1_fh6fx")
+id_soal = 34
+isi_soal = "Kalimat yang menggunakan tanda titik (.) dengan tepat adalah..."
+pilihan_soal = Array[String](["Pukul 07. 30 pagi.", "Saya lahir pada 27. 05. 2005.", "Jarak rumah ke sekolah adalah 1.500 m.", "Budi pergi ke Jakarta."])
+jawaban_soal = 3

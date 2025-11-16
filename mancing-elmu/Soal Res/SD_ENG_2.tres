@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gr77u"]
+
+[resource]
+script = ExtResource("1_gr77u")
+id_soal = 2
+isi_soal = "\"A: \"\"Hello, my name is Rina. What is your name?\"\" B: \"\"...\"\"\""
+pilihan_soal = Array[String](["I am fine, thank you.", "I live in Jakarta.", "My name is Toni.", "Nice to meet you too."])
+jawaban_soal = 2

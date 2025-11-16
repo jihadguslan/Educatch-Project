@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://dl0b50lptjr4p"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_6mj7d"]
+
+[resource]
+script = ExtResource("1_6mj7d")
+id_soal = 28
+isi_soal = "Bilangan yang berada sebelum angka 70 adalah..."
+pilihan_soal = Array[String](["69", "71", "75", "80"])
+metadata/_custom_type_script = "uid://dvytuwg7js148"

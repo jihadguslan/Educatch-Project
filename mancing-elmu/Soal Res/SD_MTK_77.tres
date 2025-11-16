@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_lfcns"]
+
+[resource]
+script = ExtResource("1_lfcns")
+id_soal = 77
+isi_soal = "Jika arah hadap Udin adalah Timur, kemudian ia berputar 90∘ searah jarum jam, maka ia sekarang menghadap ke arah..."
+pilihan_soal = Array[String](["Utara", "Selatan", "Barat", "Timur"])
+jawaban_soal = 1

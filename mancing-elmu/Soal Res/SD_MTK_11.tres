@@ -1,12 +1,11 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://c0av64c1026os"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://x10qevn31duu"]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_0l4cj"]
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_3j3we"]
 
 [resource]
-script = ExtResource("1_0l4cj")
+script = ExtResource("1_3j3we")
 id_soal = 11
-isi_soal = "20% dari 150.000 rupiah adalah...
-"
-pilihan_soal = Array[String](["15.000", "20.000", "30.000", "40.000"])
+isi_soal = "Selembar kertas berbentuk persegi panjang memiliki panjang 15 cm dan lebar 10 cm. Berapakah luas kertas tersebut?"
+pilihan_soal = Array[String](["50 cm^2", "100 cm^2", "150 cm^2", "250 cm^2"])
 jawaban_soal = 2
 metadata/_custom_type_script = "uid://dvytuwg7js148"

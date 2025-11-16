@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_dk30i"]
+
+[resource]
+script = ExtResource("1_dk30i")
+id_soal = 46
+isi_soal = "Laporan pengamatan harus ditulis berdasarkan..."
+pilihan_soal = Array[String](["Cerita teman", "Dugaan", "Fakta/Data", "Opini pribadi"])
+jawaban_soal = 2

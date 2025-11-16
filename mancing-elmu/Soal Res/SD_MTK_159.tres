@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_f3dqa"]
+
+[resource]
+script = ExtResource("1_f3dqa")
+id_soal = 159
+isi_soal = "Jarak pada peta 8 cm. Skala 1:2.000.000. Jarak sebenarnya adalah..."
+pilihan_soal = Array[String](["16 km", "160 km", "1.600 km", "16.000 km"])
+jawaban_soal = 1

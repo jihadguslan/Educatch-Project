@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_y8bxb"]
+
+[resource]
+script = ExtResource("1_y8bxb")
+id_soal = 118
+isi_soal = "Menghormati guru dan orang yang lebih tua adalah contoh norma..."
+pilihan_soal = Array[String](["Hukum", "Kesusilaan", "Kesopanan", "Agama"])
+jawaban_soal = 2

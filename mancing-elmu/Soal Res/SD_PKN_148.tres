@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_h5d3j"]
+
+[resource]
+script = ExtResource("1_h5d3j")
+id_soal = 148
+isi_soal = "Hak siswa untuk bermain saat istirahat harus diimbangi kewajiban untuk..."
+pilihan_soal = Array[String](["Belajar", "Masuk kelas tepat waktu", "Tidur", "Jajan banyak"])
+jawaban_soal = 1

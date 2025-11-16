@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_3mhgi"]
+
+[resource]
+script = ExtResource("1_3mhgi")
+id_soal = 56
+isi_soal = "Jarak rumah ke pasar adalah 500 meter. Berapa kali langkah jika satu langkah adalah 50 cm?"
+pilihan_soal = Array[String](["100", "500", "1000", "5000"])
+jawaban_soal = 2

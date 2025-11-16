@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jaxau"]
+
+[resource]
+script = ExtResource("1_jaxau")
+id_soal = 50
+isi_soal = "80\\% dari 100 adalah..."
+pilihan_soal = Array[String](["8", "10", "80", "180"])
+jawaban_soal = 2

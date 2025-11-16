@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_u75uh"]
+
+[resource]
+script = ExtResource("1_u75uh")
+id_soal = 120
+isi_soal = "Bunyi sila keempat Pancasila adalah..."
+pilihan_soal = Array[String](["Ketuhanan", "Kemanusiaan", "Persatuan", "Kerakyatan"])
+jawaban_soal = 3

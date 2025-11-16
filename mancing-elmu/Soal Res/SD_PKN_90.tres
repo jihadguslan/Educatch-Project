@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_c847k"]
+
+[resource]
+script = ExtResource("1_c847k")
+id_soal = 90
+isi_soal = "Sila keempat menekankan bahwa pemimpin harus menjalankan tugasnya dengan..."
+pilihan_soal = Array[String](["Kekerasan", "Otoriter", "Hikmat kebijaksanaan", "Memaksa"])
+jawaban_soal = 2

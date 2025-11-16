@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_uwq20"]
+
+[resource]
+script = ExtResource("1_uwq20")
+id_soal = 14
+isi_soal = "Sila kelima Pancasila memiliki lambang berupa..."
+pilihan_soal = Array[String](["Kepala Banteng", "Padi dan Kapas", "Pohon Beringin", "Bintang"])
+jawaban_soal = 1

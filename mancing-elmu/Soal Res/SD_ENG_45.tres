@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_bk1tg"]
+
+[resource]
+script = ExtResource("1_bk1tg")
+id_soal = 45
+isi_soal = "The classroom is ... and quiet. The students are ready to study."
+pilihan_soal = Array[String](["noisy", "dirty", "crowded", "clean"])
+jawaban_soal = 3

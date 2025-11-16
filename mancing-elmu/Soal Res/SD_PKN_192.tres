@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_uqfwc"]
+
+[resource]
+script = ExtResource("1_uqfwc")
+id_soal = 192
+isi_soal = "Lambang Bintang dikelilingi oleh..."
+pilihan_soal = Array[String](["Padi dan Kapas", "Rantai", "Lima sudut", "Warna emas"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_swfq7"]
+
+[resource]
+script = ExtResource("1_swfq7")
+id_soal = 21
+isi_soal = "Di bagian mana dari Burung Garuda Pancasila tertulis semboyan Bhinneka Tunggal Ika?"
+pilihan_soal = Array[String](["Paruh", "Perisai", "Pita", "Kaki"])
+jawaban_soal = 2

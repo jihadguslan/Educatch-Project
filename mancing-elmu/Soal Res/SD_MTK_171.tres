@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2yr4e"]
+
+[resource]
+script = ExtResource("1_2yr4e")
+id_soal = 171
+isi_soal = "Harga satu buku Rp 5.000. Berapa harga 4 buku?"
+pilihan_soal = Array[String](["Rp 9.000", "Rp 15.000", "Rp 20.000", "Rp 25.000"])
+jawaban_soal = 2

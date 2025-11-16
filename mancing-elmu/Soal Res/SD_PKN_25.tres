@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_cuqj5"]
+
+[resource]
+script = ExtResource("1_cuqj5")
+id_soal = 25
+isi_soal = "Kegiatan yang mencerminkan persatuan (Sila 3) di lingkungan rumah adalah..."
+pilihan_soal = Array[String](["Berdoa sebelum makan", "Membagi tugas membersihkan rumah", "Menyelesaikan pekerjaan rumah bersama", "Menghargai pendapat ayah"])
+jawaban_soal = 2

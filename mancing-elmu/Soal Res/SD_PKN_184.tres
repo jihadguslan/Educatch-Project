@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_l0ri1"]
+
+[resource]
+script = ExtResource("1_l0ri1")
+id_soal = 184
+isi_soal = "Sikap anti-asing dan menolak semua budaya luar melanggar nilai..."
+pilihan_soal = Array[String](["Toleransi dan Persatuan", "Keadilan sosial", "Kerakyatan", "Ketuhanan"])

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_b1r13"]
+
+[resource]
+script = ExtResource("1_b1r13")
+id_soal = 136
+isi_soal = "Menyiram tanaman dan membersihkan halaman adalah contoh kewajiban anak di..."
+pilihan_soal = Array[String](["Sekolah", "Rumah", "Lapangan", "Jalan"])
+jawaban_soal = 1

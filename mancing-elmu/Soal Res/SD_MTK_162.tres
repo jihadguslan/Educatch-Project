@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gcijo"]
+
+[resource]
+script = ExtResource("1_gcijo")
+id_soal = 162
+isi_soal = "Lima kelereng dibagikan kepada dua anak. Berapa kelereng yang diterima setiap anak, jika sisanya 1?"
+pilihan_soal = Array[String](["1", "2", "3", "4"])
+jawaban_soal = 1

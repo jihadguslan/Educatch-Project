@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qagfp"]
+
+[resource]
+script = ExtResource("1_qagfp")
+id_soal = 117
+isi_soal = "Sikap berani membela kebenaran (Sila 2) di sekolah dapat diwujudkan dengan..."
+pilihan_soal = Array[String](["Berbohong", "Menyembunyikan kesalahan", "Melaporkan perundungan", "Menyontek"])
+jawaban_soal = 2

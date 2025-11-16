@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jn447"]
+
+[resource]
+script = ExtResource("1_jn447")
+id_soal = 198
+isi_soal = "Tidak menyinggung perasaan orang lain saat berbicara adalah contoh norma..."
+pilihan_soal = Array[String](["Hukum", "Kesopanan", "Agama", "Kesusilaan"])
+jawaban_soal = 1

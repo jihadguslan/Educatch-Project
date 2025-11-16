@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_pj0eb"]
+
+[resource]
+script = ExtResource("1_pj0eb")
+id_soal = 142
+isi_soal = "Keikutsertaan warga negara dalam pemilihan umum adalah wujud kedaulatan rakyat, sesuai sila ke..."
+pilihan_soal = Array[String](["Dua", "Tiga", "Empat", "Lima"])
+jawaban_soal = 2

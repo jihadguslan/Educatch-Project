@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_a4mm4"]
+
+[resource]
+script = ExtResource("1_a4mm4")
+id_soal = 185
+isi_soal = "Keliling persegi dengan panjang sisi 6 cm adalah..."
+pilihan_soal = Array[String](["6 cm", "12 cm", "24 cm", "36 cm"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_uynhm"]
+
+[resource]
+script = ExtResource("1_uynhm")
+id_soal = 170
+isi_soal = "Di sekolah, kita tidak boleh membeda-bedakan teman berdasarkan..."
+pilihan_soal = Array[String](["Kepintaran", "Kekayaan", "Agama atau suku", "Semua benar"])
+jawaban_soal = 3

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_45g4h"]
+
+[resource]
+script = ExtResource("1_45g4h")
+id_soal = 133
+isi_soal = "Bentuk pecahan yang diarsir dari lingkaran yang dibagi 8 sama besar dan 5 diarsir adalah..."
+pilihan_soal = Array[String](["$3/8$", "$5/8$", "$8/5$", "$1/8$"])
+jawaban_soal = 1

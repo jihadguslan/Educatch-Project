@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_sl81v"]
+
+[resource]
+script = ExtResource("1_sl81v")
+id_soal = 32
+isi_soal = "Lambang rantai terdiri dari mata rantai berbentuk persegi dan lingkaran. Bentuk persegi melambangkan..."
+pilihan_soal = Array[String](["Laki-laki", "Perempuan", "Anak-anak", "Orang Tua"])

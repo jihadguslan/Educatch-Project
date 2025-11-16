@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_q8qqf"]
+
+[resource]
+script = ExtResource("1_q8qqf")
+id_soal = 32
+isi_soal = "Penulisan mata uang Rupiah yang benar adalah..."
+pilihan_soal = Array[String](["Rp. 5.000,00", "Rp5.000,00", "Rp5.000", "Rp. 5000.00"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_pn8ew"]
+
+[resource]
+script = ExtResource("1_pn8ew")
+id_soal = 121
+isi_soal = "Salah satu tujuan utama dari Sila Ketiga, Persatuan Indonesia, adalah..."
+pilihan_soal = Array[String](["Menciptakan persaingan", "Menghilangkan perbedaan", "Mencegah perpecahan bangsa", "Mendapatkan kekuasaan"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_1q0x7"]
+
+[resource]
+script = ExtResource("1_1q0x7")
+id_soal = 106
+isi_soal = "Norma yang paling mendasar yang mengatur hubungan manusia dengan Tuhan adalah norma..."
+pilihan_soal = Array[String](["Hukum", "Kesusilaan", "Kesopanan", "Agama"])
+jawaban_soal = 3

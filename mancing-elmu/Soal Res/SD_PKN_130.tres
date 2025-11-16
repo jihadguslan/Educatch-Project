@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wj2ey"]
+
+[resource]
+script = ExtResource("1_wj2ey")
+id_soal = 130
+isi_soal = "Berbicara dengan nada tinggi dan kasar kepada orang tua melanggar norma..."
+pilihan_soal = Array[String](["Agama", "Hukum", "Kesopanan", "Kesusilaan"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_kqfcv"]
+
+[resource]
+script = ExtResource("1_kqfcv")
+id_soal = 151
+isi_soal = "Ayah memberi uang jajan Rp 10.000. Dibelikan es krim Rp 3.000. Berapa sisanya?"
+pilihan_soal = Array[String](["Rp 3.000", "Rp 7.000", "Rp 10.000", "Rp 13.000"])
+jawaban_soal = 1

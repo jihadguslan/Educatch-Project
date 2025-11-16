@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_1dhad"]
+
+[resource]
+script = ExtResource("1_1dhad")
+id_soal = 129
+isi_soal = "Titik $(2, 3)$ berada pada kuadran ke..."
+pilihan_soal = Array[String](["I", "II", "III", "IV"])

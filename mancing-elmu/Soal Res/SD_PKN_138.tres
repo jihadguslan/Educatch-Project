@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_p58kb"]
+
+[resource]
+script = ExtResource("1_p58kb")
+id_soal = 138
+isi_soal = "Bintang emas di lambang Pancasila melambangkan..."
+pilihan_soal = Array[String](["Harapan", "Cahaya", "Emas murni", "Kekuatan"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_v6iv5"]
+
+[resource]
+script = ExtResource("1_v6iv5")
+id_soal = 7
+isi_soal = "Lambang yang menunjukkan sila persatuan Indonesia adalah..."
+pilihan_soal = Array[String](["Rantai", "Pohon Beringin", "Padi dan Kapas", "Kepala Banteng"])
+jawaban_soal = 1

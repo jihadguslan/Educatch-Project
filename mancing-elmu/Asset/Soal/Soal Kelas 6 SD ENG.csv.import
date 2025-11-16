@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://ehaxh0gjhpw"
+valid=false
+
+[deps]
+
+source_file="res://Asset/Soal/Soal Kelas 6 SD ENG.csv"
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_tw4fc"]
+
+[resource]
+script = ExtResource("1_tw4fc")
+id_soal = 75
+isi_soal = "Median (nilai tengah) dari data yang sudah diurutkan: 3,5,6,8,10 adalah..."
+pilihan_soal = Array[String](["5", "6", "8", "10"])
+jawaban_soal = 1

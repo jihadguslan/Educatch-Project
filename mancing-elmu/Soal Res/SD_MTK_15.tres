@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://bx605do8bs4cy"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://cabo23unn37ro"]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_cfau2"]
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_55krs"]
 
 [resource]
-script = ExtResource("1_cfau2")
+script = ExtResource("1_55krs")
 id_soal = 15
-isi_soal = "Sebuah motor menempuh jarak 100 km dalam 2 jam. Kecepatan rata-rata motor tersebut adalah..."
-pilihan_soal = Array[String](["50 km/jam", "20 km/jam", "200 km/jam", "100 km/jam"])
-jawaban_soal = 3
+isi_soal = "Hitunglah hasil dari operasi pecahan: 1/2 + 1/4."
+pilihan_soal = Array[String](["2/6", "3/4", "2/4", "1/8"])
+jawaban_soal = 1
 metadata/_custom_type_script = "uid://dvytuwg7js148"

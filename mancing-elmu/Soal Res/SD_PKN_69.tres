@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ka7vy"]
+
+[resource]
+script = ExtResource("1_ka7vy")
+id_soal = 69
+isi_soal = "Sila keempat adalah satu-satunya sila yang menggunakan kata kunci..."
+pilihan_soal = Array[String](["Beradab", "Persatuan", "Kerakyatan", "Sosial"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7bhgi"]
+
+[resource]
+script = ExtResource("1_7bhgi")
+id_soal = 176
+isi_soal = "Jika perbandingan uang Rina dan Santi adalah 1:3, dan total uang mereka Rp 80.000. Berapa uang Santi?"
+pilihan_soal = Array[String](["Rp 20.000", "Rp 40.000", "Rp 60.000", "Rp 70.000"])
+jawaban_soal = 2

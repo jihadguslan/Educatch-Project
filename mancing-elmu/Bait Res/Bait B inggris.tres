@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="BaitResource" load_steps=3 format=3 uid="uid://1rwj4663xgwk"]
+
+[ext_resource type="Texture2D" uid="uid://df6bxrvtrfcmi" path="res://Asset/Bait/Bait3_FishingFly.png" id="1_r70o4"]
+[ext_resource type="Script" uid="uid://bpej68p0xc5uh" path="res://Script/BaitRes.gd" id="2_r3d0t"]
+
+[resource]
+script = ExtResource("2_r3d0t")
+bait_name = "INGGRIS"
+id = 2
+price = 5
+bait_image = ExtResource("1_r70o4")
+deskripsi = "Local to Globalization"
+metadata/_custom_type_script = "uid://bpej68p0xc5uh"

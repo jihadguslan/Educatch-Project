@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qs0oo"]
+
+[resource]
+script = ExtResource("1_qs0oo")
+id_soal = 197
+isi_soal = "$0,9 \\div 0,3 \\times 10 = \\dots$"
+pilihan_soal = Array[String](["3", "9", "10", "30"])
+jawaban_soal = 3

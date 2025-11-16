@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_trow4"]
+
+[resource]
+script = ExtResource("1_trow4")
+id_soal = 68
+isi_soal = "Jika hasil musyawarah tidak sesuai keinginan, sikap kita adalah..."
+pilihan_soal = Array[String](["Menolak dan protes", "Menerima dengan lapang dada", "Meminta musyawarah ulang", "Marah"])
+jawaban_soal = 1

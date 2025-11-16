@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_y0xfr"]
+
+[resource]
+script = ExtResource("1_y0xfr")
+id_soal = 8
+isi_soal = "If someone introduces you to a new person, you should say..."
+pilihan_soal = Array[String](["See you tomorrow", "Good bye", "Nice to meet you", "Thank you very much"])
+jawaban_soal = 2

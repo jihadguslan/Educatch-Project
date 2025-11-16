@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://dm0pp4a6gtcsn"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://dt5064eyldxpr"]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_rmk8f"]
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_gwy0y"]
 
 [resource]
-script = ExtResource("1_rmk8f")
+script = ExtResource("1_gwy0y")
 id_soal = 13
-isi_soal = "Hasil dari 0,5×0,02 adalah..."
-pilihan_soal = Array[String](["0,1", "0,01", "0,001", "0,0001"])
-jawaban_soal = 1
+isi_soal = "Berapakah bentuk desimal dari pecahan 3/4?"
+pilihan_soal = Array[String](["0,34", "0,50", "0,75", "0,80"])
+jawaban_soal = 2
 metadata/_custom_type_script = "uid://dvytuwg7js148"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rapgd"]
+
+[resource]
+script = ExtResource("1_rapgd")
+id_soal = 89
+isi_soal = "Jika harga 5 pensil adalah Rp. 10.000, berapa harga 1 pensil?"
+pilihan_soal = Array[String](["Rp. 1.000", "Rp. 2.000", "Rp. 5.000", "Rp. 10.000"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_h5to4"]
+
+[resource]
+script = ExtResource("1_h5to4")
+id_soal = 22
+isi_soal = "Andi ... his teeth before sleeping."
+pilihan_soal = Array[String](["brush", "brushes", "brushed", "brushing"])
+jawaban_soal = 1

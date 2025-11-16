@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ak4yr"]
+
+[resource]
+script = ExtResource("1_ak4yr")
+id_soal = 102
+isi_soal = "Norma yang berisi aturan tentang perilaku yang diterima masyarakat berdasarkan kebiasaan turun temurun disebut norma..."
+pilihan_soal = Array[String](["Hukum", "Kesusilaan", "Kesopanan", "Agama"])
+jawaban_soal = 2

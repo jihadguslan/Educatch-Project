@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_f6ajm"]
+
+[resource]
+script = ExtResource("1_f6ajm")
+id_soal = 12
+isi_soal = "Semboyan bangsa Indonesia yang tertulis pada pita yang dicengkeram Burung Garuda adalah..."
+pilihan_soal = Array[String](["Bersatu kita teguh", "Merdeka atau mati", "Bhinneka Tunggal Ika", "Pancasila Abadi"])
+jawaban_soal = 2

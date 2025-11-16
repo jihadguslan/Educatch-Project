@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_042lh"]
+
+[resource]
+script = ExtResource("1_042lh")
+id_soal = 30
+isi_soal = "Jika teman berbeda suku, sikap kita seharusnya..."
+pilihan_soal = Array[String](["Menghindarinya", "Mengejeknya", "Bergaul dengan baik", "Memusuhinya"])
+jawaban_soal = 2

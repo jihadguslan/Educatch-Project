@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_cohr6"]
+
+[resource]
+script = ExtResource("1_cohr6")
+id_soal = 129
+isi_soal = "Sikap sabar mengantre saat ingin membeli makanan di kantin sesuai dengan nilai..."
+pilihan_soal = Array[String](["Keadilan sosial", "Persatuan", "Kerakyatan", "Ketuhanan"])

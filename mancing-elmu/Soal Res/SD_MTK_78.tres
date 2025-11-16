@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_50nmu"]
+
+[resource]
+script = ExtResource("1_50nmu")
+id_soal = 78
+isi_soal = "Segitiga yang semua sisinya tidak sama panjang disebut segitiga..."
+pilihan_soal = Array[String](["Sama sisi", "Sama kaki", "Siku-siku", "Sembarang"])
+jawaban_soal = 3

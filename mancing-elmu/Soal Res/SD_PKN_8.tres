@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_b2ruf"]
+
+[resource]
+script = ExtResource("1_b2ruf")
+id_soal = 8
+isi_soal = "Contoh pengamalan sila ketiga (Persatuan Indonesia) di sekolah adalah..."
+pilihan_soal = Array[String](["Berdoa sebelum belajar", "Menjenguk teman sakit", "Bergaul tanpa membeda-bedakan suku", "Membantu guru"])
+jawaban_soal = 2

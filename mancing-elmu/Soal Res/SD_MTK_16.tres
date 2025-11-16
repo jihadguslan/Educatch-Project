@@ -1,10 +1,11 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://c4llhv8bas37y"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://cf21nunmephuv"]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_wau2k"]
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_h3oa5"]
 
 [resource]
-script = ExtResource("1_wau2k")
+script = ExtResource("1_h3oa5")
 id_soal = 16
-isi_soal = "Sebuah mobil mengisi bensin 20 liter dalam 5 menit. Debit pengisian bensin adalah..."
-pilihan_soal = Array[String](["5 liter/menit", "10 liter/menit", "4 liter/menit", "2 liter/menit"])
+isi_soal = "Berapakah keliling sebuah segitiga sama sisi jika panjang salah satu sisinya adalah 12 cm?"
+pilihan_soal = Array[String](["12 cm", "24 cm", "36 cm", "48 cm"])
+jawaban_soal = 2
 metadata/_custom_type_script = "uid://dvytuwg7js148"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_5hgco"]
+
+[resource]
+script = ExtResource("1_5hgco")
+id_soal = 145
+isi_soal = "Dalam Pancasila, hak asasi manusia dijamin dan tidak boleh..."
+pilihan_soal = Array[String](["Ditertibkan", "Dilindungi", "Dilanggar", "Dilaksanakan"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ixygh"]
+
+[resource]
+script = ExtResource("1_ixygh")
+id_soal = 91
+isi_soal = "Membantu orang tua membersihkan rumah termasuk kewajiban di lingkungan..."
+pilihan_soal = Array[String](["Sekolah", "Masyarakat", "Rumah", "Masjid"])
+jawaban_soal = 2

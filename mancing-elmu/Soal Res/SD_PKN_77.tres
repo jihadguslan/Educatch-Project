@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_xhba8"]
+
+[resource]
+script = ExtResource("1_xhba8")
+id_soal = 77
+isi_soal = "Menghindari sikap pamer kekayaan atau jabatan termasuk pengamalan sila ke..."
+pilihan_soal = Array[String](["Dua", "Tiga", "Empat", "Lima"])
+jawaban_soal = 3

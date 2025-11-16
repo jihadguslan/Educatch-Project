@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gypgw"]
+
+[resource]
+script = ExtResource("1_gypgw")
+id_soal = 39
+isi_soal = "I have a ball. The shape of the ball is..."
+pilihan_soal = Array[String](["square", "triangle", "round", "straight"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_tg8ml"]
+
+[resource]
+script = ExtResource("1_tg8ml")
+id_soal = 155
+isi_soal = "Sikap egois (mementingkan diri sendiri) bertentangan dengan semua sila, terutama sila ke..."
+pilihan_soal = Array[String](["Satu", "Dua dan Lima", "Tiga dan Empat", "Satu dan Tiga"])
+jawaban_soal = 1

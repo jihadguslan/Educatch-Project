@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7k2ic"]
+
+[resource]
+script = ExtResource("1_7k2ic")
+id_soal = 52
+isi_soal = "Di sekolah, kita sebaiknya menggunakan bahasa..."
+pilihan_soal = Array[String](["Inggris", "Bahasa daerah", "Bahasa Indonesia yang baik", "Bahasa asing"])
+jawaban_soal = 2

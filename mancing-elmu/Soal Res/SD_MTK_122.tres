@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_x5co5"]
+
+[resource]
+script = ExtResource("1_x5co5")
+id_soal = 122
+isi_soal = "Bentuk pecahan campuran dari $5/2$ adalah..."
+pilihan_soal = Array[String](["$1 \\frac{1}{2}$", "$2 \\frac{1}{2}$", "$5 \\frac{1}{2}$", "$2 \\frac{2}{5}$"])
+jawaban_soal = 1

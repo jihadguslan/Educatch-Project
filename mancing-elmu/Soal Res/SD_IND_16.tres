@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ia8nw"]
+
+[resource]
+script = ExtResource("1_ia8nw")
+id_soal = 16
+isi_soal = "Tanda baca yang digunakan untuk memisahkan unsur-unsur dalam suatu perincian adalah..."
+pilihan_soal = Array[String](["Titik (.)", "Titik dua (:)", "Koma (,)", "Tanda tanya (?)"])
+jawaban_soal = 2

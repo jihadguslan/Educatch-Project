@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_f07vs"]
+
+[resource]
+script = ExtResource("1_f07vs")
+id_soal = 31
+isi_soal = "Nilai kemanusiaan yang adil dan beradab menghendaki adanya pengakuan terhadap..."
+pilihan_soal = Array[String](["Perbedaan status", "Derajat yang sama", "Kekuatan fisik", "Kekayaan"])
+jawaban_soal = 1

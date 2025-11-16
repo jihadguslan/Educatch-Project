@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_176o1"]
+
+[resource]
+script = ExtResource("1_176o1")
+id_soal = 42
+isi_soal = "The clouds are ... and the sky is blue."
+pilihan_soal = Array[String](["black", "dark", "white", "purple"])
+jawaban_soal = 2

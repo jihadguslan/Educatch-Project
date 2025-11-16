@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4o3f2"]
+
+[resource]
+script = ExtResource("1_4o3f2")
+id_soal = 69
+isi_soal = "Sebuah persegi panjang memiliki perbandingan panjang dan lebar 3:2. Jika lebarnya 10 cm, berapa panjangnya?"
+pilihan_soal = Array[String](["12 cm", "15 cm", "20 cm", "30 cm"])
+jawaban_soal = 1

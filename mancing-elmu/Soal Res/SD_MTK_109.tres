@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_6j0h1"]
+
+[resource]
+script = ExtResource("1_6j0h1")
+id_soal = 109
+isi_soal = "Di sebuah akuarium ada 10 ikan. 3 ikan berwarna merah dan sisanya biru. Berapa ikan biru?"
+pilihan_soal = Array[String](["3", "7", "10", "13"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gyrw7"]
+
+[resource]
+script = ExtResource("1_gyrw7")
+id_soal = 186
+isi_soal = "Jika kita ingin maju, kita harus giat..."
+pilihan_soal = Array[String](["Bermain", "Berbohong", "Belajar", "Tidur"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_a0k87"]
+
+[resource]
+script = ExtResource("1_a0k87")
+id_soal = 177
+isi_soal = "Hak untuk dihormati oleh orang lain adalah wujud dari sila ke..."
+pilihan_soal = Array[String](["Satu", "Dua", "Tiga", "Empat"])
+jawaban_soal = 1

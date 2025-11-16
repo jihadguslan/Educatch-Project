@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_uw2uo"]
+
+[resource]
+script = ExtResource("1_uw2uo")
+id_soal = 25
+isi_soal = "Kalimat tanya yang jawabannya berupa alasan atau sebab adalah kalimat tanya yang menggunakan kata..."
+pilihan_soal = Array[String](["Apa", "Kapan", "Siapa", "Mengapa"])
+jawaban_soal = 3

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3yjqiugg1sxj"]
+
+[ext_resource type="Script" uid="uid://drqilfblt11of" path="res://Script/soal_maker.gd" id="1_73kj6"]
+
+[node name="CSVSoalImporter" type="Node"]
+script = ExtResource("1_73kj6")
+csvPath = "res://Asset/Soal/Soal Kelas 6 SD MTK.csv"
+nama_soal = "MTK"

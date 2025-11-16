@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0iiqc"]
+
+[resource]
+script = ExtResource("1_0iiqc")
+id_soal = 33
+isi_soal = "Sila Persatuan Indonesia merupakan landasan bagi kita untuk mengutamakan kepentingan..."
+pilihan_soal = Array[String](["Pribadi", "Golongan", "Bersama/Negara", "Daerah"])
+jawaban_soal = 2

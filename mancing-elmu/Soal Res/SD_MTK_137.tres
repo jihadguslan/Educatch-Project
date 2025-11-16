@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_snh7f"]
+
+[resource]
+script = ExtResource("1_snh7f")
+id_soal = 137
+isi_soal = "Jarak sesungguhnya 50 km. Skala 1:1.000.000. Berapa jarak pada peta?"
+pilihan_soal = Array[String](["5 cm", "10 cm", "50 cm", "100 cm"])

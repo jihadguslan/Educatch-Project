@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_b0dbo"]
+
+[resource]
+script = ExtResource("1_b0dbo")
+id_soal = 27
+isi_soal = "Makna konotasi kata 'bunga' dalam kalimat 'Kakak mendapatkan bunga bank setiap bulan' adalah..."
+pilihan_soal = Array[String](["Imbalan jasa", "Kuntum tanaman", "Wanita cantik", "Hadiah"])

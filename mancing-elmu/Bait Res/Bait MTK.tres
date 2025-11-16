@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="BaitResource" load_steps=3 format=3 uid="uid://b504smy5e5fcr"]
+
+[ext_resource type="Texture2D" uid="uid://7q3rv1gbkhe3" path="res://Asset/Bait/Bait2_WiglyWorm.png" id="1_b32gn"]
+[ext_resource type="Script" uid="uid://bpej68p0xc5uh" path="res://Script/BaitRes.gd" id="2_na2k4"]
+
+[resource]
+script = ExtResource("2_na2k4")
+bait_name = "MTK"
+id = 1
+price = 3
+bait_image = ExtResource("1_b32gn")
+deskripsi = "Perhitungan dan pengalaman dunia nyata soal akurasi nilai dan bilangan."
+metadata/_custom_type_script = "uid://bpej68p0xc5uh"

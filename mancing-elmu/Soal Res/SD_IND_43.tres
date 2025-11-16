@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0hpsw"]
+
+[resource]
+script = ExtResource("1_0hpsw")
+id_soal = 43
+isi_soal = "Kalimat yang menyatakan fakta adalah..."
+pilihan_soal = Array[String](["Pohon di sana pasti berbuah manis.", "Bulan mengelilingi Bumi.", "Dia adalah siswa terpandai di kelas.", "Membaca buku lebih baik dari bermain."])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_oxqnp"]
+
+[resource]
+script = ExtResource("1_oxqnp")
+id_soal = 41
+isi_soal = "Sebuah sudut tumpul memiliki besar..."
+pilihan_soal = Array[String](["Kurang dari 90°", "Tepat 90°", "Lebih dari 90°", "Lebih dari 180°"])
+jawaban_soal = 2

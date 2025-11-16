@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0gmcf"]
+
+[resource]
+script = ExtResource("1_0gmcf")
+id_soal = 196
+isi_soal = "Hasil dari $\\sqrt{121} + 3^2$ adalah..."
+pilihan_soal = Array[String](["14", "20", "25", "32"])
+jawaban_soal = 1

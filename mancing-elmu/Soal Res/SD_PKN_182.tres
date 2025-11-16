@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_xg3ek"]
+
+[resource]
+script = ExtResource("1_xg3ek")
+id_soal = 182
+isi_soal = "Nilai ketuhanan dalam Pancasila bersifat universal, artinya..."
+pilihan_soal = Array[String](["Hanya berlaku di Indonesia", "Berlaku untuk semua agama yang diakui", "Hanya berlaku untuk agama mayoritas", "Berlaku untuk satu agama saja"])
+jawaban_soal = 1

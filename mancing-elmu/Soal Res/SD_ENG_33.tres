@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ojbpp"]
+
+[resource]
+script = ExtResource("1_ojbpp")
+id_soal = 33
+isi_soal = "The place where you can borrow books is a ...."
+pilihan_soal = Array[String](["cinema", "stadium", "library", "parking lot"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_624lm"]
+
+[resource]
+script = ExtResource("1_624lm")
+id_soal = 79
+isi_soal = "Sila yang menjadi payung bagi sila-sila lainnya adalah sila ke..."
+pilihan_soal = Array[String](["Lima", "Empat", "Tiga", "Satu"])
+jawaban_soal = 2

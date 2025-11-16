@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_hx8dd"]
+
+[resource]
+script = ExtResource("1_hx8dd")
+id_soal = 49
+isi_soal = "Kalimat yang mengandung majas perbandingan (simile) adalah..."
+pilihan_soal = Array[String](["Hati Rina sekeras batu.", "Senyumnya manis seperti gula.", "Dia adalah bintang kelas.", "Angin berbisik padaku."])
+jawaban_soal = 1

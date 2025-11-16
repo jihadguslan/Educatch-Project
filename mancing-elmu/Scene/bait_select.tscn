@@ -1,13 +1,65 @@
-[gd_scene load_steps=14 format=3 uid="uid://jg646ryb8q4"]
+[gd_scene load_steps=30 format=3 uid="uid://jg646ryb8q4"]
 
 [ext_resource type="Script" uid="uid://btf818uy8b0w7" path="res://Script/bait_select.gd" id="1_7l5nn"]
 [ext_resource type="Texture2D" uid="uid://bb0wnh6ehs4r1" path="res://Asset/CusButton Hor.png" id="2_5k464"]
+[ext_resource type="Resource" uid="uid://cwhv26ygy24nm" path="res://Bait Res/Bait PKN.tres" id="2_mqown"]
+[ext_resource type="Texture2D" uid="uid://xuf0uo7yso3b" path="res://Asset/Bait/Bait1_ShrimpLure.png" id="3_0utir"]
+[ext_resource type="Resource" uid="uid://b504smy5e5fcr" path="res://Bait Res/Bait MTK.tres" id="3_4w8b2"]
+[ext_resource type="Texture2D" uid="uid://qwqhhfpf5ef3" path="res://Asset/base_button (large).png" id="3_5k464"]
 [ext_resource type="Texture2D" uid="uid://b8kyvg20vfur3" path="res://Asset/CusButton Nor.png" id="3_hgc15"]
 [ext_resource type="FontFile" uid="uid://dkiqel2g0cuv1" path="res://Font/DePixelHalbfett.otf" id="4_0utir"]
+[ext_resource type="Resource" uid="uid://1rwj4663xgwk" path="res://Bait Res/Bait B inggris.tres" id="4_5psaf"]
+[ext_resource type="Resource" uid="uid://yr8kqx361ttr" path="res://Bait Res/Bait B indonesia.tres" id="5_4kiqt"]
 [ext_resource type="Texture2D" uid="uid://dshhola2cf0ed" path="res://Asset/BaseButton.png" id="5_8t83w"]
+[ext_resource type="Texture2D" uid="uid://cfeebj6bi4nrs" path="res://Asset/Bait/Bait4_ShinyFlashy.png" id="5_hgc15"]
+[ext_resource type="Script" uid="uid://lwguw84hli5h" path="res://Script/bait_button.gd" id="8_4w8b2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l0cs4"]
 texture = ExtResource("2_5k464")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4w8b2"]
+texture = ExtResource("3_5k464")
+texture_margin_left = 25.0
+texture_margin_top = 25.0
+texture_margin_right = 25.0
+texture_margin_bottom = 25.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5psaf"]
+texture = ExtResource("3_5k464")
+texture_margin_left = 25.0
+texture_margin_top = 25.0
+texture_margin_right = 25.0
+texture_margin_bottom = 25.0
+modulate_color = Color(0.1955451, 0.1955451, 0.19554508, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4kiqt"]
+texture = ExtResource("3_5k464")
+texture_margin_left = 25.0
+texture_margin_top = 25.0
+texture_margin_right = 25.0
+texture_margin_bottom = 25.0
+modulate_color = Color(2.3778708, 2.3778708, 2.3778708, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dv4et"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hgc15"]
+texture = ExtResource("3_5k464")
+texture_margin_left = 25.0
+texture_margin_top = 25.0
+texture_margin_right = 25.0
+texture_margin_bottom = 25.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_0utir"]
+font = ExtResource("4_0utir")
+font_size = 15
+
+[sub_resource type="LabelSettings" id="LabelSettings_4w8b2"]
+font = ExtResource("4_0utir")
+font_size = 12
+
+[sub_resource type="LabelSettings" id="LabelSettings_5psaf"]
+font = ExtResource("4_0utir")
+font_size = 10
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tx2ld"]
 texture = ExtResource("3_hgc15")
@@ -49,6 +101,7 @@ offset_bottom = 785.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_7l5nn")
+bait_res = Array[Resource]([ExtResource("2_mqown"), ExtResource("3_4w8b2"), ExtResource("4_5psaf"), ExtResource("5_4kiqt")])
 
 [node name="Control" type="Control" parent="."]
 custom_minimum_size = Vector2(919.1111, 517)
@@ -75,11 +128,154 @@ grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_l0cs4")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Control/Panel"]
-layout_mode = 0
-offset_left = 72.55554
-offset_top = 78.5
-offset_right = 260.55554
-offset_bottom = 431.5
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.07676498
+anchor_top = 0.16731142
+anchor_right = 0.28348646
+anchor_bottom = 0.8210832
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="Control/Panel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_0utir")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxTexture_4w8b2")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_5psaf")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4kiqt")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dv4et")
+text = "1"
+icon = ExtResource("3_0utir")
+expand_icon = true
+script = ExtResource("8_4w8b2")
+
+[node name="Button2" type="Button" parent="Control/Panel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_0utir")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxTexture_4w8b2")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_5psaf")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4kiqt")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dv4et")
+text = "1"
+icon = ExtResource("3_0utir")
+expand_icon = true
+script = ExtResource("8_4w8b2")
+
+[node name="Button3" type="Button" parent="Control/Panel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_0utir")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxTexture_4w8b2")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_5psaf")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4kiqt")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dv4et")
+text = "1"
+icon = ExtResource("3_0utir")
+expand_icon = true
+script = ExtResource("8_4w8b2")
+
+[node name="Button4" type="Button" parent="Control/Panel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_0utir")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxTexture_4w8b2")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_5psaf")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4kiqt")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dv4et")
+text = "1"
+icon = ExtResource("3_0utir")
+expand_icon = true
+script = ExtResource("8_4w8b2")
+
+[node name="Panel" type="Panel" parent="Control/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.29436654
+anchor_top = 0.16150871
+anchor_right = 0.92867506
+anchor_bottom = 0.82495165
+theme_override_styles/panel = SubResource("StyleBoxTexture_hgc15")
+metadata/_edit_use_anchors_ = true
+
+[node name="posibility" type="Label" parent="Control/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.04974271
+anchor_top = 0.072886296
+anchor_right = 0.48885077
+anchor_bottom = 0.13119534
+text = "Posibility :"
+label_settings = SubResource("LabelSettings_0utir")
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="FlowContainer" type="FlowContainer" parent="Control/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.042881645
+anchor_top = 0.17201166
+anchor_right = 0.44939965
+anchor_bottom = 0.9183673
+offset_right = 237.0
+offset_bottom = 256.0
+scale = Vector2(0.5, 0.5)
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect" type="TextureRect" parent="Control/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.46655232
+anchor_top = 0.08454811
+anchor_right = 0.95197254
+anchor_bottom = 0.4431487
+texture = ExtResource("5_hgc15")
+expand_mode = 1
+stretch_mode = 6
+metadata/_edit_use_anchors_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.47512865
+anchor_top = 0.5102041
+anchor_right = 0.9433962
+anchor_bottom = 0.92419827
+metadata/_edit_group_ = true
+metadata/_edit_use_anchors_ = true
+
+[node name="nama" type="Label" parent="Control/Panel/Panel/VBoxContainer"]
+custom_minimum_size = Vector2(273, 20)
+layout_mode = 2
+text = "Nama :"
+label_settings = SubResource("LabelSettings_4w8b2")
+autowrap_mode = 2
+
+[node name="Sisa" type="Label" parent="Control/Panel/Panel/VBoxContainer"]
+custom_minimum_size = Vector2(273, 20)
+layout_mode = 2
+text = "Sisa"
+label_settings = SubResource("LabelSettings_4w8b2")
+autowrap_mode = 2
+
+[node name="Harga" type="Label" parent="Control/Panel/Panel/VBoxContainer"]
+custom_minimum_size = Vector2(273, 20)
+layout_mode = 2
+text = "Harga :"
+label_settings = SubResource("LabelSettings_4w8b2")
+autowrap_mode = 2
+
+[node name="Deskripsi" type="Label" parent="Control/Panel/Panel/VBoxContainer"]
+custom_minimum_size = Vector2(273, 40.47)
+layout_mode = 2
+size_flags_vertical = 3
+text = "Deskripsi :"
+label_settings = SubResource("LabelSettings_5psaf")
+autowrap_mode = 2
 
 [node name="Label" type="Label" parent="Control"]
 custom_minimum_size = Vector2(316, 61)
@@ -120,9 +316,9 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -120.0
+offset_left = -364.0
 offset_top = -58.5
-offset_right = 120.0
+offset_right = 364.0
 offset_bottom = -6.5
 grow_horizontal = 2
 grow_vertical = 0
@@ -141,7 +337,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_bsjbf")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_e6ivd")
 text = "Kembali"
 
-[node name="Sell" type="Button" parent="Control/HBoxContainer"]
+[node name="Buy1" type="Button" parent="Control/HBoxContainer"]
 custom_minimum_size = Vector2(240, 52)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -152,29 +348,25 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_3cxyc")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_67a4o")
 theme_override_styles/hover = SubResource("StyleBoxTexture_bsjbf")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_e6ivd")
-text = "Jual"
+text = "Beli 1"
 
-[node name="Scroll" type="ScrollContainer" parent="Control"]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -378.0
-offset_top = -185.0
-offset_right = 378.0
-offset_bottom = 184.0
-grow_horizontal = 2
-grow_vertical = 2
-horizontal_scroll_mode = 0
-metadata/_edit_group_ = true
-
-[node name="FlowContainer" type="FlowContainer" parent="Control/Scroll"]
-clip_contents = true
+[node name="Buy10" type="Button" parent="Control/HBoxContainer"]
+custom_minimum_size = Vector2(240, 52)
 layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_0utir")
+theme_override_styles/normal = SubResource("StyleBoxTexture_3cxyc")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_67a4o")
+theme_override_styles/hover = SubResource("StyleBoxTexture_bsjbf")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_e6ivd")
+text = "Beli 10"
 
+[connection signal="button_up" from="Control/Panel/VBoxContainer/Button" to="Control/Panel/VBoxContainer/Button" method="_on_button_up"]
+[connection signal="button_up" from="Control/Panel/VBoxContainer/Button2" to="Control/Panel/VBoxContainer/Button2" method="_on_button_up"]
+[connection signal="button_up" from="Control/Panel/VBoxContainer/Button3" to="Control/Panel/VBoxContainer/Button3" method="_on_button_up"]
+[connection signal="button_up" from="Control/Panel/VBoxContainer/Button4" to="Control/Panel/VBoxContainer/Button4" method="_on_button_up"]
 [connection signal="button_up" from="Control/HBoxContainer/Back" to="." method="_on_back_button_up"]
-[connection signal="button_up" from="Control/HBoxContainer/Sell" to="." method="_on_sell_button_up"]
+[connection signal="button_up" from="Control/HBoxContainer/Buy1" to="." method="_on_buy_button_up"]
+[connection signal="button_up" from="Control/HBoxContainer/Buy10" to="." method="_on_buy_10_button_up"]

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_d1mqy"]
+
+[resource]
+script = ExtResource("1_d1mqy")
+id_soal = 45
+isi_soal = "Kata 'ter-mahal' merupakan contoh kata berimbuhan yang bermakna..."
+pilihan_soal = Array[String](["Paling", "Tidak sengaja", "Sudah terjadi", "Tempat"])

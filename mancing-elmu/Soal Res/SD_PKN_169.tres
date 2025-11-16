@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_yx02m"]
+
+[resource]
+script = ExtResource("1_yx02m")
+id_soal = 169
+isi_soal = "Contoh perilaku yang merusak persatuan (Sila 3) adalah..."
+pilihan_soal = Array[String](["Bermusuhan", "Berjabat tangan", "Membantu", "Berbagi"])
