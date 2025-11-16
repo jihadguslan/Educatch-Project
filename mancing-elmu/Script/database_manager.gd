@@ -1,6 +1,6 @@
 extends Node
 
-var _bank_soal = []
+var _bank_soal = {"SD_PKN" : [], "SD_MTK" : [], "SD_ENG" : [], "SD_IND" : []}
 var _all_fish = []
 
 # Called when the node enters the scene tree for the first time.
@@ -17,10 +17,15 @@ func load_bank_soal():
 		while file_name != "":
 			if not dir.current_is_dir():
 				var res = load(path + fix_res_name(file_name))
+				var id_name = fix_res_name(file_name)
 				if res :
-					_bank_soal.append(res)
+					#_bank_soal.append(res)'
+					for i in _bank_soal:
+						if id_name.begins_with(i):
+							_bank_soal[i].append(res)
 			file_name = dir.get_next()
 		dir.list_dir_end()
+		#print(_bank_soal)
 	else :
 		push_error("Folder tidak ada!!" + path)
 	
@@ -48,7 +53,7 @@ func fix_res_name(string_name : String) -> String:
 		return result
 	return string_name
 	
-func _get_bank_soal() -> Array:
+func _get_bank_soal() -> Dictionary:
 	return _bank_soal.duplicate()
 	
 func _get_semua_ikan() -> Array:

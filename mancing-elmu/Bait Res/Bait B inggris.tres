@@ -5,7 +5,8 @@
 
 [resource]
 script = ExtResource("2_r3d0t")
-bait_name = "INGGRIS"
+bait_name = "Inggris"
+kode_soal = "ENG"
 id = 2
 price = 5
 bait_image = ExtResource("1_r70o4")

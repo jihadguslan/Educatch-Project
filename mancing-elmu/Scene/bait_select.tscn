@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=3 uid="uid://jg646ryb8q4"]
+[gd_scene load_steps=29 format=3 uid="uid://jg646ryb8q4"]
 
 [ext_resource type="Script" uid="uid://btf818uy8b0w7" path="res://Script/bait_select.gd" id="1_7l5nn"]
 [ext_resource type="Texture2D" uid="uid://bb0wnh6ehs4r1" path="res://Asset/CusButton Hor.png" id="2_5k464"]
@@ -11,7 +11,6 @@
 [ext_resource type="Resource" uid="uid://1rwj4663xgwk" path="res://Bait Res/Bait B inggris.tres" id="4_5psaf"]
 [ext_resource type="Resource" uid="uid://yr8kqx361ttr" path="res://Bait Res/Bait B indonesia.tres" id="5_4kiqt"]
 [ext_resource type="Texture2D" uid="uid://dshhola2cf0ed" path="res://Asset/BaseButton.png" id="5_8t83w"]
-[ext_resource type="Texture2D" uid="uid://cfeebj6bi4nrs" path="res://Asset/Bait/Bait4_ShinyFlashy.png" id="5_hgc15"]
 [ext_resource type="Script" uid="uid://lwguw84hli5h" path="res://Script/bait_button.gd" id="8_4w8b2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l0cs4"]
@@ -132,7 +131,7 @@ layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.07676498
 anchor_top = 0.16731142
-anchor_right = 0.28348646
+anchor_right = 0.19753385
 anchor_bottom = 0.8210832
 metadata/_edit_use_anchors_ = true
 
@@ -147,6 +146,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_4kiqt")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_dv4et")
 text = "1"
 icon = ExtResource("3_0utir")
+alignment = 2
 expand_icon = true
 script = ExtResource("8_4w8b2")
 
@@ -161,6 +161,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_4kiqt")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_dv4et")
 text = "1"
 icon = ExtResource("3_0utir")
+alignment = 2
 expand_icon = true
 script = ExtResource("8_4w8b2")
 
@@ -175,6 +176,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_4kiqt")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_dv4et")
 text = "1"
 icon = ExtResource("3_0utir")
+alignment = 2
 expand_icon = true
 script = ExtResource("8_4w8b2")
 
@@ -189,13 +191,14 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_4kiqt")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_dv4et")
 text = "1"
 icon = ExtResource("3_0utir")
+alignment = 2
 expand_icon = true
 script = ExtResource("8_4w8b2")
 
 [node name="Panel" type="Panel" parent="Control/Panel"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.29436654
+anchor_left = 0.22364603
 anchor_top = 0.16150871
 anchor_right = 0.92867506
 anchor_bottom = 0.82495165
@@ -219,10 +222,12 @@ layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.042881645
 anchor_top = 0.17201166
-anchor_right = 0.44939965
+anchor_right = 0.4521605
 anchor_bottom = 0.9183673
-offset_right = 237.0
+offset_right = 265.2127
 offset_bottom = 256.0
+grow_horizontal = 2
+grow_vertical = 2
 scale = Vector2(0.5, 0.5)
 metadata/_edit_use_anchors_ = true
 
@@ -233,9 +238,8 @@ anchor_left = 0.46655232
 anchor_top = 0.08454811
 anchor_right = 0.95197254
 anchor_bottom = 0.4431487
-texture = ExtResource("5_hgc15")
 expand_mode = 1
-stretch_mode = 6
+stretch_mode = 5
 metadata/_edit_use_anchors_ = true
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Control/Panel/Panel"]
@@ -251,21 +255,18 @@ metadata/_edit_use_anchors_ = true
 [node name="nama" type="Label" parent="Control/Panel/Panel/VBoxContainer"]
 custom_minimum_size = Vector2(273, 20)
 layout_mode = 2
-text = "Nama :"
 label_settings = SubResource("LabelSettings_4w8b2")
 autowrap_mode = 2
 
 [node name="Sisa" type="Label" parent="Control/Panel/Panel/VBoxContainer"]
 custom_minimum_size = Vector2(273, 20)
 layout_mode = 2
-text = "Sisa"
 label_settings = SubResource("LabelSettings_4w8b2")
 autowrap_mode = 2
 
 [node name="Harga" type="Label" parent="Control/Panel/Panel/VBoxContainer"]
 custom_minimum_size = Vector2(273, 20)
 layout_mode = 2
-text = "Harga :"
 label_settings = SubResource("LabelSettings_4w8b2")
 autowrap_mode = 2
 
@@ -273,7 +274,6 @@ autowrap_mode = 2
 custom_minimum_size = Vector2(273, 40.47)
 layout_mode = 2
 size_flags_vertical = 3
-text = "Deskripsi :"
 label_settings = SubResource("LabelSettings_5psaf")
 autowrap_mode = 2
 

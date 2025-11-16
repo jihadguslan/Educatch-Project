@@ -1,61 +1,66 @@
-[gd_scene load_steps=5 format=3 uid="uid://s57q5gmg4xge"]
+[gd_scene load_steps=7 format=3 uid="uid://s57q5gmg4xge"]
 
 [ext_resource type="Script" uid="uid://dxkhgf4qpbm2a" path="res://Script/notif_ikan.gd" id="1_djtum"]
 [ext_resource type="Texture2D" uid="uid://baghuwe5y03l0" path="res://Asset/Ikan 2.png" id="2_dviqu"]
+[ext_resource type="Texture2D" uid="uid://b8kyvg20vfur3" path="res://Asset/CusButton Nor.png" id="2_oowcl"]
 [ext_resource type="FontFile" uid="uid://cil3lev67dav2" path="res://Font/Pix32.ttf" id="3_dviqu"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rusl4"]
+content_margin_left = 60.0
+content_margin_right = 20.0
+content_margin_bottom = 15.0
+texture = ExtResource("2_oowcl")
+texture_margin_left = 15.0
+texture_margin_top = 10.0
+texture_margin_right = 15.0
+texture_margin_bottom = 10.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
 
 [sub_resource type="LabelSettings" id="LabelSettings_oowcl"]
 font = ExtResource("3_dviqu")
 font_size = 20
 
-[node name="notif_ikan" type="Control"]
-custom_minimum_size = Vector2(228, 36)
+[node name="notif" type="Control"]
+custom_minimum_size = Vector2(169, 36)
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -114.0
+offset_left = -84.5
 offset_top = -18.0
-offset_right = 114.0
+offset_right = 84.5
 offset_bottom = 18.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_djtum")
 
-[node name="Panel" type="Panel" parent="."]
+[node name="Label" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_constants/line_spacing = 3
+theme_override_styles/normal = SubResource("StyleBoxTexture_rusl4")
+text = "Notif Ikan"
+label_settings = SubResource("LabelSettings_oowcl")
+horizontal_alignment = 2
+vertical_alignment = 1
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="Label"]
 layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
 anchor_bottom = 0.5
+offset_left = 12.0
 offset_top = -17.0
-offset_right = 34.0
+offset_right = 46.0
 offset_bottom = 17.0
 grow_vertical = 2
 texture = ExtResource("2_dviqu")
 expand_mode = 1
 stretch_mode = 5
-
-[node name="Label" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.18421052
-anchor_top = 0.055555556
-anchor_right = 0.9780702
-anchor_bottom = 0.8888889
-grow_horizontal = 2
-grow_vertical = 2
-text = "Notif Ikan"
-label_settings = SubResource("LabelSettings_oowcl")
-horizontal_alignment = 1
-vertical_alignment = 1
-metadata/_edit_use_anchors_ = true

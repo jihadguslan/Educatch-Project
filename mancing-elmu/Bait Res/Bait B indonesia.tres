@@ -1,11 +1,12 @@
 [gd_resource type="Resource" script_class="BaitResource" load_steps=3 format=3 uid="uid://yr8kqx361ttr"]
 
-[ext_resource type="Texture2D" uid="uid://df6bxrvtrfcmi" path="res://Asset/Bait/Bait3_FishingFly.png" id="1_cd0vn"]
+[ext_resource type="Texture2D" uid="uid://cfeebj6bi4nrs" path="res://Asset/Bait/Bait4_ShinyFlashy.png" id="1_cd0vn"]
 [ext_resource type="Script" uid="uid://bpej68p0xc5uh" path="res://Script/BaitRes.gd" id="2_2wywb"]
 
 [resource]
 script = ExtResource("2_2wywb")
-bait_name = "INDONESIA"
+bait_name = "Indonesia"
+kode_soal = "IND"
 id = 3
 price = 3
 bait_image = ExtResource("1_cd0vn")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=3 uid="uid://b3y8oom1tswny"]
+[gd_scene load_steps=47 format=3 uid="uid://b3y8oom1tswny"]
 
 [ext_resource type="Texture2D" uid="uid://c4c8iydkufeku" path="res://Asset/BG/Pantai/background water-Recovered1.jpg" id="1_d22iy"]
 [ext_resource type="Script" uid="uid://ckuj43ibi34to" path="res://Script/Player.gd" id="1_xpqm5"]
@@ -25,6 +25,7 @@
 [ext_resource type="Texture2D" uid="uid://tui3e6blx8b" path="res://Asset/BG/Pantai/background water-Recovered14.jpg" id="14_nkp7w"]
 [ext_resource type="Texture2D" uid="uid://dtlo8cacqwu1y" path="res://Asset/base_button.png" id="15_gesge"]
 [ext_resource type="Texture2D" uid="uid://brh2qguxxs3a0" path="res://Asset/Kail.png" id="16_vm1ql"]
+[ext_resource type="Texture2D" uid="uid://7q3rv1gbkhe3" path="res://Asset/Bait/Bait2_WiglyWorm.png" id="25_vpssr"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_s523b"]
 animations = [{
@@ -639,8 +640,8 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_pi2iu")
 theme_override_styles/hover = SubResource("StyleBoxTexture_uc5tx")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_do7lf")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_lajby")
-text = "Pilih
-Bait"
+icon = ExtResource("25_vpssr")
+expand_icon = true
 
 [node name="RightPage" type="Control" parent="Player/CanvasLayer/UI"]
 layout_mode = 1
@@ -696,8 +697,8 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_top = -20.0
-offset_bottom = -20.0
+offset_top = -48.0
+offset_bottom = -48.0
 grow_horizontal = 2
 grow_vertical = 0
 

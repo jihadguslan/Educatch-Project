@@ -6,7 +6,7 @@ var res
 var total = 0
 
 func prepare() :
-	total = Global.bait_left[res.bait_name]
+	total = Global.bait_left[res.kode_soal]
 	icon = res.bait_image
 	text = str(total)
 	

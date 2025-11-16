@@ -5,7 +5,8 @@
 
 [resource]
 script = ExtResource("1_hlykg")
-bait_name = "PKN"
+bait_name = "Pendidikan Pancasila"
+kode_soal = "PKN"
 price = 3
 bait_image = ExtResource("1_rwp8i")
 deskripsi = "Pendidikan yang mengajarkan implemeentasi pancasila dalam kehidupan sehari hari."

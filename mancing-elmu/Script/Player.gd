@@ -18,13 +18,20 @@ var is_mancing = false
 func _ready() -> void:
 	all_page.append_array([left_page,upper_page,right_page])
 	ScreenManager._play_music(preload("uid://bfemnhc0xecjh"))
-
+	if !Global.used_bait: Global.used_bait = preload("res://Bait Res/Bait PKN.tres")
+	pilih_bait.icon = Global.used_bait.bait_image
 
 func _kail() -> void:
-	if kumpulan_soal.is_empty():
+	if Global.bait_left[Global.used_bait.kode_soal] <= 0:
+		_create_notif(Global.used_bait.bait_image, "Bait " + Global.used_bait.bait_name + "Habis! Isi ulang di menu bait!")
+		return
+	Global.bait_left[Global.used_bait.kode_soal] -= 1
+	if !kumpulan_soal.is_empty():
 		kumpulan_soal.clear()
 	is_mancing = true
-	kumpulan_soal.append_array(DatabaseManager._bank_soal.duplicate())
+	for i in DatabaseManager._bank_soal:
+		if i.ends_with(Global.used_bait.kode_soal):
+			kumpulan_soal.append_array(DatabaseManager._bank_soal[i].duplicate())
 	kumpulan_soal.shuffle()
 	var inst = PANEL_UJIAN.instantiate()
 	inst.soal_res = kumpulan_soal.pick_random()
@@ -47,7 +54,8 @@ func close_page():
 	show_ui(true)
 	is_mancing = false
 	_update_storage()
-	pilih_bait.icon = Global.used_bait.res.bait_image
+	pilih_bait.icon = Global.used_bait.bait_image
+	ScreenManager._save_data()
 
 func _jawaban_benar(res):
 	var ikan = res
@@ -59,11 +67,14 @@ func _jawaban_benar(res):
 	else :
 		Global.fish_storage[ikan.nama_ikan] += 1
 		close_page()
-	var notif = preload("res://Scene/notif_ikan.tscn").instantiate()
-	notif._set_notif(res.image_ikan, res.nama_ikan)
-	center_bottom.add_child(notif)
+	_create_notif(res.image_ikan, "+ " + res.nama_ikan)
 	upper_page.show()
 	anim.play("Happy")
+
+func _create_notif(notif_image, notif_text):
+	var notif = preload("res://Scene/notif_ikan.tscn").instantiate()
+	notif._set_notif(notif_image, notif_text)
+	center_bottom.add_child(notif)
 
 func _jawaban_salah():
 	close_page()
