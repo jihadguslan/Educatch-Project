@@ -1,6 +1,6 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://br5plmwj6gs73"]
 
-[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qooft"]
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_qooft"]
 
 [resource]
 script = ExtResource("1_qooft")

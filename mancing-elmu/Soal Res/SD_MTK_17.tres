@@ -1,11 +1,10 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://deb66f3jcc8xu"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_g1s7s"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_g1s7s"]
 
 [resource]
 script = ExtResource("1_g1s7s")
 id_soal = 17
-isi_soal = "Sebuah balok memiliki panjang 10 cm, lebar 5 cm, dan tinggi 4 cm. Berapakah volume balok tersebut?"
-pilihan_soal = Array[String](["40 cm^3", "50 cm^3", "100 cm^3", "200 cm^3"])
+isi_soal = "Bentuk desimal dari 8/5​ adalah..."
+pilihan_soal = Array[String](["1,5", "0,6", "2,3", "1,6"])
 jawaban_soal = 3
-metadata/_custom_type_script = "uid://dvytuwg7js148"

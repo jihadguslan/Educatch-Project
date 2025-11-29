@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_cil0k")
 id_soal = 45
-isi_soal = "Perbandingan jumlah kelereng merah dan biru adalah 2:3. Jika kelereng merah ada 10, berapa jumlah kelereng biru?"
-pilihan_soal = Array[String](["5", "10", "15", "20"])
-jawaban_soal = 2
+isi_soal = "Urutkan data 12,10,15,11,13,10 dari yang terkecil, lalu tentukan mediannya..."
+pilihan_soal = Array[String](["11", "11,5", "12", "12,5"])
+jawaban_soal = 1

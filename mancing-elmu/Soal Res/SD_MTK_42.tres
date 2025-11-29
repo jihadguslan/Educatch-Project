@@ -5,6 +5,5 @@
 [resource]
 script = ExtResource("1_qgvls")
 id_soal = 42
-isi_soal = "Ibu membeli 2 lusin piring. Berapa total piring yang dibeli Ibu? (1 lusin = 12 buah)"
-pilihan_soal = Array[String](["12", "14", "24", "36"])
-jawaban_soal = 2
+isi_soal = "Berdasarkan data di atas 7,8,6,9,7,8,9,7,6,8, rata-rata (mean) nilai ulangan adalah..."
+pilihan_soal = Array[String](["7,5", "7,6", "7,7", "7,8"])

@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource("2_3nn6u")
-id_ikan = 21
+id_ikan = 22
 nama_ikan = "Ikan Sarden"
 image_ikan = ExtResource("1_dvkir")
 deskripsi_ikan = "Ikan konsumsi yang dijadikan makanan dalam kalengan. Mampu bertahan hingga kedalaman laut 1000 meter."

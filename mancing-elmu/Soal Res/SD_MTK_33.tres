@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_f7g0o")
 id_soal = 33
-isi_soal = "KPK (Kelipatan Persekutuan Terkecil) dari 6 dan 8 adalah..."
-pilihan_soal = Array[String](["12", "16", "24", "48"])
-jawaban_soal = 2
+isi_soal = "Jika sebuah bak mandi berbentuk kubus memiliki volume 64.000 cm3, panjang rusuknya adalah..."
+pilihan_soal = Array[String](["8 cm", "40 cm", "64 cm", "80 cm"])
+jawaban_soal = 1

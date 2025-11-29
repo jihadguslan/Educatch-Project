@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_fy6mv")
 id_soal = 34
-isi_soal = "Bentuk persen dari pecahan 1/4 adalah..."
-pilihan_soal = Array[String](["4%", "14%", "25%", "40%"])
-jawaban_soal = 2
+isi_soal = "Satuan yang digunakan untuk menyatakan volume adalah..."
+pilihan_soal = Array[String](["m2", "cm", "km/jam", "m3"])
+jawaban_soal = 3

@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_ubl1h")
 id_soal = 39
-isi_soal = "Tentukan nilai x pada persamaan 3x - 5 = 10."
-pilihan_soal = Array[String](["3", "4", "5", "15"])
-jawaban_soal = 2
+isi_soal = "Jaring-jaring bangun ruang yang terdiri dari 6 persegi yang sama besar adalah jaring-jaring..."
+pilihan_soal = Array[String](["Balok", "Prisma", "Limas", "Kubus"])
+jawaban_soal = 3

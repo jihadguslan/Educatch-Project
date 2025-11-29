@@ -1,11 +1,10 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://du240g0w62vp8"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_4d01r"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4d01r"]
 
 [resource]
 script = ExtResource("1_4d01r")
 id_soal = 25
-isi_soal = "Paman memanen 56 mangga. Ia menjual 32 mangga. Berapa sisa mangga Paman?"
-pilihan_soal = Array[String](["20", "24", "34", "88"])
-jawaban_soal = 1
-metadata/_custom_type_script = "uid://dvytuwg7js148"
+isi_soal = "Ali memiliki 20 kelereng, dan Budi memiliki 35 kelereng. Rasio kelereng Ali terhadap Budi dalam bentuk paling sederhana adalah..."
+pilihan_soal = Array[String](["2:3", "4:5", "4:7", "5:7"])
+jawaban_soal = 2

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://urj4ukth26ut"
+path="res://.godot/imported/Tret Tret!.mp3-7fc0df33a90476b0310afd4c2d8507a6.mp3str"
+
+[deps]
+
+source_file="res://Asset/Sfx/Tret Tret!.mp3"
+dest_files=["res://.godot/imported/Tret Tret!.mp3-7fc0df33a90476b0310afd4c2d8507a6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

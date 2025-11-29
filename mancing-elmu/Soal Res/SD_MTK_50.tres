@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_jaxau")
 id_soal = 50
-isi_soal = "80\\% dari 100 adalah..."
-pilihan_soal = Array[String](["8", "10", "80", "180"])
-jawaban_soal = 2
+isi_soal = "Data usia anak-anak (tahun): 6,7,5,8,6,7. Median dari data tersebut adalah..."
+pilihan_soal = Array[String](["6", "6,5", "7", "7,5"])
+jawaban_soal = 1

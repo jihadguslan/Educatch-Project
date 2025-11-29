@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://dn2fl576uax15"]
+
+[ext_resource type="Texture2D" uid="uid://colxymcjsljv1" path="res://Asset/Ikan/IkanTangPutih.png" id="1_78p18"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_y1w5s"]
+
+[resource]
+script = ExtResource("2_y1w5s")
+id_ikan = 24
+rarity = 2
+nama_ikan = "Ikan Tang Putih"
+image_ikan = ExtResource("1_78p18")
+deskripsi_ikan = "Ikan konsumsi yang dijadikan makanan dalam kalengan. Mampu bertahan hingga kedalaman laut 1000 meter."
+harga_ikan = 18
+posibility = 40
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

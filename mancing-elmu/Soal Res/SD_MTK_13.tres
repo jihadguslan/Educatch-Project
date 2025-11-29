@@ -1,11 +1,10 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://dt5064eyldxpr"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_gwy0y"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gwy0y"]
 
 [resource]
 script = ExtResource("1_gwy0y")
 id_soal = 13
-isi_soal = "Berapakah bentuk desimal dari pecahan 3/4?"
-pilihan_soal = Array[String](["0,34", "0,50", "0,75", "0,80"])
-jawaban_soal = 2
-metadata/_custom_type_script = "uid://dvytuwg7js148"
+isi_soal = "Hasil dari 3/2 x 1 2/1 adalah..."
+pilihan_soal = Array[String](["5/3", "6/4", "2/1", "9"])
+jawaban_soal = 3

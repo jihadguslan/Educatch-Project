@@ -1,11 +1,11 @@
 extends CanvasLayer
 
 @onready var version: Label = $"Menu Page/Corner Right/Version"
-const click_sound = preload("uid://bet4wwsgtcqj6")
+const click_sound = preload("uid://bpdxwfq1aukv")
 
 func _ready() -> void:
 	version.text = ProjectSettings.get_setting("application/config/version")
-	ScreenManager._stop_music()
+	ScreenManager._play_music(preload("uid://duv4jajply6ne"))
 	ScreenManager._load_data()
 
 func _on_start_button_up() -> void:
@@ -13,8 +13,6 @@ func _on_start_button_up() -> void:
 	ScreenManager._load_data()
 	ScreenManager._change_scene("res://Scene/pilih_kategori.tscn")
 	
-func _on_setting_button_up() -> void:
-	ScreenManager._play_audio(click_sound, self)
 
 func _on_exit_button_up() -> void:
 	ScreenManager._play_audio(click_sound, self)

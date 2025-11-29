@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_xyw3x")
 id_soal = 47
-isi_soal = "Tiga jam sebelum pukul 13:00 adalah pukul..."
-pilihan_soal = Array[String](["09:00", "10:00", "16:00", "17:00"])
+isi_soal = "Jika rata-rata nilai 5 siswa adalah 75. Jika nilai satu siswa baru yang nilainya 80 ditambahkan, rata-rata nilai baru adalah..."
+pilihan_soal = Array[String](["75", "76", "77", "78"])
 jawaban_soal = 1

@@ -1,11 +1,9 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://d0mgd437sjb3b"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_52kuy"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_52kuy"]
 
 [resource]
 script = ExtResource("1_52kuy")
 id_soal = 12
-isi_soal = "Sebuah kolam berbentuk kubus dengan panjang rusuk 3 meter. Berapakah volume air maksimal yang dapat ditampung kolam tersebut?"
-pilihan_soal = Array[String](["9 m^3", "18 m^3", "27 m^3", "36 m^3"])
-jawaban_soal = 2
-metadata/_custom_type_script = "uid://dvytuwg7js148"
+isi_soal = "Hasil dari 1 4/1−2/1 adalah..."
+pilihan_soal = Array[String](["3", "2", "1", "5"])

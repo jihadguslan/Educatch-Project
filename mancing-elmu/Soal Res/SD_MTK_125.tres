@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
-
-[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_smle4"]
-
-[resource]
-script = ExtResource("1_smle4")
-id_soal = 125
-isi_soal = "$7 \\times 4 + 2 = \\dots$"
-pilihan_soal = Array[String](["30", "32", "34", "40"])

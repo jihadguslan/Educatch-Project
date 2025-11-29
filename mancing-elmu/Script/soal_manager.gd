@@ -15,6 +15,8 @@ func _ready() -> void:
 	for i in range(button_group.size()):
 		button_group[i].text = soal_res.pilihan_soal[i]
 	Global._make_tween(self, "position:y", 0.0, 1.2)
+	await get_tree().create_timer(0.8).timeout
+	ScreenManager._play_audio(preload("uid://clc5l7fftv6sc"), parent)
 
 func _on_a_button_up() -> void:
 	_end_action(soal_res.jawaban_soal == 0)
@@ -31,8 +33,12 @@ func _on_d_button_up() -> void:
 func _end_action(benar : bool):
 	box.hide()
 	status.show()
-	if benar: status.text = "Benar!!!"
-	else : status.text = "Salah!!!"
+	if benar: 
+		ScreenManager._play_audio(preload("uid://kys0q6fwdcfj"), self)
+		status.text = "Benar!!!"
+	else : 
+		ScreenManager._play_audio(preload("uid://dk1g4ecum1xm5"), self)
+		status.text = "Salah!!!"
 	await get_tree().create_timer(0.5).timeout
 	Global._make_tween(self, "position:y", -1254.0, 1.0)
 	await get_tree().create_timer(1.0).timeout
@@ -43,7 +49,7 @@ func _end_action(benar : bool):
 	queue_free()
 
 func _get_random_fish() -> Resource:
-	var all_fish = DatabaseManager._all_fish.duplicate()
+	var all_fish = Global.used_bait.fish_get.duplicate()
 	var total_chance = 0
 	for i in all_fish :
 		total_chance += i.posibility
@@ -53,6 +59,6 @@ func _get_random_fish() -> Resource:
 		acumulative += i.posibility
 		if acumulative > chance :
 			#print("Accumulative : " + str(acumulative) + ", Chance : " + str(chance))
-			return i.duplicate()
+			return i
 	return null
 		

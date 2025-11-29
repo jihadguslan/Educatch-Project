@@ -108,6 +108,7 @@ script/source = "extends Control
 @onready var anchor_setting: Control = $AnchorSetting
 
 func _on_setting_button_up() -> void:
+	ScreenManager._play_audio(preload(\"uid://bpdxwfq1aukv\"), self)
 	Global._make_tween(anchor_menu, \"position:y\", 725.0, 0.7)
 	Global._make_tween(anchor_setting, \"position:y\", 0.0, 0.7)
 

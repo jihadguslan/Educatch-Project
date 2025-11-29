@@ -5,5 +5,6 @@
 [resource]
 script = ExtResource("1_5tj05")
 id_soal = 49
-isi_soal = "Sebuah kubus memiliki volume 64 cm^3. Berapakah panjang rusuk kubus tersebut?"
-pilihan_soal = Array[String](["4 cm", "6 cm", "8 cm", "16 cm"])
+isi_soal = "Selisih antara nilai tertinggi dan nilai terendah dari data 15,12,18,10,20 adalah..."
+pilihan_soal = Array[String](["8", "5", "15", "10"])
+jawaban_soal = 3

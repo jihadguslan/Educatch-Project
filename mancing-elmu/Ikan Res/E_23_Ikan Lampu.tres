@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://moyg3efsrncr"]
+
+[ext_resource type="Texture2D" uid="uid://cstswwix2kmf3" path="res://Asset/Ikan/IkanLampu.png" id="1_nsb23"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_0svqc"]
+
+[resource]
+script = ExtResource("2_0svqc")
+id_ikan = 23
+rarity = 2
+nama_ikan = "Ikan Lampu"
+image_ikan = ExtResource("1_nsb23")
+deskripsi_ikan = "Ikan konsumsi yang dijadikan makanan dalam kalengan. Mampu bertahan hingga kedalaman laut 1000 meter."
+harga_ikan = 16
+posibility = 45
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

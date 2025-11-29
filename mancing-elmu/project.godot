@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="EduCatch"
-config/version="0.0.6"
+config/version="1.1"
 run/main_scene="uid://dpejwyit6xyxr"
 config/features=PackedStringArray("4.5", "Forward Plus")
 boot_splash/show_image=false

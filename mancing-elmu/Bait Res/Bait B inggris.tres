@@ -1,14 +1,22 @@
-[gd_resource type="Resource" script_class="BaitResource" load_steps=3 format=3 uid="uid://1rwj4663xgwk"]
+[gd_resource type="Resource" script_class="BaitResource" load_steps=10 format=3 uid="uid://1rwj4663xgwk"]
 
 [ext_resource type="Texture2D" uid="uid://df6bxrvtrfcmi" path="res://Asset/Bait/Bait3_FishingFly.png" id="1_r70o4"]
+[ext_resource type="Resource" uid="uid://cg1pbwfoefpet" path="res://Ikan Res/C_14_Ikan Cod.tres" id="2_dachm"]
 [ext_resource type="Script" uid="uid://bpej68p0xc5uh" path="res://Script/BaitRes.gd" id="2_r3d0t"]
+[ext_resource type="Resource" uid="uid://d5t64afyj2x8" path="res://Ikan Res/C_18_Ikan Guppy.tres" id="3_py8nk"]
+[ext_resource type="Resource" uid="uid://c8su1royj4i" path="res://Ikan Res/E_7_Ikan Silver Arwana.tres" id="4_cybtu"]
+[ext_resource type="Resource" uid="uid://c6yrq5q60w5ml" path="res://Ikan Res/L_10_Ikan Cosplay.tres" id="5_7wl4b"]
+[ext_resource type="Resource" uid="uid://cla7th5n656sd" path="res://Ikan Res/R_4_Ikan Koi.tres" id="6_2ht18"]
+[ext_resource type="Resource" uid="uid://i7s1bdog6joi" path="res://Ikan Res/R_8_Ikan Nila.tres" id="7_6pn47"]
+[ext_resource type="Resource" uid="uid://dn2fl576uax15" path="res://Ikan Res/E_24_Ikan Tang Putih.tres" id="8_py8nk"]
 
 [resource]
 script = ExtResource("2_r3d0t")
 bait_name = "Inggris"
 kode_soal = "ENG"
 id = 2
-price = 5
+price = 3
 bait_image = ExtResource("1_r70o4")
 deskripsi = "Local to Globalization"
+fish_get = Array[Resource]([ExtResource("2_dachm"), ExtResource("3_py8nk"), ExtResource("4_cybtu"), ExtResource("5_7wl4b"), ExtResource("6_2ht18"), ExtResource("7_6pn47"), ExtResource("8_py8nk")])
 metadata/_custom_type_script = "uid://bpej68p0xc5uh"

@@ -24,8 +24,9 @@ func _exit_game():
 
 func _play_audio(audiofile : AudioStream, parent):
 	var audio_player = preload("uid://bwon72d6l2fsm").instantiate()
-	audio_player.stream = preload("uid://bksvvfkrx6ltg")
+	audio_player.stream = audiofile
 	parent.add_child(audio_player)
+
 
 func _play_music(audiofile : AudioStream):
 	audioplayer.volume_db = -64.0

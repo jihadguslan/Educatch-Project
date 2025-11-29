@@ -6,6 +6,9 @@ signal _send_data(data : Dictionary, unlock : bool)
 
 var res : Resource
 var unlock = false
+var button_tex = ["res://Asset/base_button (large).png", "res://Asset/base_button_green (large).png",
+"res://Asset/base_button_yellow (large).png", "res://Asset/base_button_purple (large).png"]
+const click_sound = preload("uid://bpdxwfq1aukv")
 
 func _ready() -> void:
 	if unlock:
@@ -14,8 +17,18 @@ func _ready() -> void:
 	else :
 		button.icon = preload("res://Asset/Unknown fish.png")
 		#button.text = "???"
+	_rarity_button()
+
+func _rarity_button():
+	##button.get_theme_stylebox("normal").duplicate(true)
+	button.get_theme_stylebox("normal").texture = load(button_tex[res.rarity])
+	button.get_theme_stylebox("pressed").texture = load(button_tex[res.rarity])
+	button.get_theme_stylebox("hover").texture = load(button_tex[res.rarity])
+	button.get_theme_stylebox("disabled").texture = load(button_tex[res.rarity])
+
 
 func _on_button_ensik_button_up() -> void:
+	ScreenManager._play_audio(click_sound, self)
 	if unlock :
 		emit_signal("_send_data", {"resource" : res.duplicate(), "node_button" : self}, true)
 	else: 

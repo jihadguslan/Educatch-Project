@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
-
-[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ca48f"]
-
-[resource]
-script = ExtResource("1_ca48f")
-id_soal = 140
-isi_soal = "Berapakah hasil dari $2^4 \\div 8$?"
-pilihan_soal = Array[String](["2", "4", "8", "16"])

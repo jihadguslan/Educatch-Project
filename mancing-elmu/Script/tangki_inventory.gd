@@ -32,7 +32,7 @@ func _get_data_ikan(data : Dictionary, unlock : bool):
 		deskripsi_ikan.text = "Deskripsi : ???"
 
 func _set_ensiklopedia():
-	var fish_res = DatabaseManager._get_semua_ikan().duplicate()
+	var fish_res = _sort_by_rarity()
 	for i in fish_res :
 		var inst = BUTTON_ENSIK.instantiate()
 		#inst.connect("_send_data", _get_data_ikan)
@@ -42,5 +42,23 @@ func _set_ensiklopedia():
 		inst.res = i.duplicate()
 		box.add_child(inst)
 
+func _sort_by_rarity():
+	var common = []
+	var rare = []
+	var epic = []
+	var legend = []
+	var fish_res = DatabaseManager._get_semua_ikan().duplicate()
+	for i in fish_res:
+		if i.rarity == 0 :
+			common.append(i)
+		elif i.rarity == 1 :
+			rare.append(i)
+		elif i.rarity == 2 :
+			epic.append(i)
+		else :
+			legend.append(i)
+	return common + rare + epic + legend
+	
 func _on_back_button_up() -> void:
+	ScreenManager._play_audio(preload("uid://bpdxwfq1aukv"), self)
 	ScreenManager._change_scene("res://Scene/Main World.tscn")

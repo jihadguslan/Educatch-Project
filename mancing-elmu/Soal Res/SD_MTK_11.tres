@@ -1,11 +1,10 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://x10qevn31duu"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_3j3we"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_3j3we"]
 
 [resource]
 script = ExtResource("1_3j3we")
 id_soal = 11
-isi_soal = "Selembar kertas berbentuk persegi panjang memiliki panjang 15 cm dan lebar 10 cm. Berapakah luas kertas tersebut?"
-pilihan_soal = Array[String](["50 cm^2", "100 cm^2", "150 cm^2", "250 cm^2"])
+isi_soal = "Hasil dari 1/2+0,25 adalah..."
+pilihan_soal = Array[String](["0,5", "0,65", "0,75", "0,8"])
 jawaban_soal = 2
-metadata/_custom_type_script = "uid://dvytuwg7js148"

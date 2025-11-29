@@ -5,5 +5,6 @@
 [resource]
 script = ExtResource("1_7tvap")
 id_soal = 43
-isi_soal = "Urutan bilangan bulat dari yang terbesar: -5, 0, -2, 3 adalah..."
-pilihan_soal = Array[String](["3, 0, -2, -5", "-5, -2, 0, 3", "0, -2, 3, -5", "3, -5, 0, -2"])
+isi_soal = "Median (nilai tengah) dari data 5,6,7,8,9 adalah..."
+pilihan_soal = Array[String](["5", "6", "7", "8"])
+jawaban_soal = 2

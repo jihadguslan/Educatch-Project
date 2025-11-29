@@ -40,6 +40,7 @@ func _receive_data(data, unlock):
 	hold_fish = data
 
 func _on_sell_button_up() -> void:
+	ScreenManager._play_audio(preload("uid://clpp1q4saqf6j"), self)
 	Global.coins += hold_fish.resource.harga_ikan
 	coins.text = "Coins : " + str(Global.coins)
 	for i in Global.fish_storage:

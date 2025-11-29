@@ -5,5 +5,6 @@
 [resource]
 script = ExtResource("1_k2bs8")
 id_soal = 37
-isi_soal = "Sebuah kebun berbentuk persegi dengan keliling 48 meter. Berapakah panjang sisi kebun tersebut?"
-pilihan_soal = Array[String](["12 m", "16 m", "24 m", "96 m"])
+isi_soal = "Diketahui volume balok 300 cm3. Jika panjang 10 cm dan lebar 6 cm, tingginya adalah..."
+pilihan_soal = Array[String](["3 cm", "4 cm", "5 cm", "10 cm"])
+jawaban_soal = 2

@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_qf58p")
 id_soal = 44
-isi_soal = "Sebuah tabung memiliki jari-jari 10 cm dan tinggi 5 cm. Berapakah luas alas tabung tersebut? (Gunakan \\pi = 3,14)"
-pilihan_soal = Array[String](["31,4 cm^2", "314 cm^2", "500 cm^2", "1.570 cm^2"])
-jawaban_soal = 1
+isi_soal = "Data berat badan siswa (kg): 30,32,28,30,31. Rata-rata berat badan adalah..."
+pilihan_soal = Array[String](["28 kg", "30 kg", "30,2 kg", "31 kg"])
+jawaban_soal = 2

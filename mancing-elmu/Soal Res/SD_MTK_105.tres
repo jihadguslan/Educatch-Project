@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
-
-[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_uabwu"]
-
-[resource]
-script = ExtResource("1_uabwu")
-id_soal = 105
-isi_soal = "Hitunglah hasil dari $150 + (-25) \\times 2$."
-pilihan_soal = Array[String](["100", "250", "300", "$-200$"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://cawnkb3h5lfdr"]
+
+[ext_resource type="Texture2D" uid="uid://cm0i8emge6mtv" path="res://Asset/Ikan/Ikan Teri.png" id="1_uelv1"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_3hgue"]
+
+[resource]
+script = ExtResource("2_3hgue")
+id_ikan = 25
+nama_ikan = "Ikan Teri"
+image_ikan = ExtResource("1_uelv1")
+deskripsi_ikan = "Ikan konsumsi yang dikilo sangad murah."
+harga_ikan = 2
+posibility = 95
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

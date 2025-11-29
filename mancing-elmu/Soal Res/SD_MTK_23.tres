@@ -1,11 +1,10 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://dlsfspbh5ayn4"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_ev5go"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ev5go"]
 
 [resource]
 script = ExtResource("1_ev5go")
 id_soal = 23
-isi_soal = "Nama bilangan dari angka tiga ratus empat puluh lima adalah..."
-pilihan_soal = Array[String](["354", "435", "345", "453"])
-jawaban_soal = 2
-metadata/_custom_type_script = "uid://dvytuwg7js148"
+isi_soal = "Jarak pada peta adalah 5 cm. Jika skala peta 1:100.000, jarak sebenarnya adalah..."
+pilihan_soal = Array[String](["500 m", "5 km", "50 km", "5 m"])
+jawaban_soal = 1

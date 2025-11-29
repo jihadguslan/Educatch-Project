@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_shua2")
 id_soal = 36
-isi_soal = "Berapakah hasil dari 1,5 + 0,25?"
-pilihan_soal = Array[String](["1,25", "1,75", "2,00", "2,75"])
+isi_soal = "Sebuah kubus memiliki luas permukaan 600 cm2. Panjang rusuknya adalah..."
+pilihan_soal = Array[String](["8 cm", "10 cm", "12 cm", "100 cm"])
 jawaban_soal = 1

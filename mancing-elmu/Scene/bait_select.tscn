@@ -222,13 +222,13 @@ layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.042881645
 anchor_top = 0.17201166
-anchor_right = 0.4521605
-anchor_bottom = 0.9183673
-offset_right = 265.2127
-offset_bottom = 256.0
+anchor_right = 0.4598765
+anchor_bottom = 0.9300291
+offset_right = 180.14175
+offset_bottom = 173.33328
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(0.5, 0.5)
+scale = Vector2(0.6, 0.6)
 metadata/_edit_use_anchors_ = true
 
 [node name="TextureRect" type="TextureRect" parent="Control/Panel/Panel"]

@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_mwdrb")
 id_soal = 7
-isi_soal = "Hasil dari ³√1000 × 2 adalah..."
+isi_soal = "Hasil dari 3√1000 × 2 adalah..."
 pilihan_soal = Array[String](["100", "200", "12", "20"])
 jawaban_soal = 3

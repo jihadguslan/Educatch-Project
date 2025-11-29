@@ -1,11 +1,10 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://cf21nunmephuv"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_h3oa5"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_h3oa5"]
 
 [resource]
 script = ExtResource("1_h3oa5")
 id_soal = 16
-isi_soal = "Berapakah keliling sebuah segitiga sama sisi jika panjang salah satu sisinya adalah 12 cm?"
-pilihan_soal = Array[String](["12 cm", "24 cm", "36 cm", "48 cm"])
-jawaban_soal = 2
-metadata/_custom_type_script = "uid://dvytuwg7js148"
+isi_soal = "Tini memiliki 2,5 meter pita. Ia menggunakan 43​ meter untuk menghias kado. Sisa pita Tini adalah..."
+pilihan_soal = Array[String](["2,75 meter", "2 meter", "1,25 meter", "1,75 meter"])
+jawaban_soal = 3

@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_3vm3p")
 id_soal = 6
-isi_soal = "Hasil dari 3³+4³ adalah..."
+isi_soal = "Hasil dari 3^3+4^3 adalah..."
 pilihan_soal = Array[String](["343", "125", "91", "73"])
 jawaban_soal = 2

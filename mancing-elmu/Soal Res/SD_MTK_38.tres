@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_7aklc")
 id_soal = 38
-isi_soal = "Jarak antara rumah Rina dan sekolah adalah 2 km. Berapakah jarak tersebut dalam satuan meter?"
-pilihan_soal = Array[String](["20 m", "200 m", "2.000 m", "20.000 m"])
-jawaban_soal = 2
+isi_soal = "Sebuah kardus berbentuk kubus dapat memuat 125 kotak kecil berbentuk kubus dengan rusuk 1 cm. Volume kardus tersebut adalah..."
+pilihan_soal = Array[String](["25 cm3", "125 cm3", "625 cm3", "125.000 cm3"])
+jawaban_soal = 1

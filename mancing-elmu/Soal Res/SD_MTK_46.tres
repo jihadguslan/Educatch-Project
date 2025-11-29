@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_64ihg")
 id_soal = 46
-isi_soal = "Hitunglah hasil dari 5^2 + 2^3."
-pilihan_soal = Array[String](["13", "17", "33", "35"])
+isi_soal = "Dalam sebuah diagram lingkaran, jika bagian siswa yang suka membaca 45% dan menulis 35%, persentase siswa yang suka menggambar adalah..."
+pilihan_soal = Array[String](["80%", "30%", "20%", "15%"])
 jawaban_soal = 2

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://duv4jajply6ne"
+path="res://.godot/imported/Lofi 6 Min.mp3-9108aa37fb530455ed5a9df825bc412f.mp3str"
+
+[deps]
+
+source_file="res://Asset/Music/Lofi 6 Min.mp3"
+dest_files=["res://.godot/imported/Lofi 6 Min.mp3-9108aa37fb530455ed5a9df825bc412f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

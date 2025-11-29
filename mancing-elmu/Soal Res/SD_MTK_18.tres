@@ -1,11 +1,10 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://cvur36yp3u8s3"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_irhxj"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_irhxj"]
 
 [resource]
 script = ExtResource("1_irhxj")
 id_soal = 18
-isi_soal = "Ubahlah bilangan desimal 0,6 ke dalam bentuk pecahan biasa yang paling sederhana."
-pilihan_soal = Array[String](["6/10", "3/5", "6/100", "1/6"])
+isi_soal = "Hasil dari 0,5×0,02 adalah..."
+pilihan_soal = Array[String](["0,1", "0,01", "0,001", "0,0001"])
 jawaban_soal = 1
-metadata/_custom_type_script = "uid://dvytuwg7js148"

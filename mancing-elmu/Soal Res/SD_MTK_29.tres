@@ -1,11 +1,10 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://tcdyvur6dxix"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_sxlvn"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_sxlvn"]
 
 [resource]
 script = ExtResource("1_sxlvn")
 id_soal = 29
-isi_soal = "Jika hari ini hari Rabu, maka kemarin adalah hari..."
-pilihan_soal = Array[String](["Kamis", "Selasa", "Jumat", "Sabtu"])
+isi_soal = "Waktu yang dibutuhkan untuk menempuh jarak 120 km dengan kecepatan 40 km/jam adalah..."
+pilihan_soal = Array[String](["2 jam", "3 jam", "4 jam", "5 jam"])
 jawaban_soal = 1
-metadata/_custom_type_script = "uid://dvytuwg7js148"

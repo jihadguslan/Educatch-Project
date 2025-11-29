@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://cf8yoe2hr8kau"]
+
+[ext_resource type="Texture2D" uid="uid://csl0yo5iebfge" path="res://Asset/Ikan/SepatuTua.png" id="1_tvbcq"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_m0qut"]
+
+[resource]
+script = ExtResource("2_m0qut")
+id_ikan = 26
+nama_ikan = "Sepatu"
+image_ikan = ExtResource("1_tvbcq")
+deskripsi_ikan = "Dapet sampah? Awokawokawok"
+harga_ikan = 1
+posibility = 75
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_at6d4")
 id_soal = 40
-isi_soal = "Berat total 4 buah semangka yang masing-masing 2,5 kg adalah..."
-pilihan_soal = Array[String](["6 kg", "8 kg", "10 kg", "12 kg"])
-jawaban_soal = 2
+isi_soal = "Rumus untuk mencari volume kubus adalah..."
+pilihan_soal = Array[String](["p×l×t", "4×s", "s×s", "s×s×s"])
+jawaban_soal = 3

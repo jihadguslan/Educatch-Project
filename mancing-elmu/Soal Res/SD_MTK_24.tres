@@ -1,10 +1,10 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://njntv06o53cl"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_afn2f"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_afn2f"]
 
 [resource]
 script = ExtResource("1_afn2f")
 id_soal = 24
-isi_soal = "Terdapat 24 pensil yang akan dibagikan kepada 6 siswa sama rata. Berapa pensil yang didapat setiap siswa?"
-pilihan_soal = Array[String](["4", "5", "6", "8"])
-metadata/_custom_type_script = "uid://dvytuwg7js148"
+isi_soal = "Sebuah motor menempuh jarak 100 km dalam 2 jam. Kecepatan rata-rata motor tersebut adalah..."
+pilihan_soal = Array[String](["20 km/jam", "50 km/jam", "100 km/jam", "200 km/jam"])
+jawaban_soal = 1

@@ -1,11 +1,10 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://cabo23unn37ro"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_55krs"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_55krs"]
 
 [resource]
 script = ExtResource("1_55krs")
 id_soal = 15
-isi_soal = "Hitunglah hasil dari operasi pecahan: 1/2 + 1/4."
-pilihan_soal = Array[String](["2/6", "3/4", "2/4", "1/8"])
-jawaban_soal = 1
-metadata/_custom_type_script = "uid://dvytuwg7js148"
+isi_soal = "20% dari 150.000 rupiah adalah..."
+pilihan_soal = Array[String](["15.000", "20.000", "30.000", "40.000"])
+jawaban_soal = 2

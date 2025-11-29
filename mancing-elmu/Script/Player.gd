@@ -2,7 +2,6 @@ extends CharacterBody2D
 
 @onready var page_adder: Control = $CanvasLayer/UI/PageAdder
 @onready var left_page: Control = $CanvasLayer/UI/LeftPage
-@onready var storage: Label = $CanvasLayer/UI/LeftPage/storage
 @onready var upper_page: Control = $"CanvasLayer/UI/Upper Page"
 @onready var right_page: Control = $CanvasLayer/UI/RightPage
 @onready var anim: AnimationPlayer = $AnimationPlayer
@@ -12,6 +11,10 @@ extends CharacterBody2D
 @export var kumpulan_soal : Array[Resource]
 
 const PANEL_UJIAN = preload("res://Scene/panel_ujian.tscn")
+const click_sound = preload("uid://bpdxwfq1aukv")
+const hover_sound = preload("uid://bksvvfkrx6ltg")
+
+
 var all_page = []
 var is_mancing = false
 
@@ -23,7 +26,8 @@ func _ready() -> void:
 
 func _kail() -> void:
 	if Global.bait_left[Global.used_bait.kode_soal] <= 0:
-		_create_notif(Global.used_bait.bait_image, "Bait " + Global.used_bait.bait_name + "Habis! Isi ulang di menu bait!")
+		_create_notif(Global.used_bait.bait_image, "Bait " + Global.used_bait.bait_name + " Habis! Isi ulang di menu bait!")
+		ScreenManager._play_audio(preload("uid://urj4ukth26ut"), self)
 		return
 	Global.bait_left[Global.used_bait.kode_soal] -= 1
 	if !kumpulan_soal.is_empty():
@@ -36,6 +40,7 @@ func _kail() -> void:
 	var inst = PANEL_UJIAN.instantiate()
 	inst.soal_res = kumpulan_soal.pick_random()
 	add_page(inst)
+	ScreenManager._play_audio(preload("uid://bays4yislwgmw"), self)
 
 func add_page(page_instance):
 	page_adder.show()
@@ -53,7 +58,6 @@ func close_page():
 			i.queue_free()
 	show_ui(true)
 	is_mancing = false
-	_update_storage()
 	pilih_bait.icon = Global.used_bait.bait_image
 	ScreenManager._save_data()
 
@@ -80,11 +84,6 @@ func _jawaban_salah():
 	close_page()
 	anim.play("Angry")
 
-func _update_storage():
-	storage.text = ""
-	for i in Global.fish_storage:
-		storage.text += i + " : " + str(Global.fish_storage[i]) + "\n"
-
 func _on_kail_button_up() -> void:
 	anim.play("Kail")
 	_kail()
@@ -93,17 +92,21 @@ func _set_to_idle():
 	anim.play("Idle")
 	
 func _on_pilih_bait_button_up() -> void:
+	ScreenManager._play_audio(click_sound, self)
 	var inst = preload("res://Scene/bait_select.tscn").instantiate()
 	inst.parent = self
 	add_page(inst)
 
 func _on_main_menu_button_up() -> void:
+	ScreenManager._play_audio(click_sound, self)
 	ScreenManager._change_scene("res://Scene/menu_page.tscn")
 
 func _on_ensiklopedia_button_up() -> void:
+	ScreenManager._play_audio(click_sound, self)
 	ScreenManager._change_scene("res://Scene/Ensiklopedia.tscn")
 
 func _on_inventori_button_up() -> void:
+	ScreenManager._play_audio(click_sound, self)
 	var inst = preload("uid://bvklw12eevkwi").instantiate()
 	inst.parent = self
 	add_page(inst)

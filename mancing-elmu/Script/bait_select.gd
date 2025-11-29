@@ -5,6 +5,7 @@ extends Control
 @onready var deskripsi: Label = $Control/Panel/Panel/VBoxContainer/Deskripsi
 @onready var coins: Label = $Control/Coins
 @onready var image_tex: TextureRect = $Control/Panel/Panel/TextureRect
+@onready var posibility_box: FlowContainer = $Control/Panel/Panel/FlowContainer
 
 var bait_buttons = []
 @export var bait_res : Array[Resource]
@@ -28,15 +29,25 @@ func _ready() -> void:
 	coins.text = "Coins : " + str(Global.coins)
 
 func _get_data_bait(data):
+	ScreenManager._play_audio(preload("uid://b0lk4cg1h2fyx"), self)
+	if posibility_box.get_child_count() > 0:
+		for i in posibility_box.get_children():
+			i.queue_free()
 	data_get = data
 	nama.text = "Nama : " + data.Res.bait_name
 	sisa.text = "Sisa : " + str(data.button_node.total)
 	deskripsi.text = "Deskripsi : " + data.Res.deskripsi
 	harga.text = "Harga : " + str(data.Res.price)
 	image_tex.texture = data.Res.bait_image
+	for i in data.Res.fish_get :
+		var inst = preload("res://Scene/button_ensik.tscn").instantiate()
+		inst.res = i.duplicate()
+		inst.unlock = true
+		posibility_box.add_child(inst)
 	Global.used_bait = data.Res.duplicate()
 
 func _on_back_button_up() -> void:
+	ScreenManager._play_audio(preload("uid://bpdxwfq1aukv"), self)
 	Global._make_tween(self, "position:y", 800.0, 0.8)
 	await get_tree().create_timer(0.8, false, true).timeout
 	parent.close_page()

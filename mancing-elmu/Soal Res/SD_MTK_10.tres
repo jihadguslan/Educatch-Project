@@ -1,11 +1,10 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://62fuuq2frbsm"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_exefv"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_exefv"]
 
 [resource]
 script = ExtResource("1_exefv")
 id_soal = 10
-isi_soal = "Tentukan nilai n dari persamaan n + 15 = 40."
-pilihan_soal = Array[String](["20", "25", "30", "35"])
-jawaban_soal = 1
-metadata/_custom_type_script = "uid://dvytuwg7js148"
+isi_soal = "Urutan bilangan 0.2, 1/4​, 25%, 0.5 dari yang terkecil adalah..."
+pilihan_soal = Array[String](["0.2, 1/4​, 0.5, 25%", "0.5, 1/4, 25%, 0.2", "0.2, 25%, 1/4, 0.5", "0.2, 1/4​, 25%, 0.5"])
+jawaban_soal = 3

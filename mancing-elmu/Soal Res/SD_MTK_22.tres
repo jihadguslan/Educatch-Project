@@ -1,11 +1,9 @@
-[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3 uid="uid://bkt2vu4cfkdck"]
+[gd_resource type="Resource" script_class="SoalResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_ooau8"]
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ooau8"]
 
 [resource]
 script = ExtResource("1_ooau8")
 id_soal = 22
-isi_soal = "Ibu membeli 4 ikat rambutan. Setiap ikat berisi 9 buah. Berapa total rambutan yang dibeli Ibu?"
-pilihan_soal = Array[String](["13", "27", "36", "49"])
-jawaban_soal = 2
-metadata/_custom_type_script = "uid://dvytuwg7js148"
+isi_soal = "Perbandingan umur Ayah dan Ibu adalah 5:4. Jika jumlah umur mereka 81 tahun, umur Ibu adalah..."
+pilihan_soal = Array[String](["36 tahun", "45 tahun", "40 tahun", "42 tahun"])

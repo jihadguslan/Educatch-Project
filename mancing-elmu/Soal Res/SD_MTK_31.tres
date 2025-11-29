@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_5r30b")
 id_soal = 31
-isi_soal = "Hasil dari operasi hitung 50 \\div 5 \\times 3 adalah..."
-pilihan_soal = Array[String](["10", "15", "30", "50"])
+isi_soal = "Volume kubus dengan panjang rusuk 5 cm adalah..."
+pilihan_soal = Array[String](["25 cm3", "100 cm3", "125 cm3", "150 cm3"])
 jawaban_soal = 2

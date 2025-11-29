@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_b6kpj")
 id_soal = 32
-isi_soal = "FPB (Faktor Persekutuan Terbesar) dari 12 dan 18 adalah..."
-pilihan_soal = Array[String](["2", "3", "6", "12"])
-jawaban_soal = 2
+isi_soal = "Sebuah balok memiliki panjang 10 cm, lebar 5 cm, dan tinggi 3 cm. Volumenya adalah..."
+pilihan_soal = Array[String](["18 cm3", "15 cm3", "120 cm3", "150 cm3"])
+jawaban_soal = 3
