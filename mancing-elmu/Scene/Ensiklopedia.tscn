@@ -1,11 +1,32 @@
-[gd_scene load_steps=16 format=3 uid="uid://dwrwen6jg1ivr"]
+[gd_scene load_steps=25 format=3 uid="uid://dwrwen6jg1ivr"]
 
 [ext_resource type="Script" uid="uid://b71esspygvikl" path="res://Script/tangki_inventory.gd" id="1_jbqin"]
 [ext_resource type="Texture2D" uid="uid://c3r0hqgsi2b8r" path="res://Asset/Ikan/Ikan Cod.png" id="1_qh28i"]
 [ext_resource type="Texture2D" uid="uid://bb0wnh6ehs4r1" path="res://Asset/CusButton Hor.png" id="2_4aghk"]
+[ext_resource type="Texture2D" uid="uid://b4tcm1k5jfc8q" path="res://Asset/BG/aquarium.jpg" id="2_yow1q"]
 [ext_resource type="FontFile" uid="uid://dkiqel2g0cuv1" path="res://Font/DePixelHalbfett.otf" id="3_pcgs5"]
 [ext_resource type="Texture2D" uid="uid://dshhola2cf0ed" path="res://Asset/BaseButton.png" id="4_qbosh"]
-[ext_resource type="Texture2D" uid="uid://mdcg2uqhgfmw" path="res://Asset/BG Leaf.png" id="5_pcgs5"]
+[ext_resource type="Texture2D" uid="uid://dtlo8cacqwu1y" path="res://Asset/base_button.png" id="7_ohcac"]
+[ext_resource type="Texture2D" uid="uid://coqadt3sp4v5s" path="res://Asset/LeftArrow.png" id="8_o5hqe"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yow1q"]
+size = Vector2(1161, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ohcac"]
+size = Vector2(43.5, 479)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gtu3j"]
+texture = ExtResource("2_4aghk")
+texture_margin_left = 10.0
+texture_margin_right = 10.0
+axis_stretch_horizontal = 2
+
+[sub_resource type="LabelSettings" id="LabelSettings_6jk5y"]
+font = ExtResource("3_pcgs5")
+
+[sub_resource type="LabelSettings" id="LabelSettings_hvpof"]
+font = ExtResource("3_pcgs5")
+font_size = 15
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yow1q"]
 texture = ExtResource("2_4aghk")
@@ -35,21 +56,65 @@ modulate_color = Color(2.1036954, 2.1036954, 2.1036954, 1)
 texture = ExtResource("4_qbosh")
 modulate_color = Color(0.48439813, 0.4843982, 0.48439813, 0.67058825)
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gtu3j"]
-texture = ExtResource("2_4aghk")
-texture_margin_left = 10.0
-texture_margin_right = 10.0
-axis_stretch_horizontal = 2
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6jk5y"]
+resource_local_to_scene = true
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("7_ohcac")
 
-[sub_resource type="LabelSettings" id="LabelSettings_6jk5y"]
-font = ExtResource("3_pcgs5")
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hvpof"]
+resource_local_to_scene = true
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("7_ohcac")
+modulate_color = Color(0.20033002, 0.20033002, 0.20032999, 1)
 
-[sub_resource type="LabelSettings" id="LabelSettings_hvpof"]
-font = ExtResource("3_pcgs5")
-font_size = 15
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kfx0k"]
+resource_local_to_scene = true
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("7_ohcac")
+modulate_color = Color(2.9610486, 2.9610486, 2.9610486, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0m5m0"]
+resource_local_to_scene = true
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+texture = ExtResource("7_ohcac")
+modulate_color = Color(0.31219313, 0.3121931, 0.3121931, 0.654902)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mqe03"]
 
 [node name="Tangki" type="Node2D"]
 script = ExtResource("1_jbqin")
+
+[node name="Wall" type="StaticBody2D" parent="."]
+collision_layer = 2
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall"]
+position = Vector2(570.5, 453)
+shape = SubResource("RectangleShape2D_yow1q")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Wall"]
+position = Vector2(571, -9)
+shape = SubResource("RectangleShape2D_yow1q")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Wall"]
+position = Vector2(12.25, 220.5)
+shape = SubResource("RectangleShape2D_ohcac")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Wall"]
+position = Vector2(1138, 220.5)
+shape = SubResource("RectangleShape2D_ohcac")
 
 [node name="UI" type="CanvasLayer" parent="."]
 
@@ -61,27 +126,122 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="ColorRect" type="ColorRect" parent="UI/Screen"]
+[node name="TextureRect" type="TextureRect" parent="UI/Screen"]
+custom_minimum_size = Vector2(622, 459)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.18039216, 0.6, 0.8627451, 1)
+texture = ExtResource("2_yow1q")
+stretch_mode = 6
+
+[node name="AllFish" type="Control" parent="UI/Screen"]
+layout_mode = 1
+anchor_left = 0.057291668
+anchor_top = 0.094135806
+anchor_right = 0.9479167
+anchor_bottom = 0.6527778
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="BoxLeft" type="Control" parent="UI/Screen"]
+custom_minimum_size = Vector2(622, 648)
+layout_mode = 1
+anchor_left = 0.0013020834
+anchor_top = 0.0030864198
+anchor_right = 0.54123265
+anchor_bottom = 1.0030864
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+metadata/_edit_group_ = true
+
+[node name="ImageControl" type="Control" parent="UI/Screen/BoxLeft"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_top = 233.0
+offset_bottom = 233.0
+grow_horizontal = 2
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="UI/Screen/BoxLeft/ImageControl"]
+scale = Vector2(5.795, 5.795)
+texture = ExtResource("1_qh28i")
+
+[node name="BLeftDown" type="Control" parent="UI/Screen/BoxLeft"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -182.0
+offset_right = -9.0
+offset_bottom = -15.0
+grow_horizontal = 2
+grow_vertical = 0
+metadata/_edit_group_ = true
+
+[node name="Panel" type="Panel" parent="UI/Screen/BoxLeft/BLeftDown"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_gtu3j")
+
+[node name="box_label" type="VBoxContainer" parent="UI/Screen/BoxLeft/BLeftDown"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -286.0
+offset_top = -65.0
+offset_right = 286.0
+offset_bottom = 65.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 8
+alignment = 1
+
+[node name="nama_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label"]
+layout_mode = 2
+text = "Nama Ikan"
+label_settings = SubResource("LabelSettings_6jk5y")
+horizontal_alignment = 1
+
+[node name="rarity_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label"]
+layout_mode = 2
+text = "Rarity ikan"
+label_settings = SubResource("LabelSettings_6jk5y")
+horizontal_alignment = 1
+
+[node name="deskripsi_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label"]
+layout_mode = 2
+text = "Deskripsi ikan"
+label_settings = SubResource("LabelSettings_hvpof")
+horizontal_alignment = 1
+autowrap_mode = 3
 
 [node name="BoxRight" type="Control" parent="UI/Screen"]
 custom_minimum_size = Vector2(527, 648)
 layout_mode = 1
-anchor_left = 0.54285717
+anchor_left = 0.54226303
 anchor_top = 0.0030864198
-anchor_right = 0.9991342
+anchor_right = 0.9997283
 anchor_bottom = 1.0030864
-offset_left = -6.1035156e-05
 grow_horizontal = 2
 grow_vertical = 2
-metadata/_edit_group_ = true
 metadata/_edit_use_anchors_ = true
+metadata/_edit_group_ = true
 
 [node name="Panel" type="Panel" parent="UI/Screen/BoxRight"]
 layout_mode = 1
@@ -163,101 +323,27 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_dcab0")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_vcudo")
 text = "Kembali"
 
-[node name="BoxLeft" type="Control" parent="UI/Screen"]
-custom_minimum_size = Vector2(622, 648)
+[node name="show hide" type="Button" parent="UI/Screen/BoxRight"]
 layout_mode = 1
-anchor_left = 0.0013020834
-anchor_top = 0.0030864198
-anchor_right = 0.54123265
-anchor_bottom = 1.0030864
-grow_horizontal = 2
-grow_vertical = 2
-metadata/_edit_group_ = true
-metadata/_edit_use_anchors_ = true
-
-[node name="TextureRect" type="TextureRect" parent="UI/Screen/BoxLeft"]
-custom_minimum_size = Vector2(622, 459)
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -311.0
-offset_right = 311.0
-offset_bottom = 459.0
-grow_horizontal = 2
-texture = ExtResource("5_pcgs5")
-stretch_mode = 5
-
-[node name="ImageControl" type="Control" parent="UI/Screen/BoxLeft"]
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_top = 233.0
-offset_bottom = 233.0
-grow_horizontal = 2
-metadata/_edit_group_ = true
-
-[node name="Sprite2D" type="Sprite2D" parent="UI/Screen/BoxLeft/ImageControl"]
-scale = Vector2(5.795, 5.795)
-texture = ExtResource("1_qh28i")
-
-[node name="BLeftDown" type="Control" parent="UI/Screen/BoxLeft"]
-layout_mode = 1
-anchors_preset = 12
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 16.0
-offset_top = -182.0
-offset_right = -9.0
-offset_bottom = -15.0
-grow_horizontal = 2
-grow_vertical = 0
-metadata/_edit_group_ = true
-
-[node name="Panel" type="Panel" parent="UI/Screen/BoxLeft/BLeftDown"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxTexture_gtu3j")
-
-[node name="box_label" type="VBoxContainer" parent="UI/Screen/BoxLeft/BLeftDown"]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
+anchors_preset = 4
 anchor_top = 0.5
-anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -286.0
-offset_top = -65.0
-offset_right = 286.0
-offset_bottom = 65.0
-grow_horizontal = 2
+offset_left = -49.68701
+offset_top = -311.0
+offset_right = -0.6870117
+offset_bottom = -262.0
 grow_vertical = 2
-theme_override_constants/separation = 8
-alignment = 1
-
-[node name="nama_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label"]
-layout_mode = 2
-text = "Nama Ikan"
-label_settings = SubResource("LabelSettings_6jk5y")
-horizontal_alignment = 1
-
-[node name="rarity_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label"]
-layout_mode = 2
-text = "Rarity ikan"
-label_settings = SubResource("LabelSettings_6jk5y")
-horizontal_alignment = 1
-
-[node name="deskripsi_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label"]
-layout_mode = 2
-text = "Deskripsi ikan"
-label_settings = SubResource("LabelSettings_hvpof")
-horizontal_alignment = 1
-autowrap_mode = 3
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxTexture_6jk5y")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_hvpof")
+theme_override_styles/hover = SubResource("StyleBoxTexture_kfx0k")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_0m5m0")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_mqe03")
+icon = ExtResource("8_o5hqe")
+autowrap_mode = 2
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
 
 [connection signal="button_up" from="UI/Screen/BoxRight/Back" to="." method="_on_back_button_up"]
+[connection signal="button_down" from="UI/Screen/BoxRight/show hide" to="." method="_on_show_hide_button_down"]

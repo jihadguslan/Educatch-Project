@@ -28,6 +28,14 @@ func _ready() -> void:
 	image_tex.texture = Global.used_bait.bait_image
 	coins.text = "Coins : " + str(Global.coins)
 
+
+func _input(event: InputEvent) -> void:
+	if Input.is_action_just_pressed("Cheat"):
+		Global.coins = 99999
+		for i in Global.bait_left:
+			Global.bait_left[i] = 99
+		_on_back_button_up()
+
 func _get_data_bait(data):
 	ScreenManager._play_audio(preload("uid://b0lk4cg1h2fyx"), self)
 	if posibility_box.get_child_count() > 0:

@@ -4,7 +4,7 @@ extends CanvasLayer
 const click_sound = preload("uid://bpdxwfq1aukv")
 
 func _ready() -> void:
-	version.text = ProjectSettings.get_setting("application/config/version")
+	version.text = "Versi " + str(ProjectSettings.get_setting("application/config/version"))
 	ScreenManager._play_music(preload("uid://duv4jajply6ne"))
 	ScreenManager._load_data()
 

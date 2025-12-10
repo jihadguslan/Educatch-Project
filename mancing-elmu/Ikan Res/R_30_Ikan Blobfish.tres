@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://dx4w63pjojeq"]
+
+[ext_resource type="Texture2D" uid="uid://cuayc6ettngto" path="res://Asset/Ikan/IkanBlob.png" id="1_32wxi"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_eiag2"]
+
+[resource]
+script = ExtResource("2_eiag2")
+id_ikan = 30
+rarity = 1
+nama_ikan = "Blobfish"
+image_ikan = ExtResource("1_32wxi")
+deskripsi_ikan = "Ikan yang terlihat seperti bengkak, licin seperti jeli disebut sebagai hewan terjelek di dunia dalam jajak pendapat yang diadakan Ugly Animal Preservation Society, kelompok pelestari yang menyebut ikan ini perlu dilindungi."
+harga_ikan = 8
+posibility = 60
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

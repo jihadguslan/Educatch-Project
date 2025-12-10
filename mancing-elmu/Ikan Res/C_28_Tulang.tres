@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://c340rxhu27igp"]
+
+[ext_resource type="Texture2D" uid="uid://btf1x8kixlah4" path="res://Asset/Ikan/TulangIkan.png" id="1_bneyp"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_fn3wt"]
+
+[resource]
+script = ExtResource("2_fn3wt")
+id_ikan = 28
+nama_ikan = "Tulang"
+image_ikan = ExtResource("1_bneyp")
+deskripsi_ikan = "Digerakan oleh parasit yang ada dalam tulang. Cuma limbah bekas ikan konsumsi."
+harga_ikan = 1
+posibility = 65
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

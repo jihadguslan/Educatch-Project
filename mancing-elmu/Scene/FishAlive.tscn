@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://bdsfj0mattapm"]
+
+[ext_resource type="Script" uid="uid://dtf5b6y2u0i66" path="res://Script/fish_alive.gd" id="1_ouot5"]
+[ext_resource type="Shader" uid="uid://b8cw8slyl2bh1" path="res://Shader/fish swim.gdshader" id="1_qf3oj"]
+[ext_resource type="Texture2D" uid="uid://bdsss718m41yh" path="res://Asset/Ikan/Ikan Ninja.png" id="2_qf3oj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mfglr"]
+shader = ExtResource("1_qf3oj")
+shader_parameter/speed = 7.0000003325
+shader_parameter/strength = 2.000000095
+shader_parameter/tail_start = 0.9470000449825
+shader_parameter/dark_strength = 0.2000000095
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qf3oj"]
+radius = 23.0
+height = 88.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ouot5"]
+radius = 152.01315
+
+[node name="IkanBerenang" type="CharacterBody2D" groups=["fish"]]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_ouot5")
+min_speed = 10.0
+max_speed = 80.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_mfglr")
+scale = Vector2(2, 2)
+texture = ExtResource("2_qf3oj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5707964
+shape = SubResource("CapsuleShape2D_qf3oj")
+
+[node name="WallRay" type="RayCast2D" parent="."]
+target_position = Vector2(-29.405, 0)
+collision_mask = 2
+
+[node name="FishDetector" type="Area2D" parent="."]
+collision_layer = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FishDetector"]
+shape = SubResource("CircleShape2D_ouot5")

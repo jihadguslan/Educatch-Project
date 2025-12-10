@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://c2xpjfusmmg1s"]
+
+[ext_resource type="Texture2D" uid="uid://di4136uo4oisp" path="res://Asset/Ikan/KerangLaut.png" id="1_cd1ng"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_5li26"]
+
+[resource]
+script = ExtResource("2_5li26")
+id_ikan = 29
+rarity = 1
+nama_ikan = "Kerang Laut"
+image_ikan = ExtResource("1_cd1ng")
+deskripsi_ikan = "Gada ceritanya orang mancing dapet kerang, tapi entah hoki atau sial malah dapet kerang dari mancing."
+harga_ikan = 6
+posibility = 75
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="IkanResource" load_steps=3 format=3 uid="uid://dgml8gd5ixnbb"]
+
+[ext_resource type="Texture2D" uid="uid://ks82gqi2uqdq" path="res://Asset/Ikan/KudaLaut.png" id="1_bcogl"]
+[ext_resource type="Script" uid="uid://d12dgqhrutdpj" path="res://Script/FishRes.gd" id="2_s6jjq"]
+
+[resource]
+script = ExtResource("2_s6jjq")
+id_ikan = 27
+rarity = 1
+nama_ikan = "Kuda Laut"
+image_ikan = ExtResource("1_bcogl")
+deskripsi_ikan = "Kuda laut merupakan satu-satunya spesies yang jantannya dapat hamil. Kuda laut betina memiliki kantung di depan perutnya dan menaruh telurnya di sana. Sang jantan akan mengerami dan membawa telur ini hingga menetas."
+harga_ikan = 8
+posibility = 65
+metadata/_custom_type_script = "uid://d12dgqhrutdpj"

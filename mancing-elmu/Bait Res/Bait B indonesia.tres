@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="BaitResource" load_steps=11 format=3 uid="uid://yr8kqx361ttr"]
+[gd_resource type="Resource" script_class="BaitResource" load_steps=13 format=3 uid="uid://yr8kqx361ttr"]
 
 [ext_resource type="Texture2D" uid="uid://cfeebj6bi4nrs" path="res://Asset/Bait/Bait4_ShinyFlashy.png" id="1_cd0vn"]
 [ext_resource type="Script" uid="uid://bpej68p0xc5uh" path="res://Script/BaitRes.gd" id="2_2wywb"]
@@ -10,6 +10,8 @@
 [ext_resource type="Resource" uid="uid://dmnld0neslnlo" path="res://Ikan Res/R_1_Ikan Salmon.tres" id="6_a88d6"]
 [ext_resource type="Resource" uid="uid://c3ta7v6lw6q61" path="res://Ikan Res/R_3_Ikan Mas.tres" id="7_g7pqp"]
 [ext_resource type="Resource" uid="uid://c6yrq5q60w5ml" path="res://Ikan Res/L_10_Ikan Cosplay.tres" id="8_knnwc"]
+[ext_resource type="Resource" uid="uid://moyg3efsrncr" path="res://Ikan Res/E_23_Ikan Lampu.tres" id="9_a88d6"]
+[ext_resource type="Resource" uid="uid://c2xpjfusmmg1s" path="res://Ikan Res/C_29_Kerang Laut.tres" id="10_2xnhm"]
 
 [resource]
 script = ExtResource("2_2wywb")
@@ -19,5 +21,5 @@ id = 3
 price = 5
 bait_image = ExtResource("1_cd0vn")
 deskripsi = "Melokal dengan bahasa indonesia yang baik dan benar."
-fish_get = Array[Resource]([ExtResource("2_ynsxc"), ExtResource("2_3umxh"), ExtResource("3_knnwc"), ExtResource("4_ynsxc"), ExtResource("5_2xnhm"), ExtResource("6_a88d6"), ExtResource("7_g7pqp"), ExtResource("8_knnwc")])
+fish_get = Array[Resource]([ExtResource("2_ynsxc"), ExtResource("10_2xnhm"), ExtResource("2_3umxh"), ExtResource("3_knnwc"), ExtResource("6_a88d6"), ExtResource("7_g7pqp"), ExtResource("4_ynsxc"), ExtResource("9_a88d6"), ExtResource("8_knnwc"), ExtResource("5_2xnhm")])
 metadata/_custom_type_script = "uid://bpej68p0xc5uh"
