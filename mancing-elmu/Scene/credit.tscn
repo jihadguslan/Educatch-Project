@@ -1,0 +1,207 @@
+[gd_scene load_steps=16 format=3 uid="uid://slcokrcmv0vy"]
+
+[ext_resource type="Script" uid="uid://cl45ws8aebkv3" path="res://Script/credit.gd" id="1_u3f35"]
+[ext_resource type="Texture2D" uid="uid://b4tcm1k5jfc8q" path="res://Asset/BG/aquarium.jpg" id="2_3gens"]
+[ext_resource type="Texture2D" uid="uid://qwqhhfpf5ef3" path="res://Asset/base_button (large).png" id="2_8wyvr"]
+[ext_resource type="FontFile" uid="uid://dkiqel2g0cuv1" path="res://Font/DePixelHalbfett.otf" id="3_3gens"]
+[ext_resource type="FontFile" uid="uid://cil3lev67dav2" path="res://Font/Pix32.ttf" id="4_unkwt"]
+[ext_resource type="Texture2D" uid="uid://dshhola2cf0ed" path="res://Asset/BaseButton.png" id="5_i1gup"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7uvp1"]
+texture = ExtResource("2_8wyvr")
+texture_margin_left = 25.0
+texture_margin_top = 25.0
+texture_margin_right = 25.0
+texture_margin_bottom = 25.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 2
+
+[sub_resource type="LabelSettings" id="LabelSettings_6m1xy"]
+font = ExtResource("3_3gens")
+font_size = 21
+
+[sub_resource type="LabelSettings" id="LabelSettings_gobas"]
+font = ExtResource("3_3gens")
+
+[sub_resource type="LabelSettings" id="LabelSettings_r1l61"]
+font = ExtResource("4_unkwt")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dkhoh"]
+texture = ExtResource("5_i1gup")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8jvnx"]
+texture = ExtResource("5_i1gup")
+modulate_color = Color(0.2197159, 0.20060071, 0.19471148, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_j2y5n"]
+texture = ExtResource("5_i1gup")
+modulate_color = Color(2.1036954, 2.1036954, 2.1036954, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1q4lc"]
+texture = ExtResource("5_i1gup")
+modulate_color = Color(0.48439813, 0.4843982, 0.48439813, 0.67058825)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_16j7v"]
+
+[node name="Credit" type="CanvasLayer"]
+script = ExtResource("1_u3f35")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+modulate = Color(0.20511743, 0.20511743, 0.20511743, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_3gens")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Panel" type="Panel" parent="Control"]
+custom_minimum_size = Vector2(495, 477)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -247.5
+offset_top = -279.0
+offset_right = 247.5
+offset_bottom = 198.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_7uvp1")
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -138.0
+offset_top = -237.0
+offset_right = 138.0
+offset_bottom = -210.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Our Team Member"
+label_settings = SubResource("LabelSettings_6m1xy")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -173.0
+offset_top = -158.0
+offset_right = 173.0
+offset_bottom = 168.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+metadata/_edit_group_ = true
+
+[node name="Label6" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "Ikrom Abdul Ghazali"
+label_settings = SubResource("LabelSettings_gobas")
+horizontal_alignment = 1
+
+[node name="Label5" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "As game designer & 2D Artist
+"
+label_settings = SubResource("LabelSettings_r1l61")
+horizontal_alignment = 1
+
+[node name="Label3" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "M Dimas Surya Saputra"
+label_settings = SubResource("LabelSettings_gobas")
+horizontal_alignment = 1
+
+[node name="Label7" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "As 2D Artist & Fish Designer
+"
+label_settings = SubResource("LabelSettings_r1l61")
+horizontal_alignment = 1
+
+[node name="Label4" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "Gema Fathan Nurahdinal"
+label_settings = SubResource("LabelSettings_gobas")
+horizontal_alignment = 1
+
+[node name="Label8" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "As 2D Artist & Environment
+"
+label_settings = SubResource("LabelSettings_r1l61")
+horizontal_alignment = 1
+
+[node name="Label" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "Haikal Faturachman Z"
+label_settings = SubResource("LabelSettings_gobas")
+horizontal_alignment = 1
+
+[node name="Label9" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "UI/UX & Environment
+"
+label_settings = SubResource("LabelSettings_r1l61")
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "Muhammad Jihaadul Guslan S"
+label_settings = SubResource("LabelSettings_gobas")
+horizontal_alignment = 1
+
+[node name="Label10" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+text = "As Programer & Sound Designer
+"
+label_settings = SubResource("LabelSettings_r1l61")
+horizontal_alignment = 1
+
+[node name="Kembali" type="Button" parent="Control"]
+custom_minimum_size = Vector2(300, 60)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = 231.0
+offset_right = 150.0
+offset_bottom = 291.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3gens")
+theme_override_styles/normal = SubResource("StyleBoxTexture_dkhoh")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_8jvnx")
+theme_override_styles/hover = SubResource("StyleBoxTexture_j2y5n")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_1q4lc")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_16j7v")
+text = "Kembali"
+
+[connection signal="button_up" from="Control/Kembali" to="." method="_on_kembali_button_up"]

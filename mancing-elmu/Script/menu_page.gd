@@ -17,3 +17,8 @@ func _on_start_button_up() -> void:
 func _on_exit_button_up() -> void:
 	ScreenManager._play_audio(click_sound, self)
 	ScreenManager._exit_game()
+
+
+func _on_credit_button_up() -> void:
+	ScreenManager._play_audio(click_sound, self)
+	ScreenManager._change_scene("res://Scene/credit.tscn")
