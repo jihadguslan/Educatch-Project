@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_l0pg8"]
+
+[resource]
+script = ExtResource("1_l0pg8")
+id_soal = 16
+difficulty = 2
+isi_soal = "Verba yang menyatakan tindakan fisik yang dilakukan oleh tokoh dinamakan verba..."
+pilihan_soal = Array[String](["Mental", "Material", "Tingkah laku", "Kopula"])
+jawaban_soal = 1

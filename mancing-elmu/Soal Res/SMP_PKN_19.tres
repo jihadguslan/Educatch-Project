@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qohg7"]
+
+[resource]
+script = ExtResource("1_qohg7")
+id_soal = 19
+difficulty = 1
+isi_soal = "Faktor utama yang paling ampuh untuk memelihara persatuan dan kesatuan bangsa dalam keragaman adalah..."
+pilihan_soal = Array[String](["Sikap etnosentrisme yang tinggi", "Perasaan senasib dan sepenanggungan", "Sikap menolak kebudayaan asing", "Menonjolkan kelebihan suku sendiri"])
+jawaban_soal = 1

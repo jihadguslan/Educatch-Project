@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_kcfe6"]
+
+[resource]
+script = ExtResource("1_kcfe6")
+id_soal = 1
+difficulty = 1
+isi_soal = "Teks yang menggambarkan objek, tempat, atau peristiwa secara jelas dan terperinci disebut teks..."
+pilihan_soal = Array[String](["Narasi", "Deskripsi", "Eksposisi", "Prosedur"])
+jawaban_soal = 1

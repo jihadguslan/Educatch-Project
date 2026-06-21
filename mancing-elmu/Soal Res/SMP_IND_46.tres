@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ir14u"]
+
+[resource]
+script = ExtResource("1_ir14u")
+id_soal = 46
+difficulty = 1
+isi_soal = "Karya sastra yang berbentuk cerita pendek dan biasanya selesai dibaca dalam sekali duduk disebut..."
+pilihan_soal = Array[String](["Novel", "Cerpen", "Roman", "Dongeng"])
+jawaban_soal = 1

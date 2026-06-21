@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_5ejm5"]
+
+[resource]
+script = ExtResource("1_5ejm5")
+id_soal = 3
+difficulty = 2
+isi_soal = "Cerita cerita pendek yang mengandung unsur lucu dan mempunyai maksud untuk melakukan kritik disebut teks..."
+pilihan_soal = Array[String](["Humor", "Cerpen", "Anekdot", "Hikayat"])
+jawaban_soal = 2

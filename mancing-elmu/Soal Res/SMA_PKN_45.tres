@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ai1ur"]
+
+[resource]
+script = ExtResource("1_ai1ur")
+id_soal = 45
+difficulty = 2
+isi_soal = "Pelanggaran HAM ringan contohnya berbentuk tindakan..."
+pilihan_soal = Array[String](["Genosida", "Pencemaran nama baik dan penganiayaan ringan", "Pembunuhan massal", "Perbudakan sistematis"])
+jawaban_soal = 1

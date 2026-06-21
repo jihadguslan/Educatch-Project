@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ji8hd"]
+
+[resource]
+script = ExtResource("1_ji8hd")
+id_soal = 9
+difficulty = 1
+isi_soal = "Teks LHO singkatan dari..."
+pilihan_soal = Array[String](["Laporan Hasil Opini", "Laporan Hasil Observasi", "Laporan Hasil Organisasi", "Laporan Hari Opini"])
+jawaban_soal = 1

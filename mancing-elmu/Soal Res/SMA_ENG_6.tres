@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_yriyb"]
+
+[resource]
+script = ExtResource("1_yriyb")
+id_soal = 6
+difficulty = 2
+isi_soal = "\"Complete the sentence: \"\"I ... my homework yet. Can you wait for me?\"\"\""
+pilihan_soal = Array[String](["have not finished", "did not finish", "do not finish", "am not finishing"])

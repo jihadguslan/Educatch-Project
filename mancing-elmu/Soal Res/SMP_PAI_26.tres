@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_n387m"]
+
+[resource]
+script = ExtResource("1_n387m")
+id_soal = 26
+difficulty = 1
+isi_soal = "Mengapa Berbakti kepada Guru disejajarkan dengan berbakti pada orang tua?"
+pilihan_soal = Array[String](["Karena guru adalah nabi", "Karena guru pemberi ilmu yang bermanfaat", "Karena perintah hukum", "Karena guru lebih tua"])
+jawaban_soal = 1

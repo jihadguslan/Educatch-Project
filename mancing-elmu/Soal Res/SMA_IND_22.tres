@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_tee8v"]
+
+[resource]
+script = ExtResource("1_tee8v")
+id_soal = 22
+difficulty = 2
+isi_soal = "Penulisan kata serapan yang baku di bawah ini adalah..."
+pilihan_soal = Array[String](["Apotik", "Apotek", "Aktifitas", "Sistim"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wjjk0"]
+
+[resource]
+script = ExtResource("1_wjjk0")
+id_soal = 8
+difficulty = 2
+isi_soal = "Text that intends to explain the steps of how something is made or achieved is called..."
+pilihan_soal = Array[String](["Narrative", "Descriptive", "Procedure", "Report"])
+jawaban_soal = 2

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_dw2dj"]
+
+[resource]
+script = ExtResource("1_dw2dj")
+id_soal = 6
+difficulty = 2
+isi_soal = "Bagaimana cara mensinergikan Ibadah Mahdhah dan Ghairu Mahdhah dalam kehidupan sehari-hari?"
+pilihan_soal = Array[String](["Memilih salah satu saja", "Menjadikan seluruh hidup sebagai pengabdian kepada Allah", "Mengutamakan ibadah sosial", "Melakukan ritual saja"])
+jawaban_soal = 1

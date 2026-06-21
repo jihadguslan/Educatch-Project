@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_w0aja"]
+
+[resource]
+script = ExtResource("1_w0aja")
+id_soal = 15
+difficulty = 2
+isi_soal = "Integrasi nasional dalam masyarakat majemuk Indonesia dapat terwujud jika seluruh warga memiliki sikap..."
+pilihan_soal = Array[String](["Toleransi dan tenggang rasa", "Primordialisme", "Etnosentrisme", "Individualisme"])

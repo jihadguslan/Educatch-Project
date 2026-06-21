@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_srduh"]
+
+[resource]
+script = ExtResource("1_srduh")
+id_soal = 42
+difficulty = 1
+isi_soal = "Mengapa Salat Berjamaah lebih utama dari salat sendiri?"
+pilihan_soal = Array[String](["Karena pahalanya 27 derajat", "Karena lebih cepat", "Karena banyak teman", "Karena tidak perlu baca sendiri"])

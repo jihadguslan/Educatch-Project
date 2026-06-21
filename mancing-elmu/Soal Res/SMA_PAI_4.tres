@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_fk3c7"]
+
+[resource]
+script = ExtResource("1_fk3c7")
+id_soal = 4
+difficulty = 2
+isi_soal = "Jelaskan perbedaan esensial antara Syirik Akbar dan Syirik Asghar dalam kaitan dengan keimanan?"
+pilihan_soal = Array[String](["Syirik asghar tidak dosa", "Syirik asghar tidak mengeluarkan pelakunya dari Islam", "Keduanya sama saja", "Syirik asghar lebih bahaya"])
+jawaban_soal = 1

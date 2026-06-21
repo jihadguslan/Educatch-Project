@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_hxhjr"]
+
+[resource]
+script = ExtResource("1_hxhjr")
+id_soal = 37
+difficulty = 1
+isi_soal = "\"Complete the recipe: \"\"Don't forget to ... the sugar until it dissolves.\"\"\""
+pilihan_soal = Array[String](["cut", "stir", "slice", "peel"])
+jawaban_soal = 1

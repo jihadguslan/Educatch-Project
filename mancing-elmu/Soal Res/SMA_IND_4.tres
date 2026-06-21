@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_esvis"]
+
+[resource]
+script = ExtResource("1_esvis")
+id_soal = 4
+difficulty = 2
+isi_soal = "Struktur teks anekdot yang menunjukkan situasi awal cerita atau pengenalan latar dinamakan..."
+pilihan_soal = Array[String](["Abstrak", "Orientasi", "Krisis", "Reaksi"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4qxv4"]
+
+[resource]
+script = ExtResource("1_4qxv4")
+id_soal = 46
+difficulty = 2
+isi_soal = "Mengapa Keluarga adalah unit terkecil peradaban?"
+pilihan_soal = Array[String](["Karena kecil", "Karena dari keluarga nilai dasar agama ditanamkan", "Karena mudah dibentuk", "Karena semua punya keluarga"])
+jawaban_soal = 1

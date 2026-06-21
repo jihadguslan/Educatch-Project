@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wbat2"]
+
+[resource]
+script = ExtResource("1_wbat2")
+id_soal = 43
+difficulty = 1
+isi_soal = "Banyaknya titik sudut pada prisma segitiga adalah..."
+pilihan_soal = Array[String](["5", "6", "8", "9"])
+jawaban_soal = 1

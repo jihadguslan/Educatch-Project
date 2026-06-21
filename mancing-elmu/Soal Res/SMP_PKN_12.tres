@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_656tx"]
+
+[resource]
+script = ExtResource("1_656tx")
+id_soal = 12
+difficulty = 1
+isi_soal = "Konstitusi tertulis tertinggi yang berlaku di negara Indonesia saat ini adalah..."
+pilihan_soal = Array[String](["Ketetapan MPR", "Undang-Undang Dasar 1945", "Undang-Undang", "Peraturan Pemerintah"])
+jawaban_soal = 1

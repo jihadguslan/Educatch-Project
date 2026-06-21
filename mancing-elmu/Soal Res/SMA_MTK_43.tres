@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_abntj"]
+
+[resource]
+script = ExtResource("1_abntj")
+id_soal = 43
+difficulty = 2
+isi_soal = "Jika f(x) = x + 2, maka fungsi invers f^-1(x) adalah..."
+pilihan_soal = Array[String](["x - 2", "2 - x", "1 / (x + 2)", "2x"])

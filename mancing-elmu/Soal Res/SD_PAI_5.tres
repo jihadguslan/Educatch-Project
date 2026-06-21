@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_t6ou3"]
+
+[resource]
+script = ExtResource("1_t6ou3")
+id_soal = 5
+isi_soal = "Surah Al-Ma'un artinya adalah..."
+pilihan_soal = Array[String](["Pembukaan", "Nikmat yang banyak", "Barang-barang yang berguna", "Pertolongan"])
+jawaban_soal = 2

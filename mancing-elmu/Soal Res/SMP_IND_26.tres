@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rnuaq"]
+
+[resource]
+script = ExtResource("1_rnuaq")
+id_soal = 26
+difficulty = 1
+isi_soal = "Teks yang bertujuan untuk melaporkan suatu kejadian, peristiwa, atau informasi mengenai sesuatu yang baru saja terjadi disebut..."
+pilihan_soal = Array[String](["Teks Berita", "Teks Iklan", "Teks Eksposisi", "Teks Puisi"])

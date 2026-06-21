@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jjx5k"]
+
+[resource]
+script = ExtResource("1_jjx5k")
+id_soal = 2
+difficulty = 1
+isi_soal = "Sidang pertama BPUPKI yang dilaksanakan pada tanggal 29 Mei sampai 1 Juni 1945 bertujuan untuk membahas..."
+pilihan_soal = Array[String](["Bentuk negara Indonesia", "Dasar negara Indonesia", "Teks proklamasi kemerdekaan", "Rancangan undang-undang dasar"])
+jawaban_soal = 1

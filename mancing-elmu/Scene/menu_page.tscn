@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://dvvw8l8oksf0k"]
+[gd_scene format=3 uid="uid://dvvw8l8oksf0k"]
 
 [ext_resource type="Script" uid="uid://duu5qsasnwk5e" path="res://Script/menu_page.gd" id="1_eyjv7"]
 [ext_resource type="Texture2D" uid="uid://cdvajx3q0ih2s" path="res://Asset/Awan1.png" id="2_nufta"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://cylyu6pdu3ni2" path="res://Asset/Logo Educatch.png" id="7_eyjv7"]
 [ext_resource type="FontFile" uid="uid://cil3lev67dav2" path="res://Font/Pix32.ttf" id="7_me6qj"]
 [ext_resource type="Texture2D" uid="uid://dk5r8jfhm62ew" path="res://Asset/CusButton Hor (Large).png" id="8_a87xy"]
+[ext_resource type="Script" uid="uid://besndlmmm20pj" path="res://Script/setting_menu.gd" id="8_wp8ep"]
 [ext_resource type="FontFile" uid="uid://bradi8njpyk8d" path="res://Font/pixely[1].ttf" id="9_o5qv5"]
 
 [sub_resource type="Animation" id="Animation_me6qj"]
@@ -115,6 +116,7 @@ func _on_setting_button_up() -> void:
 func _on_back_to_menu_button_up() -> void:
 	Global._make_tween(anchor_menu, \"position:y\", 0.0, 0.7)
 	Global._make_tween(anchor_setting, \"position:y\", 725.0, 0.7)
+	ScreenManager._play_audio(preload(\"uid://bpdxwfq1aukv\"), self)
 "
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o5qv5"]
@@ -219,10 +221,10 @@ font_size = 17
 outline_size = 3
 outline_color = Color(0, 0, 0, 1)
 
-[node name="MenuCanvas" type="CanvasLayer"]
+[node name="MenuCanvas" type="CanvasLayer" unique_id=533415630]
 script = ExtResource("1_eyjv7")
 
-[node name="Menu Page" type="Control" parent="."]
+[node name="Menu Page" type="Control" parent="." unique_id=156992815]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -230,7 +232,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="BG" type="Control" parent="Menu Page"]
+[node name="BG" type="Control" parent="Menu Page" unique_id=92927613]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -238,7 +240,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="ColorRect" type="ColorRect" parent="Menu Page/BG"]
+[node name="ColorRect" type="ColorRect" parent="Menu Page/BG" unique_id=853984862]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -247,13 +249,11 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.18039216, 0.6, 0.8627451, 1)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Menu Page/BG"]
-libraries = {
-&"": SubResource("AnimationLibrary_a87xy")
-}
-autoplay = "Loop Cloud"
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Menu Page/BG" unique_id=868310398]
+libraries/ = SubResource("AnimationLibrary_a87xy")
+autoplay = &"Loop Cloud"
 
-[node name="MidAnchor" type="Control" parent="Menu Page/BG"]
+[node name="MidAnchor" type="Control" parent="Menu Page/BG" unique_id=68074370]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -267,7 +267,7 @@ offset_bottom = -324.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="AwanF" type="Control" parent="Menu Page/BG/MidAnchor"]
+[node name="AwanF" type="Control" parent="Menu Page/BG/MidAnchor" unique_id=2133625611]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -281,7 +281,7 @@ offset_bottom = 344.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="G7" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+[node name="G7" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF" unique_id=1514111175]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -295,7 +295,7 @@ texture = ExtResource("2_nufta")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G9" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+[node name="G9" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF" unique_id=1720520714]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -309,7 +309,7 @@ texture = ExtResource("3_0g8mq")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G10" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+[node name="G10" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF" unique_id=1876521427]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -323,7 +323,7 @@ texture = ExtResource("3_0g8mq")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G8" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+[node name="G8" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF" unique_id=1144297514]
 layout_mode = 0
 offset_left = -220.0
 offset_top = 122.0
@@ -333,7 +333,7 @@ texture = ExtResource("4_me6qj")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G11" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+[node name="G11" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF" unique_id=1845691537]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -347,7 +347,7 @@ texture = ExtResource("2_nufta")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G12" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+[node name="G12" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF" unique_id=835256648]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -361,7 +361,7 @@ texture = ExtResource("3_0g8mq")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G13" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+[node name="G13" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF" unique_id=1184826546]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -375,7 +375,7 @@ texture = ExtResource("3_0g8mq")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G14" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF"]
+[node name="G14" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanF" unique_id=1345203638]
 layout_mode = 0
 offset_left = 1264.0
 offset_top = 122.0
@@ -385,7 +385,7 @@ texture = ExtResource("4_me6qj")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="AwanM" type="Control" parent="Menu Page/BG/MidAnchor"]
+[node name="AwanM" type="Control" parent="Menu Page/BG/MidAnchor" unique_id=2102360461]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -399,7 +399,7 @@ offset_bottom = 344.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="G11" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+[node name="G11" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM" unique_id=1986660150]
 layout_mode = 0
 offset_left = -649.0
 offset_top = -104.0
@@ -409,7 +409,7 @@ texture = ExtResource("2_nufta")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G1" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+[node name="G1" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM" unique_id=587444853]
 layout_mode = 0
 offset_left = -783.0
 offset_top = -64.0
@@ -419,7 +419,7 @@ texture = ExtResource("2_nufta")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G4" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+[node name="G4" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM" unique_id=403233162]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -433,7 +433,7 @@ texture = ExtResource("3_0g8mq")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G5" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+[node name="G5" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM" unique_id=1158813336]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -447,7 +447,7 @@ texture = ExtResource("2_nufta")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G12" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+[node name="G12" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM" unique_id=948571630]
 layout_mode = 0
 offset_left = 1080.0
 offset_top = -104.0
@@ -457,7 +457,7 @@ texture = ExtResource("2_nufta")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G2" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+[node name="G2" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM" unique_id=132080381]
 layout_mode = 0
 offset_left = 946.0
 offset_top = -64.0
@@ -467,7 +467,7 @@ texture = ExtResource("2_nufta")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G6" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+[node name="G6" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM" unique_id=378075031]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -481,7 +481,7 @@ texture = ExtResource("3_0g8mq")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G7" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM"]
+[node name="G7" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanM" unique_id=1119994426]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -495,7 +495,7 @@ texture = ExtResource("2_nufta")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="AwanB" type="Control" parent="Menu Page/BG/MidAnchor"]
+[node name="AwanB" type="Control" parent="Menu Page/BG/MidAnchor" unique_id=690501744]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -509,7 +509,7 @@ offset_bottom = 344.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="G6" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+[node name="G6" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB" unique_id=1389886968]
 layout_mode = 0
 offset_left = -415.0
 offset_top = -372.0
@@ -519,7 +519,7 @@ texture = ExtResource("4_me6qj")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G2" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+[node name="G2" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB" unique_id=1643609526]
 layout_mode = 0
 offset_left = -549.0
 offset_top = -305.0
@@ -529,7 +529,7 @@ texture = ExtResource("3_0g8mq")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G3" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+[node name="G3" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB" unique_id=2051917775]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -543,7 +543,7 @@ texture = ExtResource("4_me6qj")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G12" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+[node name="G12" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB" unique_id=852470603]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -557,7 +557,7 @@ texture = ExtResource("4_me6qj")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G7" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+[node name="G7" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB" unique_id=1051971618]
 layout_mode = 0
 offset_left = 889.0
 offset_top = -372.0
@@ -567,7 +567,7 @@ texture = ExtResource("4_me6qj")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G4" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+[node name="G4" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB" unique_id=1049630137]
 layout_mode = 0
 offset_left = 755.0
 offset_top = -305.0
@@ -577,7 +577,7 @@ texture = ExtResource("3_0g8mq")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G5" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+[node name="G5" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB" unique_id=953112334]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -591,7 +591,7 @@ texture = ExtResource("4_me6qj")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="G13" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB"]
+[node name="G13" type="TextureRect" parent="Menu Page/BG/MidAnchor/AwanB" unique_id=893050507]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -605,7 +605,7 @@ texture = ExtResource("4_me6qj")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="Middle" type="Control" parent="Menu Page"]
+[node name="Middle" type="Control" parent="Menu Page" unique_id=977167]
 custom_minimum_size = Vector2(349, 648)
 layout_mode = 1
 anchors_preset = 13
@@ -618,7 +618,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = SubResource("GDScript_o5qv5")
 
-[node name="AnchorMenu" type="Control" parent="Menu Page/Middle"]
+[node name="AnchorMenu" type="Control" parent="Menu Page/Middle" unique_id=1085051380]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -626,7 +626,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="AnchorTitle" type="Control" parent="Menu Page/Middle/AnchorMenu"]
+[node name="AnchorTitle" type="Control" parent="Menu Page/Middle/AnchorMenu" unique_id=1755412920]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -638,7 +638,7 @@ offset_bottom = -142.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="TextureRect" type="TextureRect" parent="Menu Page/Middle/AnchorMenu/AnchorTitle"]
+[node name="TextureRect" type="TextureRect" parent="Menu Page/Middle/AnchorMenu/AnchorTitle" unique_id=676407121]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -655,7 +655,7 @@ texture = ExtResource("7_eyjv7")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="AnchorMid" type="Control" parent="Menu Page/Middle/AnchorMenu"]
+[node name="AnchorMid" type="Control" parent="Menu Page/Middle/AnchorMenu" unique_id=1756163227]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -667,7 +667,7 @@ offset_bottom = 3.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="All Buttons" type="VBoxContainer" parent="Menu Page/Middle/AnchorMenu/AnchorMid"]
+[node name="All Buttons" type="VBoxContainer" parent="Menu Page/Middle/AnchorMenu/AnchorMid" unique_id=1336531243]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -683,7 +683,7 @@ grow_vertical = 2
 theme_override_constants/separation = 15
 metadata/_edit_group_ = true
 
-[node name="Start" type="Button" parent="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons"]
+[node name="Start" type="Button" parent="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons" unique_id=36046286]
 custom_minimum_size = Vector2(300, 60)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -697,7 +697,7 @@ theme_override_styles/disabled = SubResource("StyleBoxTexture_4wdkr")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_o5qv5")
 text = "Mulai"
 
-[node name="Setting" type="Button" parent="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons"]
+[node name="Setting" type="Button" parent="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons" unique_id=1297147278]
 custom_minimum_size = Vector2(300, 60)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -711,7 +711,7 @@ theme_override_styles/disabled = SubResource("StyleBoxTexture_4wdkr")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_o5qv5")
 text = "Pengaturan"
 
-[node name="Credit" type="Button" parent="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons"]
+[node name="Credit" type="Button" parent="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons" unique_id=1065745871]
 custom_minimum_size = Vector2(300, 60)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -725,7 +725,7 @@ theme_override_styles/disabled = SubResource("StyleBoxTexture_4wdkr")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_o5qv5")
 text = "Credit"
 
-[node name="Exit" type="Button" parent="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons"]
+[node name="Exit" type="Button" parent="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons" unique_id=1737120582]
 custom_minimum_size = Vector2(300, 60)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -739,7 +739,7 @@ theme_override_styles/disabled = SubResource("StyleBoxTexture_4wdkr")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_o5qv5")
 text = "Keluar"
 
-[node name="AnchorSetting" type="Control" parent="Menu Page/Middle"]
+[node name="AnchorSetting" type="Control" parent="Menu Page/Middle" unique_id=1659677801]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -748,8 +748,9 @@ offset_top = 725.0
 offset_bottom = 725.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("8_wp8ep")
 
-[node name="Panel" type="Panel" parent="Menu Page/Middle/AnchorSetting"]
+[node name="Panel" type="Panel" parent="Menu Page/Middle/AnchorSetting" unique_id=1762151463]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = -0.86676216
@@ -761,7 +762,7 @@ grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_13h1q")
 metadata/_edit_use_anchors_ = true
 
-[node name="Label" type="Label" parent="Menu Page/Middle/AnchorSetting/Panel"]
+[node name="Label" type="Label" parent="Menu Page/Middle/AnchorSetting/Panel" unique_id=880419808]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -774,7 +775,7 @@ grow_horizontal = 2
 text = "Pengaturan"
 label_settings = SubResource("LabelSettings_wp8ep")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Menu Page/Middle/AnchorSetting/Panel"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Menu Page/Middle/AnchorSetting/Panel" unique_id=1751074422]
 layout_mode = 0
 offset_left = 41.0
 offset_top = 124.0
@@ -782,29 +783,32 @@ offset_right = 917.0
 offset_bottom = 295.0
 theme_override_constants/separation = 25
 
-[node name="Label" type="Label" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer"]
+[node name="Label" type="Label" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer" unique_id=199051772]
 layout_mode = 2
 size_flags_horizontal = 4
 text = "Music"
 label_settings = SubResource("LabelSettings_bkdup")
 
-[node name="music_slider" type="HSlider" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer"]
+[node name="music_slider" type="HSlider" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer" unique_id=734167045]
 layout_mode = 2
 size_flags_vertical = 4
-value = 80.0
+min_value = -24.0
+max_value = 6.0
 
-[node name="Label2" type="Label" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer"]
+[node name="Label2" type="Label" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer" unique_id=702127251]
 layout_mode = 2
 size_flags_horizontal = 4
 text = "SFX"
 label_settings = SubResource("LabelSettings_bkdup")
 
-[node name="sfx_slider" type="HSlider" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer"]
+[node name="sfx_slider" type="HSlider" parent="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer" unique_id=675473367]
 layout_mode = 2
 size_flags_vertical = 4
-value = 80.0
+min_value = -24.0
+max_value = 6.0
+step = 0.1
 
-[node name="backToMenu" type="Button" parent="Menu Page/Middle/AnchorSetting/Panel"]
+[node name="backToMenu" type="Button" parent="Menu Page/Middle/AnchorSetting/Panel" unique_id=2057973612]
 custom_minimum_size = Vector2(300, 60)
 layout_mode = 1
 anchors_preset = 7
@@ -828,13 +832,11 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_bkdup")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_4wdkr")
 text = "Kembali"
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Menu Page/Middle"]
-libraries = {
-&"": SubResource("AnimationLibrary_wp8ep")
-}
-autoplay = "Loop"
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Menu Page/Middle" unique_id=576383138]
+libraries/ = SubResource("AnimationLibrary_wp8ep")
+autoplay = &"Loop"
 
-[node name="Corner Left" type="Control" parent="Menu Page"]
+[node name="Corner Left" type="Control" parent="Menu Page" unique_id=1866512846]
 layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
@@ -845,7 +847,7 @@ offset_right = 51.0
 offset_bottom = -7.0
 grow_vertical = 0
 
-[node name="Corner Right" type="Control" parent="Menu Page"]
+[node name="Corner Right" type="Control" parent="Menu Page" unique_id=698860977]
 layout_mode = 1
 anchors_preset = 3
 anchor_left = 1.0
@@ -859,7 +861,7 @@ offset_bottom = -6.0
 grow_horizontal = 0
 grow_vertical = 0
 
-[node name="Version" type="Label" parent="Menu Page/Corner Right"]
+[node name="Version" type="Label" parent="Menu Page/Corner Right" unique_id=1565045037]
 layout_mode = 1
 anchors_preset = 3
 anchor_left = 1.0
@@ -877,4 +879,6 @@ label_settings = SubResource("LabelSettings_eyjv7")
 [connection signal="button_up" from="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons/Setting" to="Menu Page/Middle" method="_on_setting_button_up"]
 [connection signal="button_up" from="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons/Credit" to="." method="_on_credit_button_up"]
 [connection signal="button_up" from="Menu Page/Middle/AnchorMenu/AnchorMid/All Buttons/Exit" to="." method="_on_exit_button_up"]
+[connection signal="value_changed" from="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer/music_slider" to="Menu Page/Middle/AnchorSetting" method="_on_music_slider_value_changed"]
+[connection signal="value_changed" from="Menu Page/Middle/AnchorSetting/Panel/VBoxContainer/sfx_slider" to="Menu Page/Middle/AnchorSetting" method="_on_sfx_slider_value_changed"]
 [connection signal="button_up" from="Menu Page/Middle/AnchorSetting/Panel/backToMenu" to="Menu Page/Middle" method="_on_back_to_menu_button_up"]

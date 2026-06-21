@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jgjpa"]
+
+[resource]
+script = ExtResource("1_jgjpa")
+id_soal = 29
+difficulty = 1
+isi_soal = "Text that tells about a past experience or event is called..."
+pilihan_soal = Array[String](["Descriptive text", "Recount text", "Procedure text", "Narrative text"])
+jawaban_soal = 1

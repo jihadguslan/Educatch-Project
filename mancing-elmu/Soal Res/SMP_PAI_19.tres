@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_men6j"]
+
+[resource]
+script = ExtResource("1_men6j")
+id_soal = 19
+difficulty = 1
+isi_soal = "Apa hikmah dibalik peristiwa Isra' Mi'raj bagi Rasulullah SAW?"
+pilihan_soal = Array[String](["Penghiburan dan perintah salat lima waktu", "Perjalanan biasa", "Menemui raja", "Mencari tempat tinggal"])

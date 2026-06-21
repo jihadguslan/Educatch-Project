@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qi6i1"]
+
+[resource]
+script = ExtResource("1_qi6i1")
+id_soal = 36
+difficulty = 1
+isi_soal = "Perbedaan utama Kiamat Sugra dan Kubra adalah..."
+pilihan_soal = Array[String](["Kiamat sugra bersifat parsial/kecil", "Tidak ada bedanya", "Kiamat kubra lebih dulu", "Sugra adalah kiamat total"])

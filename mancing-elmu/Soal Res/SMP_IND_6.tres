@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2n0xs"]
+
+[resource]
+script = ExtResource("1_2n0xs")
+id_soal = 6
+difficulty = 1
+isi_soal = "Teks yang berisi langkah-langkah atau tahapan yang harus ditempuh untuk mencapai suatu tujuan disebut..."
+pilihan_soal = Array[String](["Teks LHO", "Teks Eksplanasi", "Teks Prosedur", "Teks Deskripsi"])
+jawaban_soal = 2

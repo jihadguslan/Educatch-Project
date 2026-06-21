@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_tyq5q"]
+
+[resource]
+script = ExtResource("1_tyq5q")
+id_soal = 40
+difficulty = 1
+isi_soal = "The moral value of a story can usually be found in the..."
+pilihan_soal = Array[String](["Orientation", "Complication", "Resolution", "Title"])
+jawaban_soal = 2

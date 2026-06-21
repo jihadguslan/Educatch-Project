@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_abht5"]
+
+[resource]
+script = ExtResource("1_abht5")
+id_soal = 33
+difficulty = 1
+isi_soal = "Gradien dari persamaan garis 2y = 4x + 6 is..."
+pilihan_soal = Array[String](["2", "4", "-2", "-4"])

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="BaitResource" format=3 uid="uid://iaph6x01fech"]
+
+[ext_resource type="Texture2D" uid="uid://bjuu2gk6qmdc8" path="res://Asset/Bait/Bait5_Breadbread.png" id="1_4cp6s"]
+[ext_resource type="Resource" uid="uid://djywt741nbyxm" path="res://Ikan Res/C_22_Ikan Sarden.tres" id="2_qghde"]
+[ext_resource type="Resource" uid="uid://d5t64afyj2x8" path="res://Ikan Res/C_18_Ikan Guppy.tres" id="3_nf7xx"]
+[ext_resource type="Resource" uid="uid://ihixfcjoxtof" path="res://Ikan Res/C_21_Ikan Lele.tres" id="4_157mp"]
+[ext_resource type="Resource" uid="uid://chl85fi6u1jo3" path="res://Ikan Res/R_19_Ikan Bawal.tres" id="5_v65xm"]
+[ext_resource type="Resource" uid="uid://dx4w63pjojeq" path="res://Ikan Res/R_30_Ikan Blobfish.tres" id="6_swjj0"]
+[ext_resource type="Resource" uid="uid://cxb4agqcelry1" path="res://Ikan Res/R_16_Ikan Tuna.tres" id="7_ap034"]
+[ext_resource type="Resource" uid="uid://4i3mqbw1arft" path="res://Ikan Res/R_15_Ikan Patin.tres" id="8_sjj70"]
+[ext_resource type="Resource" uid="uid://csw7anq07cipg" path="res://Ikan Res/E_17_Ikan Tuna Kuning.tres" id="9_chu1i"]
+[ext_resource type="Resource" uid="uid://bvygjjpxs374x" path="res://Ikan Res/E_20_Ikan Badut.tres" id="10_ca01y"]
+[ext_resource type="Resource" uid="uid://gc5a23xfkhjl" path="res://Ikan Res/L_17_Ikan Akatsuki.tres" id="11_fmiig"]
+[ext_resource type="Script" uid="uid://bpej68p0xc5uh" path="res://Script/BaitRes.gd" id="12_amwkl"]
+
+[resource]
+script = ExtResource("12_amwkl")
+bait_name = "Pendidikan Agama"
+kode_soal = "PAI"
+id = 4
+price = 5
+bait_image = ExtResource("1_4cp6s")
+deskripsi = "Pendidikan yang mengajarkan implementasi nilai dan aturan agama."
+fish_get = Array[Resource]([ExtResource("2_qghde"), ExtResource("3_nf7xx"), ExtResource("4_157mp"), ExtResource("5_v65xm"), ExtResource("6_swjj0"), ExtResource("7_ap034"), ExtResource("8_sjj70"), ExtResource("6_swjj0"), ExtResource("9_chu1i"), ExtResource("10_ca01y"), ExtResource("11_fmiig")])
+metadata/_custom_type_script = "uid://bpej68p0xc5uh"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mr0du"]
+
+[resource]
+script = ExtResource("1_mr0du")
+id_soal = 13
+difficulty = 2
+isi_soal = "Jumlah 10 suku pertama dari deret aritmetika 2 + 5 + 8 + ... adalah..."
+pilihan_soal = Array[String](["145", "155", "165", "175"])
+jawaban_soal = 1

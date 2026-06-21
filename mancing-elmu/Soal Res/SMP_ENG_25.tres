@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_bnqo3"]
+
+[resource]
+script = ExtResource("1_bnqo3")
+id_soal = 25
+difficulty = 1
+isi_soal = "\"Rearrange these words: \"\"is - beautiful - My - mother\"\"\""
+pilihan_soal = Array[String](["Beautiful is my mother", "My mother beautiful is", "My mother is beautiful", "Mother my is beautiful"])
+jawaban_soal = 2

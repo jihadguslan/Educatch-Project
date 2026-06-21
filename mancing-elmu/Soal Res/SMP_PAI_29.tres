@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_nnffw"]
+
+[resource]
+script = ExtResource("1_nnffw")
+id_soal = 29
+difficulty = 1
+isi_soal = "Apa itu Syaja'ah?"
+pilihan_soal = Array[String](["Keberanian dalam membela kebenaran", "Keberanian berkelahi", "Sombong", "Pasrah"])

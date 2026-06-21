@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_q0td7"]
+
+[resource]
+script = ExtResource("1_q0td7")
+id_soal = 28
+isi_soal = "Waktu penyembelihan hewan qurban adalah tanggal 10 Zulhijjah dan..."
+pilihan_soal = Array[String](["Hari Raya Idul Fitri", "Hari Tasyrik", "Bulan Ramadan", "Awal tahun Hijriyah"])
+jawaban_soal = 1

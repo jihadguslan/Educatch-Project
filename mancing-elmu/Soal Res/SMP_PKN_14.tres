@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_6dyw4"]
+
+[resource]
+script = ExtResource("1_6dyw4")
+id_soal = 14
+difficulty = 1
+isi_soal = "Keragaman suku bangsa dan budaya di Indonesia dipengaruhi oleh faktor berikut, kecuali..."
+pilihan_soal = Array[String](["Letak strategis wilayah Indonesia", "Kondisi negara kepulauan", "Perbedaan kondisi alam", "Kesamaan sistem mata pencaharian"])
+jawaban_soal = 3

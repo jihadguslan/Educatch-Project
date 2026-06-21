@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_vdp6n"]
+
+[resource]
+script = ExtResource("1_vdp6n")
+id_soal = 34
+difficulty = 1
+isi_soal = "Bagian teks eksposisi yang berisi alasan, fakta, atau bukti untuk mendukung tesis disebut..."
+pilihan_soal = Array[String](["Tesis", "Argumentasi", "Penegasan ulang", "Judul"])
+jawaban_soal = 1

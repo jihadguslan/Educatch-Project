@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_kvuok"]
+
+[resource]
+script = ExtResource("1_kvuok")
+id_soal = 5
+difficulty = 2
+isi_soal = "Kementerian Negara Republik Indonesia dipimpin oleh menteri yang diangkat dan diberhentikan oleh..."
+pilihan_soal = Array[String](["Ketua DPR", "Ketua MPR", "Presiden", "Wakil Presiden"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qctpe"]
+
+[resource]
+script = ExtResource("1_qctpe")
+id_soal = 12
+isi_soal = "Sikap yang benar saat menerima musibah adalah..."
+pilihan_soal = Array[String](["Marah", "Sabar dan ikhlas", "Menangis terus", "Menyalahkan orang lain"])
+jawaban_soal = 1

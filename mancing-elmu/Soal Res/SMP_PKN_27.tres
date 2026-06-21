@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_1fksw"]
+
+[resource]
+script = ExtResource("1_1fksw")
+id_soal = 27
+difficulty = 1
+isi_soal = "Fungsi Pancasila sebagai sumber dari segala sumber hukum di Indonesia berarti..."
+pilihan_soal = Array[String](["Semua peraturan hukum tidak boleh bertentangan dengan Pancasila", "Pancasila merupakan satu-satunya hukum tertulis", "Hukum adat tidak berlaku lagi setelah ada Pancasila", "Pancasila dapat menggantikan fungsi undang-undang"])

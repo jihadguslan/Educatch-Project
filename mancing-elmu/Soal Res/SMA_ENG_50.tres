@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_igj7o"]
+
+[resource]
+script = ExtResource("1_igj7o")
+id_soal = 50
+difficulty = 2
+isi_soal = "The final paragraph of a hortatory exposition text contains a..."
+pilihan_soal = Array[String](["Thesis", "Resolution", "Recommendation", "Complication"])
+jawaban_soal = 2

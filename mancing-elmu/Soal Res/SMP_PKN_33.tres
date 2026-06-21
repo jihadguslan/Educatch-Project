@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_y2egi"]
+
+[resource]
+script = ExtResource("1_y2egi")
+id_soal = 33
+difficulty = 1
+isi_soal = "Kebangkitan Nasional Indonesia ditandai dengan berdirinya organisasi modern pertama yaitu..."
+pilihan_soal = Array[String](["Sarekat Islam", "Indische Partij", "Budi Utomo", "Muhammadiyah"])
+jawaban_soal = 2

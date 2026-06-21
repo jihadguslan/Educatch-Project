@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_eract"]
+
+[resource]
+script = ExtResource("1_eract")
+id_soal = 30
+difficulty = 1
+isi_soal = "Plakat yang dipasang di tempat-tempat umum berupa pengumuman atau iklan dengan gambar yang mencolok disebut..."
+pilihan_soal = Array[String](["Slogan", "Iklan", "Spanduk", "Poster"])
+jawaban_soal = 3

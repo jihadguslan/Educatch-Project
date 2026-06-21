@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_3158h"]
+
+[resource]
+script = ExtResource("1_3158h")
+id_soal = 41
+difficulty = 1
+isi_soal = "Jika sudut pusat lingkaran adalah 90 derajat dan jari-jarinya 7 cm, maka luas juringnya adalah..."
+pilihan_soal = Array[String](["38,5 cm2", "77 cm2", "154 cm2", "11,5 cm2"])

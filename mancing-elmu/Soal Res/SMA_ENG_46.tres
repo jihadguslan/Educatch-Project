@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mcpvk"]
+
+[resource]
+script = ExtResource("1_mcpvk")
+id_soal = 46
+difficulty = 2
+isi_soal = "What does the idiom 'piece of cake' mean?"
+pilihan_soal = Array[String](["A slice of birthday cake", "Very easy task", "Hard work", "Expensive item"])
+jawaban_soal = 1

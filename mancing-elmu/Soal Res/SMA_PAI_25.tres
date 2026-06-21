@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3 uid="uid://daspg3w4nkq6x"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_mnpqf"]
+
+[resource]
+script = ExtResource("1_mnpqf")
+id_soal = 25
+difficulty = 2
+isi_soal = "Apa perbedaan antara Konflik Sosial dan Perbedaan Pendapat menurut Islam?"
+pilihan_soal = Array[String](["Tidak ada perbedaan", "Konflik bersifat merusak, perbedaan bisa memperkaya", "Keduanya dilarang", "Keduanya wajib ada"])
+jawaban_soal = 1

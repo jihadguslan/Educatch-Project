@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jlyi5"]
+
+[resource]
+script = ExtResource("1_jlyi5")
+id_soal = 25
+difficulty = 1
+isi_soal = "Sikap patriotisme di lingkungan sekolah dapat diwujudkan dalam bentuk..."
+pilihan_soal = Array[String](["Mengikuti upacara bendera dengan khidmat", "Membantu teman saat ulangan umum", "Menjaga kebersihan rumah masing-masing", "Bekerja keras mencari nafkah keluarga"])

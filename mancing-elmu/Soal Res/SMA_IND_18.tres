@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_r7pju"]
+
+[resource]
+script = ExtResource("1_r7pju")
+id_soal = 18
+difficulty = 2
+isi_soal = "Kalimat yang menggunakan konjungsi temporal (waktu) di bawah ini adalah..."
+pilihan_soal = Array[String](["Ayah membaca koran lalu minum kopi.", "Ibu membeli baju karena diskon besar.", "Dia tetap pergi meskipun hujan lebat.", "Rumah itu sangat besar dan megah."])

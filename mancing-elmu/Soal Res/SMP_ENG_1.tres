@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2a2si"]
+
+[resource]
+script = ExtResource("1_2a2si")
+id_soal = 1
+difficulty = 1
+isi_soal = "\"Dina: \"\"Good morning, Sir.\"\" / Mr. Alan: \"\"..., Dina. How are you?\"\"\""
+pilihan_soal = Array[String](["Good afternoon", "Good morning", "Good night", "Goodbye"])
+jawaban_soal = 1

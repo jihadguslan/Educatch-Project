@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_1flbj"]
+
+[resource]
+script = ExtResource("1_1flbj")
+id_soal = 5
+difficulty = 1
+isi_soal = "Ketua Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia (BPUPKI) adalah..."
+pilihan_soal = Array[String](["Ir. Soekarno", "Drs. Mohammad Hatta", "Dr. K.R.T. Radjiman Wedyodiningrat", "Raden Pandji Soeroso"])
+jawaban_soal = 2

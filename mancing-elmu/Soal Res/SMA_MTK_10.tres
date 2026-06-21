@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_tuwu5"]
+
+[resource]
+script = ExtResource("1_tuwu5")
+id_soal = 10
+difficulty = 2
+isi_soal = "Koordinat titik puncak dari fungsi kuadrat f(x) = x^2 - 4x + 5 shadow..."
+pilihan_soal = Array[String](["(2, 1)", "(2, 5)", "(-2, 1)", "(-2, 5)"])

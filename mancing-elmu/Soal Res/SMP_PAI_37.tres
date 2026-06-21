@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_d6lrw"]
+
+[resource]
+script = ExtResource("1_d6lrw")
+id_soal = 37
+difficulty = 1
+isi_soal = "Apa maksud dari Ajal tidak bisa dipercepat atau diundur?"
+pilihan_soal = Array[String](["Sesuai ketetapan Allah yang mutlak", "Karena manusia tidak tahu", "Karena dokter bisa menunda", "Karena faktor kesehatan"])

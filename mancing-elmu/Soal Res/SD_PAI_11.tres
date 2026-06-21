@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_bolvy"]
+
+[resource]
+script = ExtResource("1_bolvy")
+id_soal = 11
+isi_soal = "Contoh takdir mubram (yang tidak dapat diubah) adalah..."
+pilihan_soal = Array[String](["Kepintaran", "Kekayaan", "Kematian", "Kesehatan"])
+jawaban_soal = 2

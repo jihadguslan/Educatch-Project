@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_u88ax"]
+
+[resource]
+script = ExtResource("1_u88ax")
+id_soal = 4
+difficulty = 1
+isi_soal = "Apa makna Istiqlal dalam konteks nama surah atau konsep ketuhanan?"
+pilihan_soal = Array[String](["Kemerdekaan/Kemandirian", "Kedamaian", "Ketabahan", "Kemenangan"])

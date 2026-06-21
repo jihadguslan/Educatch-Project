@@ -1,6 +1,7 @@
 extends Resource
 class_name BaitResource
 
+enum KodeSoal{PKN, IND, ENG, MTK, PAI}
 @export var bait_name : String = "Nama Bait"
 @export var kode_soal : String = ""
 @export var id : int = 0

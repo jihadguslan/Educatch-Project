@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_onst7"]
+
+[resource]
+script = ExtResource("1_onst7")
+id_soal = 33
+difficulty = 1
+isi_soal = "Perbedaan Malaikat dan Jin adalah..."
+pilihan_soal = Array[String](["Malaikat dari cahaya, jin dari api", "Malaikat terlihat, jin tidak", "Jin bisa taat, malaikat tidak", "Keduanya sama saja"])

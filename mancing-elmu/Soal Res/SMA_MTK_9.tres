@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7ssbv"]
+
+[resource]
+script = ExtResource("1_7ssbv")
+id_soal = 9
+difficulty = 2
+isi_soal = "Pada segitiga siku-siku, jika tan A = 3/4, maka nilai sin A adalah..."
+pilihan_soal = Array[String](["3/5", "4/5", "5/3", "5/4"])

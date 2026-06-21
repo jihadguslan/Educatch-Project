@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_nan5b"]
+
+[resource]
+script = ExtResource("1_nan5b")
+id_soal = 27
+difficulty = 2
+isi_soal = "Kata kerja yang menyatakan larangan atau perintah dalam teks prosedur dinamakan verba..."
+pilihan_soal = Array[String](["Deklaratif", "Interogatif", "Imperatif", "Edukatif"])
+jawaban_soal = 2

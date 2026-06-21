@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_w26j5"]
+
+[resource]
+script = ExtResource("1_w26j5")
+id_soal = 1
+difficulty = 2
+isi_soal = "Sistem pembagian kekuasaan yang diterapkan di Indonesia menurut UUD 1945 mengacu pada ajaran..."
+pilihan_soal = Array[String](["Separation of power murni", "Distribution of power", "Monarki absolut", "Parlemen murni"])
+jawaban_soal = 1

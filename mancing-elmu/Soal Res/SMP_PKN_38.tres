@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_p6y80"]
+
+[resource]
+script = ExtResource("1_p6y80")
+id_soal = 38
+difficulty = 1
+isi_soal = "Lagu kebangsaan Indonesia Raya pertama kali diperdengarkan secara resmi pada peristiwa..."
+pilihan_soal = Array[String](["Proklamasi Kemerdekaan", "Sidang BPUPKI", "Peristiwa Sumpah Pemuda", "Peresmian PPKI"])
+jawaban_soal = 2

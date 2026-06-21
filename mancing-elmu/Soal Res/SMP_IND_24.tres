@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_82wmk"]
+
+[resource]
+script = ExtResource("1_82wmk")
+id_soal = 24
+difficulty = 1
+isi_soal = "Gagasan utama dari sebuah paragraf disebut juga dengan..."
+pilihan_soal = Array[String](["Kalimat penjelas", "Ide pokok", "Kesimpulan", "Ringkasan"])
+jawaban_soal = 1

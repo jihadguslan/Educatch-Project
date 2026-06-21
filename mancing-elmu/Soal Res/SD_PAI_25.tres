@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ekkfs"]
+
+[resource]
+script = ExtResource("1_ekkfs")
+id_soal = 25
+isi_soal = "Tujuan mengonsumsi makanan halal adalah agar tubuh sehat dan ibadah..."
+pilihan_soal = Array[String](["Menjadi berat", "Diterima oleh Allah", "Menjadi pamer", "Terasa lelah"])
+jawaban_soal = 1

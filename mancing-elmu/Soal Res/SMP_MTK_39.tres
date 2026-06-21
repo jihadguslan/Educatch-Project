@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ct6o7"]
+
+[resource]
+script = ExtResource("1_ct6o7")
+id_soal = 39
+difficulty = 1
+isi_soal = "Sebuah tangga panjangnya 5 m disandarkan ke dinding. Jika jarak kaki tangga ke dinding 3 m, tinggi dinding adalah..."
+pilihan_soal = Array[String](["2 m", "3,5 m", "4 m", "4,5 m"])
+jawaban_soal = 2

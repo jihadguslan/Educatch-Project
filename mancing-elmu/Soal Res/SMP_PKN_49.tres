@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_45dv2"]
+
+[resource]
+script = ExtResource("1_45dv2")
+id_soal = 49
+difficulty = 1
+isi_soal = "Hak mendasar yang dimiliki setiap manusia sejak lahir sebagai anugerah Tuhan Yang Maha Esa disebut..."
+pilihan_soal = Array[String](["Hak warga negara", "Hak asasi manusia", "Hak politik", "Hak hukum"])
+jawaban_soal = 1

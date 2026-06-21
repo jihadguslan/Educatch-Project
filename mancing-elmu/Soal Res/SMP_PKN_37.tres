@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_movcx"]
+
+[resource]
+script = ExtResource("1_movcx")
+id_soal = 37
+difficulty = 1
+isi_soal = "Isi ketiga dari Sumpah Pemuda yang diikrarkan para pemuda tahun 1928 adalah menjunjung bahasa persatuan, yaitu..."
+pilihan_soal = Array[String](["Bahasa Melayu", "Bahasa Indonesia", "Bahasa Jawa", "Bahasa Sansekerta"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_1oqtc"]
+
+[resource]
+script = ExtResource("1_1oqtc")
+id_soal = 48
+difficulty = 2
+isi_soal = "\"Complete the sentence: \"\"By the time the train arrived, she ... for an hour.\"\"\""
+pilihan_soal = Array[String](["had been waiting", "was waiting", "is waiting", "waits"])

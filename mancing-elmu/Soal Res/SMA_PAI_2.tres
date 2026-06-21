@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mqvgc"]
+
+[resource]
+script = ExtResource("1_mqvgc")
+id_soal = 2
+difficulty = 2
+isi_soal = "Dalam konsep Ijtihad, mengapa penggunaan Qiyas diletakkan setelah Al-Qur'an dan Sunnah?"
+pilihan_soal = Array[String](["Karena manusia punya nafsu", "Sebagai sarana mencari hukum baru yang belum ada teksnya", "Karena lebih mudah dilakukan", "Karena perintah khalifah"])
+jawaban_soal = 1

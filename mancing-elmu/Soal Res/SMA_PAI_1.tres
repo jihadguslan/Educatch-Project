@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_f7im3"]
+
+[resource]
+script = ExtResource("1_f7im3")
+id_soal = 1
+difficulty = 2
+isi_soal = "Mengapa Al-Qur'an disebut sebagai Mu'jizat al-Akbar dibandingkan kitab sebelumnya?"
+pilihan_soal = Array[String](["Karena keasliannya dijamin Allah hingga akhir zaman", "Karena bahasanya sangat indah", "Karena turun di tempat terbaik", "Karena jumlah halamannya paling banyak"])

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_m0bp0"]
+
+[resource]
+script = ExtResource("1_m0bp0")
+id_soal = 40
+difficulty = 1
+isi_soal = "Daerah di dalam lingkaran yang dibatasi oleh sebuah busur dan tali busur disebut..."
+pilihan_soal = Array[String](["Tembereng", "Juring", "Apotema", "Busur"])

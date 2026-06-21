@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=3 uid="uid://b3y8oom1tswny"]
+[gd_scene format=3 uid="uid://b3y8oom1tswny"]
 
 [ext_resource type="Texture2D" uid="uid://c4c8iydkufeku" path="res://Asset/BG/Pantai/background water-Recovered1.jpg" id="1_d22iy"]
 [ext_resource type="Script" uid="uid://ckuj43ibi34to" path="res://Script/Player.gd" id="1_xpqm5"]
@@ -26,6 +26,8 @@
 [ext_resource type="Texture2D" uid="uid://dtlo8cacqwu1y" path="res://Asset/base_button.png" id="15_gesge"]
 [ext_resource type="Texture2D" uid="uid://brh2qguxxs3a0" path="res://Asset/Kail.png" id="16_vm1ql"]
 [ext_resource type="Texture2D" uid="uid://7q3rv1gbkhe3" path="res://Asset/Bait/Bait2_WiglyWorm.png" id="25_vpssr"]
+[ext_resource type="Texture2D" uid="uid://dg5wheoxrh212" path="res://Asset/BG/kapal 2 png.png" id="27_8kemk"]
+[ext_resource type="Texture2D" uid="uid://bfxheptjvdoyw" path="res://Asset/BG/kapal png.png" id="28_uve5t"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_s523b"]
 animations = [{
@@ -444,11 +446,88 @@ modulate_color = Color(0.27265528, 0.2726553, 0.2726553, 0.69803923)
 radius = 23.000008
 height = 86.0
 
-[node name="World" type="Node2D"]
+[sub_resource type="Animation" id="Animation_jw6vu"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(33.249985, 28.5)]
+}
 
-[node name="BG" type="Node2D" parent="."]
+[sub_resource type="Animation" id="Animation_3f8ag"]
+resource_name = "kapal float"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.4333333),
+"transitions": PackedFloat32Array(-2, -2),
+"update": 0,
+"values": [Vector2(33.249985, 28.5), Vector2(33.25, 25.99)]
+}
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="BG"]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_oep5r"]
+_data = {
+&"RESET": SubResource("Animation_jw6vu"),
+&"kapal float": SubResource("Animation_3f8ag")
+}
+
+[sub_resource type="Animation" id="Animation_8kemk"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_uve5t"]
+resource_name = "loop"
+length = 40.0
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 40),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(-800, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jw6vu"]
+_data = {
+&"RESET": SubResource("Animation_8kemk"),
+&"loop": SubResource("Animation_uve5t")
+}
+
+[node name="World" type="Node2D" unique_id=972036463]
+
+[node name="BG" type="Node2D" parent="." unique_id=1622474550]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="BG" unique_id=123174343]
 position = Vector2(-718, -259)
 scale = Vector2(1.5, 1.5)
 sprite_frames = SubResource("SpriteFrames_s523b")
@@ -457,7 +536,7 @@ autoplay = "Loop"
 frame_progress = 0.70318437
 flip_h = true
 
-[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="BG"]
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="BG" unique_id=1730858232]
 position = Vector2(0, -259)
 scale = Vector2(1.5, 1.5)
 sprite_frames = SubResource("SpriteFrames_s523b")
@@ -465,7 +544,7 @@ animation = &"Loop"
 autoplay = "Loop"
 frame_progress = 0.30070713
 
-[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="BG"]
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="BG" unique_id=1452786173]
 position = Vector2(719, -259)
 scale = Vector2(1.5, 1.5)
 sprite_frames = SubResource("SpriteFrames_s523b")
@@ -474,25 +553,23 @@ autoplay = "Loop"
 frame_progress = 0.9930384
 flip_h = true
 
-[node name="Player" type="CharacterBody2D" parent="."]
+[node name="Player" type="CharacterBody2D" parent="." unique_id=921238306]
 position = Vector2(0, -144)
 script = ExtResource("1_xpqm5")
 
-[node name="Sprite2D" type="Sprite2D" parent="Player"]
+[node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=580049615]
 scale = Vector2(1.925, 1.925)
 texture = ExtResource("7_26dwi")
 hframes = 2
 frame = 1
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Player"]
-libraries = {
-&"": SubResource("AnimationLibrary_ba58y")
-}
-autoplay = "Idle"
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Player" unique_id=1162288296]
+libraries/ = SubResource("AnimationLibrary_ba58y")
+autoplay = &"Idle"
 
-[node name="CanvasLayer" type="CanvasLayer" parent="Player"]
+[node name="CanvasLayer" type="CanvasLayer" parent="Player" unique_id=2019357719]
 
-[node name="UI" type="Control" parent="Player/CanvasLayer"]
+[node name="UI" type="Control" parent="Player/CanvasLayer" unique_id=75572602]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -500,13 +577,13 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Upper Page" type="Control" parent="Player/CanvasLayer/UI"]
+[node name="Upper Page" type="Control" parent="Player/CanvasLayer/UI" unique_id=781215154]
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
 grow_horizontal = 2
 
-[node name="Notif" type="Control" parent="Player/CanvasLayer/UI/Upper Page"]
+[node name="Notif" type="Control" parent="Player/CanvasLayer/UI/Upper Page" unique_id=370785420]
 visible = false
 layout_mode = 1
 anchors_preset = 8
@@ -522,7 +599,7 @@ grow_horizontal = 2
 grow_vertical = 2
 metadata/_edit_group_ = true
 
-[node name="ColorRect" type="ColorRect" parent="Player/CanvasLayer/UI/Upper Page/Notif"]
+[node name="ColorRect" type="ColorRect" parent="Player/CanvasLayer/UI/Upper Page/Notif" unique_id=1980698190]
 custom_minimum_size = Vector2(544, 40)
 layout_mode = 1
 anchors_preset = 15
@@ -532,7 +609,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 0.541176)
 
-[node name="Label" type="Label" parent="Player/CanvasLayer/UI/Upper Page/Notif"]
+[node name="Label" type="Label" parent="Player/CanvasLayer/UI/Upper Page/Notif" unique_id=793406128]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -548,7 +625,7 @@ grow_vertical = 2
 text = "Klik dimana saja untuk mulai kail!"
 label_settings = SubResource("LabelSettings_b8gge")
 
-[node name="Main Menu" type="Button" parent="Player/CanvasLayer/UI/Upper Page"]
+[node name="Main Menu" type="Button" parent="Player/CanvasLayer/UI/Upper Page" unique_id=2005798544]
 layout_mode = 0
 offset_left = 11.0
 offset_top = 14.0
@@ -564,7 +641,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_vm1ql")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_n2a1x")
 text = "Menu Utama"
 
-[node name="Ensiklopedia" type="Button" parent="Player/CanvasLayer/UI/Upper Page"]
+[node name="Ensiklopedia" type="Button" parent="Player/CanvasLayer/UI/Upper Page" unique_id=1432768019]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -584,7 +661,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_vm1ql")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_n2a1x")
 text = "Ensiklopedia"
 
-[node name="Inventori" type="Button" parent="Player/CanvasLayer/UI/Upper Page"]
+[node name="Inventori" type="Button" parent="Player/CanvasLayer/UI/Upper Page" unique_id=1181089755]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -604,7 +681,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_vm1ql")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_n2a1x")
 text = "Inventori"
 
-[node name="LeftPage" type="Control" parent="Player/CanvasLayer/UI"]
+[node name="LeftPage" type="Control" parent="Player/CanvasLayer/UI" unique_id=599196101]
 layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
@@ -613,7 +690,7 @@ offset_top = -340.0
 offset_right = 275.0
 grow_vertical = 0
 
-[node name="PilihBait" type="Button" parent="Player/CanvasLayer/UI/LeftPage"]
+[node name="PilihBait" type="Button" parent="Player/CanvasLayer/UI/LeftPage" unique_id=1478674771]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 0
 offset_left = 23.0
@@ -633,7 +710,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_lajby")
 icon = ExtResource("25_vpssr")
 expand_icon = true
 
-[node name="RightPage" type="Control" parent="Player/CanvasLayer/UI"]
+[node name="RightPage" type="Control" parent="Player/CanvasLayer/UI" unique_id=1381549816]
 layout_mode = 1
 anchors_preset = 3
 anchor_left = 1.0
@@ -645,7 +722,7 @@ offset_top = -338.0
 grow_horizontal = 0
 grow_vertical = 0
 
-[node name="Kail" type="Button" parent="Player/CanvasLayer/UI/RightPage"]
+[node name="Kail" type="Button" parent="Player/CanvasLayer/UI/RightPage" unique_id=1031715651]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 1
 anchors_preset = 3
@@ -671,7 +748,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_oep5r")
 icon = ExtResource("16_vm1ql")
 expand_icon = true
 
-[node name="PageAdder" type="Control" parent="Player/CanvasLayer/UI"]
+[node name="PageAdder" type="Control" parent="Player/CanvasLayer/UI" unique_id=2122504626]
 visible = false
 layout_mode = 1
 anchors_preset = 15
@@ -680,7 +757,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="CenterBottom" type="Control" parent="Player/CanvasLayer/UI"]
+[node name="CenterBottom" type="Control" parent="Player/CanvasLayer/UI" unique_id=615494240]
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
@@ -692,13 +769,95 @@ offset_bottom = -48.0
 grow_horizontal = 2
 grow_vertical = 0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1798943368]
 position = Vector2(0, 3)
 shape = SubResource("CapsuleShape2D_npiac")
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1333865047]
 position = Vector2(0, -259)
 zoom = Vector2(1.6, 1.6)
+
+[node name="bg" type="Node2D" parent="." unique_id=32175903]
+
+[node name="part" type="Node2D" parent="bg" unique_id=2052916788]
+
+[node name="mask" type="Control" parent="bg/part" unique_id=1812805640]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -213.0
+offset_top = -343.0
+offset_right = -150.0
+offset_bottom = -303.0
+
+[node name="Sprite2D" type="Sprite2D" parent="bg/part/mask" unique_id=525466621]
+position = Vector2(33.249985, 28.5)
+scale = Vector2(0.1949999, 0.1949999)
+texture = ExtResource("27_8kemk")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="bg/part/mask" unique_id=434558995]
+libraries/ = SubResource("AnimationLibrary_oep5r")
+autoplay = &"kapal float"
+
+[node name="mask2" type="Control" parent="bg/part" unique_id=162864035]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = 74.0
+offset_top = -360.0
+offset_right = 139.0
+offset_bottom = -324.0
+
+[node name="Sprite2D" type="Sprite2D" parent="bg/part/mask2" unique_id=1093771266]
+position = Vector2(33.249985, 28.5)
+scale = Vector2(0.16443595, 0.16443595)
+texture = ExtResource("28_uve5t")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="bg/part/mask2" unique_id=1679102809]
+libraries/ = SubResource("AnimationLibrary_oep5r")
+autoplay = &"kapal float"
+
+[node name="part2" type="Node2D" parent="bg" unique_id=1178677130]
+position = Vector2(800, 0)
+
+[node name="mask" type="Control" parent="bg/part2" unique_id=2030204524]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -213.0
+offset_top = -343.0
+offset_right = -150.0
+offset_bottom = -303.0
+
+[node name="Sprite2D" type="Sprite2D" parent="bg/part2/mask" unique_id=1388832668]
+position = Vector2(33.249985, 28.5)
+scale = Vector2(0.1949999, 0.1949999)
+texture = ExtResource("27_8kemk")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="bg/part2/mask" unique_id=232715555]
+libraries/ = SubResource("AnimationLibrary_oep5r")
+autoplay = &"kapal float"
+
+[node name="mask2" type="Control" parent="bg/part2" unique_id=877294564]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = 74.0
+offset_top = -360.0
+offset_right = 139.0
+offset_bottom = -324.0
+
+[node name="Sprite2D" type="Sprite2D" parent="bg/part2/mask2" unique_id=1230697547]
+position = Vector2(33.249985, 28.5)
+scale = Vector2(0.16443595, 0.16443595)
+texture = ExtResource("28_uve5t")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="bg/part2/mask2" unique_id=1765857937]
+libraries/ = SubResource("AnimationLibrary_oep5r")
+autoplay = &"kapal float"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="bg" unique_id=1514241665]
+libraries/ = SubResource("AnimationLibrary_jw6vu")
 
 [connection signal="gui_input" from="Player/CanvasLayer/UI" to="Player" method="_on_ui_gui_input"]
 [connection signal="button_up" from="Player/CanvasLayer/UI/Upper Page/Main Menu" to="Player" method="_on_main_menu_button_up"]

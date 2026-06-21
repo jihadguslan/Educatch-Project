@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_cc2y0"]
+
+[resource]
+script = ExtResource("1_cc2y0")
+id_soal = 12
+difficulty = 2
+isi_soal = "Sistem pertahanan dan keamanan yang melibatkan seluruh rakyat dan sumber daya nasional disebut..."
+pilihan_soal = Array[String](["Sishankamrata", "Militerisme", "Pertahanan konvensional", "Sistem blokade"])

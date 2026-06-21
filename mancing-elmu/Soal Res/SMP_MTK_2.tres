@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_dlnrb"]
+
+[resource]
+script = ExtResource("1_dlnrb")
+id_soal = 2
+difficulty = 1
+isi_soal = "Hasil dari 24 x (-3) : 4 adalah..."
+pilihan_soal = Array[String](["-18", "-12", "12", "18"])

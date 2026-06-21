@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rtu3h"]
+
+[resource]
+script = ExtResource("1_rtu3h")
+id_soal = 16
+difficulty = 2
+isi_soal = "Contoh ancaman militer terhadap kedaulatan NKRI dari pihak luar adalah..."
+pilihan_soal = Array[String](["Demonstrasi buruh", "Agresi atau invasi asing", "Korupsi pejabat", "Kenakalan remaja"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4fo72"]
+
+[resource]
+script = ExtResource("1_4fo72")
+id_soal = 32
+difficulty = 1
+isi_soal = "Apa inti dari surah Al-Hujurat ayat 13?"
+pilihan_soal = Array[String](["Keberagaman adalah karunia Allah (li ta'arafu)", "Semua manusia sama", "Islam itu keras", "Larangan berteman"])

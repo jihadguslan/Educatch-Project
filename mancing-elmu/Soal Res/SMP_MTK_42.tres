@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wcvpk"]
+
+[resource]
+script = ExtResource("1_wcvpk")
+id_soal = 42
+difficulty = 1
+isi_soal = "Diketahui dua lingkaran dengan jari-jari 7 cm dan 2 cm. Jarak pusat kedua lingkaran 13 cm. Panjang garis singgung persekutuan luar adalah..."
+pilihan_soal = Array[String](["10 cm", "11 cm", "12 cm", "15 cm"])
+jawaban_soal = 2

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_50omk"]
+
+[resource]
+script = ExtResource("1_50omk")
+id_soal = 8
+difficulty = 1
+isi_soal = "Sebuah peta memiliki skala 1 : 250.000. Jika jarak pada peta 4 cm, jarak sebenarnya adalah..."
+pilihan_soal = Array[String](["1 km", "10 km", "100 km", "1.000 km"])
+jawaban_soal = 1

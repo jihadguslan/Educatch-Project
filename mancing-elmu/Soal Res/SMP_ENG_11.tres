@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_io0vf"]
+
+[resource]
+script = ExtResource("1_io0vf")
+id_soal = 11
+difficulty = 1
+isi_soal = "\"Complete the sentence: \"\"An elephant is very ..., but a mouse is small.\"\"\""
+pilihan_soal = Array[String](["thin", "big", "short", "weak"])
+jawaban_soal = 1

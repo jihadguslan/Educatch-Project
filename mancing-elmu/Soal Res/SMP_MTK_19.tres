@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qylxi"]
+
+[resource]
+script = ExtResource("1_qylxi")
+id_soal = 19
+difficulty = 1
+isi_soal = "Dari 40 siswa, 25 suka matematika, 20 suka IPA, dan 10 suka keduanya. Banyak siswa yang tidak suka keduanya adalah..."
+pilihan_soal = Array[String](["3", "5", "8", "15"])
+jawaban_soal = 1

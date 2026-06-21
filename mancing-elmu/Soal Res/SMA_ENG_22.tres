@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_3p153"]
+
+[resource]
+script = ExtResource("1_3p153")
+id_soal = 22
+difficulty = 2
+isi_soal = "Which word is an adverb?"
+pilihan_soal = Array[String](["Soft", "Slowly", "Sleep", "Song"])
+jawaban_soal = 1

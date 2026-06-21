@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7ljjf"]
+
+[resource]
+script = ExtResource("1_7ljjf")
+id_soal = 34
+difficulty = 2
+isi_soal = "Lembaga yang berwenang mengusulkan pengangkatan hakim agung kepada DPR adalah..."
+pilihan_soal = Array[String](["Presiden", "Mahkamah Konstitusi", "Komisi Yudisial", "Kejaksaan Agung"])
+jawaban_soal = 2

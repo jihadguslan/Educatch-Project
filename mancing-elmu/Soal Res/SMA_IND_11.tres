@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_5sn0v"]
+
+[resource]
+script = ExtResource("1_5sn0v")
+id_soal = 11
+difficulty = 2
+isi_soal = "Inti dari struktur teks negosiasi demi mencapai titik temu kedua pihak berada pada bagian..."
+pilihan_soal = Array[String](["Orientasi", "Penawaran", "Penutup", "Salam"])
+jawaban_soal = 1

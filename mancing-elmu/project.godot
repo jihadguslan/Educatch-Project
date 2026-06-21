@@ -8,14 +8,22 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="EduCatch"
-config/version="1.2"
+config/version="1.5 "
 run/main_scene="uid://dpejwyit6xyxr"
-config/features=PackedStringArray("4.5", "Forward Plus")
+config/features=PackedStringArray("4.6", "Forward Plus")
 boot_splash/show_image=false
 config/icon="uid://dddnbdvxy414k"
+
+[audio]
+
+buses/default_bus_layout="uid://if5kslmewweg"
 
 [autoload]
 

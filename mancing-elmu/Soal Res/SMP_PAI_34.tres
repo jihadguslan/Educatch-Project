@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gs064"]
+
+[resource]
+script = ExtResource("1_gs064")
+id_soal = 34
+difficulty = 1
+isi_soal = "Apa yang dimaksud dengan Kitab Suci sebagai pembeda (Al-Furqan)?"
+pilihan_soal = Array[String](["Pembeda antara hak dan batil", "Buku pelajaran", "Pedoman dagang", "Kamus bahasa"])

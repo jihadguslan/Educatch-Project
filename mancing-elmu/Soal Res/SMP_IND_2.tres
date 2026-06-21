@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_26usk"]
+
+[resource]
+script = ExtResource("1_26usk")
+id_soal = 2
+difficulty = 1
+isi_soal = "Kalimat berikut yang menggunakan cerapan pancaindra penglihatan adalah..."
+pilihan_soal = Array[String](["Desir angin malam itu terasa dingin.", "Aroma kopi tubruk itu sangat memikat.", "Ayah memakai kemeja biru bermotif batik.", "Gemercik air sungai terdengar merdu."])
+jawaban_soal = 2

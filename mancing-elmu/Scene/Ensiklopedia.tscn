@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://dwrwen6jg1ivr"]
+[gd_scene format=3 uid="uid://dwrwen6jg1ivr"]
 
 [ext_resource type="Script" uid="uid://b71esspygvikl" path="res://Script/tangki_inventory.gd" id="1_jbqin"]
 [ext_resource type="Texture2D" uid="uid://c3r0hqgsi2b8r" path="res://Asset/Ikan/Ikan Cod.png" id="1_qh28i"]
@@ -8,12 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://dshhola2cf0ed" path="res://Asset/BaseButton.png" id="4_qbosh"]
 [ext_resource type="Texture2D" uid="uid://dtlo8cacqwu1y" path="res://Asset/base_button.png" id="7_ohcac"]
 [ext_resource type="Texture2D" uid="uid://coqadt3sp4v5s" path="res://Asset/LeftArrow.png" id="8_o5hqe"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_yow1q"]
-size = Vector2(1161, 20)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ohcac"]
-size = Vector2(43.5, 479)
+[ext_resource type="Texture2D" uid="uid://ba6u27fuc447j" path="res://Asset/Bubbles Mid.png" id="9_ohcac"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gtu3j"]
 texture = ExtResource("2_4aghk")
@@ -93,32 +88,22 @@ modulate_color = Color(0.31219313, 0.3121931, 0.3121931, 0.654902)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mqe03"]
 
-[node name="Tangki" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yow1q"]
+size = Vector2(1161, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ohcac"]
+size = Vector2(43.5, 479)
+
+[sub_resource type="Curve" id="Curve_o5hqe"]
+_data = [Vector2(0, 0.50194556), 0.0, 0.0, 0, 0, Vector2(1, 0.7354086), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[node name="Tangki" type="Node2D" unique_id=1680501968]
 script = ExtResource("1_jbqin")
 
-[node name="Wall" type="StaticBody2D" parent="."]
-collision_layer = 2
-collision_mask = 0
+[node name="UI" type="CanvasLayer" parent="." unique_id=1677780067]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall"]
-position = Vector2(570.5, 453)
-shape = SubResource("RectangleShape2D_yow1q")
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Wall"]
-position = Vector2(571, -9)
-shape = SubResource("RectangleShape2D_yow1q")
-
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="Wall"]
-position = Vector2(12.25, 220.5)
-shape = SubResource("RectangleShape2D_ohcac")
-
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="Wall"]
-position = Vector2(1138, 220.5)
-shape = SubResource("RectangleShape2D_ohcac")
-
-[node name="UI" type="CanvasLayer" parent="."]
-
-[node name="Screen" type="Control" parent="UI"]
+[node name="Screen" type="Control" parent="UI" unique_id=1924935592]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -126,28 +111,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="TextureRect" type="TextureRect" parent="UI/Screen"]
-custom_minimum_size = Vector2(622, 459)
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("2_yow1q")
-stretch_mode = 6
-
-[node name="AllFish" type="Control" parent="UI/Screen"]
-layout_mode = 1
-anchor_left = 0.057291668
-anchor_top = 0.094135806
-anchor_right = 0.9479167
-anchor_bottom = 0.6527778
-grow_horizontal = 2
-grow_vertical = 2
-metadata/_edit_use_anchors_ = true
-
-[node name="BoxLeft" type="Control" parent="UI/Screen"]
+[node name="BoxLeft" type="Control" parent="UI/Screen" unique_id=1353481476]
 custom_minimum_size = Vector2(622, 648)
 layout_mode = 1
 anchor_left = 0.0013020834
@@ -159,7 +123,7 @@ grow_vertical = 2
 metadata/_edit_use_anchors_ = true
 metadata/_edit_group_ = true
 
-[node name="ImageControl" type="Control" parent="UI/Screen/BoxLeft"]
+[node name="ImageControl" type="Control" parent="UI/Screen/BoxLeft" unique_id=2096781005]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -169,11 +133,11 @@ offset_bottom = 233.0
 grow_horizontal = 2
 metadata/_edit_group_ = true
 
-[node name="Sprite2D" type="Sprite2D" parent="UI/Screen/BoxLeft/ImageControl"]
+[node name="Sprite2D" type="Sprite2D" parent="UI/Screen/BoxLeft/ImageControl" unique_id=1446328736]
 scale = Vector2(5.795, 5.795)
 texture = ExtResource("1_qh28i")
 
-[node name="BLeftDown" type="Control" parent="UI/Screen/BoxLeft"]
+[node name="BLeftDown" type="Control" parent="UI/Screen/BoxLeft" unique_id=539612324]
 layout_mode = 1
 anchors_preset = 12
 anchor_top = 1.0
@@ -187,7 +151,7 @@ grow_horizontal = 2
 grow_vertical = 0
 metadata/_edit_group_ = true
 
-[node name="Panel" type="Panel" parent="UI/Screen/BoxLeft/BLeftDown"]
+[node name="Panel" type="Panel" parent="UI/Screen/BoxLeft/BLeftDown" unique_id=464624805]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -196,7 +160,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_gtu3j")
 
-[node name="box_label" type="VBoxContainer" parent="UI/Screen/BoxLeft/BLeftDown"]
+[node name="box_label" type="VBoxContainer" parent="UI/Screen/BoxLeft/BLeftDown" unique_id=774226622]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -212,26 +176,26 @@ grow_vertical = 2
 theme_override_constants/separation = 8
 alignment = 1
 
-[node name="nama_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label"]
+[node name="nama_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label" unique_id=1654420299]
 layout_mode = 2
 text = "Nama Ikan"
 label_settings = SubResource("LabelSettings_6jk5y")
 horizontal_alignment = 1
 
-[node name="rarity_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label"]
+[node name="rarity_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label" unique_id=1783515890]
 layout_mode = 2
 text = "Rarity ikan"
 label_settings = SubResource("LabelSettings_6jk5y")
 horizontal_alignment = 1
 
-[node name="deskripsi_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label"]
+[node name="deskripsi_ikan" type="Label" parent="UI/Screen/BoxLeft/BLeftDown/box_label" unique_id=1862973217]
 layout_mode = 2
 text = "Deskripsi ikan"
 label_settings = SubResource("LabelSettings_hvpof")
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="BoxRight" type="Control" parent="UI/Screen"]
+[node name="BoxRight" type="Control" parent="UI/Screen" unique_id=114015169]
 custom_minimum_size = Vector2(527, 648)
 layout_mode = 1
 anchor_left = 0.54226303
@@ -243,7 +207,7 @@ grow_vertical = 2
 metadata/_edit_use_anchors_ = true
 metadata/_edit_group_ = true
 
-[node name="Panel" type="Panel" parent="UI/Screen/BoxRight"]
+[node name="Panel" type="Panel" parent="UI/Screen/BoxRight" unique_id=2068563981]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -252,7 +216,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_yow1q")
 
-[node name="Label" type="Label" parent="UI/Screen/BoxRight"]
+[node name="Label" type="Label" parent="UI/Screen/BoxRight" unique_id=1539291154]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -265,7 +229,7 @@ grow_horizontal = 2
 text = "Ensiklopedia"
 label_settings = SubResource("LabelSettings_qh28i")
 
-[node name="BoxAnchor" type="Control" parent="UI/Screen/BoxRight"]
+[node name="BoxAnchor" type="Control" parent="UI/Screen/BoxRight" unique_id=392633770]
 clip_contents = true
 layout_mode = 1
 anchors_preset = 15
@@ -280,7 +244,7 @@ grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="Scroller" type="ScrollContainer" parent="UI/Screen/BoxRight/BoxAnchor"]
+[node name="Scroller" type="ScrollContainer" parent="UI/Screen/BoxRight/BoxAnchor" unique_id=969949817]
 clip_contents = false
 layout_mode = 1
 anchors_preset = 15
@@ -290,7 +254,7 @@ grow_horizontal = 2
 grow_vertical = 2
 metadata/_edit_group_ = true
 
-[node name="Box" type="FlowContainer" parent="UI/Screen/BoxRight/BoxAnchor/Scroller"]
+[node name="Box" type="FlowContainer" parent="UI/Screen/BoxRight/BoxAnchor/Scroller" unique_id=238061152]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -299,7 +263,7 @@ theme_override_constants/v_separation = 20
 alignment = 1
 last_wrap_alignment = 1
 
-[node name="Back" type="Button" parent="UI/Screen/BoxRight"]
+[node name="Back" type="Button" parent="UI/Screen/BoxRight" unique_id=1777412971]
 custom_minimum_size = Vector2(300, 60)
 layout_mode = 1
 anchors_preset = 7
@@ -323,7 +287,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_dcab0")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_vcudo")
 text = "Kembali"
 
-[node name="show hide" type="Button" parent="UI/Screen/BoxRight"]
+[node name="show hide" type="Button" parent="UI/Screen/BoxRight" unique_id=396508812]
 layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
@@ -344,6 +308,72 @@ autowrap_mode = 2
 icon_alignment = 1
 vertical_icon_alignment = 0
 expand_icon = true
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=542558731]
+offset_left = -314.0
+offset_top = -213.0
+offset_right = 1827.0
+offset_bottom = 1032.0
+color = Color(0, 0, 0, 1)
+
+[node name="BG" type="Sprite2D" parent="." unique_id=1135514757]
+position = Vector2(577.7778, 323)
+scale = Vector2(2.4074073, 2.4074075)
+texture = ExtResource("2_yow1q")
+
+[node name="Wall" type="StaticBody2D" parent="." unique_id=813652047]
+collision_layer = 2
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall" unique_id=384737673]
+position = Vector2(570.5, 453)
+shape = SubResource("RectangleShape2D_yow1q")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Wall" unique_id=1051390562]
+position = Vector2(571, -9)
+shape = SubResource("RectangleShape2D_yow1q")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Wall" unique_id=779770944]
+position = Vector2(12.25, 220.5)
+shape = SubResource("RectangleShape2D_ohcac")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Wall" unique_id=1808651923]
+position = Vector2(1138, 220.5)
+shape = SubResource("RectangleShape2D_ohcac")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=743864588]
+position = Vector2(579, 326)
+
+[node name="EndRange" type="Node2D" parent="." unique_id=1497887237]
+position = Vector2(1103, 428)
+
+[node name="AllFish" type="Node2D" parent="." unique_id=346453119]
+y_sort_enabled = true
+position = Vector2(48, 25)
+
+[node name="bubbleMask" type="Control" parent="." unique_id=559777756]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = 108.0
+offset_top = -27.0
+offset_right = 358.0
+offset_bottom = 321.0
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="bubbleMask" unique_id=788237014]
+position = Vector2(117, 353)
+amount = 14
+texture = ExtResource("9_ohcac")
+lifetime = 3.0
+explosiveness = 0.18
+randomness = 0.58
+direction = Vector2(0, -1)
+gravity = Vector2(0, -80)
+initial_velocity_min = 29.41
+initial_velocity_max = 71.43
+scale_amount_max = 5.0
+scale_amount_curve = SubResource("Curve_o5hqe")
+color = Color(1, 1, 1, 0.61960787)
 
 [connection signal="button_up" from="UI/Screen/BoxRight/Back" to="." method="_on_back_button_up"]
 [connection signal="button_down" from="UI/Screen/BoxRight/show hide" to="." method="_on_show_hide_button_down"]

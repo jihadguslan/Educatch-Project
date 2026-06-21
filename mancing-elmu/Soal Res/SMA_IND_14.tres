@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_u08tb"]
+
+[resource]
+script = ExtResource("1_u08tb")
+id_soal = 14
+difficulty = 2
+isi_soal = "Pihak yang memimpin dan mengatur jalannya kegiatan debat dari awal sampai akhir adalah..."
+pilihan_soal = Array[String](["Penonton", "Juri", "Moderator", "Notulen"])
+jawaban_soal = 2

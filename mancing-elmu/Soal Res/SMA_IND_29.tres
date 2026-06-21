@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_5ghxf"]
+
+[resource]
+script = ExtResource("1_5ghxf")
+id_soal = 29
+difficulty = 2
+isi_soal = "Struktur teks eksplanasi yang memuat penjelasan rinci urutan kronologis fenomena disebut..."
+pilihan_soal = Array[String](["Identifikasi fenomena", "Penggambaran rangkaian kejadian", "Ulasan atau interpretasi", "Pernyataan pendapat"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_cnbx7"]
+
+[resource]
+script = ExtResource("1_cnbx7")
+id_soal = 14
+difficulty = 2
+isi_soal = "Sikap yang memandang suku bangsa sendiri lebih unggul dan merendahkan suku bangsa lain disebut..."
+pilihan_soal = Array[String](["Nasionalisme", "Etnosentrisme", "Patriotisme", "Sukuisme"])
+jawaban_soal = 1

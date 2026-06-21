@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_8r45r"]
+
+[resource]
+script = ExtResource("1_8r45r")
+id_soal = 50
+difficulty = 2
+isi_soal = "Bagaimana cara mencapai Husnul Khatimah?"
+pilihan_soal = Array[String](["Dengan angan-angan", "Dengan menjaga konsistensi amal saleh hingga akhir", "Dengan harta", "Dengan gelar"])
+jawaban_soal = 1

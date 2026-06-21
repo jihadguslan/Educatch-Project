@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_clb2j"]
+
+[resource]
+script = ExtResource("1_clb2j")
+id_soal = 6
+difficulty = 1
+isi_soal = "If today is Monday, tomorrow will be..."
+pilihan_soal = Array[String](["Sunday", "Tuesday", "Wednesday", "Friday"])
+jawaban_soal = 1

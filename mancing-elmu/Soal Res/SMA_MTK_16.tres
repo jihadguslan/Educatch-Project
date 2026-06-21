@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mmwgc"]
+
+[resource]
+script = ExtResource("1_mmwgc")
+id_soal = 16
+difficulty = 2
+isi_soal = "Simpangan baku dari data tunggal yang semua nilainya sama adalah..."
+pilihan_soal = Array[String](["0", "1", "2", "Tergantung nilai data"])

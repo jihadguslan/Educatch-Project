@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2r8d2"]
+
+[resource]
+script = ExtResource("1_2r8d2")
+id_soal = 27
+difficulty = 2
+isi_soal = "Bagaimana sikap Islam terhadap Pluralitas (keberagaman)?"
+pilihan_soal = Array[String](["Menganggap semua sama", "Menghargai keberagaman sebagai sunnatullah", "Memaksa satu keyakinan", "Menolak keberagaman"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_bvn7f"]
+
+[resource]
+script = ExtResource("1_bvn7f")
+id_soal = 17
+difficulty = 1
+isi_soal = "Diketahui himpunan A adalah bilangan prima antara 1 dan 7, di mana 7 termasuk di dalamnya. Anggota himpunan A adalah..."
+pilihan_soal = Array[String](["{2, 3, 5}", "{3, 5, 7}", "{2, 3, 5, 7}", "{1, 2, 3, 5, 7}"])
+jawaban_soal = 1

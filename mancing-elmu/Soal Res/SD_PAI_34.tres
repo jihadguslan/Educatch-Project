@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7pied"]
+
+[resource]
+script = ExtResource("1_7pied")
+id_soal = 34
+isi_soal = "Khalifah yang merupakan sepupu sekaligus menantu Rasulullah SAW adalah..."
+pilihan_soal = Array[String](["Abu Bakar", "Umar bin Khattab", "Ali bin Abi Thalib", "Utsman bin Affan"])
+jawaban_soal = 2

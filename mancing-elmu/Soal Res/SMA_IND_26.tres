@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_77ggt"]
+
+[resource]
+script = ExtResource("1_77ggt")
+id_soal = 26
+difficulty = 2
+isi_soal = "Teks prosedur kompleks memiliki karakteristik utama yaitu..."
+pilihan_soal = Array[String](["Langkahnya singkat hanya dua tahap", "Langkahnya panjang, terperinci, dan bercabang", "Berisi cerita lucu berwujud sindiran", "Menjelaskan proses sejarah alam"])
+jawaban_soal = 1

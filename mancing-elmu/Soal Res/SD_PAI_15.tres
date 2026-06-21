@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_8guvx"]
+
+[resource]
+script = ExtResource("1_8guvx")
+id_soal = 15
+isi_soal = "Perbedaan Al-Ghaffar dan Al-Afuww adalah Al-Afuww berarti..."
+pilihan_soal = Array[String](["Menutup dosa", "Menghapus dosa sampai akar", "Menunda azab", "Menambah nikmat"])
+jawaban_soal = 1

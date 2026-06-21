@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_il3oy"]
+
+[resource]
+script = ExtResource("1_il3oy")
+id_soal = 3
+difficulty = 2
+isi_soal = "Apa implikasi teologis dari konsep Qada dan Qadar terhadap etos kerja seorang Muslim?"
+pilihan_soal = Array[String](["Menjadikan kerja sebagai bentuk ibadah dan syukur", "Membuat manusia pasrah dan malas", "Menghilangkan tanggung jawab pribadi", "Mengurangi beban dosa"])

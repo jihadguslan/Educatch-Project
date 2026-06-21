@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_01b7r"]
+
+[resource]
+script = ExtResource("1_01b7r")
+id_soal = 7
+difficulty = 2
+isi_soal = "Mengapa Islam sangat menekankan Etos Kerja (Q.S. At-Taubah: 105)?"
+pilihan_soal = Array[String](["Agar cepat kaya", "Agar manusia memberikan kontribusi bagi peradaban", "Agar tidak diremehkan tetangga", "Karena manusia harus berkompetisi"])
+jawaban_soal = 1

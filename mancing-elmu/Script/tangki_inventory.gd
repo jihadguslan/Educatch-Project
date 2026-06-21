@@ -10,7 +10,8 @@ extends Node2D
 @onready var box_right: Control = $UI/Screen/BoxRight
 @onready var screen: Control = $UI/Screen
 @onready var button_show_hide: Button = $"UI/Screen/BoxRight/show hide"
-@onready var all_fish: Control = $UI/Screen/AllFish
+@onready var all_fish: Node2D = $AllFish
+@onready var end_range: Node2D = $EndRange
 
 var rarity_names = ["Common", "Rare", "Epic", "Legendary", "God"]
 const BUTTON_ENSIK = preload("res://Scene/button_ensik.tscn")
@@ -72,9 +73,11 @@ func _spawn_ikan_randomly(res, jumlah : int):
 	for i in range(jumlah):
 		var inst = FISH_ALIVE.instantiate()
 		inst.texture = res.image_ikan
-		var rand_pos = Vector2(randf_range(0, all_fish.get_rect().size.x), randf_range(0, all_fish.get_rect().size.y))
+		var rand_pos = Vector2(randf_range(all_fish.global_position.x, end_range.global_position.x),
+		randf_range(all_fish.global_position.y, end_range.global_position.y))
 		inst.global_position = rand_pos
 		all_fish.add_child(inst)
+		print("Fish Spawned : " + res.nama_ikan)
 	
 func _on_back_button_up() -> void:
 	ScreenManager._play_audio(preload("uid://bpdxwfq1aukv"), self)

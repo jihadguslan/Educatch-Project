@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_dceer"]
+
+[resource]
+script = ExtResource("1_dceer")
+id_soal = 8
+difficulty = 2
+isi_soal = "Kata-kata seperti hatta, alkisah, sebermula dalam teks hikayat merupakan contoh kata..."
+pilihan_soal = Array[String](["Populer", "Arkais", "Slang", "Ilmiah"])
+jawaban_soal = 1

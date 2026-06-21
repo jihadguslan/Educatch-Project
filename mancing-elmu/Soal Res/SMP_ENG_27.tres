@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_itbsj"]
+
+[resource]
+script = ExtResource("1_itbsj")
+id_soal = 27
+difficulty = 1
+isi_soal = "\"Complete the sentence: \"\"May I ... your pen, please? I forgot to bring mine.\"\"\""
+pilihan_soal = Array[String](["lend", "borrow", "buy", "give"])
+jawaban_soal = 1

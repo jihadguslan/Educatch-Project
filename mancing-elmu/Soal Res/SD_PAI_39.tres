@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_x1qkd"]
+
+[resource]
+script = ExtResource("1_x1qkd")
+id_soal = 39
+isi_soal = "Menanam pohon kembali di hutan yang gundul disebut..."
+pilihan_soal = Array[String](["Irigasi", "Reboisasi", "Urbanisasi", "Oksidasi"])
+jawaban_soal = 1

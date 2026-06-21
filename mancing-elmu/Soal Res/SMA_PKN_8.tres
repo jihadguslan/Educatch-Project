@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jqajc"]
+
+[resource]
+script = ExtResource("1_jqajc")
+id_soal = 8
+difficulty = 2
+isi_soal = "Kedudukan warga negara Indonesia diatur dalam UUD Negara Republik Indonesia Tahun 1945 Pasal..."
+pilihan_soal = Array[String](["Pasal 26", "Pasal 27", "Pasal 28", "Pasal 29"])

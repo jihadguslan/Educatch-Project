@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_a0pgc"]
+
+[resource]
+script = ExtResource("1_a0pgc")
+id_soal = 21
+difficulty = 1
+isi_soal = "\"Complete the sentence: \"\"This is my dog. ... name is Blacky.\"\"\""
+pilihan_soal = Array[String](["Its", "His", "Her", "Their"])

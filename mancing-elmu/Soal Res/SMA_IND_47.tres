@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_572yk"]
+
+[resource]
+script = ExtResource("1_572yk")
+id_soal = 47
+difficulty = 2
+isi_soal = "Sumber acuan referensi buku yang diletakkan pada bagian paling akhir sebuah karya ilmiah dinamakan..."
+pilihan_soal = Array[String](["Catatan kaki", "Glosarium", "Daftar pustaka", "Indeks"])
+jawaban_soal = 2

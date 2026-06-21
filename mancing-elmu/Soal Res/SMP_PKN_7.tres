@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_fndme"]
+
+[resource]
+script = ExtResource("1_fndme")
+id_soal = 7
+difficulty = 1
+isi_soal = "Perubahan sila pertama Piagam Jakarta menjadi 'Ketuhanan Yang Maha Esa' disepakati demi menjaga..."
+pilihan_soal = Array[String](["Hubungan diplomatik dengan Jepang", "Keinginan para pemimpin partai", "Persatuan dan kesatuan bangsa Indonesia", "Kepentingan golongan tertentu"])
+jawaban_soal = 2

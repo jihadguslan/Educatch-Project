@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_36fpw"]
+
+[resource]
+script = ExtResource("1_36fpw")
+id_soal = 12
+difficulty = 2
+isi_soal = "Kegiatan adu argumentasi antara dua pihak atau lebih secara resmi untuk mempertahankan pendapat disebut..."
+pilihan_soal = Array[String](["Musyawarah", "Negosiasi", "Debat", "Diskusi"])
+jawaban_soal = 2

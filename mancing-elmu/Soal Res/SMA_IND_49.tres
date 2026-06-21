@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jxtp3"]
+
+[resource]
+script = ExtResource("1_jxtp3")
+id_soal = 49
+difficulty = 2
+isi_soal = "Bagian naskah drama yang berisi pesan atau simpulan cerita di akhir pementasan dinamakan..."
+pilihan_soal = Array[String](["Prolog", "Dialog", "Epilog", "Solilokui"])
+jawaban_soal = 2

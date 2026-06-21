@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qc5b5"]
+
+[resource]
+script = ExtResource("1_qc5b5")
+id_soal = 3
+difficulty = 1
+isi_soal = "Perhatikan Q.S. An-Nisa/4:146. Mengapa tawakal harus didahului dengan keikhlasan beragama?"
+pilihan_soal = Array[String](["Karena syarat sahnya salat", "Karena amal tanpa ikhlas tidak diterima Allah", "Karena perintah nabi", "Karena kewajiban sosial"])
+jawaban_soal = 1

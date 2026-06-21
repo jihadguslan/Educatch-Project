@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_tksx5"]
+
+[resource]
+script = ExtResource("1_tksx5")
+id_soal = 44
+isi_soal = "Salat sunnah yang dilakukan untuk meminta hujan disebut salat..."
+pilihan_soal = Array[String](["Khusuf", "Istisqa", "Rawatib", "Tahajud"])
+jawaban_soal = 1

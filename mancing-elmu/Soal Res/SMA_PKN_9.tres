@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_phvcu"]
+
+[resource]
+script = ExtResource("1_phvcu")
+id_soal = 9
+difficulty = 2
+isi_soal = "Asas kewarganegaraan yang menentukan kewarganegaraan seseorang berdasarkan tempat kelahiran disebut..."
+pilihan_soal = Array[String](["Ius sanguinis", "Ius soli", "Apatride", "Bipatride"])
+jawaban_soal = 1

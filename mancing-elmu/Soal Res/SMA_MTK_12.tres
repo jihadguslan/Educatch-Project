@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_sf406"]
+
+[resource]
+script = ExtResource("1_sf406")
+id_soal = 12
+difficulty = 2
+isi_soal = "Suku pertama barisan geometri adalah 3 dan rasionya 2. Suku ke-5 barisan tersebut adalah..."
+pilihan_soal = Array[String](["24", "48", "96", "12"])
+jawaban_soal = 1

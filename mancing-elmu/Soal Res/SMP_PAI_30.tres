@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_db33e"]
+
+[resource]
+script = ExtResource("1_db33e")
+id_soal = 30
+difficulty = 1
+isi_soal = "Mengapa Sabar dalam menghadapi ujian tidak berarti pasif?"
+pilihan_soal = Array[String](["Karena sabar adalah diam", "Karena sabar butuh perjuangan (ikhtiar)", "Karena sabar adalah malas", "Karena sabar itu mudah"])
+jawaban_soal = 1

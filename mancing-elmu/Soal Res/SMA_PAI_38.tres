@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_cxj55"]
+
+[resource]
+script = ExtResource("1_cxj55")
+id_soal = 38
+difficulty = 2
+isi_soal = "Bagaimana pandangan Islam terhadap Seni dan Budaya?"
+pilihan_soal = Array[String](["Dilarang keras", "Boleh selama tidak melanggar syariat", "Wajib diikuti semuanya", "Hanya untuk ibadah"])
+jawaban_soal = 1

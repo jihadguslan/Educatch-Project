@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_cbevh"]
+
+[resource]
+script = ExtResource("1_cbevh")
+id_soal = 42
+difficulty = 2
+isi_soal = "Apa hakikat dari Doa bagi seorang Mukmin?"
+pilihan_soal = Array[String](["Perintah memaksa Allah", "Penyataan kehambaan dan harapan kepada Allah", "Agar cepat dikabulkan", "Karena takut doa"])
+jawaban_soal = 1

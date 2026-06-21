@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ug68h"]
+
+[resource]
+script = ExtResource("1_ug68h")
+id_soal = 36
+difficulty = 1
+isi_soal = "\"\"\"First, pour some water into the glass.\"\" The underlined word is an example of...\""
+pilihan_soal = Array[String](["Temporal conjunction", "Action verb", "Noun", "Adjective"])

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_p770f"]
+
+[resource]
+script = ExtResource("1_p770f")
+id_soal = 8
+difficulty = 2
+isi_soal = "Nilai dari sin 30 derajat + cos 60 derajat adalah..."
+pilihan_soal = Array[String](["0", "1/2", "1", "1 1/2"])
+jawaban_soal = 2

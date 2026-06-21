@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ugvk6"]
+
+[resource]
+script = ExtResource("1_ugvk6")
+id_soal = 22
+difficulty = 1
+isi_soal = "\"Complete the sentence: \"\"They ... soccer in the field right now.\"\"\""
+pilihan_soal = Array[String](["is playing", "am playing", "are playing", "play"])
+jawaban_soal = 2

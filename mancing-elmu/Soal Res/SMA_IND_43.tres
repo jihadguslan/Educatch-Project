@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4yd8v"]
+
+[resource]
+script = ExtResource("1_4yd8v")
+id_soal = 43
+difficulty = 2
+isi_soal = "Bagian pengantar dalam naskah drama sebelum para tokoh memulai dialog dinamakan..."
+pilihan_soal = Array[String](["Epilog", "Monolog", "Prolog", "Dialog"])
+jawaban_soal = 2

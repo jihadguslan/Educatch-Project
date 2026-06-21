@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_a22dq"]
+
+[resource]
+script = ExtResource("1_a22dq")
+id_soal = 30
+isi_soal = "Pembagian daging qurban sebaiknya diberikan kepada..."
+pilihan_soal = Array[String](["Keluarga sendiri saja", "Fakir miskin dan tetangga", "Dijual kembali", "Orang kaya saja"])
+jawaban_soal = 1

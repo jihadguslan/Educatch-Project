@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_vjmsy"]
+
+[resource]
+script = ExtResource("1_vjmsy")
+id_soal = 28
+difficulty = 1
+isi_soal = "Kedudukan Pembukaan UUD NRI Tahun 1945 bagi bangsa Indonesia bersifat tetap dan tidak dapat diubah karena..."
+pilihan_soal = Array[String](["Memuat dasar negara dan cita-cita proklamasi", "Dibuat oleh para pemimpin paling populer", "Merupakan hukum adat tertulis paling tua", "Disetujui oleh seluruh negara tetangga"])

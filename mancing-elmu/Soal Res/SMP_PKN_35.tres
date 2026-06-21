@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_a8dne"]
+
+[resource]
+script = ExtResource("1_a8dne")
+id_soal = 35
+difficulty = 1
+isi_soal = "Hari Kebangkitan Nasional diperingati setiap tanggal..."
+pilihan_soal = Array[String](["2 May", "20 May", "1 June", "28 October"])
+jawaban_soal = 1

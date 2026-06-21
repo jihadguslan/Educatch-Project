@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0bsut"]
+
+[resource]
+script = ExtResource("1_0bsut")
+id_soal = 35
+difficulty = 1
+isi_soal = "Karya sastra yang mengungkapkan pikiran dan perasaan penyair secara imajinatif dan terikat oleh irama, rima, serta bait disebut..."
+pilihan_soal = Array[String](["Prosa", "Puisi", "Drama", "Novel"])
+jawaban_soal = 1

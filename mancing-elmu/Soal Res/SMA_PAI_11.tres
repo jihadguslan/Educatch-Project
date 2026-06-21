@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3 uid="uid://wq4ywi01ic7a"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_a4544"]
+
+[resource]
+script = ExtResource("1_a4544")
+id_soal = 11
+difficulty = 2
+isi_soal = "Bagaimana posisi Ijtihad dalam menjawab tantangan teknologi AI dan bioetika?"
+pilihan_soal = Array[String](["Dibutuhkan ijtihad kolektif oleh para pakar", "Tidak ada hubungan", "Dilarang keras", "Harus menunggu wahyu"])

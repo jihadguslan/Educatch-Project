@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bohq6ox6yc7a4"]
+[gd_scene format=3 uid="uid://bohq6ox6yc7a4"]
 
 [ext_resource type="Script" uid="uid://4wr50kn3yd3t" path="res://Script/soal_manager.gd" id="1_dweta"]
 [ext_resource type="Texture2D" uid="uid://b8kyvg20vfur3" path="res://Asset/CusButton Nor.png" id="2_lwcg5"]
@@ -54,7 +54,7 @@ axis_stretch_horizontal = 2
 axis_stretch_vertical = 2
 modulate_color = Color(1.9544857, 1.9544857, 1.9544857, 1)
 
-[node name="Panel Ujian" type="Control"]
+[node name="Panel Ujian" type="Control" unique_id=435837597]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -65,7 +65,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_dweta")
 
-[node name="Panel" type="Panel" parent="."]
+[node name="Panel" type="Panel" parent="." unique_id=93880644]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.09461805
@@ -75,7 +75,7 @@ anchor_bottom = 0.58950615
 theme_override_styles/panel = SubResource("StyleBoxTexture_tnq5i")
 metadata/_edit_use_anchors_ = true
 
-[node name="Soal" type="Label" parent="Panel"]
+[node name="Soal" type="Label" parent="Panel" unique_id=588220424]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.047008548
@@ -92,7 +92,7 @@ vertical_alignment = 1
 autowrap_mode = 2
 metadata/_edit_use_anchors_ = true
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel" unique_id=1478311792]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.5138889
@@ -105,11 +105,11 @@ alignment = 1
 metadata/_edit_group_ = true
 metadata/_edit_use_anchors_ = true
 
-[node name="Pilgan1" type="HBoxContainer" parent="Panel/VBoxContainer"]
+[node name="Pilgan1" type="HBoxContainer" parent="Panel/VBoxContainer" unique_id=1213392269]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="A" type="Button" parent="Panel/VBoxContainer/Pilgan1"]
+[node name="A" type="Button" parent="Panel/VBoxContainer/Pilgan1" unique_id=279767091]
 custom_minimum_size = Vector2(180, 40)
 layout_mode = 2
 size_flags_horizontal = 3
@@ -125,7 +125,7 @@ text = "Jawab 1"
 autowrap_mode = 2
 clip_text = true
 
-[node name="C" type="Button" parent="Panel/VBoxContainer/Pilgan1"]
+[node name="C" type="Button" parent="Panel/VBoxContainer/Pilgan1" unique_id=95457335]
 custom_minimum_size = Vector2(180, 40)
 layout_mode = 2
 size_flags_horizontal = 3
@@ -141,11 +141,11 @@ text = "Jawab 1"
 autowrap_mode = 2
 clip_text = true
 
-[node name="Pilgan2" type="HBoxContainer" parent="Panel/VBoxContainer"]
+[node name="Pilgan2" type="HBoxContainer" parent="Panel/VBoxContainer" unique_id=1810213987]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="B" type="Button" parent="Panel/VBoxContainer/Pilgan2"]
+[node name="B" type="Button" parent="Panel/VBoxContainer/Pilgan2" unique_id=1679731184]
 custom_minimum_size = Vector2(180, 40)
 layout_mode = 2
 size_flags_horizontal = 3
@@ -161,7 +161,7 @@ text = "Jawab 1"
 autowrap_mode = 2
 clip_text = true
 
-[node name="D" type="Button" parent="Panel/VBoxContainer/Pilgan2"]
+[node name="D" type="Button" parent="Panel/VBoxContainer/Pilgan2" unique_id=100474823]
 custom_minimum_size = Vector2(180, 40)
 layout_mode = 2
 size_flags_horizontal = 3
@@ -177,7 +177,7 @@ text = "Jawab 1"
 autowrap_mode = 2
 clip_text = true
 
-[node name="status" type="Label" parent="Panel"]
+[node name="status" type="Label" parent="Panel" unique_id=1978786827]
 visible = false
 layout_mode = 1
 anchors_preset = -1

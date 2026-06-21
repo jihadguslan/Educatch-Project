@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wvmgn"]
+
+[resource]
+script = ExtResource("1_wvmgn")
+id_soal = 48
+difficulty = 2
+isi_soal = "Jika matriks C = [[2, 0], [0, 2]], maka matriks C dinamakan matriks..."
+pilihan_soal = Array[String](["Skalar", "Identitas", "Nol", "Baris"])

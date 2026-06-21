@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_t2wm8"]
+
+[resource]
+script = ExtResource("1_t2wm8")
+id_soal = 16
+isi_soal = "Allah Maha Dibutuhkan oleh semua makhluk, disebut..."
+pilihan_soal = Array[String](["Al-Malik", "Al-Basir", "As-Samad", "Al-Ahad"])
+jawaban_soal = 2

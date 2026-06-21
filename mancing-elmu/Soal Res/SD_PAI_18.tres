@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mk0rs"]
+
+[resource]
+script = ExtResource("1_mk0rs")
+id_soal = 18
+isi_soal = "Cara berbakti kepada orang tua yang sudah meninggal adalah..."
+pilihan_soal = Array[String](["Memberi uang", "Menyiapkan makanan", "Mendoakan mereka", "Mengajak jalan-jalan"])
+jawaban_soal = 2

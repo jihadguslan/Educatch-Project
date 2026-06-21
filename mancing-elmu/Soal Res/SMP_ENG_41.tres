@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7vrqc"]
+
+[resource]
+script = ExtResource("1_7vrqc")
+id_soal = 41
+difficulty = 1
+isi_soal = "\"Comparison degree: \"\"A car is ... than a bicycle.\"\"\""
+pilihan_soal = Array[String](["fast", "faster", "fastest", "more fast"])
+jawaban_soal = 1

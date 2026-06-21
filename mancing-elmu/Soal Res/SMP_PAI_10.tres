@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3 uid="uid://cscke5i805ody"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_gyf0w"]
+
+[resource]
+script = ExtResource("1_gyf0w")
+id_soal = 10
+difficulty = 1
+isi_soal = "Bagaimana cara menghindari Hasad (dengki) sesuai ajaran Islam?"
+pilihan_soal = Array[String](["Qanaah dan syukur atas nikmat Allah", "Menjauhi pergaulan", "Mencari harta sebanyak-banyaknya", "Sering memuji diri sendiri"])

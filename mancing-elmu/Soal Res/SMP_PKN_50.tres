@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_cvkcb"]
+
+[resource]
+script = ExtResource("1_cvkcb")
+id_soal = 50
+difficulty = 1
+isi_soal = "Pemberian otonomi daerah di Indonesia bertujuan untuk meningkatkan..."
+pilihan_soal = Array[String](["Kekuasaan pejabat pusat", "Kesejahteraan masyarakat di daerah", "Pendapatan golongan kaya", "Ketergantungan daerah pada pusat"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_v814i"]
+
+[resource]
+script = ExtResource("1_v814i")
+id_soal = 10
+difficulty = 1
+isi_soal = "Harga beli sebuah barang Rp200.000. Jika barang dijual dengan untung 15%, maka harga jualnya adalah..."
+pilihan_soal = Array[String](["Rp215.000", "Rp220.000", "Rp230.000", "Rp245.000"])
+jawaban_soal = 2

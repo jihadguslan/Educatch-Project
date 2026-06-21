@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jab0v"]
+
+[resource]
+script = ExtResource("1_jab0v")
+id_soal = 47
+difficulty = 2
+isi_soal = "Rumus cos (A + B) sama dengan..."
+pilihan_soal = Array[String](["cos A cos B - sin A sin B", "cos A cos B + sin A sin B", "sin A cos B + cos A sin B", "sin A cos B - cos A sin B"])

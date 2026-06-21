@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="BaitResource" load_steps=13 format=3 uid="uid://yr8kqx361ttr"]
+[gd_resource type="Resource" script_class="BaitResource" format=3 uid="uid://yr8kqx361ttr"]
 
 [ext_resource type="Texture2D" uid="uid://cfeebj6bi4nrs" path="res://Asset/Bait/Bait4_ShinyFlashy.png" id="1_cd0vn"]
 [ext_resource type="Script" uid="uid://bpej68p0xc5uh" path="res://Script/BaitRes.gd" id="2_2wywb"]

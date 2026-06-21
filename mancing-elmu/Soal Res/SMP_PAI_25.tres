@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_1xow2"]
+
+[resource]
+script = ExtResource("1_1xow2")
+id_soal = 25
+difficulty = 1
+isi_soal = "Apa tujuan Nikah dalam Islam?"
+pilihan_soal = Array[String](["Menciptakan keluarga sakinah, mawaddah, warahmah", "Menambah gengsi", "Memenuhi nafsu", "Menguasai harta"])

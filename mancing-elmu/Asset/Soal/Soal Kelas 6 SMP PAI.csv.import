@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://chsq0llt5i2x7"
+
+[deps]
+
+source_file="res://Asset/Soal/Soal Kelas 6 SMP PAI.csv"
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

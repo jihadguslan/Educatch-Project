@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_886vc"]
+
+[resource]
+script = ExtResource("1_886vc")
+id_soal = 33
+difficulty = 2
+isi_soal = "Lembaga peradilan yang berfungsi sebagai pengadilan tingkat kasasi di Indonesia adalah..."
+pilihan_soal = Array[String](["Pengadilan Tinggi", "Mahkamah Konstitusi", "Mahkamah Agung", "Komisi Yudisial"])
+jawaban_soal = 2

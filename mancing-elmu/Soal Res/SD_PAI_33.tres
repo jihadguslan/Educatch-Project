@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wc5q6"]
+
+[resource]
+script = ExtResource("1_wc5q6")
+id_soal = 33
+isi_soal = "Khalifah yang dikenal sangat dermawan dan mengumpulkan Al-Qur'an adalah..."
+pilihan_soal = Array[String](["Umar bin Khattab", "Utsman bin Affan", "Ali bin Abi Thalib", "Abu Bakar"])
+jawaban_soal = 1

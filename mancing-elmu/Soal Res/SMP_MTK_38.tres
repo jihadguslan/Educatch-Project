@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4cosu"]
+
+[resource]
+script = ExtResource("1_4cosu")
+id_soal = 38
+difficulty = 1
+isi_soal = "\"Perhatikan kelompok bilangan berikut: i. 3,4,5 , ii. 5,12,13 , iii. 7,8,9. Yang merupakan tripel Pythagoras adalah...\""
+pilihan_soal = Array[String]([" i saja", "i dan ii", "ii dan iii", "Semua benar"])
+jawaban_soal = 1

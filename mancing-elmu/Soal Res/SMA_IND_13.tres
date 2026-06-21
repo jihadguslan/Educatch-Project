@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rmqu5"]
+
+[resource]
+script = ExtResource("1_rmqu5")
+id_soal = 13
+difficulty = 2
+isi_soal = "Tim yang bertugas menyanggah argumen dari mosi yang diberikan dalam debat disebut tim..."
+pilihan_soal = Array[String](["Afirmatif", "Oposisi", "Netral", "Moderator"])
+jawaban_soal = 1

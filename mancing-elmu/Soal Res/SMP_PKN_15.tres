@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_xl5au"]
+
+[resource]
+script = ExtResource("1_xl5au")
+id_soal = 15
+difficulty = 1
+isi_soal = "Kerja sama dalam kehidupan masyarakat Indonesia sering dikenal dengan istilah..."
+pilihan_soal = Array[String](["Gotong royong", "Individualisme", "Musyawarah", "Silahturahmi"])

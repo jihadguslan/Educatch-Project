@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_a7cuy"]
+
+[resource]
+script = ExtResource("1_a7cuy")
+id_soal = 27
+difficulty = 1
+isi_soal = "Unsur-unsur berita yang dikenal dengan istilah 5W+1H, dalam bahasa Indonesia sering disingkat..."
+pilihan_soal = Array[String](["ADIKSIMBA", "ADIKASIH", "ABADIKAN", "ASALASAL"])

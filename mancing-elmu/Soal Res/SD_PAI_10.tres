@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_1h62j"]
+
+[resource]
+script = ExtResource("1_1h62j")
+id_soal = 10
+isi_soal = "Takdir Allah yang masih bisa diubah dengan doa dan ikhtiar disebut takdir..."
+pilihan_soal = Array[String](["Mubram", "Muallaq", "Pasti", "Mutlak"])
+jawaban_soal = 1

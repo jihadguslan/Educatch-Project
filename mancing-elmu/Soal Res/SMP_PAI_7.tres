@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_nlxoj"]
+
+[resource]
+script = ExtResource("1_nlxoj")
+id_soal = 7
+difficulty = 1
+isi_soal = "Mengapa Al-Asmaul Husna sangat dianjurkan untuk dihafalkan dan dipahami maknanya?"
+pilihan_soal = Array[String](["Sebagai sarana mengenal Allah dan beribadah", "Agar mudah menjawab ujian", "Agar dikenal sebagai orang saleh", "Syarat menjadi khatib"])

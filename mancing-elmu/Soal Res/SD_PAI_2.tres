@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_41vxb"]
+
+[resource]
+script = ExtResource("1_41vxb")
+id_soal = 2
+isi_soal = "\"Potongan ayat \"\"Lakum dinukum waliyadin\"\" artinya...\""
+pilihan_soal = Array[String](["Bagiku agamaku", "Bagimu agamamu", "Untukmu agamamu, dan untukku agamaku", "Agama adalah kunci"])
+jawaban_soal = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_330e6"]
+
+[resource]
+script = ExtResource("1_330e6")
+id_soal = 15
+difficulty = 2
+isi_soal = "Apa tujuan Pewarisan (Mawaris) dalam Islam selain keadilan ekonomi?"
+pilihan_soal = Array[String](["Mencegah penumpukan harta pada satu pihak", "Menambah beban keluarga", "Mempercepat pembagian harta", "Mencari popularitas"])

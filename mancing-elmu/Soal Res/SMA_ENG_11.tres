@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rlr7y"]
+
+[resource]
+script = ExtResource("1_rlr7y")
+id_soal = 11
+difficulty = 2
+isi_soal = "What is the synonym of the word 'huge'?"
+pilihan_soal = Array[String](["Small", "Tiny", "Enormous", "Narrow"])
+jawaban_soal = 2

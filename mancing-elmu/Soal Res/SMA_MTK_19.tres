@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_h6mrr"]
+
+[resource]
+script = ExtResource("1_h6mrr")
+id_soal = 19
+difficulty = 2
+isi_soal = "Dari 5 orang siswa akan dipilih 2 orang sebagai pengurus. Banyak susunan kombinasi yang mungkin adalah..."
+pilihan_soal = Array[String](["10", "20", "30", "40"])

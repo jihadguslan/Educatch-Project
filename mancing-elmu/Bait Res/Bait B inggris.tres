@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="BaitResource" load_steps=13 format=3 uid="uid://1rwj4663xgwk"]
+[gd_resource type="Resource" script_class="BaitResource" format=3 uid="uid://1rwj4663xgwk"]
 
 [ext_resource type="Texture2D" uid="uid://df6bxrvtrfcmi" path="res://Asset/Bait/Bait3_FishingFly.png" id="1_r70o4"]
 [ext_resource type="Resource" uid="uid://c340rxhu27igp" path="res://Ikan Res/C_28_Tulang.tres" id="2_2ht18"]

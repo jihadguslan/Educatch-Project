@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_sra2n"]
+
+[resource]
+script = ExtResource("1_sra2n")
+id_soal = 36
+isi_soal = "Wali Songo pertama yang menyebarkan Islam di tanah Jawa adalah..."
+pilihan_soal = Array[String](["Sunan Gresik", "Sunan Bonang", "Sunan Drajat", "Sunan Muria"])

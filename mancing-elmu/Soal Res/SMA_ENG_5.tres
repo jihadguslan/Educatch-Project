@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_s836k"]
+
+[resource]
+script = ExtResource("1_s836k")
+id_soal = 5
+difficulty = 2
+isi_soal = "\"Read the notice: \"\"No food or drink allowed in the laboratory.\"\" What does it mean?\""
+pilihan_soal = Array[String](["You can eat outside the lab", "You must not bring food or drink into the lab", "Food is free inside the lab", "Drinking is permitted"])
+jawaban_soal = 1

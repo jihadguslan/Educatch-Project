@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ja11t"]
+
+[resource]
+script = ExtResource("1_ja11t")
+id_soal = 28
+difficulty = 1
+isi_soal = "Diketahui koordinat titik A(3, -4). Titik A berada pada kuadran..."
+pilihan_soal = Array[String](["I", "II", "III", "IV"])
+jawaban_soal = 3

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_cbq0e"]
+
+[resource]
+script = ExtResource("1_cbq0e")
+id_soal = 29
+difficulty = 2
+isi_soal = "Mengapa Sabar dalam ketaatan lebih berat daripada Sabar dalam musibah?"
+pilihan_soal = Array[String](["Karena musibah itu enak", "Karena ketaatan menuntut disiplin terus menerus", "Karena musibah bisa lari", "Karena ketaatan mudah"])
+jawaban_soal = 1

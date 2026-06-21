@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_xt5jw"]
+
+[resource]
+script = ExtResource("1_xt5jw")
+id_soal = 4
+difficulty = 1
+isi_soal = "\"Tono: \"\"I am sorry for breaking your ruler, Andi.\"\" / Andi: \"\"...\"\"\""
+pilihan_soal = Array[String](["That is okay, don't worry", "Thank you", "You are welcome", "Goodbye"])

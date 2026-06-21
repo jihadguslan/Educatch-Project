@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_teuwx"]
+
+[resource]
+script = ExtResource("1_teuwx")
+id_soal = 39
+difficulty = 1
+isi_soal = "Nilai utama yang paling menonjol dari peristiwa Sumpah Pemuda adalah..."
+pilihan_soal = Array[String](["Semangat kedaerahan", "Semangat persatuan dan kesatuan", "Keinginan menguasai ekonomi", "Persaingan antarorganisasi"])
+jawaban_soal = 1

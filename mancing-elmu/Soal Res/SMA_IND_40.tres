@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0gjsi"]
+
+[resource]
+script = ExtResource("1_0gjsi")
+id_soal = 40
+difficulty = 2
+isi_soal = "Unsur resensi yang memuat judul buku, pengarang, penerbit, tahun terbit, dan tebal halaman disebut..."
+pilihan_soal = Array[String](["Identitas buku", "Sinopsis", "Keunggulan buku", "Penutup resensi"])

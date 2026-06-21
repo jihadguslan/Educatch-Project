@@ -1,6 +1,8 @@
 extends Node
 
-var _bank_soal = {"SD_PKN" : [], "SD_MTK" : [], "SD_ENG" : [], "SD_IND" : []}
+var _bank_soal = {"SD_PKN" : [], "SD_MTK" : [], "SD_ENG" : [], "SD_IND" : [], "SD_PAI" : [], 
+"SMP_PKN" : [], "SMP_MTK" : [], "SMP_ENG" : [], "SMP_IND" : [],"SMP_PAI" : [],
+"SMA_PKN" : [], "SMA_MTK" : [], "SMA_ENG" : [], "SMA_IND" : [], "SMA_PAI" : []}
 var _all_fish = []
 
 # Called when the node enters the scene tree for the first time.

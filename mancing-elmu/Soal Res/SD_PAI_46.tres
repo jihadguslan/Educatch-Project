@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_bo0gv"]
+
+[resource]
+script = ExtResource("1_bo0gv")
+id_soal = 46
+isi_soal = "Allah memberikan cobaan kepada manusia bertujuan untuk..."
+pilihan_soal = Array[String](["Menyiksa manusia", "Menguji keimanan", "Membuat sedih", "Menghapus pahala"])
+jawaban_soal = 1

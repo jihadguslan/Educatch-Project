@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_hoja7"]
+
+[resource]
+script = ExtResource("1_hoja7")
+id_soal = 10
+difficulty = 1
+isi_soal = "Norma kesopanan bersumber dari pergaulan hidup manusia yang didasarkan pada..."
+pilihan_soal = Array[String](["Kitab suci masing-masing agama", "Peraturan resmi pemerintah setempat", "Kebiasaan dan tata krama dalam masyarakat", "Hati nurani setiap individu"])
+jawaban_soal = 2

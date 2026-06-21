@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_82wrc"]
+
+[resource]
+script = ExtResource("1_82wrc")
+id_soal = 28
+difficulty = 1
+isi_soal = "Sifat teks berita harus aktual. Arti kata aktual adalah..."
+pilihan_soal = Array[String](["Sesuai keinginan penulis", "Bersifat khayalan", "Hangat dibicarakan atau baru terjadi", "Panjang dan lebar"])
+jawaban_soal = 2

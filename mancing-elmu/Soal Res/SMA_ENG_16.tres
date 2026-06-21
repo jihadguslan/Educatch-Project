@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_kyxhn"]
+
+[resource]
+script = ExtResource("1_kyxhn")
+id_soal = 16
+difficulty = 2
+isi_soal = "\"Complete the sentence: \"\"You ... smoke here. It is a non-smoking area.\"\"\""
+pilihan_soal = Array[String](["must", "must not", "can", "should"])
+jawaban_soal = 1

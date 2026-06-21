@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_3el6m"]
+
+[resource]
+script = ExtResource("1_3el6m")
+id_soal = 27
+difficulty = 2
+isi_soal = "The purpose of an analytical exposition text is to..."
+pilihan_soal = Array[String](["Entertain the readers with a story", "Persuade the readers that something is the case", "Tell the steps to make something", "Describe a specific animal"])
+jawaban_soal = 1

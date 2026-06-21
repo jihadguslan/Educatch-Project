@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3 uid="uid://bxxeoaljibms2"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_ojfqu"]
+
+[resource]
+script = ExtResource("1_ojfqu")
+id_soal = 36
+difficulty = 1
+isi_soal = "Harga 2 buku dan 3 pensil Rp12.000. Harga 1 buku dan 2 pensil Rp7.000. Harga 1 buku adalah..."
+pilihan_soal = Array[String](["Rp2.000", "Rp3.000", "Rp4.000", "Rp5.000"])
+jawaban_soal = 1

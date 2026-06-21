@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="BaitResource" format=3 uid="uid://cwhv26ygy24nm"]
+
+[ext_resource type="Script" uid="uid://bpej68p0xc5uh" path="res://Script/BaitRes.gd" id="1_hlykg"]
+[ext_resource type="Texture2D" uid="uid://xuf0uo7yso3b" path="res://Asset/Bait/Bait1_ShrimpLure.png" id="1_rwp8i"]
+[ext_resource type="Resource" uid="uid://d5t64afyj2x8" path="res://Ikan Res/C_18_Ikan Guppy.tres" id="2_jhsjr"]
+[ext_resource type="Resource" uid="uid://ihixfcjoxtof" path="res://Ikan Res/C_21_Ikan Lele.tres" id="3_lwwfh"]
+[ext_resource type="Resource" uid="uid://djywt741nbyxm" path="res://Ikan Res/C_22_Ikan Sarden.tres" id="4_4i78k"]
+[ext_resource type="Resource" uid="uid://csw7anq07cipg" path="res://Ikan Res/E_17_Ikan Tuna Kuning.tres" id="5_y8kvt"]
+[ext_resource type="Resource" uid="uid://dx4w63pjojeq" path="res://Ikan Res/R_30_Ikan Blobfish.tres" id="6_4i78k"]
+[ext_resource type="Resource" uid="uid://bvygjjpxs374x" path="res://Ikan Res/E_20_Ikan Badut.tres" id="6_qpjy1"]
+[ext_resource type="Resource" uid="uid://gc5a23xfkhjl" path="res://Ikan Res/L_17_Ikan Akatsuki.tres" id="7_2x5db"]
+[ext_resource type="Resource" uid="uid://4i3mqbw1arft" path="res://Ikan Res/R_15_Ikan Patin.tres" id="8_ve3ij"]
+[ext_resource type="Resource" uid="uid://cxb4agqcelry1" path="res://Ikan Res/R_16_Ikan Tuna.tres" id="9_cuih8"]
+[ext_resource type="Resource" uid="uid://chl85fi6u1jo3" path="res://Ikan Res/R_19_Ikan Bawal.tres" id="10_fdpgj"]
+
+[resource]
+script = ExtResource("1_hlykg")
+bait_name = "Pendidikan Pancasila"
+kode_soal = "PKN"
+price = 5
+bait_image = ExtResource("1_rwp8i")
+deskripsi = "Pendidikan yang mengajarkan implemeentasi pancasila dalam kehidupan sehari hari."
+fish_get = Array[Resource]([ExtResource("4_4i78k"), ExtResource("2_jhsjr"), ExtResource("3_lwwfh"), ExtResource("10_fdpgj"), ExtResource("6_4i78k"), ExtResource("9_cuih8"), ExtResource("8_ve3ij"), ExtResource("6_4i78k"), ExtResource("5_y8kvt"), ExtResource("6_qpjy1"), ExtResource("7_2x5db")])
+metadata/_custom_type_script = "uid://bpej68p0xc5uh"

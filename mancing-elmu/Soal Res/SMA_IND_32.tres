@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_3rxhs"]
+
+[resource]
+script = ExtResource("1_3rxhs")
+id_soal = 32
+difficulty = 2
+isi_soal = "Struktur teks ceramah secara berurutan terdiri atas..."
+pilihan_soal = Array[String](["Tesis - Argumentasi - Penegasan ulang", "Pembuka - Isi - Penutup", "Orientasi - Krisis - Reaksi", "Pengantar - Langkah - Simpulan"])
+jawaban_soal = 1

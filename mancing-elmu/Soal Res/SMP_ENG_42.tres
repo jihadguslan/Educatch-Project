@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_egsby"]
+
+[resource]
+script = ExtResource("1_egsby")
+id_soal = 42
+difficulty = 1
+isi_soal = "\"Comparison degree: \"\"Mount Everest is the ... mountain in the world.\"\"\""
+pilihan_soal = Array[String](["high", "higher", "highest", "more high"])
+jawaban_soal = 2

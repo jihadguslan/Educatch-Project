@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jwmsp"]
+
+[resource]
+script = ExtResource("1_jwmsp")
+id_soal = 48
+difficulty = 1
+isi_soal = "Pesan moral yang ingin disampaikan pengarang kepada pembaca dalam sebuah cerita disebut..."
+pilihan_soal = Array[String](["Amanat", "Tema", "Sudut pandang", "Gaya bahasa"])

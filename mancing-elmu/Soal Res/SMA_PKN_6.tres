@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_minbc"]
+
+[resource]
+script = ExtResource("1_minbc")
+id_soal = 6
+difficulty = 2
+isi_soal = "Batas wilayah laut teritorial Indonesia berdasarkan Deklarasi Djuanda adalah sejauh..."
+pilihan_soal = Array[String](["3 mil", "12 mil", "200 mil", "350 mil"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_fww4c"]
+
+[resource]
+script = ExtResource("1_fww4c")
+id_soal = 30
+difficulty = 2
+isi_soal = "Nilai limit x mendekati 3 dari (x^2 - 9) / (x - 3) adalah..."
+pilihan_soal = Array[String](["3", "6", "9", "0"])
+jawaban_soal = 1

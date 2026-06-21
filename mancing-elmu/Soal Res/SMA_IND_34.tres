@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7e1ky"]
+
+[resource]
+script = ExtResource("1_7e1ky")
+id_soal = 34
+difficulty = 2
+isi_soal = "Bagian proposal yang berisi alasan utama mengapa kegiatan tersebut mendesak untuk dilaksanakan dinamakan..."
+pilihan_soal = Array[String](["Dasar pemikiran", "Latar belakang", "Tujuan kegiatan", "Anggaran biaya"])
+jawaban_soal = 1

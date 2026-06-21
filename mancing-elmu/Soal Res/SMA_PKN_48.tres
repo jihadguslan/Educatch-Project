@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gffdb"]
+
+[resource]
+script = ExtResource("1_gffdb")
+id_soal = 48
+difficulty = 2
+isi_soal = "Perilaku budaya korupsi sangat bertentangan dengan nilai keadilan dalam Pancasila sila ke..."
+pilihan_soal = Array[String](["Dua", "Tiga", "Empat", "Lima"])
+jawaban_soal = 3

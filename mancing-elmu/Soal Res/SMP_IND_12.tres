@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_6jofr"]
+
+[resource]
+script = ExtResource("1_6jofr")
+id_soal = 12
+difficulty = 1
+isi_soal = "\"Kata \"\"pantai\"\" termasuk ke dalam jenis kata...\""
+pilihan_soal = Array[String](["Benda (nomina)", "Kerja (verba)", "Sifat (adjektiva)", "Keterangan (adverbia)"])

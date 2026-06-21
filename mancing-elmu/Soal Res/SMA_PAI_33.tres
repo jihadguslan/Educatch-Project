@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_akc66"]
+
+[resource]
+script = ExtResource("1_akc66")
+id_soal = 33
+difficulty = 2
+isi_soal = "Apa yang dimaksud dengan Akhlakul Karimah sebagai cerminan iman?"
+pilihan_soal = Array[String](["Iman hanya di hati", "Iman yang mewujud dalam perilaku nyata", "Iman adalah untuk pamer", "Iman tanpa perbuatan"])
+jawaban_soal = 1

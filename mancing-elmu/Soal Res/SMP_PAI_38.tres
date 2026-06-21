@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_oi57v"]
+
+[resource]
+script = ExtResource("1_oi57v")
+id_soal = 38
+difficulty = 1
+isi_soal = "Mengapa Ikhlas adalah syarat utama diterimanya amal?"
+pilihan_soal = Array[String](["Karena Allah menilai hati, bukan fisik", "Agar dipuji manusia", "Karena perintah nabi", "Karena mempercepat waktu"])

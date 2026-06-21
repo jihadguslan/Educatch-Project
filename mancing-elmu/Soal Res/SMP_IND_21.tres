@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_lhnn5"]
+
+[resource]
+script = ExtResource("1_lhnn5")
+id_soal = 21
+difficulty = 1
+isi_soal = "Bagian penutup dalam cerita fantasi yang berisi penyelesaian masalah disebut..."
+pilihan_soal = Array[String](["Komplikasi", "Orientasi", "Resolusi", "Koda"])
+jawaban_soal = 2

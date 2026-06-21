@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_835hw"]
+
+[resource]
+script = ExtResource("1_835hw")
+id_soal = 28
+difficulty = 1
+isi_soal = "\"Sinta: \"\"Happy birthday, John! Wish you all the best.\"\" / John: \"\"...\"\"\""
+pilihan_soal = Array[String](["You are right", "Thank you very much", "I am sorry", "No problem"])
+jawaban_soal = 1

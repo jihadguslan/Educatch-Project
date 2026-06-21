@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_lpppy"]
+
+[resource]
+script = ExtResource("1_lpppy")
+id_soal = 47
+difficulty = 1
+isi_soal = "Undang-Undang dibuat oleh Dewan Perwakilan Rakyat (DPR) dengan persetujuan bersama dari..."
+pilihan_soal = Array[String](["Mahkamah Konstitusi", "Presiden", "Mahkamah Agung", "Badan Pemeriksa Keuangan"])
+jawaban_soal = 1

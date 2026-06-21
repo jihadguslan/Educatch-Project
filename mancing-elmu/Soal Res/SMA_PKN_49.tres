@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_k3vi4"]
+
+[resource]
+script = ExtResource("1_k3vi4")
+id_soal = 49
+difficulty = 2
+isi_soal = "Sikap memaksakan kehendak pilihan politik kepada orang lain melanggar prinsip utama demokrasi yaitu..."
+pilihan_soal = Array[String](["Kebebasan berpendapat", "Persamaan kedudukan hukum", "Kedaulatan kelompok", "Supremasi hukum"])

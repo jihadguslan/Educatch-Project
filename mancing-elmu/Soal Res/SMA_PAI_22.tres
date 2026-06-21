@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_vri8k"]
+
+[resource]
+script = ExtResource("1_vri8k")
+id_soal = 22
+difficulty = 2
+isi_soal = "Mengapa Islam melarang Minuman Keras secara total?"
+pilihan_soal = Array[String](["Karena merusak kesehatan saja", "Karena menghilangkan akal dan merusak tatanan sosial", "Karena rasanya pahit", "Karena mahal harganya"])
+jawaban_soal = 1

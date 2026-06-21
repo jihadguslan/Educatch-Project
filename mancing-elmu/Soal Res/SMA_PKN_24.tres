@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_g1vhr"]
+
+[resource]
+script = ExtResource("1_g1vhr")
+id_soal = 24
+difficulty = 2
+isi_soal = "Setiap warga negara berhak mendapatkan pendidikan. Ketentuan ini tertuang dalam UUD 1945 Pasal..."
+pilihan_soal = Array[String](["Pasal 30", "Pasal 31", "Pasal 32", "Pasal 33"])
+jawaban_soal = 1

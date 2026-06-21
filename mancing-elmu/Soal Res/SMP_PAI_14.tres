@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_3na25"]
+
+[resource]
+script = ExtResource("1_3na25")
+id_soal = 14
+difficulty = 1
+isi_soal = "Mengapa Ghanimah tidak lagi relevan diterapkan secara umum di masa sekarang?"
+pilihan_soal = Array[String](["Tidak ada perang", "Karena tidak ada lagi perang yang diakui syariat", "Karena dilarang pemerintah", "Karena tidak ada harta"])
+jawaban_soal = 1

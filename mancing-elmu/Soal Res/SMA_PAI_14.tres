@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_evpaa"]
+
+[resource]
+script = ExtResource("1_evpaa")
+id_soal = 14
+difficulty = 2
+isi_soal = "Mengapa Al-Qur'an melarang keras membunuh jiwa tanpa alasan yang dibenarkan hukum?"
+pilihan_soal = Array[String](["Karena manusia sangat berharga", "Karena itu bentuk pelanggaran terhadap hak Allah", "Karena merugikan ekonomi", "Karena takut hukuman"])
+jawaban_soal = 1

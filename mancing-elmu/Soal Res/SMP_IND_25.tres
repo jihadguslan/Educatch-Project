@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_b8wvw"]
+
+[resource]
+script = ExtResource("1_b8wvw")
+id_soal = 25
+difficulty = 1
+isi_soal = "Cerita rakyat yang mengisahkan asal-usul suatu tempat disebut..."
+pilihan_soal = Array[String](["Fabel", "Mite", "Legenda", "Sage"])
+jawaban_soal = 2

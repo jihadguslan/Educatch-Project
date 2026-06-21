@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_musnx"]
+
+[resource]
+script = ExtResource("1_musnx")
+id_soal = 9
+difficulty = 1
+isi_soal = "Sanksi bagi seseorang yang melanggar norma hukum di Indonesia bersifat..."
+pilihan_soal = Array[String](["Dosa dan siksa di akhirat", "Rasa penyesalan dan dikucilkan", "Tegas, nyata, dan memaksa dari negara", "Cemoohan dari masyarakat sekitar"])
+jawaban_soal = 2

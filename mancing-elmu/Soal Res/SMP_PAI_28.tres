@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_xkkic"]
+
+[resource]
+script = ExtResource("1_xkkic")
+id_soal = 28
+difficulty = 1
+isi_soal = "Bagaimana Islam memandang Pergaulan Bebas?"
+pilihan_soal = Array[String](["Haram karena membuka pintu zina", "Boleh selama suka sama suka", "Halal bagi remaja", "Tidak dibahas"])

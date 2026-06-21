@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ig7vy"]
+
+[resource]
+script = ExtResource("1_ig7vy")
+id_soal = 5
+difficulty = 1
+isi_soal = "Mengapa iman kepada hari akhir dapat mencegah seseorang dari perilaku korupsi?"
+pilihan_soal = Array[String](["Takut dipenjara", "Menyadari adanya pertanggungjawaban di akhirat", "Ingin dipuji orang", "Takut kepada atasan"])
+jawaban_soal = 1

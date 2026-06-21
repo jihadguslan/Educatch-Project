@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_stylx"]
+
+[resource]
+script = ExtResource("1_stylx")
+id_soal = 39
+difficulty = 2
+isi_soal = "Salah satu faktor dari suku banyak x^2 - 5x + 6 adalah..."
+pilihan_soal = Array[String](["x - 1", "x - 2", "x + 2", "x + 3"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wxjff"]
+
+[resource]
+script = ExtResource("1_wxjff")
+id_soal = 47
+difficulty = 1
+isi_soal = "Apa peran Wali Songo dalam sejarah Islam di Indonesia?"
+pilihan_soal = Array[String](["Akulturasi budaya dan dakwah moderat", "Mengubah budaya total", "Memerangi penduduk", "Membentuk partai"])

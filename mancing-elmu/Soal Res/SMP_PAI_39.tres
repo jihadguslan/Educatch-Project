@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qwypl"]
+
+[resource]
+script = ExtResource("1_qwypl")
+id_soal = 39
+difficulty = 1
+isi_soal = "Apa itu Amanah dalam konteks kepemimpinan?"
+pilihan_soal = Array[String](["Tanggung jawab yang harus ditunaikan", "Kewenangan mutlak", "Kesempatan mencari uang", "Beban yang harus dibuang"])

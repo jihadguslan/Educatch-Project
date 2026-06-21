@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2somw"]
+
+[resource]
+script = ExtResource("1_2somw")
+id_soal = 20
+isi_soal = "Sikap toleransi terhadap teman yang berbeda agama saat mereka beribadah adalah..."
+pilihan_soal = Array[String](["Ikut ibadah mereka", "Melarang mereka", "Menghargai dan tidak mengganggu", "Mengajak bermain"])
+jawaban_soal = 2

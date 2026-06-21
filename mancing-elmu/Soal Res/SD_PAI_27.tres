@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_32r2g"]
+
+[resource]
+script = ExtResource("1_32r2g")
+id_soal = 27
+isi_soal = "Hukum melaksanakan ibadah qurban bagi yang mampu adalah..."
+pilihan_soal = Array[String](["Wajib", "Sunnah Muakkad", "Mubah", "Makruh"])
+jawaban_soal = 1

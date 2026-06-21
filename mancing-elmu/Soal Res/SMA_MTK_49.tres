@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_m01de"]
+
+[resource]
+script = ExtResource("1_m01de")
+id_soal = 49
+difficulty = 2
+isi_soal = "Modus dari tabel distribusi frekuensi berada pada kelas yang memiliki..."
+pilihan_soal = Array[String](["Frekuensi terbesar", "Frekuensi terkecil", "Nilai tengah tertinggi", "Kumulatif terbesar"])

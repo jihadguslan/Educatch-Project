@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_567na"]
+
+[resource]
+script = ExtResource("1_567na")
+id_soal = 24
+difficulty = 2
+isi_soal = "Nilai dari cos 90 derajat adalah..."
+pilihan_soal = Array[String](["0", "1/2", "1", "Tak terhingga"])

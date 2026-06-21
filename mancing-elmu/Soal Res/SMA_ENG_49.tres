@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ht67y"]
+
+[resource]
+script = ExtResource("1_ht67y")
+id_soal = 49
+difficulty = 2
+isi_soal = "What is the main purpose of a hortatory exposition text?"
+pilihan_soal = Array[String](["To entertain people", "To persuade people that something should or should not be done", "To describe a historic building", "To list past holiday events"])
+jawaban_soal = 1

@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://3tvuewgror1e"]
+[gd_scene format=3 uid="uid://3tvuewgror1e"]
 
 [ext_resource type="Script" uid="uid://b446sm0g767rs" path="res://Script/button_ensik.gd" id="1_rophd"]
 [ext_resource type="Texture2D" uid="uid://dtlo8cacqwu1y" path="res://Asset/base_button.png" id="2_3qvqx"]
@@ -41,16 +41,17 @@ modulate_color = Color(0.31219313, 0.3121931, 0.3121931, 0.654902)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3qvqx"]
 
-[node name="button_control" type="Control"]
+[node name="button_control" type="Control" unique_id=1777535908]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 3
 anchors_preset = 0
 offset_right = 100.0
 offset_bottom = 100.0
 scale = Vector2(1.15, 1.15)
+mouse_filter = 1
 script = ExtResource("1_rophd")
 
-[node name="AnchorAnim" type="Control" parent="."]
+[node name="AnchorAnim" type="Control" parent="." unique_id=7481326]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -59,8 +60,9 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 1
 
-[node name="button" type="Button" parent="AnchorAnim"]
+[node name="button" type="Button" parent="AnchorAnim" unique_id=1269201730]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 1
 anchors_preset = 8
@@ -74,6 +76,7 @@ offset_right = 50.0
 offset_bottom = 50.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 1
 theme_override_font_sizes/font_size = 15
 theme_override_styles/normal = SubResource("StyleBoxTexture_kb0vr")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_845x7")

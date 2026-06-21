@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4e5aa"]
+
+[resource]
+script = ExtResource("1_4e5aa")
+id_soal = 13
+difficulty = 1
+isi_soal = "Kalimat berikut yang menggunakan kata sifat adalah..."
+pilihan_soal = Array[String](["Kucing itu melompat ke atas meja.", "Rumah baru itu sangat luas dan bersih.", "Adik sedang belajar menulis angka.", "Mereka pergi ke pasar tadi pagi."])
+jawaban_soal = 1

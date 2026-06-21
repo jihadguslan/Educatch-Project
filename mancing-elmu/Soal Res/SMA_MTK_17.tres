@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_f42qy"]
+
+[resource]
+script = ExtResource("1_f42qy")
+id_soal = 17
+difficulty = 2
+isi_soal = "Banyaknya cara menyusun angka 1, 2, 3 menjadi bilangan ratusan tanpa pengulangan adalah..."
+pilihan_soal = Array[String](["3", "6", "9", "12"])
+jawaban_soal = 1

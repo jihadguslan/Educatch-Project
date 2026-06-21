@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_xccrg"]
+
+[resource]
+script = ExtResource("1_xccrg")
+id_soal = 16
+difficulty = 1
+isi_soal = "Apa tujuan utama diterapkannya hukum Qishash dalam Islam?"
+pilihan_soal = Array[String](["Memberikan efek jera dan keadilan", "Balas dendam keluarga", "Menambah pendapatan negara", "Mengurangi populasi"])

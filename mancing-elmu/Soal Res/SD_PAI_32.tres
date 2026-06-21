@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7t2j6"]
+
+[resource]
+script = ExtResource("1_7t2j6")
+id_soal = 32
+isi_soal = "\"Julukan \"\"Al-Faruq\"\" (pembeda antara benar dan salah) diberikan kepada...\""
+pilihan_soal = Array[String](["Umar bin Khattab", "Abu Bakar", "Ali bin Abi Thalib", "Utsman bin Affan"])

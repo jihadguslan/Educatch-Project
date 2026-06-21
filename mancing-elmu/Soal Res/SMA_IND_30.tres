@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2a7kb"]
+
+[resource]
+script = ExtResource("1_2a7kb")
+id_soal = 30
+difficulty = 2
+isi_soal = "Bagian penutup teks eksplanasi yang berisi komentar atau penilaian atas konsekuensi fenomena disebut..."
+pilihan_soal = Array[String](["Orientasi", "Tesis", "Interpretasi", "Komplikasi"])
+jawaban_soal = 2

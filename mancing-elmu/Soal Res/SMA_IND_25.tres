@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qqhpr"]
+
+[resource]
+script = ExtResource("1_qqhpr")
+id_soal = 25
+difficulty = 2
+isi_soal = "Ringkasan struktur cerita dari awal sampai akhir dalam sebuah karya fiksi disebut..."
+pilihan_soal = Array[String](["Tema", "Alur", "Latar", "Amanat"])
+jawaban_soal = 1

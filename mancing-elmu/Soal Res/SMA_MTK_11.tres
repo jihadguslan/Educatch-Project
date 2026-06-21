@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_31ow8"]
+
+[resource]
+script = ExtResource("1_31ow8")
+id_soal = 11
+difficulty = 2
+isi_soal = "Suku ke-n barisan aritmetika dinyatakan dengan Un = 4n - 1. Suku ke-10 adalah..."
+pilihan_soal = Array[String](["39", "40", "41", "44"])

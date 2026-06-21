@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_03fma"]
+
+[resource]
+script = ExtResource("1_03fma")
+id_soal = 23
+difficulty = 2
+isi_soal = "Kalimat yang tidak memiliki subjek atau predikat yang jelas sehingga maknanya rancu disebut kalimat..."
+pilihan_soal = Array[String](["Efektif", "Tidak efektif", "Utama", "Penjelas"])
+jawaban_soal = 1

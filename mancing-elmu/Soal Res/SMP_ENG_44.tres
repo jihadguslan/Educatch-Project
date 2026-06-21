@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_axxt4"]
+
+[resource]
+script = ExtResource("1_axxt4")
+id_soal = 44
+difficulty = 1
+isi_soal = "\"Complete the dialogue: \"\"Can you help me lift this box?\"\" / \"\"..., I can do it.\"\"\""
+pilihan_soal = Array[String](["No, thanks", "Sure", "I am sorry", "I don't think so"])
+jawaban_soal = 1

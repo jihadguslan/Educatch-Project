@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_h4e2p"]
+
+[resource]
+script = ExtResource("1_h4e2p")
+id_soal = 9
+difficulty = 1
+isi_soal = "Suatu pekerjaan dapat selesai dalam 15 hari oleh 6 orang. Jika pekerja ditambah 3 orang, waktu selesainya adalah..."
+pilihan_soal = Array[String](["8 hari", "10 hari", "12 hari", "20 hari"])
+jawaban_soal = 1

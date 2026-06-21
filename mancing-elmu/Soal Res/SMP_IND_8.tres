@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_3xsyv"]
+
+[resource]
+script = ExtResource("1_3xsyv")
+id_soal = 8
+difficulty = 1
+isi_soal = "Struktur teks prosedur yang berisi tujuan atau pengantar tentang apa yang akan dibuat/dilakukan disebut..."
+pilihan_soal = Array[String](["Bahan-bahan", "Langkah-langkah", "Penutup", "Tujuan"])
+jawaban_soal = 3

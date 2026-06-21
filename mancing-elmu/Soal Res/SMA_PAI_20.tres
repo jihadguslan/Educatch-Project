@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_8ammk"]
+
+[resource]
+script = ExtResource("1_8ammk")
+id_soal = 20
+difficulty = 2
+isi_soal = "Apa tujuan utama Dakwah menurut Q.S. An-Nahl: 125?"
+pilihan_soal = Array[String](["Memaksa orang masuk Islam", "Mengajak ke jalan Allah dengan hikmah dan tutur kata baik", "Menunjukkan superioritas agama", "Mencari massa sebanyak-banyaknya"])
+jawaban_soal = 1

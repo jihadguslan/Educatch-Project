@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_hpoqv"]
+
+[resource]
+script = ExtResource("1_hpoqv")
+id_soal = 45
+difficulty = 1
+isi_soal = "\"What does a 'Notice' that says \"\"KEEP OFF THE GRASS\"\" mean?\""
+pilihan_soal = Array[String](["We can play on the grass", "We must not walk on the grass", "We should water the grass", "We must cut the grass"])
+jawaban_soal = 1

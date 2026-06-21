@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_eh2mf"]
+
+[resource]
+script = ExtResource("1_eh2mf")
+id_soal = 44
+difficulty = 2
+isi_soal = "Limit x mendekati tak hingga dari (2x + 3) / (x - 1) adalah..."
+pilihan_soal = Array[String](["1", "2", "3", "Tak terhingga"])
+jawaban_soal = 1

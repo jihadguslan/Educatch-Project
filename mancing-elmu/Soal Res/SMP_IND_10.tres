@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_nikme"]
+
+[resource]
+script = ExtResource("1_nikme")
+id_soal = 10
+difficulty = 1
+isi_soal = "Sifat dari teks laporan hasil observasi adalah..."
+pilihan_soal = Array[String](["Fiktif dan imajinatif", "Subjektif dan memihak", "Objektif dan faktual", "Rahasia dan pribadi"])
+jawaban_soal = 2

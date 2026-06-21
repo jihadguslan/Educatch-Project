@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rkfmv"]
+
+[resource]
+script = ExtResource("1_rkfmv")
+id_soal = 9
+difficulty = 1
+isi_soal = "\"Complete the sentence: \"\"We use our ... to see beautiful things.\"\"\""
+pilihan_soal = Array[String](["ears", "nose", "eyes", "hands"])
+jawaban_soal = 2

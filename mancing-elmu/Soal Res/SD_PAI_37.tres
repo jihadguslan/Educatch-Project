@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_i7yio"]
+
+[resource]
+script = ExtResource("1_i7yio")
+id_soal = 37
+isi_soal = "\"Sunan Ampel menyebarkan ajaran \"\"Moh Limo\"\", yang artinya...\""
+pilihan_soal = Array[String](["Lima pilar Islam", "Tidak mau melakukan lima maksiat", "Lima waktu salat", "Lima rukun iman"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_foqgf"]
+
+[resource]
+script = ExtResource("1_foqgf")
+id_soal = 34
+difficulty = 2
+isi_soal = "Apa dasar Hukum Waris Islam dibandingkan hukum buatan manusia?"
+pilihan_soal = Array[String](["Karena lebih rumit", "Karena ditetapkan langsung oleh Allah dengan adil", "Karena lebih mudah", "Karena mengikuti adat"])
+jawaban_soal = 1

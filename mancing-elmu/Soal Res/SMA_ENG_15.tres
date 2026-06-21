@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qkeb7"]
+
+[resource]
+script = ExtResource("1_qkeb7")
+id_soal = 15
+difficulty = 2
+isi_soal = "\"Complete the sentence: \"\"Siti is the ... girl in our classroom.\"\"\""
+pilihan_soal = Array[String](["smart", "smarter", "smartest", "more smart"])
+jawaban_soal = 2

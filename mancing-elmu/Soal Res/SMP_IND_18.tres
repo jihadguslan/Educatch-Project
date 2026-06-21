@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_g7pie"]
+
+[resource]
+script = ExtResource("1_g7pie")
+id_soal = 18
+difficulty = 1
+isi_soal = "Kalimat yang memiliki satu klausa atau satu pola kalimat (S-P-O-K) disebut kalimat..."
+pilihan_soal = Array[String](["Majemuk", "Tunggal", "Perintah", "Tanya"])
+jawaban_soal = 1

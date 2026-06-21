@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_fsm3h"]
+
+[resource]
+script = ExtResource("1_fsm3h")
+id_soal = 50
+isi_soal = "Hari kiamat pasti terjadi, maka kita harus memperbanyak..."
+pilihan_soal = Array[String](["Harta benda", "Mainan", "Amal ibadah", "Teman bermain"])
+jawaban_soal = 2

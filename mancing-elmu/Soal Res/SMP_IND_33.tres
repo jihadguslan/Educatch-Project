@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ker0t"]
+
+[resource]
+script = ExtResource("1_ker0t")
+id_soal = 33
+difficulty = 1
+isi_soal = "Struktur teks eksposisi yang berisi pengenalan isu atau pandangan awal penulis disebut..."
+pilihan_soal = Array[String](["Tesis", "Argumentasi", "Penegasan ulang", "Kesimpulan"])

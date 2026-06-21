@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_sam30"]
+
+[resource]
+script = ExtResource("1_sam30")
+id_soal = 28
+difficulty = 2
+isi_soal = "Lembaga peradilan khusus yang dibentuk untuk mengadili pelanggaran HAM yang berat di Indonesia dinamakan..."
+pilihan_soal = Array[String](["Pengadilan Negeri", "Pengadilan HAM", "Mahkamah Agung", "Pengadilan Tata Usaha Negara"])
+jawaban_soal = 1

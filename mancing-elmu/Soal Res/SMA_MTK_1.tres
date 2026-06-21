@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3 uid="uid://bj13ga58hrvxj"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_dvvgc"]
+
+[resource]
+script = ExtResource("1_dvvgc")
+id_soal = 1
+difficulty = 2
+isi_soal = "Jika 2^x = 64, maka nilai x adalah..."
+pilihan_soal = Array[String](["4", "5", "6", "7"])
+jawaban_soal = 2

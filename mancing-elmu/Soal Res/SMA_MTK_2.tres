@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_iv5ak"]
+
+[resource]
+script = ExtResource("1_iv5ak")
+id_soal = 2
+difficulty = 2
+isi_soal = "Bentuk sederhana dari (a^3 x b^2)^2 / (a^2 x b) adalah..."
+pilihan_soal = Array[String](["a^4 x b^3", "a^3 x b^4", "a^4 x b^2", "a^2 x b^3"])

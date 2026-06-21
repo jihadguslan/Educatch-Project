@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_klcw5"]
+
+[resource]
+script = ExtResource("1_klcw5")
+id_soal = 20
+difficulty = 1
+isi_soal = "Mengapa dakwah Rasulullah di Mekah lebih banyak fokus pada tauhid?"
+pilihan_soal = Array[String](["Karena mereka tidak punya agama", "Karena dasar Islam adalah mengesakan Allah", "Karena perintah tokoh", "Karena tidak ada aturan lain"])
+jawaban_soal = 1

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://bdsfj0mattapm"]
+[gd_scene format=3 uid="uid://bdsfj0mattapm"]
 
 [ext_resource type="Script" uid="uid://dtf5b6y2u0i66" path="res://Script/fish_alive.gd" id="1_ouot5"]
 [ext_resource type="Shader" uid="uid://b8cw8slyl2bh1" path="res://Shader/fish swim.gdshader" id="1_qf3oj"]
@@ -18,28 +18,35 @@ height = 88.0
 [sub_resource type="CircleShape2D" id="CircleShape2D_ouot5"]
 radius = 152.01315
 
-[node name="IkanBerenang" type="CharacterBody2D" groups=["fish"]]
+[node name="IkanBerenang" type="CharacterBody2D" unique_id=1357720431 groups=["fish"]]
 collision_layer = 0
 collision_mask = 2
 script = ExtResource("1_ouot5")
 min_speed = 10.0
 max_speed = 80.0
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=941309613]
 material = SubResource("ShaderMaterial_mfglr")
 scale = Vector2(2, 2)
 texture = ExtResource("2_qf3oj")
+flip_h = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1689889325]
 rotation = 1.5707964
 shape = SubResource("CapsuleShape2D_qf3oj")
 
-[node name="WallRay" type="RayCast2D" parent="."]
+[node name="WallRay" type="RayCast2D" parent="." unique_id=111602665]
 target_position = Vector2(-29.405, 0)
 collision_mask = 2
 
-[node name="FishDetector" type="Area2D" parent="."]
+[node name="FishDetector" type="Area2D" parent="." unique_id=343622505]
 collision_layer = 0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="FishDetector"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FishDetector" unique_id=1499672028]
 shape = SubResource("CircleShape2D_ouot5")
+
+[node name="Timer" type="Timer" parent="." unique_id=817423931]
+wait_time = 0.2
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_eupin"]
+
+[resource]
+script = ExtResource("1_eupin")
+id_soal = 42
+difficulty = 2
+isi_soal = "Matriks Transpose dari A = [[1, 2], [3, 4]] adalah..."
+pilihan_soal = Array[String](["[[1, 3], [2, 4]]", "[[4, 2], [3, 1]]", "[[2, 1], [4, 3]]", "[[3, 4], [1, 2]]"])

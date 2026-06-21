@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mpfoh"]
+
+[resource]
+script = ExtResource("1_mpfoh")
+id_soal = 14
+difficulty = 1
+isi_soal = "Hasil perkalian dari 3(2x - 4) adalah..."
+pilihan_soal = Array[String](["6x - 4", "6x - 12", "5x - 7", "5x - 12"])
+jawaban_soal = 1

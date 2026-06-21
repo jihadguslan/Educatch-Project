@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0m8j0"]
+
+[resource]
+script = ExtResource("1_0m8j0")
+id_soal = 43
+difficulty = 2
+isi_soal = "Mengapa Keadilan adalah syarat utama tegaknya hukum Islam?"
+pilihan_soal = Array[String](["Agar ditakuti", "Karena Allah mencintai orang yang adil", "Karena perintah raja", "Karena agar populer"])
+jawaban_soal = 1

@@ -7,13 +7,18 @@ extends Control
 
 var soal_res : Resource
 var parent
+@onready var c: Button = $Panel/VBoxContainer/Pilgan1/C
 
 func _ready() -> void:
+	
 	box.show()
 	parent = find_parent("Player")
 	soal.text = soal_res.isi_soal
+	soal.label_settings["font_size"] = int(soal.label_settings["font_size"] - (soal_res.isi_soal.length() * 0.02))
 	for i in range(button_group.size()):
 		button_group[i].text = soal_res.pilihan_soal[i]
+		var default_size = button_group[i]["theme_override_font_sizes/font_size"]
+		button_group[i]["theme_override_font_sizes/font_size"] = int(default_size - (soal_res.pilihan_soal[i].length() * 0.06))
 	Global._make_tween(self, "position:y", 0.0, 1.2)
 	await get_tree().create_timer(0.8).timeout
 	ScreenManager._play_audio(preload("uid://clc5l7fftv6sc"), parent)

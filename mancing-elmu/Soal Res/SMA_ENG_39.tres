@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_x223v"]
+
+[resource]
+script = ExtResource("1_x223v")
+id_soal = 39
+difficulty = 2
+isi_soal = "\"Complete the sentence: \"\"I wish I ... more time to finish this project.\"\"\""
+pilihan_soal = Array[String](["have", "had", "having", "am having"])
+jawaban_soal = 1

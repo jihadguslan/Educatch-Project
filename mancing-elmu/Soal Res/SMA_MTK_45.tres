@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_pcmfh"]
+
+[resource]
+script = ExtResource("1_pcmfh")
+id_soal = 45
+difficulty = 2
+isi_soal = "Gradien garis singgung kurva y = x^2 di titik (2, 4) adalah..."
+pilihan_soal = Array[String](["2", "4", "6", "8"])
+jawaban_soal = 1

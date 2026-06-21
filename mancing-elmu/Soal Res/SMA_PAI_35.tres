@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_5i1ih"]
+
+[resource]
+script = ExtResource("1_5i1ih")
+id_soal = 35
+difficulty = 2
+isi_soal = "Mengapa Salat dapat mencegah perbuatan keji dan munkar?"
+pilihan_soal = Array[String](["Karena salat itu olahraga", "Karena salat menghubungkan jiwa dengan Allah", "Karena salat itu disiplin", "Karena salat itu ibadah"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_r3jph"]
+
+[resource]
+script = ExtResource("1_r3jph")
+id_soal = 47
+difficulty = 1
+isi_soal = "\"Complete the sentence: \"\"She can play the guitar, but she ... play the piano.\"\"\""
+pilihan_soal = Array[String](["can", "cannot", "should", "must"])
+jawaban_soal = 1

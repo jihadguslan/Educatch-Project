@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rshgc"]
+
+[resource]
+script = ExtResource("1_rshgc")
+id_soal = 3
+difficulty = 1
+isi_soal = "Tokoh yang mengusulkan lima asas dasar negara yang terdiri dari Peri Kebangsaan, Peri Kemanusiaan, Peri Ketuhanan, Peri Kerakyatan, dan Kesejahteraan Rakyat adalah..."
+pilihan_soal = Array[String](["Ir. Soekarno", "Drs. Mohammad Hatta", "Mr. Muhammad Yamin", "Mr. Soepomo"])
+jawaban_soal = 2

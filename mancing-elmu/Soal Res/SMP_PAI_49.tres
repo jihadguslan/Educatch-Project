@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_d2a74"]
+
+[resource]
+script = ExtResource("1_d2a74")
+id_soal = 49
+difficulty = 1
+isi_soal = "Mengapa kita harus menghormati perbedaan pendapat (Ikhtilaf)?"
+pilihan_soal = Array[String](["Karena perbedaan adalah rahmat", "Karena harus seragam", "Karena mengikuti nafsu", "Karena tidak punya pendirian"])

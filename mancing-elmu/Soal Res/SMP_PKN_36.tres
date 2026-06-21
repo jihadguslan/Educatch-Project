@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ebfy8"]
+
+[resource]
+script = ExtResource("1_ebfy8")
+id_soal = 36
+difficulty = 1
+isi_soal = "Kongres Pemuda II yang menghasilkan Sumpah Pemuda dilaksanakan pada tanggal..."
+pilihan_soal = Array[String](["25-26 Oktober 1928", "27-28 Oktober 1928", "29-30 Oktober 1928", "1-2 November 1928"])
+jawaban_soal = 1

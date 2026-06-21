@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wuplq"]
+
+[resource]
+script = ExtResource("1_wuplq")
+id_soal = 35
+difficulty = 1
+isi_soal = "Mengapa Rasul dipilih dari manusia, bukan malaikat?"
+pilihan_soal = Array[String](["Agar bisa menjadi teladan bagi manusia", "Karena malaikat tidak bisa bicara", "Karena rasul lebih kuat", "Agar lebih mudah dicari"])

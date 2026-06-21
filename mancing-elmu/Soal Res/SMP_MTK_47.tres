@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4fixw"]
+
+[resource]
+script = ExtResource("1_4fixw")
+id_soal = 47
+difficulty = 1
+isi_soal = "Median dari data: 5, 6, 7, 7, 8, 9, 10 adalah..."
+pilihan_soal = Array[String](["6", "7", "7,5", "8"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jnq58"]
+
+[resource]
+script = ExtResource("1_jnq58")
+id_soal = 43
+difficulty = 1
+isi_soal = "Pembagian kekuasaan negara di Indonesia yang bertugas mengadili pelanggaran hukum disebut kekuasaan..."
+pilihan_soal = Array[String](["Eksekutif", "Legislatif", "Yudikatif", "Eksaminatif"])
+jawaban_soal = 2

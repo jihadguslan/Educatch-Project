@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_q6kd2"]
+
+[resource]
+script = ExtResource("1_q6kd2")
+id_soal = 27
+difficulty = 1
+isi_soal = "Apa konsekuensi orang yang Munafik menurut hadits?"
+pilihan_soal = Array[String](["Tempatnya di neraka yang paling bawah", "Tidak apa-apa", "Dosa kecil", "Diterima Tuhan"])

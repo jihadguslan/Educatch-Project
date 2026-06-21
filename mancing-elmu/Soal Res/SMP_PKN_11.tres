@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_vjhl4"]
+
+[resource]
+script = ExtResource("1_vjhl4")
+id_soal = 11
+difficulty = 1
+isi_soal = "UUD Negara Republik Indonesia Tahun 1945 ditetapkan sebagai konstitusi negara oleh PPKI pada tanggal..."
+pilihan_soal = Array[String](["17 August 1945", "18 August 1945", "19 August 1945", "20 August 1945"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mwxcl"]
+
+[resource]
+script = ExtResource("1_mwxcl")
+id_soal = 31
+difficulty = 1
+isi_soal = "Suatu fungsi didefinisikan dengan f(x) = 3x - 5. Nilai dari f(4) adalah..."
+pilihan_soal = Array[String](["7", "12", "17", "-7"])

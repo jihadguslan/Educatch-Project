@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_okskr"]
+
+[resource]
+script = ExtResource("1_okskr")
+id_soal = 20
+difficulty = 1
+isi_soal = "Besar sudut pelurus dari sudut 75 derajat adalah..."
+pilihan_soal = Array[String](["15 derajat", "25 derajat", "105 derajat", "115 derajat"])
+jawaban_soal = 2

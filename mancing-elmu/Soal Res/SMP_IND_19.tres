@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_cptsc"]
+
+[resource]
+script = ExtResource("1_cptsc")
+id_soal = 19
+difficulty = 1
+isi_soal = "Buku yang berisi cerita rekaan, imajinasi, dan tidak berdasarkan kenyataan disebut buku..."
+pilihan_soal = Array[String](["Fiksi", "Nonfiksi", "Biografi", "Ensiklopedia"])

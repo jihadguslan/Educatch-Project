@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_x1gx4"]
+
+[resource]
+script = ExtResource("1_x1gx4")
+id_soal = 35
+difficulty = 2
+isi_soal = "\"Complete the Conditional Sentence: \"\"If you had studied harder, you ... passed the exam.\"\"\""
+pilihan_soal = Array[String](["will have", "would have", "would", "had"])
+jawaban_soal = 1

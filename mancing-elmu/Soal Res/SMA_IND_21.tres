@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ep530"]
+
+[resource]
+script = ExtResource("1_ep530")
+id_soal = 21
+difficulty = 2
+isi_soal = "Makna kata yang mengandung nilai rasa atau makna tambahan disebut makna..."
+pilihan_soal = Array[String](["Denotatif", "Konotatif", "Leksikal", "Gramatikal"])
+jawaban_soal = 1

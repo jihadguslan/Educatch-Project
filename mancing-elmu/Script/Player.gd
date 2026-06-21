@@ -21,7 +21,7 @@ var is_mancing = false
 func _ready() -> void:
 	all_page.append_array([left_page,upper_page,right_page])
 	ScreenManager._play_music(preload("uid://bfemnhc0xecjh"))
-	if !Global.used_bait: Global.used_bait = preload("res://Bait Res/Bait PKN.tres")
+	if !Global.used_bait: Global.used_bait = preload("uid://iaph6x01fech")
 	pilih_bait.icon = Global.used_bait.bait_image
 
 func _kail() -> void:
@@ -34,7 +34,7 @@ func _kail() -> void:
 		kumpulan_soal.clear()
 	is_mancing = true
 	for i in DatabaseManager._bank_soal:
-		if i.ends_with(Global.used_bait.kode_soal):
+		if i.begins_with(SoalResource.DifficultString[Global.current_difficulty]) and i.ends_with(Global.used_bait.kode_soal) :
 			kumpulan_soal.append_array(DatabaseManager._bank_soal[i].duplicate())
 	kumpulan_soal.shuffle()
 	var inst = PANEL_UJIAN.instantiate()

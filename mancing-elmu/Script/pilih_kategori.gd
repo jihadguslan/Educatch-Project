@@ -3,16 +3,19 @@ extends CanvasLayer
 const click_sound = preload("uid://bpdxwfq1aukv")
 
 func _on_sd_button_up() -> void:
+	Global.current_difficulty = SoalResource.DifficultType.SD
 	ScreenManager._play_audio(click_sound, self)
 	ScreenManager._change_scene("res://Scene/Main World.tscn")
 
 func _on_smp_button_up() -> void:
+	Global.current_difficulty = SoalResource.DifficultType.SMP
 	ScreenManager._play_audio(click_sound, self)
-	#ScreenManager._change_scene("res://Scene/Main World.tscn")
+	ScreenManager._change_scene("res://Scene/Main World.tscn")
 
 func _on_sma_button_up() -> void:
+	Global.current_difficulty = SoalResource.DifficultType.SMA
 	ScreenManager._play_audio(click_sound, self)
-	#ScreenManager._change_scene("res://Scene/Main World.tscn")
+	ScreenManager._change_scene("res://Scene/Main World.tscn")
 
 
 func _on_kembali_button_up() -> void:

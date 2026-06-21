@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gbxj4"]
+
+[resource]
+script = ExtResource("1_gbxj4")
+id_soal = 35
+difficulty = 1
+isi_soal = "Penyelesaian dari sistem persamaan x + y = 5 dan x - y = 1 adalah..."
+pilihan_soal = Array[String](["x=2, y=3", "x=3, y=2", "x=4, y=1", "x=1, y=4"])
+jawaban_soal = 1

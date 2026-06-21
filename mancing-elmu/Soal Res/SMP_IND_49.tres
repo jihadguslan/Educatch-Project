@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_20qcp"]
+
+[resource]
+script = ExtResource("1_20qcp")
+id_soal = 49
+difficulty = 1
+isi_soal = "Unsur pembangun puisi yang berupa baris-baris yang berkumpul membentuk satu kesatuan disebut..."
+pilihan_soal = Array[String](["Larik", "Bait", "Rima", "Ritme"])
+jawaban_soal = 1

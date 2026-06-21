@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wavgc"]
+
+[resource]
+script = ExtResource("1_wavgc")
+id_soal = 21
+difficulty = 2
+isi_soal = "Which word is a noun?"
+pilihan_soal = Array[String](["Beautiful", "Run", "Happiness", "Quickly"])
+jawaban_soal = 2

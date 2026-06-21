@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ohik6"]
+
+[resource]
+script = ExtResource("1_ohik6")
+id_soal = 36
+difficulty = 1
+isi_soal = "Persamaan bunyi akhir pada baris-baris puisi disebut..."
+pilihan_soal = Array[String](["Ritme", "Rima", "Bait", "Majas"])
+jawaban_soal = 1

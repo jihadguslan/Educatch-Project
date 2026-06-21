@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_fchgk"]
+
+[resource]
+script = ExtResource("1_fchgk")
+id_soal = 8
+isi_soal = "Ketentuan Allah SWT terhadap makhluk-Nya sejak zaman azali disebut..."
+pilihan_soal = Array[String](["Qada", "Qadar", "Nasib", "Takdir"])

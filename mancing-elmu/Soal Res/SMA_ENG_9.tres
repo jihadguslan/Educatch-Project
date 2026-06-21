@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_au7wj"]
+
+[resource]
+script = ExtResource("1_au7wj")
+id_soal = 9
+difficulty = 2
+isi_soal = "\"Complete the sentence: \"\"If you heat ice, it ... into water.\"\"\""
+pilihan_soal = Array[String](["melt", "melts", "melted", "will melt"])
+jawaban_soal = 1

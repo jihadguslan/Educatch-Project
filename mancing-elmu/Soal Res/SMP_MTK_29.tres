@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_g3t5i"]
+
+[resource]
+script = ExtResource("1_g3t5i")
+id_soal = 29
+difficulty = 1
+isi_soal = "Jarak titik P(2, 3) terhadap sumbu-X adalah..."
+pilihan_soal = Array[String](["2 satuan", "3 satuan", "5 satuan", "-3 satuan"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_aovhg"]
+
+[resource]
+script = ExtResource("1_aovhg")
+id_soal = 7
+difficulty = 2
+isi_soal = "Karakteristik hikayat yang berarti tidak diketahui secara jelas siapa nama pengarangnya disebut..."
+pilihan_soal = Array[String](["Istanasentris", "Anonim", "Arkais", "Kemustahilan"])
+jawaban_soal = 1

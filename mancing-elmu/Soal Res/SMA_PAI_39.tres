@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_aimn7"]
+
+[resource]
+script = ExtResource("1_aimn7")
+id_soal = 39
+difficulty = 2
+isi_soal = "Apa hakikat dari Ukhuwah Islamiyah?"
+pilihan_soal = Array[String](["Memilih teman yang sama", "Persaudaraan berbasis akidah di atas perbedaan", "Membela teman yang salah", "Harus satu suku"])
+jawaban_soal = 1

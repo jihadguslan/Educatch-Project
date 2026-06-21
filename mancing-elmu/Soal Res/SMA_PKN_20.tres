@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_8w4ad"]
+
+[resource]
+script = ExtResource("1_8w4ad")
+id_soal = 20
+difficulty = 2
+isi_soal = "Bhinneka Tunggal Ika memiliki arti makna mendasar bagi bangsa Indonesia yaitu..."
+pilihan_soal = Array[String](["Berbeda-beda tetapi tetap satu jua", "Bersatu kita teguh bercerai kita runtuh", "Bersama membangun masa depan bangsa", "Kejayaan negara di atas keragaman"])

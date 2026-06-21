@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_uxrd4"]
+
+[resource]
+script = ExtResource("1_uxrd4")
+id_soal = 7
+difficulty = 2
+isi_soal = "\"Complete the sentence: \"\"She ... in London for three years before she moved to Paris.\"\"\""
+pilihan_soal = Array[String](["has lived", "lived", "lives", "is living"])
+jawaban_soal = 1

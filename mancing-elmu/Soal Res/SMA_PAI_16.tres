@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3 uid="uid://ctpaxbfd5l742"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_j1v7s"]
+
+[resource]
+script = ExtResource("1_j1v7s")
+id_soal = 16
+difficulty = 2
+isi_soal = "Bagaimana Islam memandang konsep Gender dalam kepemimpinan?"
+pilihan_soal = Array[String](["Islam menekankan kompetensi dan ketakwaan", "Hanya untuk laki-laki", "Hanya untuk perempuan", "Tidak ada aturan"])

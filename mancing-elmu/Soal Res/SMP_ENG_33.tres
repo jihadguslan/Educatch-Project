@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_g0fnq"]
+
+[resource]
+script = ExtResource("1_g0fnq")
+id_soal = 33
+difficulty = 1
+isi_soal = "What is the past form (Verb 2) of the word 'eat'?"
+pilihan_soal = Array[String](["eaten", "eating", "ate", "eats"])
+jawaban_soal = 2

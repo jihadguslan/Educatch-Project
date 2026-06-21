@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_r3d7v"]
+
+[resource]
+script = ExtResource("1_r3d7v")
+id_soal = 3
+difficulty = 1
+isi_soal = "Struktur teks deskripsi yang berisi penjelasan detail mengenai bagian-bagian objek disebut..."
+pilihan_soal = Array[String](["Identifikasi", "Deskripsi bagian", "Simpulan", "Orientasi"])
+jawaban_soal = 1

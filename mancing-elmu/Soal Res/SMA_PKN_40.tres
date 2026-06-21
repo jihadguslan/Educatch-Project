@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_lrrps"]
+
+[resource]
+script = ExtResource("1_lrrps")
+id_soal = 40
+difficulty = 2
+isi_soal = "Perwakilan diplomatik tertinggi suatu negara yang ditempatkan di negara lain dinamakan..."
+pilihan_soal = Array[String](["Konsul", "Atase", "Duta Besar", "Kuasa Usaha"])
+jawaban_soal = 2

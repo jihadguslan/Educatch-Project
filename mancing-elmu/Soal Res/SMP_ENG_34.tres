@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_re6vn"]
+
+[resource]
+script = ExtResource("1_re6vn")
+id_soal = 34
+difficulty = 1
+isi_soal = "\"Change this sentence into past tense interrogative (?): \"\"He watched a movie.\"\"\""
+pilihan_soal = Array[String](["Does he watch a movie?", "Did he watch a movie?", "Do he watched a movie?", "Was he watch a movie?"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7hmw0"]
+
+[resource]
+script = ExtResource("1_7hmw0")
+id_soal = 12
+difficulty = 1
+isi_soal = "Suku-suku yang sejenis dari bentuk aljabar 3x^2 - 5x + 2x^2 - 7 adalah..."
+pilihan_soal = Array[String](["3x^2 dan -5x", "-5x dan -7", "3x^2 dan 2x^2", "2x^2 dan -7"])
+jawaban_soal = 2

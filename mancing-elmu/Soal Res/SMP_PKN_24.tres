@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_tork6"]
+
+[resource]
+script = ExtResource("1_tork6")
+id_soal = 24
+difficulty = 1
+isi_soal = "Sila ketiga Pancasila, Persatuan Indonesia, memberikan landasan bahwa bangsa Indonesia mengutamakan..."
+pilihan_soal = Array[String](["Kebebasan individu di atas segalanya", "Kepentingan bersama di atas golongan", "Kepentingan daerah asal masing-masing", "Keuntungan materi bagi negara"])
+jawaban_soal = 1

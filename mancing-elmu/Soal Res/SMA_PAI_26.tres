@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0oj5o"]
+
+[resource]
+script = ExtResource("1_0oj5o")
+id_soal = 26
+difficulty = 2
+isi_soal = "Apa peran Ilmu Pengetahuan dalam memperkuat iman?"
+pilihan_soal = Array[String](["Tidak ada peran", "Menyingkap rahasia alam sebagai tanda kebesaran Allah", "Membuat orang sombong", "Hanya untuk dunia"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_pmtco"]
+
+[resource]
+script = ExtResource("1_pmtco")
+id_soal = 38
+difficulty = 1
+isi_soal = "An imaginative story that aims to entertain the readers (e.g., Cinderella, Malin Kundang) is called..."
+pilihan_soal = Array[String](["Descriptive text", "Narrative text", "Procedure text", "Report text"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7d4r0"]
+
+[resource]
+script = ExtResource("1_7d4r0")
+id_soal = 25
+difficulty = 1
+isi_soal = "Nilai rata-rata dari data: 7, 8, 6, 9, 8, 7, 10, 9 adalah..."
+pilihan_soal = Array[String](["7,5", "7,8", "8", "8,2"])
+jawaban_soal = 2

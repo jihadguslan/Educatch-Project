@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gn11f"]
+
+[resource]
+script = ExtResource("1_gn11f")
+id_soal = 30
+difficulty = 2
+isi_soal = "Bentuk pemerintahan yang dianut negara Indonesia berdasarkan ketentuan UUD NRI Tahun 1945 adalah..."
+pilihan_soal = Array[String](["Kesatuan", "Republik", "Monarki", "Federasi"])
+jawaban_soal = 1

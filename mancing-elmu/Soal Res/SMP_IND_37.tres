@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_b4en3"]
+
+[resource]
+script = ExtResource("1_b4en3")
+id_soal = 37
+difficulty = 1
+isi_soal = "Gaya bahasa yang membandingkan benda mati seolah-olah hidup dan berperilaku seperti manusia disebut majas..."
+pilihan_soal = Array[String](["Metafora", "Hiperbola", "Personifikasi", "Simile"])
+jawaban_soal = 2

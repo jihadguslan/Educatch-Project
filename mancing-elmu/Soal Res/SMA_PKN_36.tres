@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_22jet"]
+
+[resource]
+script = ExtResource("1_22jet")
+id_soal = 36
+difficulty = 2
+isi_soal = "Kerja sama antarnegara yang dilakukan oleh dua negara saja dinamakan hubungan..."
+pilihan_soal = Array[String](["Multilateral", "Bilateral", "Regional", "Internasional"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_tyr2t"]
+
+[resource]
+script = ExtResource("1_tyr2t")
+id_soal = 38
+difficulty = 2
+isi_soal = "Suku banyak f(x) = x^3 - 2x^2 + 3x - 4 dibagi oleh (x - 1). Sisa pembagiannya adalah..."
+pilihan_soal = Array[String](["-2", "-4", "2", "0"])

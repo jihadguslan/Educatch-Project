@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ckkbg"]
+
+[resource]
+script = ExtResource("1_ckkbg")
+id_soal = 18
+difficulty = 2
+isi_soal = "\"Complete the sentence: \"\"The room ... by the janitor every morning.\"\"\""
+pilihan_soal = Array[String](["cleans", "is cleaned", "was cleaned", "cleaning"])
+jawaban_soal = 1

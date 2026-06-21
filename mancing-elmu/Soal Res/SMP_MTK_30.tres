@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0pcny"]
+
+[resource]
+script = ExtResource("1_0pcny")
+id_soal = 30
+difficulty = 1
+isi_soal = "Diketahui himpunan pasangan berurutan {(1,2), (2,4), (3,6)}. Relasi yang tepat adalah..."
+pilihan_soal = Array[String](["Faktor dari", "Setengah dari", "Dua kali dari", "Kuadrat dari"])
+jawaban_soal = 1

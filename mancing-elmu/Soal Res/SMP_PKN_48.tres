@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ddtoy"]
+
+[resource]
+script = ExtResource("1_ddtoy")
+id_soal = 48
+difficulty = 1
+isi_soal = "Penyebab utama runtuhnya perjuangan kedaerahan bangsa Indonesia sebelum tahun 1908 adalah..."
+pilihan_soal = Array[String](["Kekurangan pasokan makanan", "Perjuangan bersifat lokal dan mudah diadu domba", "Sikap menyerah para raja", "Senjata musuh terlalu canggih"])
+jawaban_soal = 1

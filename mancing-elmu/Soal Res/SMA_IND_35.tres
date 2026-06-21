@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0qf8g"]
+
+[resource]
+script = ExtResource("1_0qf8g")
+id_soal = 35
+difficulty = 2
+isi_soal = "Jenis proposal yang digunakan dalam dunia akademis untuk merencanakan sebuah penelitian ilmiah disebut proposal..."
+pilihan_soal = Array[String](["Kegiatan", "Penelitian", "Bisnis", "Proyek"])
+jawaban_soal = 1

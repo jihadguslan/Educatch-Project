@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3 uid="uid://cxiqollnie3mx"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_0pbcp"]
+
+[resource]
+script = ExtResource("1_0pbcp")
+id_soal = 8
+difficulty = 1
+isi_soal = "Dalam Al-Qayyum, Allah berdiri sendiri. Apa implikasinya bagi manusia?"
+pilihan_soal = Array[String](["Manusia harus rendah hati dan bergantung pada Allah", "Manusia boleh sombong", "Manusia harus mandiri total", "Manusia tidak butuh orang lain"])

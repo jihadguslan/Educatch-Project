@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_oi88n"]
+
+[resource]
+script = ExtResource("1_oi88n")
+id_soal = 50
+difficulty = 1
+isi_soal = "A short message sent to someone because they cannot meet directly is called a..."
+pilihan_soal = Array[String](["Greeting card", "Short memo or message", "Announcement", "Narrative text"])
+jawaban_soal = 1

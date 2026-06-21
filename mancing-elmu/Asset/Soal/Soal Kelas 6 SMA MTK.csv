@@ -1,0 +1,51 @@
+No;Tingkat;Soal;Pilihan A;Pilihan B;Pilihan C;Pilihan D;Jawaban
+1;SMA;Jika 2^x = 64, maka nilai x adalah...;4;5;6;7;C
+2;SMA;Bentuk sederhana dari (a^3 x b^2)^2 / (a^2 x b) adalah...;a^4 x b^3;a^3 x b^4;a^4 x b^2;a^2 x b^3;A
+3;SMA;Nilai dari 2 log 8 + 3 log 9 adalah...;4;5;6;7;B
+4;SMA;Akar-akar persamaan kuadrat x^2 - 5x + 6 = 0 adalah...;2 dan 3;-2 dan -3;1 dan 6;-1 dan -6;A
+5;SMA;Persamaan kuadrat baru yang akar-akarnya dua kali dari akar-akar x^2 - 3x + 2 = 0 adalah...;x^2 - 6x + 8 = 0;x^2 - 6x + 4 = 0;x^2 - 3x + 4 = 0;x^2 - 4x + 6 = 0;A
+6;SMA;Diketahui fungsi f(x) = 3x - 4. Nilai dari f(2) adalah...;2;4;6;10;A
+7;SMA;Jika f(x) = 2x + 1 dan g(x) = x^2, maka fungsi komposisi (g o f)(x) adalah...;2x^2 + 1;4x^2 + 1;4x^2 + 4x + 1;2x^2 + 4x + 1;C
+8;SMA;Nilai dari sin 30 derajat + cos 60 derajat adalah...;0;1/2;1;1 1/2;C
+9;SMA;Pada segitiga siku-siku, jika tan A = 3/4, maka nilai sin A adalah...;3/5;4/5;5/3;5/4;A
+10;SMA;Koordinat titik puncak dari fungsi kuadrat f(x) = x^2 - 4x + 5 shadow...;(2, 1);(2, 5);(-2, 1);(-2, 5);A
+11;SMA;Suku ke-n barisan aritmetika dinyatakan dengan Un = 4n - 1. Suku ke-10 adalah...;39;40;41;44;A
+12;SMA;Suku pertama barisan geometri adalah 3 dan rasionya 2. Suku ke-5 barisan tersebut adalah...;24;48;96;12;B
+13;SMA;Jumlah 10 suku pertama dari deret aritmetika 2 + 5 + 8 + ... adalah...;145;155;165;175;B
+14;SMA;Jumlah dari deret geometri tak hingga 8 + 4 + 2 + 1 + ... adalah...;14;15;16;32;C
+15;SMA;Nilai rata-rata kelompok data 6, 7, 8, 8, 9, 10 adalah...;7;8;8,5;9;B
+16;SMA;Simpangan baku dari data tunggal yang semua nilainya sama adalah...;0;1;2;Tergantung nilai data;A
+17;SMA;Banyaknya cara menyusun angka 1, 2, 3 menjadi bilangan ratusan tanpa pengulangan adalah...;3;6;9;12;B
+18;SMA;Nilai dari 5 Faktorial (5!) adalah...;20;60;120;240;C
+19;SMA;Dari 5 orang siswa akan dipilih 2 orang sebagai pengurus. Banyak susunan kombinasi yang mungkin adalah...;10;20;30;40;A
+20;SMA;Dua buah dadu dilempar bersamaan. Peluang munculnya mata dadu berjumlah 7 adalah...;1/6;1/12;1/36;5/36;A
+21;SMA;Bentuk sederhana dari akar 48 adalah...;2 akar 3;4 akar 3;3 akar 4;16 akar 3;B
+22;SMA;Rasionalisasi dari bentuk 2 / akar 3 adalah...;2 akar 3;(2/3) akar 3;3 akar 2;(1/2) akar 3;B
+23;SMA;Jika a = 2 dan b = 3, nilai dari a^3 - b^2 adalah...;-1;1;-2;2;A
+24;SMA;Nilai dari cos 90 derajat adalah...;0;1/2;1;Tak terhingga;A
+25;SMA;Rentang nilai peluang suatu kejadian A adalah...;0 <= P(A) <= 1;-1 <= P(A) <= 1;P(A) > 1;P(A) < 0;A
+26;SMA;Jika matriks A = [2, 3] dan B = [1, 5], maka A + B adalah...;[3, 8];[1, -2];[2, 15];[3, 5];A
+27;SMA;Determinan dari matriks 2x2 [[3, 2], [1, 4]] adalah...;10;11;12;14;A
+28;SMA;Invers dari matriks A = [[4, 3], [1, 1]] adalah...;[[1, -3], [-1, 4]];[[1, 3], [1, 4]];[[-1, 3], [1, -4]];[[4, 1], [3, 1]];A
+29;SMA;Nilai limit x mendekati 2 dari fungsi 3x - 1 adalah...;3;4;5;6;C
+30;SMA;Nilai limit x mendekati 3 dari (x^2 - 9) / (x - 3) adalah...;3;6;9;0;B
+31;SMA;Turunan pertama dari fungsi f(x) = 4x^3 adalah...;12x^2;4x^2;12x;3x^2;A
+32;SMA;Turunan pertama dari fungsi f(x) = 2x^2 - 5x + 3 adalah...;4x - 5;2x - 5;4x + 3;4x;A
+33;SMA;Nilai turunan fungsi f(x) = x^2 + 3x pada x = 2 adalah...;4;5;7;10;C
+34;SMA;Integral dari fungsi f(x) = 2x adalah...;x^2 + C;2x^2 + C;2 + C;x + C;A
+35;SMA;Hasil dari integral batas 0 sampai 2 dari fungsi 3x^2 dx adalah...;4;6;8;12;C
+36;SMA;Persamaan lingkaran yang berpusat di (0,0) dengan jari-jari 5 adalah...;x^2 + y^2 = 5;x^2 + y^2 = 25;x + y = 25;x^2 - y^2 = 25;B
+37;SMA;Pusat dari lingkaran dengan persamaan (x - 2)^2 + (y + 3)^2 = 16 adalah...;(2, 3);(-2, 3);(2, -3);(-2, -3);C
+38;SMA;Suku banyak f(x) = x^3 - 2x^2 + 3x - 4 dibagi oleh (x - 1). Sisa pembagiannya adalah...;-2;-4;2;0;A
+39;SMA;Salah satu faktor dari suku banyak x^2 - 5x + 6 adalah...;x - 1;x - 2;x + 2;x + 3;B
+40;SMA;Nilai dari sin 150 derajat adalah...;1/2;-1/2;(1/2) akar 3;-(1/2) akar 3;A
+41;SMA;Banyaknya titik stasioner dari fungsi f(x) = x^2 - 6x adalah...;1;2;3;0;A
+42;SMA;Matriks Transpose dari A = [[1, 2], [3, 4]] adalah...;[[1, 3], [2, 4]];[[4, 2], [3, 1]];[[2, 1], [4, 3]];[[3, 4], [1, 2]];A
+43;SMA;Jika f(x) = x + 2, maka fungsi invers f^-1(x) adalah...;x - 2;2 - x;1 / (x + 2);2x;A
+44;SMA;Limit x mendekati tak hingga dari (2x + 3) / (x - 1) adalah...;1;2;3;Tak terhingga;B
+45;SMA;Gradien garis singgung kurva y = x^2 di titik (2, 4) adalah...;2;4;6;8;B
+46;SMA;Jarak antara titik pusat (0,0) ke titik (3,4) pada bidang Kartesius adalah...;5;7;12;25;A
+47;SMA;Rumus cos (A + B) sama dengan...;cos A cos B - sin A sin B;cos A cos B + sin A sin B;sin A cos B + cos A sin B;sin A cos B - cos A sin B;A
+48;SMA;Jika matriks C = [[2, 0], [0, 2]], maka matriks C dinamakan matriks...;Skalar;Identitas;Nol;Baris;A
+49;SMA;Modus dari tabel distribusi frekuensi berada pada kelas yang memiliki...;Frekuensi terbesar;Frekuensi terkecil;Nilai tengah tertinggi;Kumulatif terbesar;A
+50;SMA;Turunan pertama dari fungsi f(x) = sin x adalah...;cos x;-cos x;sin x;-sin x;A

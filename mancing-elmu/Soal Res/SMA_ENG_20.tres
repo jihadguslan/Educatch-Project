@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_1fp6b"]
+
+[resource]
+script = ExtResource("1_1fp6b")
+id_soal = 20
+difficulty = 2
+isi_soal = "\"Complete the sentence: \"\"There are ... books on the shelf.\"\"\""
+pilihan_soal = Array[String](["much", "many", "any", "little"])
+jawaban_soal = 1

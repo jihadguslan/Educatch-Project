@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_uwk54"]
+
+[resource]
+script = ExtResource("1_uwk54")
+id_soal = 20
+difficulty = 1
+isi_soal = "Salah satu contoh buku nonfiksi adalah..."
+pilihan_soal = Array[String](["Kumpulan dongeng", "Buku pelajaran matematika", "Novel romantis", "Cerita pendek"])
+jawaban_soal = 1

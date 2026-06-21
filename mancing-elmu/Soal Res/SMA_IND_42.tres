@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7aubb"]
+
+[resource]
+script = ExtResource("1_7aubb")
+id_soal = 42
+difficulty = 2
+isi_soal = "Drama merupakan karya sastra yang ditulis dalam bentuk..."
+pilihan_soal = Array[String](["Bait-bait puisi", "Paragraf narasi deskripsi", "Dialog antar tokoh", "Daftar tabel data"])
+jawaban_soal = 2

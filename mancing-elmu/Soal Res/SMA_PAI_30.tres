@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2v0ck"]
+
+[resource]
+script = ExtResource("1_2v0ck")
+id_soal = 30
+difficulty = 2
+isi_soal = "Apa hakikat Dunia dalam perspektif Islam?"
+pilihan_soal = Array[String](["Tempat untuk bersenang-senang", "Tempat menanam kebaikan untuk akhirat", "Tempat untuk kekal", "Penjara bagi orang beriman"])
+jawaban_soal = 1

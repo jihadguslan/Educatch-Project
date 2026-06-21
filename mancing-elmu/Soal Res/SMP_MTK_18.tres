@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_fkfix"]
+
+[resource]
+script = ExtResource("1_fkfix")
+id_soal = 18
+difficulty = 1
+isi_soal = "Jika P adalah himpunan faktor dari 6, maka banyaknya himpunan bagian dari P adalah..."
+pilihan_soal = Array[String](["4", "8", "16", "32"])
+jawaban_soal = 2

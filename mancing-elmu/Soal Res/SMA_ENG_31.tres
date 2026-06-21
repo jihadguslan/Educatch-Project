@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_vvoku"]
+
+[resource]
+script = ExtResource("1_vvoku")
+id_soal = 31
+difficulty = 2
+isi_soal = "\"Change to passive: \"\"Active students join the organization.\"\"\""
+pilihan_soal = Array[String](["The organization is joined by active students.", "The organization was joined by active students.", "Active students are joined by the organization.", "The organization is join by active students."])

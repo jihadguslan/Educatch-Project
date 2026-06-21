@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_n70uv"]
+
+[resource]
+script = ExtResource("1_n70uv")
+id_soal = 48
+difficulty = 1
+isi_soal = "\"Complete the sentence: \"\"Listen! The birds ... sweetly outside.\"\"\""
+pilihan_soal = Array[String](["are singing", "sing", "sang", "is singing"])

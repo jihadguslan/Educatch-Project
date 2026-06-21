@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_x8mgv"]
+
+[resource]
+script = ExtResource("1_x8mgv")
+id_soal = 37
+difficulty = 2
+isi_soal = "Mengapa Bertaubat harus dilakukan segera?"
+pilihan_soal = Array[String](["Agar tidak rugi", "Karena ajal manusia tidak diketahui waktunya", "Karena perintah orang tua", "Agar merasa tenang"])
+jawaban_soal = 1

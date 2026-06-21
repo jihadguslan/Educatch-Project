@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_68wcx"]
+
+[resource]
+script = ExtResource("1_68wcx")
+id_soal = 50
+difficulty = 1
+isi_soal = "Bagaimana cara mengamalkan Islam di era globalisasi?"
+pilihan_soal = Array[String](["Memegang teguh tauhid sambil tetap relevan dengan zaman", "Menjauhi dunia", "Mengikuti semua tren", "Membenci dunia"])

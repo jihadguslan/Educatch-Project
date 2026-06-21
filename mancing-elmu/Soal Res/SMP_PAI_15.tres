@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_q0ams"]
+
+[resource]
+script = ExtResource("1_q0ams")
+id_soal = 15
+difficulty = 1
+isi_soal = "Seseorang yang meninggalkan salat dengan sengaja, maka hukumnya..."
+pilihan_soal = Array[String](["Dosa besar dan wajib mengqadha", "Cukup bayar denda", "Gugur iman", "Dosa kecil"])

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_brxvc"]
+
+[resource]
+script = ExtResource("1_brxvc")
+id_soal = 23
+difficulty = 1
+isi_soal = "Luas trapesium dengan panjang sisi sejajar 10 cm dan 14 cm, serta tinggi 5 cm adalah..."
+pilihan_soal = Array[String](["60 cm2", "70 cm2", "120 cm2", "140 cm2"])

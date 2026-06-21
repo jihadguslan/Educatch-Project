@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_if3jd"]
+
+[resource]
+script = ExtResource("1_if3jd")
+id_soal = 23
+difficulty = 2
+isi_soal = "Apa hakikat dari Ibadah Haji sebagai miniatur hari kiamat?"
+pilihan_soal = Array[String](["Agar capek", "Pengingat bahwa manusia sama di hadapan Allah", "Mencari teman", "Karena perintah raja"])
+jawaban_soal = 1

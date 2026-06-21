@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ekljh"]
+
+[resource]
+script = ExtResource("1_ekljh")
+id_soal = 38
+difficulty = 2
+isi_soal = "A poem or song that expresses noble feelings and has regular rhythm is called..."
+pilihan_soal = Array[String](["Song lyric", "Poem", "Narrative", "Report"])
+jawaban_soal = 1

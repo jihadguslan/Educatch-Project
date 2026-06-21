@@ -6,8 +6,9 @@ extends Control
 @onready var coins: Label = $Control/Coins
 @onready var image_tex: TextureRect = $Control/Panel/Panel/TextureRect
 @onready var posibility_box: FlowContainer = $Control/Panel/Panel/FlowContainer
+@onready var button_box: VBoxContainer = $Control/Panel/ScrollContainer/buttonBox
 
-var bait_buttons = []
+
 @export var bait_res : Array[Resource]
 @onready var harga: Label = $Control/Panel/Panel/VBoxContainer/Harga
 
@@ -16,7 +17,7 @@ var parent
 
 func _ready() -> void:
 	Global._make_tween(self, "position:y", 0.0, 0.8)
-	bait_buttons.append_array([$Control/Panel/VBoxContainer/Button, $Control/Panel/VBoxContainer/Button2, $Control/Panel/VBoxContainer/Button3, $Control/Panel/VBoxContainer/Button4])
+	var bait_buttons = button_box.get_children()
 	for i in range(bait_buttons.size()):
 		bait_buttons[i].res = bait_res[i]
 		bait_buttons[i].prepare()
@@ -27,6 +28,12 @@ func _ready() -> void:
 	harga.text = "Harga : " + str(Global.used_bait.price)
 	image_tex.texture = Global.used_bait.bait_image
 	coins.text = "Coins : " + str(Global.coins)
+	for i in  Global.used_bait.fish_get :
+		var inst = preload("res://Scene/button_ensik.tscn").instantiate()
+		inst.res = i.duplicate()
+		inst.unlock = true
+		posibility_box.add_child(inst)
+
 
 
 func _input(event: InputEvent) -> void:

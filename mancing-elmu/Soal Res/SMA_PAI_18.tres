@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qqt5i"]
+
+[resource]
+script = ExtResource("1_qqt5i")
+id_soal = 18
+difficulty = 2
+isi_soal = "Apa makna Keadilan Sosial dalam konsep Zakat?"
+pilihan_soal = Array[String](["Distribusi harta untuk kesejahteraan kolektif", "Mengurangi pajak", "Menguntungkan amil", "Menambah prestise"])

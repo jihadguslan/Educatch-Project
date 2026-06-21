@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_usvnw"]
+
+[resource]
+script = ExtResource("1_usvnw")
+id_soal = 27
+difficulty = 1
+isi_soal = "Tiga suku berikutnya dari barisan geometri 3, 6, 12, ... adalah..."
+pilihan_soal = Array[String](["15, 18, 21", "24, 36, 48", "24, 48, 96", "20, 30, 40"])
+jawaban_soal = 2

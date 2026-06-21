@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2m2s1"]
+
+[resource]
+script = ExtResource("1_2m2s1")
+id_soal = 50
+difficulty = 1
+isi_soal = "Dalam sebuah kantong terdapat 3 kelereng merah dan 5 kelereng biru. Peluang terambil kelereng merah adalah..."
+pilihan_soal = Array[String](["3/5", "5/8", "3/8", "1/2"])
+jawaban_soal = 2

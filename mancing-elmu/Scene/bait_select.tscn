@@ -1,16 +1,17 @@
-[gd_scene load_steps=29 format=3 uid="uid://jg646ryb8q4"]
+[gd_scene format=3 uid="uid://jg646ryb8q4"]
 
 [ext_resource type="Script" uid="uid://btf818uy8b0w7" path="res://Script/bait_select.gd" id="1_7l5nn"]
 [ext_resource type="Texture2D" uid="uid://bb0wnh6ehs4r1" path="res://Asset/CusButton Hor.png" id="2_5k464"]
-[ext_resource type="Resource" uid="uid://cwhv26ygy24nm" path="res://Bait Res/Bait PKN.tres" id="2_mqown"]
+[ext_resource type="Resource" uid="uid://cwhv26ygy24nm" path="res://Bait Res/Bait Pendidkan Pancasila.tres" id="2_mqown"]
 [ext_resource type="Texture2D" uid="uid://xuf0uo7yso3b" path="res://Asset/Bait/Bait1_ShrimpLure.png" id="3_0utir"]
-[ext_resource type="Resource" uid="uid://b504smy5e5fcr" path="res://Bait Res/Bait MTK.tres" id="3_4w8b2"]
+[ext_resource type="Resource" uid="uid://b504smy5e5fcr" path="res://Bait Res/Bait Matematika.tres" id="3_4w8b2"]
 [ext_resource type="Texture2D" uid="uid://qwqhhfpf5ef3" path="res://Asset/base_button (large).png" id="3_5k464"]
 [ext_resource type="Texture2D" uid="uid://b8kyvg20vfur3" path="res://Asset/CusButton Nor.png" id="3_hgc15"]
 [ext_resource type="FontFile" uid="uid://dkiqel2g0cuv1" path="res://Font/DePixelHalbfett.otf" id="4_0utir"]
 [ext_resource type="Resource" uid="uid://1rwj4663xgwk" path="res://Bait Res/Bait B inggris.tres" id="4_5psaf"]
 [ext_resource type="Resource" uid="uid://yr8kqx361ttr" path="res://Bait Res/Bait B indonesia.tres" id="5_4kiqt"]
 [ext_resource type="Texture2D" uid="uid://dshhola2cf0ed" path="res://Asset/BaseButton.png" id="5_8t83w"]
+[ext_resource type="Resource" uid="uid://iaph6x01fech" path="res://Bait Res/Bait Pendidikan Agama.tres" id="6_4w8b2"]
 [ext_resource type="Script" uid="uid://lwguw84hli5h" path="res://Script/bait_button.gd" id="8_4w8b2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l0cs4"]
@@ -90,7 +91,7 @@ modulate_color = Color(2.1036954, 2.1036954, 2.1036954, 1)
 texture = ExtResource("5_8t83w")
 modulate_color = Color(0.48439813, 0.4843982, 0.48439813, 0.67058825)
 
-[node name="Bait Select" type="Control"]
+[node name="Bait Select" type="Control" unique_id=1292763395]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -100,9 +101,9 @@ offset_bottom = 785.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_7l5nn")
-bait_res = Array[Resource]([ExtResource("2_mqown"), ExtResource("3_4w8b2"), ExtResource("4_5psaf"), ExtResource("5_4kiqt")])
+bait_res = Array[Resource]([ExtResource("6_4w8b2"), ExtResource("2_mqown"), ExtResource("3_4w8b2"), ExtResource("4_5psaf"), ExtResource("5_4kiqt")])
 
-[node name="Control" type="Control" parent="."]
+[node name="Control" type="Control" parent="." unique_id=2095255700]
 custom_minimum_size = Vector2(919.1111, 517)
 layout_mode = 1
 anchors_preset = 8
@@ -117,7 +118,7 @@ offset_bottom = 258.5
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Panel" type="Panel" parent="Control"]
+[node name="Panel" type="Panel" parent="Control" unique_id=259991417]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -126,18 +127,30 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_l0cs4")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Control/Panel"]
+[node name="ScrollContainer" type="ScrollContainer" parent="Control/Panel" unique_id=1043159042]
 layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.07676498
-anchor_top = 0.16731142
-anchor_right = 0.19753385
-anchor_bottom = 0.8210832
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -399.0
+offset_top = -175.0
+offset_right = -261.0
+offset_bottom = 166.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_group_ = true
+
+[node name="buttonBox" type="VBoxContainer" parent="Control/Panel/ScrollContainer" unique_id=727791048]
+layout_mode = 2
+size_flags_horizontal = 3
 metadata/_edit_use_anchors_ = true
 
-[node name="Button" type="Button" parent="Control/Panel/VBoxContainer"]
+[node name="Button" type="Button" parent="Control/Panel/ScrollContainer/buttonBox" unique_id=1681963286]
 custom_minimum_size = Vector2(0, 80)
 layout_mode = 2
+mouse_filter = 1
 theme_override_fonts/font = ExtResource("4_0utir")
 theme_override_font_sizes/font_size = 15
 theme_override_styles/normal = SubResource("StyleBoxTexture_4w8b2")
@@ -150,9 +163,10 @@ alignment = 2
 expand_icon = true
 script = ExtResource("8_4w8b2")
 
-[node name="Button2" type="Button" parent="Control/Panel/VBoxContainer"]
+[node name="Button2" type="Button" parent="Control/Panel/ScrollContainer/buttonBox" unique_id=1185953834]
 custom_minimum_size = Vector2(0, 80)
 layout_mode = 2
+mouse_filter = 1
 theme_override_fonts/font = ExtResource("4_0utir")
 theme_override_font_sizes/font_size = 15
 theme_override_styles/normal = SubResource("StyleBoxTexture_4w8b2")
@@ -165,9 +179,10 @@ alignment = 2
 expand_icon = true
 script = ExtResource("8_4w8b2")
 
-[node name="Button3" type="Button" parent="Control/Panel/VBoxContainer"]
+[node name="Button3" type="Button" parent="Control/Panel/ScrollContainer/buttonBox" unique_id=578339412]
 custom_minimum_size = Vector2(0, 80)
 layout_mode = 2
+mouse_filter = 1
 theme_override_fonts/font = ExtResource("4_0utir")
 theme_override_font_sizes/font_size = 15
 theme_override_styles/normal = SubResource("StyleBoxTexture_4w8b2")
@@ -180,9 +195,10 @@ alignment = 2
 expand_icon = true
 script = ExtResource("8_4w8b2")
 
-[node name="Button4" type="Button" parent="Control/Panel/VBoxContainer"]
+[node name="Button4" type="Button" parent="Control/Panel/ScrollContainer/buttonBox" unique_id=196153062]
 custom_minimum_size = Vector2(0, 80)
 layout_mode = 2
+mouse_filter = 1
 theme_override_fonts/font = ExtResource("4_0utir")
 theme_override_font_sizes/font_size = 15
 theme_override_styles/normal = SubResource("StyleBoxTexture_4w8b2")
@@ -195,7 +211,23 @@ alignment = 2
 expand_icon = true
 script = ExtResource("8_4w8b2")
 
-[node name="Panel" type="Panel" parent="Control/Panel"]
+[node name="Button5" type="Button" parent="Control/Panel/ScrollContainer/buttonBox" unique_id=1306572294]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+mouse_filter = 1
+theme_override_fonts/font = ExtResource("4_0utir")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxTexture_4w8b2")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_5psaf")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4kiqt")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dv4et")
+text = "1"
+icon = ExtResource("3_0utir")
+alignment = 2
+expand_icon = true
+script = ExtResource("8_4w8b2")
+
+[node name="Panel" type="Panel" parent="Control/Panel" unique_id=1134594594]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.22364603
@@ -205,7 +237,7 @@ anchor_bottom = 0.82495165
 theme_override_styles/panel = SubResource("StyleBoxTexture_hgc15")
 metadata/_edit_use_anchors_ = true
 
-[node name="posibility" type="Label" parent="Control/Panel/Panel"]
+[node name="posibility" type="Label" parent="Control/Panel/Panel" unique_id=1011383814]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.04974271
@@ -217,7 +249,7 @@ label_settings = SubResource("LabelSettings_0utir")
 autowrap_mode = 2
 metadata/_edit_use_anchors_ = true
 
-[node name="FlowContainer" type="FlowContainer" parent="Control/Panel/Panel"]
+[node name="FlowContainer" type="FlowContainer" parent="Control/Panel/Panel" unique_id=2965124]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.042881645
@@ -231,7 +263,7 @@ grow_vertical = 2
 scale = Vector2(0.6, 0.6)
 metadata/_edit_use_anchors_ = true
 
-[node name="TextureRect" type="TextureRect" parent="Control/Panel/Panel"]
+[node name="TextureRect" type="TextureRect" parent="Control/Panel/Panel" unique_id=1910625061]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.46655232
@@ -242,7 +274,7 @@ expand_mode = 1
 stretch_mode = 5
 metadata/_edit_use_anchors_ = true
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Control/Panel/Panel"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/Panel/Panel" unique_id=1682928209]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.47512865
@@ -252,32 +284,32 @@ anchor_bottom = 0.92419827
 metadata/_edit_group_ = true
 metadata/_edit_use_anchors_ = true
 
-[node name="nama" type="Label" parent="Control/Panel/Panel/VBoxContainer"]
+[node name="nama" type="Label" parent="Control/Panel/Panel/VBoxContainer" unique_id=1711779926]
 custom_minimum_size = Vector2(273, 20)
 layout_mode = 2
 label_settings = SubResource("LabelSettings_4w8b2")
 autowrap_mode = 2
 
-[node name="Sisa" type="Label" parent="Control/Panel/Panel/VBoxContainer"]
+[node name="Sisa" type="Label" parent="Control/Panel/Panel/VBoxContainer" unique_id=1190537847]
 custom_minimum_size = Vector2(273, 20)
 layout_mode = 2
 label_settings = SubResource("LabelSettings_4w8b2")
 autowrap_mode = 2
 
-[node name="Harga" type="Label" parent="Control/Panel/Panel/VBoxContainer"]
+[node name="Harga" type="Label" parent="Control/Panel/Panel/VBoxContainer" unique_id=1471545716]
 custom_minimum_size = Vector2(273, 20)
 layout_mode = 2
 label_settings = SubResource("LabelSettings_4w8b2")
 autowrap_mode = 2
 
-[node name="Deskripsi" type="Label" parent="Control/Panel/Panel/VBoxContainer"]
+[node name="Deskripsi" type="Label" parent="Control/Panel/Panel/VBoxContainer" unique_id=1634308923]
 custom_minimum_size = Vector2(273, 40.47)
 layout_mode = 2
 size_flags_vertical = 3
 label_settings = SubResource("LabelSettings_5psaf")
 autowrap_mode = 2
 
-[node name="Label" type="Label" parent="Control"]
+[node name="Label" type="Label" parent="Control" unique_id=468725391]
 custom_minimum_size = Vector2(316, 61)
 layout_mode = 1
 anchors_preset = 5
@@ -294,7 +326,7 @@ label_settings = SubResource("LabelSettings_ejbkd")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Coins" type="Label" parent="Control"]
+[node name="Coins" type="Label" parent="Control" unique_id=2075712984]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -309,7 +341,7 @@ label_settings = SubResource("LabelSettings_tx2ld")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
+[node name="HBoxContainer" type="HBoxContainer" parent="Control" unique_id=782730658]
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
@@ -324,7 +356,7 @@ grow_horizontal = 2
 grow_vertical = 0
 metadata/_edit_group_ = true
 
-[node name="Back" type="Button" parent="Control/HBoxContainer"]
+[node name="Back" type="Button" parent="Control/HBoxContainer" unique_id=1460327220]
 custom_minimum_size = Vector2(240, 52)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -337,7 +369,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_bsjbf")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_e6ivd")
 text = "Kembali"
 
-[node name="Buy1" type="Button" parent="Control/HBoxContainer"]
+[node name="Buy1" type="Button" parent="Control/HBoxContainer" unique_id=1020544102]
 custom_minimum_size = Vector2(240, 52)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -350,7 +382,7 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_bsjbf")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_e6ivd")
 text = "Beli 1"
 
-[node name="Buy10" type="Button" parent="Control/HBoxContainer"]
+[node name="Buy10" type="Button" parent="Control/HBoxContainer" unique_id=1454232781]
 custom_minimum_size = Vector2(240, 52)
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -363,10 +395,11 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_bsjbf")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_e6ivd")
 text = "Beli 10"
 
-[connection signal="button_up" from="Control/Panel/VBoxContainer/Button" to="Control/Panel/VBoxContainer/Button" method="_on_button_up"]
-[connection signal="button_up" from="Control/Panel/VBoxContainer/Button2" to="Control/Panel/VBoxContainer/Button2" method="_on_button_up"]
-[connection signal="button_up" from="Control/Panel/VBoxContainer/Button3" to="Control/Panel/VBoxContainer/Button3" method="_on_button_up"]
-[connection signal="button_up" from="Control/Panel/VBoxContainer/Button4" to="Control/Panel/VBoxContainer/Button4" method="_on_button_up"]
+[connection signal="button_up" from="Control/Panel/ScrollContainer/buttonBox/Button" to="Control/Panel/ScrollContainer/buttonBox/Button" method="_on_button_up"]
+[connection signal="button_up" from="Control/Panel/ScrollContainer/buttonBox/Button2" to="Control/Panel/ScrollContainer/buttonBox/Button2" method="_on_button_up"]
+[connection signal="button_up" from="Control/Panel/ScrollContainer/buttonBox/Button3" to="Control/Panel/ScrollContainer/buttonBox/Button3" method="_on_button_up"]
+[connection signal="button_up" from="Control/Panel/ScrollContainer/buttonBox/Button4" to="Control/Panel/ScrollContainer/buttonBox/Button4" method="_on_button_up"]
+[connection signal="button_up" from="Control/Panel/ScrollContainer/buttonBox/Button5" to="Control/Panel/ScrollContainer/buttonBox/Button5" method="_on_button_up"]
 [connection signal="button_up" from="Control/HBoxContainer/Back" to="." method="_on_back_button_up"]
 [connection signal="button_up" from="Control/HBoxContainer/Buy1" to="." method="_on_buy_button_up"]
 [connection signal="button_up" from="Control/HBoxContainer/Buy10" to="." method="_on_buy_10_button_up"]

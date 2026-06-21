@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_e6cwt"]
+
+[resource]
+script = ExtResource("1_e6cwt")
+id_soal = 31
+difficulty = 2
+isi_soal = "Turunan pertama dari fungsi f(x) = 4x^3 adalah..."
+pilihan_soal = Array[String](["12x^2", "4x^2", "12x", "3x^2"])

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_pr1y7"]
+
+[resource]
+script = ExtResource("1_pr1y7")
+id_soal = 4
+isi_soal = "Orang yang mendustakan agama menurut surah Al-Ma'un adalah orang yang..."
+pilihan_soal = Array[String](["Menghardik anak yatim", "Tidak salat subuh", "Berkata kasar", "Berbohong"])

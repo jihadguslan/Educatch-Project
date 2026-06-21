@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_4hq0a"]
+
+[resource]
+script = ExtResource("1_4hq0a")
+id_soal = 42
+difficulty = 2
+isi_soal = "Peran aktif Indonesia dalam perdamaian dunia diwujudkan dengan mengirimkan pasukan perdamaian PBB yang dinamakan..."
+pilihan_soal = Array[String](["Pasukan Elit", "Kontingen Garuda", "Pasukan Brimob", "Resimen Mahasiswa"])
+jawaban_soal = 1

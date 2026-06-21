@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_pmida"]
+
+[resource]
+script = ExtResource("1_pmida")
+id_soal = 40
+difficulty = 2
+isi_soal = "\"Complete the sentence: \"\"The book ... is on the table belongs to Sinta.\"\"\""
+pilihan_soal = Array[String](["who", "whom", "which", "whose"])
+jawaban_soal = 2

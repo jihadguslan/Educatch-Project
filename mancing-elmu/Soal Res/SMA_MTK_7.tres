@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_sgf35"]
+
+[resource]
+script = ExtResource("1_sgf35")
+id_soal = 7
+difficulty = 2
+isi_soal = "Jika f(x) = 2x + 1 dan g(x) = x^2, maka fungsi komposisi (g o f)(x) adalah..."
+pilihan_soal = Array[String](["2x^2 + 1", "4x^2 + 1", "4x^2 + 4x + 1", "2x^2 + 4x + 1"])
+jawaban_soal = 2

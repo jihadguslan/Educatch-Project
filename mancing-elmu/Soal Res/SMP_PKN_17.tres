@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_07wfa"]
+
+[resource]
+script = ExtResource("1_07wfa")
+id_soal = 17
+difficulty = 1
+isi_soal = "Landasan konstitusional pelaksanaan musyawarah untuk mencapai mufakat di Indonesia adalah..."
+pilihan_soal = Array[String](["Pancasila sila ke-3", "Pancasila sila ke-4", "Pancasila sila ke-5", "UUD 1945 Pasal 33"])
+jawaban_soal = 1

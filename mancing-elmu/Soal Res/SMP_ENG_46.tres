@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_fhkaj"]
+
+[resource]
+script = ExtResource("1_fhkaj")
+id_soal = 46
+difficulty = 1
+isi_soal = "\"\"\"CAUTION: WET FLOOR\"\". Where do you usually see this notice?\""
+pilihan_soal = Array[String](["In the garden", "At the beach", "Inside a public toilet or mall", "In the sky"])
+jawaban_soal = 2

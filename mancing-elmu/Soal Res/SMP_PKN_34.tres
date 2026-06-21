@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gbyaa"]
+
+[resource]
+script = ExtResource("1_gbyaa")
+id_soal = 34
+difficulty = 1
+isi_soal = "Organisasi Budi Utomo didirikan pada tanggal 20 Mei 1908 oleh para mahasiswa STOVIA di bawah pimpinan..."
+pilihan_soal = Array[String](["Dr. Sutomo", "Dr. Wahidin Sudirohusodo", "Ir. Soekarno", "H.O.S. Cokroaminoto"])

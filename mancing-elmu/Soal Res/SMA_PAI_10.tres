@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ybdby"]
+
+[resource]
+script = ExtResource("1_ybdby")
+id_soal = 10
+difficulty = 2
+isi_soal = "Apa hakikat dari Sabar dalam menghadapi fenomena Post-Truth atau berita bohong di internet?"
+pilihan_soal = Array[String](["Menahan diri untuk tidak menyebarkan berita sebelum tabayyun", "Diam saja agar aman", "Membantah semua berita", "Mempercayai semua berita"])

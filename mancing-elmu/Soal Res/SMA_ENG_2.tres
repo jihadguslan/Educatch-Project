@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_osea4"]
+
+[resource]
+script = ExtResource("1_osea4")
+id_soal = 2
+difficulty = 2
+isi_soal = "\"Sinta: \"\"I won the English debate competition yesterday!\"\" / Rama: \"\"...\"\"\""
+pilihan_soal = Array[String](["I am sorry to hear that", "Congratulations on your success", "Thank you very much", "Don't worry about it"])
+jawaban_soal = 1

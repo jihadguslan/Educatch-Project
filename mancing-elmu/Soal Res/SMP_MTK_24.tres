@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_jck5r"]
+
+[resource]
+script = ExtResource("1_jck5r")
+id_soal = 24
+difficulty = 1
+isi_soal = "Sebuah taman berbentuk lingkaran berdiameter 14 m. Keliling taman tersebut adalah..."
+pilihan_soal = Array[String](["22 m", "44 m", "88 m", "154 m"])
+jawaban_soal = 1

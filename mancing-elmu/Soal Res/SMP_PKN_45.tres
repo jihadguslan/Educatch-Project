@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rfen1"]
+
+[resource]
+script = ExtResource("1_rfen1")
+id_soal = 45
+difficulty = 1
+isi_soal = "Contoh perilaku yang mencerminkan sila kedua Pancasila di masyarakat adalah..."
+pilihan_soal = Array[String](["Menghargai hasil karya orang lain", "Membantu korban bencana tanpa membedakan asal-usul", "Mengutamakan musyawarah RT", "Beribadah tepat waktu sesuai jadwal"])
+jawaban_soal = 1

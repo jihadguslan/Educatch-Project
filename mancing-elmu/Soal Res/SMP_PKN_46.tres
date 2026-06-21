@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_c7w8c"]
+
+[resource]
+script = ExtResource("1_c7w8c")
+id_soal = 46
+difficulty = 1
+isi_soal = "Ketua organisasi pemuda yang memimpin jalannya Kongres Pemuda II adalah..."
+pilihan_soal = Array[String](["Sugondo Djojopuspito", "Soehario", "Muhammad Yamin", "W.R. Supratman"])

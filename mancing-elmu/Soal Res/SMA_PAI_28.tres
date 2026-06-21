@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_t3qrn"]
+
+[resource]
+script = ExtResource("1_t3qrn")
+id_soal = 28
+difficulty = 2
+isi_soal = "Apa implikasi teologis dari sifat Al-Muntaqim (Maha Pembalas) Allah?"
+pilihan_soal = Array[String](["Agar manusia takut", "Agar manusia berhati-hati dalam berbuat zalim", "Agar manusia pasrah", "Agar manusia menangis"])
+jawaban_soal = 1

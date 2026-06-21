@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wqyki"]
+
+[resource]
+script = ExtResource("1_wqyki")
+id_soal = 5
+difficulty = 2
+isi_soal = "Mengapa konsep Al-Asmaul Husna seperti Al-Adl (Maha Adil) menuntut manusia berperilaku jujur?"
+pilihan_soal = Array[String](["Karena takut pada malaikat", "Karena Allah akan membalas setiap keadilan", "Agar disukai masyarakat", "Karena perintah adat"])
+jawaban_soal = 1

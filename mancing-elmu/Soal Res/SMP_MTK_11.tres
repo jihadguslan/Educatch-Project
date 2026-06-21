@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mxnr6"]
+
+[resource]
+script = ExtResource("1_mxnr6")
+id_soal = 11
+difficulty = 1
+isi_soal = "Sebuah baju seharga Rp150.000 mendapat diskon 20%. Harga baju setelah diskon adalah..."
+pilihan_soal = Array[String](["Rp120.000", "Rp130.000", "Rp135.000", "Rp140.000"])

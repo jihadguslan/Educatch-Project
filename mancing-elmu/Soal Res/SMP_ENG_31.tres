@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_6b815"]
+
+[resource]
+script = ExtResource("1_6b815")
+id_soal = 31
+difficulty = 1
+isi_soal = "\"Complete the sentence: \"\"I ... to Bali with my family last year.\"\"\""
+pilihan_soal = Array[String](["go", "goes", "went", "going"])
+jawaban_soal = 2

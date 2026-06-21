@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wpf3x"]
+
+[resource]
+script = ExtResource("1_wpf3x")
+id_soal = 32
+difficulty = 2
+isi_soal = "Turunan pertama dari fungsi f(x) = 2x^2 - 5x + 3 adalah..."
+pilihan_soal = Array[String](["4x - 5", "2x - 5", "4x + 3", "4x"])

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_1jhc2"]
+
+[resource]
+script = ExtResource("1_1jhc2")
+id_soal = 4
+difficulty = 2
+isi_soal = "An official written statement to inform people about something is called an..."
+pilihan_soal = Array[String](["Letter", "Announcement", "Advertisement", "Recount"])
+jawaban_soal = 1

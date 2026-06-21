@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0r3iu"]
+
+[resource]
+script = ExtResource("1_0r3iu")
+id_soal = 37
+difficulty = 2
+isi_soal = "Bagian awal karya ilmiah yang berisi ulasan teori dari peneliti terdahulu dinamakan..."
+pilihan_soal = Array[String](["Metodologi penelitian", "Landasan teori", "Analisis data", "Kesimpulan"])
+jawaban_soal = 1

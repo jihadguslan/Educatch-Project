@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qk38x"]
+
+[resource]
+script = ExtResource("1_qk38x")
+id_soal = 38
+difficulty = 2
+isi_soal = "Organisasi internasional internasional yang bertujuan memelihara perdamaian dan keamanan dunia secara global adalah..."
+pilihan_soal = Array[String](["ASEAN", "G20", "PBB", "APEC"])
+jawaban_soal = 2

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_yachu"]
+
+[resource]
+script = ExtResource("1_yachu")
+id_soal = 45
+difficulty = 1
+isi_soal = "Kata-kata berikut yang sering muncul dalam teks persuasi sebagai bentuk ajakan adalah..."
+pilihan_soal = Array[String](["Adalah, merupakan", "Ayo, mari, lakukanlah", "Mengapa, bagaimana", "Kemarin, besok"])
+jawaban_soal = 1

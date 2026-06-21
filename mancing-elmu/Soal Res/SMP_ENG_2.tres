@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_64hy2"]
+
+[resource]
+script = ExtResource("1_64hy2")
+id_soal = 2
+difficulty = 1
+isi_soal = "\"Ali: \"\"I think I have to go now. Goodbye, Budi.\"\" / Budi: \"\"...\"\"\""
+pilihan_soal = Array[String](["You are welcome", "See you later", "Good morning", "Thank you"])
+jawaban_soal = 1

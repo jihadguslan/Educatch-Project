@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ds2ye"]
+
+[resource]
+script = ExtResource("1_ds2ye")
+id_soal = 50
+difficulty = 2
+isi_soal = "Istilah 'latar' dalam unsur intrinsik sebuah cerpen mencakup tiga hal yaitu..."
+pilihan_soal = Array[String](["Tema, tokoh, alur", "Waktu, tempat, suasana", "Watak, amanat, sudut pandang", "Judul, sinopsis, resensi"])
+jawaban_soal = 1

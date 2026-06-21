@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_p8bq1"]
+
+[resource]
+script = ExtResource("1_p8bq1")
+id_soal = 43
+isi_soal = "\"Rasulullah memiliki sifat \"\"Fatanah\"\" yang artinya...\""
+pilihan_soal = Array[String](["Jujur", "Cerdas", "Benar", "Menyampaikan"])
+jawaban_soal = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_w1p6g"]
+
+[resource]
+script = ExtResource("1_w1p6g")
+id_soal = 22
+difficulty = 1
+isi_soal = "Hukum Jual Beli yang mengandung unsur Gharar (ketidakjelasan) adalah..."
+pilihan_soal = Array[String](["Haram", "Halal", "Sunnah", "Makruh"])

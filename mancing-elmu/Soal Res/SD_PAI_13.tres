@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_1553h"]
+
+[resource]
+script = ExtResource("1_1553h")
+id_soal = 13
+isi_soal = "Allah Maha Pengampun, dalam Asmaul Husna disebut..."
+pilihan_soal = Array[String](["Al-Aziz", "Al-Ghaffar", "Al-Wahhab", "Al-Quddus"])
+jawaban_soal = 1

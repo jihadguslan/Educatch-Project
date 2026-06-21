@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_nemgl"]
+
+[resource]
+script = ExtResource("1_nemgl")
+id_soal = 24
+difficulty = 2
+isi_soal = "Mengapa Kejujuran Akademik adalah bentuk penerapan iman bagi pelajar?"
+pilihan_soal = Array[String](["Agar mendapat nilai bagus", "Karena Allah Maha Mengetahui segalanya", "Agar dipuji guru", "Agar naik kelas"])
+jawaban_soal = 1

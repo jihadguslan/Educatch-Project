@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_t53t8"]
+
+[resource]
+script = ExtResource("1_t53t8")
+id_soal = 7
+isi_soal = "Beriman kepada Qada dan Qadar termasuk rukun iman yang ke..."
+pilihan_soal = Array[String](["4", "5", "6", "3"])
+jawaban_soal = 2

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_x4yhg"]
+
+[resource]
+script = ExtResource("1_x4yhg")
+id_soal = 30
+difficulty = 1
+isi_soal = "Lembaga tinggi negara yang berwenang mengubah dan menetapkan UUD sesuai Pasal 3 ayat 1 UUD 1945 adalah..."
+pilihan_soal = Array[String](["Presiden", "DPR", "MPR", "MA"])
+jawaban_soal = 2

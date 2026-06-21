@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_8cy1n"]
+
+[resource]
+script = ExtResource("1_8cy1n")
+id_soal = 20
+difficulty = 2
+isi_soal = "Dua buah dadu dilempar bersamaan. Peluang munculnya mata dadu berjumlah 7 adalah..."
+pilihan_soal = Array[String](["1/6", "1/12", "1/36", "5/36"])

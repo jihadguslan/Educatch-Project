@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_sv777"]
+
+[resource]
+script = ExtResource("1_sv777")
+id_soal = 14
+difficulty = 1
+isi_soal = "Penggunaan huruf kapital yang tepat di bawah ini adalah..."
+pilihan_soal = Array[String](["ibu membeli pisang ambon di pasar.", "Ibu membeli Pisang Ambon di Pasar.", "Ibu membeli pisang Ambon di pasar.", "Ibu membeli pisang ambon di Pasar."])
+jawaban_soal = 2

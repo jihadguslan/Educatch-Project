@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_dxnu5"]
+
+[resource]
+script = ExtResource("1_dxnu5")
+id_soal = 39
+difficulty = 1
+isi_soal = "Struktur teks eksplanasi secara urut adalah..."
+pilihan_soal = Array[String](["Tesis - Argumentasi - Reorientasi", "Pernyataan umum - Deretan penjelas - Interpretasi", "Orientasi - Komplikasi - Resolusi", "Identifikasi - Deskripsi bagian - Simpulan"])
+jawaban_soal = 1

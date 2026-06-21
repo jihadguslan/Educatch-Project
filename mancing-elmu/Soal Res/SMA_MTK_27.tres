@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_knogn"]
+
+[resource]
+script = ExtResource("1_knogn")
+id_soal = 27
+difficulty = 2
+isi_soal = "Determinan dari matriks 2x2 [[3, 2], [1, 4]] adalah..."
+pilihan_soal = Array[String](["10", "11", "12", "14"])

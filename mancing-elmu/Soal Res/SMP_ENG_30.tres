@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gy56q"]
+
+[resource]
+script = ExtResource("1_gy56q")
+id_soal = 30
+difficulty = 1
+isi_soal = "Which of the following time signals is used for past events?"
+pilihan_soal = Array[String](["Tomorrow", "Right now", "Yesterday", "Every day"])
+jawaban_soal = 2

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0cmja"]
+
+[resource]
+script = ExtResource("1_0cmja")
+id_soal = 41
+difficulty = 2
+isi_soal = "Apa tantangan Dakwah di era digital?"
+pilihan_soal = Array[String](["Tidak ada tantangan", "Menghadapi fitnah dan kecepatan arus informasi", "Kurangnya alat", "Tidak adanya audiens"])
+jawaban_soal = 1

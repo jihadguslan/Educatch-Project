@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_xxr3h"]
+
+[resource]
+script = ExtResource("1_xxr3h")
+id_soal = 42
+difficulty = 1
+isi_soal = "Struktur teks ulasan yang berisi gambaran umum mengenai karya yang akan diulas disebut..."
+pilihan_soal = Array[String](["Orientasi", "Tafsiran", "Evaluasi", "Rangkuman"])

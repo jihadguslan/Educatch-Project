@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_aqw0l"]
+
+[resource]
+script = ExtResource("1_aqw0l")
+id_soal = 40
+difficulty = 2
+isi_soal = "Nilai dari sin 150 derajat adalah..."
+pilihan_soal = Array[String](["1/2", "-1/2", "(1/2) akar 3", "-(1/2) akar 3"])

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_tl61k"]
+
+[resource]
+script = ExtResource("1_tl61k")
+id_soal = 14
+difficulty = 2
+isi_soal = "Jumlah dari deret geometri tak hingga 8 + 4 + 2 + 1 + ... adalah..."
+pilihan_soal = Array[String](["14", "15", "16", "32"])
+jawaban_soal = 2

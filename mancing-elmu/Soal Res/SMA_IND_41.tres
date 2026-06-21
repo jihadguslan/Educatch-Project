@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wbp0k"]
+
+[resource]
+script = ExtResource("1_wbp0k")
+id_soal = 41
+difficulty = 2
+isi_soal = "Kalimat dalam resensi yang menunjukkan kelemahan buku adalah..."
+pilihan_soal = Array[String](["Buku ini memiliki cover yang sangat menarik.", "Alur cerita mudah dipahami pembaca pemula.", "Terdapat beberapa kesalahan cetak kata yang mengganggu.", "Gaya bahasa penulis sangat mengalir bagus."])
+jawaban_soal = 2

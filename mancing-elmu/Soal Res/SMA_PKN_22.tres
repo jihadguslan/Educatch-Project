@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_o4wgw"]
+
+[resource]
+script = ExtResource("1_o4wgw")
+id_soal = 22
+difficulty = 2
+isi_soal = "Hak DPR untuk melakukan penyelidikan terhadap kebijakan pemerintah yang diduga melanggar undang-undang disebut hak..."
+pilihan_soal = Array[String](["Interpelasi", "Angket", "Menyatakan pendapat", "Imunitas"])
+jawaban_soal = 1

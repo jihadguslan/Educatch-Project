@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_7yleg"]
+
+[resource]
+script = ExtResource("1_7yleg")
+id_soal = 17
+difficulty = 2
+isi_soal = "Mengapa Kejahatan Cyber termasuk dalam dosa besar yang merugikan publik?"
+pilihan_soal = Array[String](["Karena pelakunya pintar", "Karena mendatangkan mudarat bagi banyak orang", "Karena tidak ada aturan", "Karena mudah dilakukan"])
+jawaban_soal = 1

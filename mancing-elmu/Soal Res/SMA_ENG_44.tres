@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_0lsdn"]
+
+[resource]
+script = ExtResource("1_0lsdn")
+id_soal = 44
+difficulty = 2
+isi_soal = "\"Complete the sentence: \"\"She enjoys ... romantic novels in her free time.\"\"\""
+pilihan_soal = Array[String](["to read", "reading", "read", "reads"])
+jawaban_soal = 1

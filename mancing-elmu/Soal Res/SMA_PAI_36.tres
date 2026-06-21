@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_57tn4"]
+
+[resource]
+script = ExtResource("1_57tn4")
+id_soal = 36
+difficulty = 2
+isi_soal = "Apa arti Fisabilillah dalam distribusi zakat saat ini?"
+pilihan_soal = Array[String](["Hanya untuk perang fisik", "Segala perjuangan menegakkan kebenaran dan ilmu", "Untuk pembangunan kantor", "Untuk kebutuhan pribadi"])
+jawaban_soal = 1

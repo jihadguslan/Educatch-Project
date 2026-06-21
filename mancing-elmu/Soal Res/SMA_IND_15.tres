@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_xyec2"]
+
+[resource]
+script = ExtResource("1_xyec2")
+id_soal = 15
+difficulty = 2
+isi_soal = "Unsur biografi yang memuat identitas ringkas tokoh utama berupa nama dan tempat tanggal lahir disebut..."
+pilihan_soal = Array[String](["Orientasi", "Peristiwa penting", "Reorientasi", "Koda"])

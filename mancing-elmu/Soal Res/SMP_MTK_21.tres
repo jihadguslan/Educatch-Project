@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_i2vod"]
+
+[resource]
+script = ExtResource("1_i2vod")
+id_soal = 21
+difficulty = 1
+isi_soal = "Keliling sebuah persegi yang memiliki luas 64 cm2 adalah..."
+pilihan_soal = Array[String](["16 cm", "24 cm", "32 cm", "48 cm"])
+jawaban_soal = 2

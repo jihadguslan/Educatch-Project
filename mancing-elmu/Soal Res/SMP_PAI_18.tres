@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_2o6xb"]
+
+[resource]
+script = ExtResource("1_2o6xb")
+id_soal = 18
+difficulty = 1
+isi_soal = "Siapakah ilmuwan Muslim yang menemukan dasar-dasar ilmu Aljabar?"
+pilihan_soal = Array[String](["Al-Khawarizmi", "Ibnu Sina", "Al-Farabi", "Ibnu Khaldun"])

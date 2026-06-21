@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3 uid="uid://dp1351538hvmk"]
+
+[ext_resource type="Script" uid="uid://dvytuwg7js148" path="res://Script/SoalRes.gd" id="1_l34xt"]
+
+[resource]
+script = ExtResource("1_l34xt")
+id_soal = 34
+difficulty = 1
+isi_soal = "Persamaan garis yang melalui titik (0,3) dengan gradien 2 adalah..."
+pilihan_soal = Array[String](["y = 2x - 3", "y = 2x + 3", "y = -2x + 3", "y = 3x + 2"])
+jawaban_soal = 1

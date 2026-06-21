@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_njq8i"]
+
+[resource]
+script = ExtResource("1_njq8i")
+id_soal = 22
+isi_soal = "Berikut adalah contoh minuman yang haram, kecuali..."
+pilihan_soal = Array[String](["Khamr", "Darah", "Air kelapa", "Minuman beracun"])
+jawaban_soal = 2

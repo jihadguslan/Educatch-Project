@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_bcyax"]
+
+[resource]
+script = ExtResource("1_bcyax")
+id_soal = 50
+difficulty = 2
+isi_soal = "Salah satu hak asasi peradilan (procedural rights) yang dimiliki seseorang saat ditangkap polisi adalah..."
+pilihan_soal = Array[String](["Hak dianggap tidak bersalah sebelum ada putusan hakim", "Hak mendapatkan fasilitas mewah di sel", "Hak menghapus seluruh catatan kriminal", "Hak menolak proses persidangan"])

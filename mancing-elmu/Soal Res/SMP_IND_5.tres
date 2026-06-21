@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_u8iwx"]
+
+[resource]
+script = ExtResource("1_u8iwx")
+id_soal = 5
+difficulty = 1
+isi_soal = "Bagian awal cerita fantasi yang mengenalkan tokoh, latar, dan konflik disebut..."
+pilihan_soal = Array[String](["Orientasi", "Komplikasi", "Resolusi", "Koda"])

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_e0axn"]
+
+[resource]
+script = ExtResource("1_e0axn")
+id_soal = 1
+difficulty = 1
+isi_soal = "Rumusan Pancasila sebagai dasar negara yang sah dan otentik tercantum dalam..."
+pilihan_soal = Array[String](["Piagam Jakarta", "Pembukaan UUD 1945 alinea ke-4", "Batang Tubuh UUD 1945", "Dokumen resmi BPUPKI"])
+jawaban_soal = 1

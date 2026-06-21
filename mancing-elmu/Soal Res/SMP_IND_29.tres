@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_wfai1"]
+
+[resource]
+script = ExtResource("1_wfai1")
+id_soal = 29
+difficulty = 1
+isi_soal = "Media promosi yang memadukan unsur gambar dengan kata-kata, gerak, dan suara serta ditemukan di media elektronik disebut..."
+pilihan_soal = Array[String](["Iklan", "Slogan", "Poster", "Pengumuman"])

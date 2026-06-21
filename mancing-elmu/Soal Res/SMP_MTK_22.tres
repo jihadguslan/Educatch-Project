@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_nwho7"]
+
+[resource]
+script = ExtResource("1_nwho7")
+id_soal = 22
+difficulty = 1
+isi_soal = "Sebuah segitiga memiliki alas 12 cm dan tinggi 8 cm. Luas segitiga tersebut adalah..."
+pilihan_soal = Array[String](["20 cm2", "48 cm2", "60 cm2", "96 cm2"])
+jawaban_soal = 1

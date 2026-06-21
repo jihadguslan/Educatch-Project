@@ -22,7 +22,6 @@ var wander_timer := 0.0
 
 
 func _ready():
-	randomize()
 	target_speed = randf_range(min_speed, max_speed)
 	velocity = Vector2.RIGHT * target_speed
 	sprite.texture = texture
@@ -36,7 +35,6 @@ func _physics_process(delta):
 	
 	move_and_slide()
 
-	_update_flip()
 
 
 # =========================
@@ -107,8 +105,23 @@ func _avoid_fish() -> Vector2:
 # FLIP SPRITE (DIBALIK)
 # =========================
 
+var on_flip = false
 func _update_flip():
-	if velocity.x > 0:
-		sprite.flip_h = true
-	else:
-		sprite.flip_h = false
+	if on_flip: return
+	if velocity.x > 0.5:
+		if sprite.scale.x == 2.0 : return
+		on_flip = true
+		Global._make_tween(sprite, "scale:x", 2.0, 0.5)
+		await get_tree().create_timer(0.6).timeout
+		on_flip = false
+	elif velocity.x < -0.5:
+		if sprite.scale.x == -2.0 : return
+		on_flip = true
+		Global._make_tween(sprite, "scale:x", -2.0, 0.5)
+		await get_tree().create_timer(0.6).timeout
+		on_flip = false
+	
+
+
+func _on_timer_timeout() -> void:
+	_update_flip()

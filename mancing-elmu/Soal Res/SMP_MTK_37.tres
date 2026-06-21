@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_v3rsk"]
+
+[resource]
+script = ExtResource("1_v3rsk")
+id_soal = 37
+difficulty = 1
+isi_soal = "Sebuah segitiga siku-siku memiliki panjang sisi tegak 6 cm dan 8 cm. Panjang sisi miringnya adalah..."
+pilihan_soal = Array[String](["10 cm", "12 cm", "14 cm", "15 cm"])

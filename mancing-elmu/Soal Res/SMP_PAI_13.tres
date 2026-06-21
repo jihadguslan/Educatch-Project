@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_u0dfp"]
+
+[resource]
+script = ExtResource("1_u0dfp")
+id_soal = 13
+difficulty = 1
+isi_soal = "Apa perbedaan utama antara Zakat Mal dan Zakat Fitrah?"
+pilihan_soal = Array[String](["Objek harta dan waktu pelaksanaan", "Syarat sahnya", "Jumlah orang yang menerima", "Harus dikeluarkan emas"])

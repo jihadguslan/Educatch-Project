@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_e3r1o"]
+
+[resource]
+script = ExtResource("1_e3r1o")
+id_soal = 39
+difficulty = 1
+isi_soal = "The part of a narrative text where the problem arises is called..."
+pilihan_soal = Array[String](["Orientation", "Complication", "Resolution", "Reorientation"])
+jawaban_soal = 1

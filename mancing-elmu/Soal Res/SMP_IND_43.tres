@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_cv0ar"]
+
+[resource]
+script = ExtResource("1_cv0ar")
+id_soal = 43
+difficulty = 1
+isi_soal = "Bagian teks ulasan yang berisi pandangan penulis mengenai kelebihan dan kekurangan karya disebut..."
+pilihan_soal = Array[String](["Orientasi", "Tafsiran", "Evaluasi", "Rangkuman"])
+jawaban_soal = 2

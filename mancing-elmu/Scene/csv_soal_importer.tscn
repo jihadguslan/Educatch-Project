@@ -1,8 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://b3yjqiugg1sxj"]
+[gd_scene format=3 uid="uid://b3yjqiugg1sxj"]
 
 [ext_resource type="Script" uid="uid://drqilfblt11of" path="res://Script/soal_maker.gd" id="1_73kj6"]
 
-[node name="CSVSoalImporter" type="Node"]
+[node name="CSVSoalImporter" type="Node" unique_id=1635968568]
 script = ExtResource("1_73kj6")
-csvPath = "res://Asset/Soal/Soal Kelas 6 SD MTK.csv"
-nama_soal = "MTK"
+csvPath = Array[String](["res://Asset/Soal/Soal Kelas 6 SMA PAI.csv", "res://Asset/Soal/Soal Kelas 6 SMP PAI.csv"])

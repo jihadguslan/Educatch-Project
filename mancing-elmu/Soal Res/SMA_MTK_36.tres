@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_te1fr"]
+
+[resource]
+script = ExtResource("1_te1fr")
+id_soal = 36
+difficulty = 2
+isi_soal = "Persamaan lingkaran yang berpusat di (0,0) dengan jari-jari 5 adalah..."
+pilihan_soal = Array[String](["x^2 + y^2 = 5", "x^2 + y^2 = 25", "x + y = 25", "x^2 - y^2 = 25"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ys23c"]
+
+[resource]
+script = ExtResource("1_ys23c")
+id_soal = 47
+difficulty = 1
+isi_soal = "Unsur intrinsik cerpen yang menjadi tempat, waktu, dan suasana terjadinya cerita disebut..."
+pilihan_soal = Array[String](["Alur", "Tema", "Latar (setting)", "Penokohan"])
+jawaban_soal = 2

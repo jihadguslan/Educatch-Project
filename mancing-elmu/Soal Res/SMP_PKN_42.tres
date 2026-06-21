@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_mvmb5"]
+
+[resource]
+script = ExtResource("1_mvmb5")
+id_soal = 42
+difficulty = 1
+isi_soal = "Pancasila memiliki kedudukan sebagai Dasar Negara, artinya Pancasila berfungsi sebagai..."
+pilihan_soal = Array[String](["Alat pemersatu suku bangsa saja", "Landasan yuridis penyelenggaraan pemerintahan negara", "Peraturan tertulis untuk para PNS", "Buku panduan sejarah bangsa"])
+jawaban_soal = 1

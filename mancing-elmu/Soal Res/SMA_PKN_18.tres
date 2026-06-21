@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_qb1fr"]
+
+[resource]
+script = ExtResource("1_qb1fr")
+id_soal = 18
+difficulty = 2
+isi_soal = "Dasar hukum bela negara bagi setiap warga negara Indonesia ditegaskan dalam UUD 1945 Pasal..."
+pilihan_soal = Array[String](["Pasal 27 ayat 3", "Pasal 29 ayat 1", "Pasal 31 ayat 1", "Pasal 33 ayat 2"])

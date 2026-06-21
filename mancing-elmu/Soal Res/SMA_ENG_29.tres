@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_yn1ki"]
+
+[resource]
+script = ExtResource("1_yn1ki")
+id_soal = 29
+difficulty = 2
+isi_soal = "The last paragraph of an analytical exposition text that restates the writer's position is called..."
+pilihan_soal = Array[String](["Thesis", "Arguments", "Reiteration", "Resolution"])
+jawaban_soal = 2

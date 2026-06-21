@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_enbmj"]
+
+[resource]
+script = ExtResource("1_enbmj")
+id_soal = 1
+difficulty = 1
+isi_soal = "Hukum bacaan idgham bigunnah terjadi apabila nun mati atau tanwin bertemu dengan salah satu huruf..."
+pilihan_soal = Array[String](["Yaa, Nun, Mim, Wawu", "Ba, Mim, Nun, Wawu", "Lam, Ra, Yaa, Mim", "Idzhar halqi"])

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_bj2un"]
+
+[resource]
+script = ExtResource("1_bj2un")
+id_soal = 32
+difficulty = 1
+isi_soal = "\"Complete the sentence: \"\"They ... at the cinema last night.\"\"\""
+pilihan_soal = Array[String](["was", "were", "am", "are"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rnhd4"]
+
+[resource]
+script = ExtResource("1_rnhd4")
+id_soal = 9
+difficulty = 1
+isi_soal = "Apa dampak negatif perilaku Riya terhadap pahala seseorang?"
+pilihan_soal = Array[String](["Pahala berkurang setengah", "Pahala hangus karena syirik kecil", "Pahala tetap ada", "Tidak ada pengaruhnya"])
+jawaban_soal = 1

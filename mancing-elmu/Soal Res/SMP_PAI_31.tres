@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_garld"]
+
+[resource]
+script = ExtResource("1_garld")
+id_soal = 31
+difficulty = 1
+isi_soal = "Hukum bacaan Qalqalah Sughra terjadi apabila..."
+pilihan_soal = Array[String](["Huruf qalqalah mati di tengah kata", "Huruf qalqalah di akhir kalimat", "Huruf qalqalah bertasydid", "Huruf qalqalah berharakat"])

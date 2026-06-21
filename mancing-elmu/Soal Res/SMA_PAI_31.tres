@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_npp4u"]
+
+[resource]
+script = ExtResource("1_npp4u")
+id_soal = 31
+difficulty = 2
+isi_soal = "Mengapa Hijrah tidak hanya berarti berpindah tempat?"
+pilihan_soal = Array[String](["Karena tidak punya uang", "Karena hijrah adalah perubahan mental dan perilaku", "Karena sudah aman", "Karena perintah guru"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_i43og"]
+
+[resource]
+script = ExtResource("1_i43og")
+id_soal = 18
+difficulty = 2
+isi_soal = "Nilai dari 5 Faktorial (5!) adalah..."
+pilihan_soal = Array[String](["20", "60", "120", "240"])
+jawaban_soal = 2

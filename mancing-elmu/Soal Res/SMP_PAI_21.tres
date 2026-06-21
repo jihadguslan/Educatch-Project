@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_rsu4n"]
+
+[resource]
+script = ExtResource("1_rsu4n")
+id_soal = 21
+difficulty = 1
+isi_soal = "Apa yang dimaksud dengan Tabayyun dalam menerima berita?"
+pilihan_soal = Array[String](["Melakukan klarifikasi/cek dan ricek", "Langsung menyebarkan", "Menghapus berita", "Mendiamkan berita"])

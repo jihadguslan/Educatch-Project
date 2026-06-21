@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_vig31"]
+
+[resource]
+script = ExtResource("1_vig31")
+id_soal = 21
+difficulty = 2
+isi_soal = "Lembaga baru yang dibentuk setelah amandemen UUD 1945 yang berfungsi menguji undang-undang terhadap UUD adalah..."
+pilihan_soal = Array[String](["Mahkamah Agung", "Mahkamah Konstitusi", "Komisi Yudisial", "Dewan Perwakilan Daerah"])
+jawaban_soal = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_k1872"]
+
+[resource]
+script = ExtResource("1_k1872")
+id_soal = 7
+difficulty = 1
+isi_soal = "What is the English word for the number 75?"
+pilihan_soal = Array[String](["Seventy-four", "Seventy-five", "Fifty-seven", "Eighty-five"])
+jawaban_soal = 1

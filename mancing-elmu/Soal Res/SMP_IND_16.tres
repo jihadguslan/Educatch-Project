@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_k2fjm"]
+
+[resource]
+script = ExtResource("1_k2fjm")
+id_soal = 16
+difficulty = 1
+isi_soal = "\"Sinonim dari kata \"\"indah\"\" adalah...\""
+pilihan_soal = Array[String](["Buruk", "Elok", "Luas", "Jauh"])
+jawaban_soal = 1

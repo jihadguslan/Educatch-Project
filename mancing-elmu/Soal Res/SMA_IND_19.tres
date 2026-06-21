@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_8urnw"]
+
+[resource]
+script = ExtResource("1_8urnw")
+id_soal = 19
+difficulty = 2
+isi_soal = "Ide pokok paragraf yang terletak di awal paragraf disebut paragraf..."
+pilihan_soal = Array[String](["Deduktif", "Induktif", "Campuran", "Deskriptif"])

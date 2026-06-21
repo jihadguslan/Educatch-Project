@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_gj58g"]
+
+[resource]
+script = ExtResource("1_gj58g")
+id_soal = 37
+difficulty = 2
+isi_soal = "Kerja sama internasional yang dilakukan oleh negara-negara di kawasan Asia Tenggara dinamakan..."
+pilihan_soal = Array[String](["PBB", "OPEC", "ASEAN", "NATO"])
+jawaban_soal = 2

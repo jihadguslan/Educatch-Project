@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_103jk"]
+
+[resource]
+script = ExtResource("1_103jk")
+id_soal = 35
+difficulty = 2
+isi_soal = "Hasil dari integral batas 0 sampai 2 dari fungsi 3x^2 dx adalah..."
+pilihan_soal = Array[String](["4", "6", "8", "12"])
+jawaban_soal = 2

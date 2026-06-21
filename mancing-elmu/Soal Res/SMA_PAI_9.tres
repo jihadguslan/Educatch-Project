@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_ywf0q"]
+
+[resource]
+script = ExtResource("1_ywf0q")
+id_soal = 9
+difficulty = 2
+isi_soal = "Apa tantangan utama Ekonomi Syariah di era sistem perbankan konvensional yang dominan?"
+pilihan_soal = Array[String](["Kurangnya modal", "Implementasi prinsip anti-riba yang konsisten", "Tidak adanya nasabah", "Kurangnya dukungan teknologi"])
+jawaban_soal = 1

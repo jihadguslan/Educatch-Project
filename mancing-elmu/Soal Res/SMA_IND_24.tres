@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SoalResource" format=3]
+
+[ext_resource type="Script" path="res://Script/SoalRes.gd" id="1_a54k1"]
+
+[resource]
+script = ExtResource("1_a54k1")
+id_soal = 24
+difficulty = 2
+isi_soal = "Kalimat berikut yang menggunakan ragam bahasa baku adalah..."
+pilihan_soal = Array[String](["Saya sudah bilang sama dia kemarin.", "Jadwal ujian sudah ditempel di mading.", "Mereka lagi bikin tugas kelompok.", "Emangnya kamu mau pergi ke mana?"])
+jawaban_soal = 1
